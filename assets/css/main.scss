@@ -81,18 +81,6 @@
   --radius-2xl: 1.5rem;
 }
 
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --global-bg-color: var(--gray-900);
-    --global-text-color: var(--gray-100);
-    --global-text-light: var(--gray-400);
-    --global-footer-bg-color: var(--gray-800);
-    --global-divider-color: var(--gray-700);
-    --global-card-bg: var(--gray-800);
-  }
-}
-
 /* Reset and base styles */
 * {
   box-sizing: border-box;
