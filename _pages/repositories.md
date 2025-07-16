@@ -15,193 +15,45 @@ Our research group is committed to open science and reproducible research. Here 
 
 ---
 
-### 🌊 Oceanographic Data Processing
+### 📚 Educational Resources
 
 <div class="repo-grid">
 
 <div class="repo-card">
   <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/mediterranean-circulation-analysis" target="_blank"><i class="fab fa-github"></i> mediterranean-circulation-analysis</a></h4>
-    <span class="repo-language">Python</span>
+    <h4><a href="https://github.com/IMEDEA-AP-LAB/MASS24_Altimetry_tutorial" target="_blank"><i class="fab fa-github"></i> MASS24_Altimetry_tutorial</a></h4>
+    <span class="repo-language">Jupyter Notebook</span>
   </div>
-  <p>Tools for analyzing Mediterranean Sea circulation patterns using satellite altimetry and in-situ observations. Includes preprocessing scripts, visualization tools, and statistical analysis methods.</p>
+  <p>Hands-on tutorial on satellite altimetry during the IMEDEA Autumn School (MASS) 2024. Comprehensive Jupyter notebooks covering altimetry data processing and analysis techniques for Mediterranean oceanography.</p>
   <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 15</span>
-    <span class="repo-stat"><i class="fas fa-code-branch"></i> 4</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 230</span>
+    <span class="repo-stat"><i class="fas fa-star"></i> ⭐</span>
+    <span class="repo-stat"><i class="fas fa-code-branch"></i> GPL-3.0</span>
+    <span class="repo-stat"><i class="fas fa-book"></i> <a href="https://doi.org/10.5281/zenodo.13962687" target="_blank">DOI</a></span>
   </div>
   <div class="repo-topics">
-    <span class="topic">oceanography</span>
+    <span class="topic">tutorial</span>
     <span class="topic">altimetry</span>
-    <span class="topic">circulation</span>
+    <span class="topic">education</span>
+    <span class="topic">jupyter</span>
   </div>
 </div>
 
 <div class="repo-card">
   <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/mesoscale-eddy-detection" target="_blank"><i class="fab fa-github"></i> mesoscale-eddy-detection</a></h4>
-    <span class="repo-language">MATLAB</span>
+    <h4><a href="https://github.com/IMEDEA-AP-LAB/IMEDEA-AP-LAB.github.io" target="_blank"><i class="fab fa-github"></i> IMEDEA-AP-LAB.github.io</a></h4>
+    <span class="repo-language">SCSS</span>
   </div>
-  <p>Automated detection and tracking of mesoscale eddies in the Mediterranean Sea using sea level anomaly data. Implements multiple detection algorithms and provides comparison tools.</p>
+  <p>Source code for our research group website. Built with Jekyll and hosted on GitHub Pages, featuring modern design and comprehensive documentation for group members.</p>
   <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 28</span>
-    <span class="repo-stat"><i class="fas fa-code-branch"></i> 8</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 456</span>
+    <span class="repo-stat"><i class="fas fa-star"></i> ⭐</span>
+    <span class="repo-stat"><i class="fas fa-globe"></i> <a href="https://imedea-ap-lab.github.io" target="_blank">Live Site</a></span>
+    <span class="repo-stat"><i class="fas fa-tools"></i> Jekyll</span>
   </div>
   <div class="repo-topics">
-    <span class="topic">eddies</span>
-    <span class="topic">tracking</span>
-    <span class="topic">matlab</span>
-  </div>
-</div>
-
-<div class="repo-card">
-  <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/glider-data-processing" target="_blank"><i class="fab fa-github"></i> glider-data-processing</a></h4>
-    <span class="repo-language">Python</span>
-  </div>
-  <p>Complete pipeline for processing autonomous underwater glider data, including quality control, calibration, and visualization tools specific to Mediterranean deployments.</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 12</span>
-    <span class="repo-stat"><i class="fas fa-code-branch"></i> 3</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 189</span>
-  </div>
-  <div class="repo-topics">
-    <span class="topic">gliders</span>
-    <span class="topic">data-processing</span>
-    <span class="topic">qc</span>
-  </div>
-</div>
-
-</div>
-
----
-
-### 📊 Data Analysis & Modeling
-
-<div class="repo-grid">
-
-<div class="repo-card">
-  <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/med-climate-analysis" target="_blank"><i class="fab fa-github"></i> med-climate-analysis</a></h4>
-    <span class="repo-language">R</span>
-  </div>
-  <p>Statistical analysis tools for Mediterranean climate variability studies. Includes time series analysis, trend detection, and correlation analysis with climate indices.</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 9</span>
-    <span class="repo-stat"><i class="fas fa-code-branch"></i> 2</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 145</span>
-  </div>
-  <div class="repo-topics">
-    <span class="topic">climate</span>
-    <span class="topic">statistics</span>
-    <span class="topic">r-package</span>
-  </div>
-</div>
-
-<div class="repo-card">
-  <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/marine-heatwave-detector" target="_blank"><i class="fab fa-github"></i> marine-heatwave-detector</a></h4>
-    <span class="repo-language">Python</span>
-  </div>
-  <p>Tools for detecting and characterizing marine heatwaves in the Mediterranean Sea using satellite SST data. Includes threshold calculations and event statistics.</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 22</span>
-    <span class="repo-stat"><i class="fas fa-code-branch"></i> 6</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 378</span>
-  </div>
-  <div class="repo-topics">
-    <span class="topic">marine-heatwaves</span>
-    <span class="topic">sst</span>
-    <span class="topic">extremes</span>
-  </div>
-</div>
-
-</div>
-
----
-
-### 🗂️ Datasets
-
-<div class="repo-grid">
-
-<div class="repo-card">
-  <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/mediterranean-sst-dataset" target="_blank"><i class="fas fa-database"></i> mediterranean-sst-dataset</a></h4>
-    <span class="repo-language">Data</span>
-  </div>
-  <p>Processed Mediterranean Sea surface temperature dataset (1982-2024) with quality flags and metadata. Includes daily, monthly, and climatological products.</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 18</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 892</span>
-    <span class="repo-stat"><i class="fas fa-file-archive"></i> 2.3 GB</span>
-  </div>
-  <div class="repo-topics">
-    <span class="topic">dataset</span>
-    <span class="topic">sst</span>
-    <span class="topic">mediterranean</span>
-  </div>
-</div>
-
-<div class="repo-card">
-  <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/glider-profiles-database" target="_blank"><i class="fas fa-database"></i> glider-profiles-database</a></h4>
-    <span class="repo-language">Data</span>
-  </div>
-  <p>Quality-controlled temperature and salinity profiles from autonomous glider deployments in the Western Mediterranean (2015-2024).</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 7</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 234</span>
-    <span class="repo-stat"><i class="fas fa-file-archive"></i> 1.8 GB</span>
-  </div>
-  <div class="repo-topics">
-    <span class="topic">gliders</span>
-    <span class="topic">profiles</span>
-    <span class="topic">database</span>
-  </div>
-</div>
-
-</div>
-
----
-
-### 🛠️ Tools & Utilities
-
-<div class="repo-grid">
-
-<div class="repo-card">
-  <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/oceanography-utils" target="_blank"><i class="fab fa-github"></i> oceanography-utils</a></h4>
-    <span class="repo-language">Python</span>
-  </div>
-  <p>Collection of utility functions and classes for oceanographic data analysis. Includes coordinate conversions, unit conversions, and common calculations.</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 14</span>
-    <span class="repo-stat"><i class="fas fa-code-branch"></i> 5</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 567</span>
-  </div>
-  <div class="repo-topics">
-    <span class="topic">utilities</span>
+    <span class="topic">website</span>
+    <span class="topic">jekyll</span>
+    <span class="topic">github-pages</span>
     <span class="topic">oceanography</span>
-    <span class="topic">python-package</span>
-  </div>
-</div>
-
-<div class="repo-card">
-  <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/med-viz-toolkit" target="_blank"><i class="fab fa-github"></i> med-viz-toolkit</a></h4>
-    <span class="repo-language">Python</span>
-  </div>
-  <p>Visualization toolkit specifically designed for Mediterranean oceanographic data. Includes custom colormaps, projection utilities, and plotting functions.</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 11</span>
-    <span class="repo-stat"><i class="fas fa-code-branch"></i> 3</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 298</span>
-  </div>
-  <div class="repo-topics">
-    <span class="topic">visualization</span>
-    <span class="topic">matplotlib</span>
-    <span class="topic">cartopy</span>
   </div>
 </div>
 
@@ -209,43 +61,42 @@ Our research group is committed to open science and reproducible research. Here 
 
 ---
 
-### 📝 Publication Supplements
+### 🌊 Research Projects & Data
+
+*Our research focuses on understanding Mediterranean Sea dynamics through innovative observational and modeling approaches. While specific data repositories are in development, our work encompasses:*
+
+**Current Research Areas:**
+- **FaSt-SWOT**: Fine-scale ocean currents from integrated multi-platform experiments supporting the SWOT satellite mission
+- **STLAC4**: Sea Level Thematic Assembly Center for satellite altimetry data processing
+- **Obsea4Clim**: Ocean observations and indicators for climate assessments
+- **4DMED-SEA**: 4D Mediterranean Sea oceanographic data analysis
+- **VERSO**: Fine-scale vertical exchange in the upper ocean using SWOT data
+- **Cryo-TEMPO**: CryoSat-2 thematic products for polar oceanography
+- **CALYPSO**: Coherent Lagrangian pathways from the surface ocean to the interior
+
+---
+
+### 🛠️ Development Pipeline
 
 <div class="repo-grid">
 
 <div class="repo-card">
   <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/pascual2025-dwf-analysis" target="_blank"><i class="fas fa-file-code"></i> pascual2025-dwf-analysis</a></h4>
-    <span class="repo-language">Python</span>
+    <h4><i class="fas fa-flask"></i> In Development</h4>
+    <span class="repo-language">Various</span>
   </div>
-  <p>Code and data for "Interannual variability of Mediterranean Deep Water formation: A 20-year observational study" (Pascual et al., 2025, JGR Oceans).</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 6</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 123</span>
-    <span class="repo-stat"><i class="fas fa-book"></i> Published</span>
-  </div>
+  <p>We are actively developing open-source tools for Mediterranean oceanography, including:</p>
+  <ul style="text-align: left; margin-top: 10px;">
+    <li><strong>Glider data processing</strong> pipelines for autonomous underwater vehicles</li>
+    <li><strong>Satellite altimetry</strong> analysis tools for SWOT and traditional missions</li>
+    <li><strong>Mediterranean circulation</strong> analysis packages</li>
+    <li><strong>Climate variability</strong> detection and analysis tools</li>
+    <li><strong>Mesoscale dynamics</strong> characterization software</li>
+  </ul>
   <div class="repo-topics">
-    <span class="topic">publication</span>
-    <span class="topic">deep-water-formation</span>
-    <span class="topic">jgr</span>
-  </div>
-</div>
-
-<div class="repo-card">
-  <div class="repo-header">
-    <h4><a href="https://github.com/IMEDEA-AP-LAB/pascual2024-mesoscale-heat" target="_blank"><i class="fas fa-file-code"></i> pascual2024-mesoscale-heat</a></h4>
-    <span class="repo-language">MATLAB</span>
-  </div>
-  <p>Analysis code for "Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean" (Pascual et al., 2024, DSR-I).</p>
-  <div class="repo-stats">
-    <span class="repo-stat"><i class="fas fa-star"></i> 8</span>
-    <span class="repo-stat"><i class="fas fa-download"></i> 156</span>
-    <span class="repo-stat"><i class="fas fa-book"></i> Published</span>
-  </div>
-  <div class="repo-topics">
-    <span class="topic">publication</span>
-    <span class="topic">mesoscale</span>
-    <span class="topic">heat-transport</span>
+    <span class="topic">development</span>
+    <span class="topic">mediterranean</span>
+    <span class="topic">oceanography</span>
   </div>
 </div>
 
@@ -256,18 +107,18 @@ Our research group is committed to open science and reproducible research. Here 
 ## Getting Started
 
 ### Prerequisites
-Most of our tools require:
+Most of our tools and tutorials require:
 - **Python 3.8+** with common scientific packages (numpy, scipy, matplotlib, xarray)
-- **MATLAB R2019b+** for MATLAB-based tools
-- **R 4.0+** for statistical analysis packages
+- **Jupyter Notebook/Lab** for interactive tutorials
+- **Git** for version control and repository cloning
 
 ### Installation
-Each repository includes detailed installation instructions in its README. Most Python packages can be installed via:
+Each repository includes detailed installation instructions in its README. For the altimetry tutorial:
 
 ```bash
-git clone https://github.com/IMEDEA-AP-LAB/[repository-name]
-cd [repository-name]
-pip install -r requirements.txt
+git clone https://github.com/IMEDEA-AP-LAB/MASS24_Altimetry_tutorial.git
+cd MASS24_Altimetry_tutorial
+# Follow the setup instructions in the README
 ```
 
 ### Contributing
@@ -275,24 +126,46 @@ We welcome contributions from the community! Please:
 1. Fork the repository
 2. Create a feature branch
 3. Submit a pull request with a clear description
+4. Follow our coding standards and documentation guidelines
 
-### Support
+### Support & Contact
 - 📧 **Email:** ananda.pascual@imedea.uib-csic.es
 - 🐛 **Issues:** Use the GitHub Issues tab in each repository
-- 📖 **Documentation:** Available in each repository's wiki
+- 🌐 **Institution:** [IMEDEA (CSIC-UIB)](https://imedea.uib-csic.es/en/research/marine-technologies-operational-and-coastal-oceanography/)
+- 📖 **Group Website:** [TMOOC Research Group](https://imedea.uib-csic.es/en/research/marine-technologies-operational-and-coastal-oceanography/)
+
+---
+
+## Collaboration & Open Science
+
+We are committed to **open science principles** and **collaborative research**. Our goal is to make Mediterranean oceanography research more accessible and reproducible through:
+
+- **Open-source code** and reproducible analysis workflows
+- **Educational resources** for students and early-career researchers  
+- **Data sharing** following FAIR principles (Findable, Accessible, Interoperable, Reusable)
+- **International collaboration** with Mediterranean research institutions
+
+### Current Partnerships
+- **SOCIB** (Balearic Islands Coastal Observing and Forecasting System)
+- **IFREMER** (French Research Institute for Exploitation of the Sea)
+- **CNR-ISMAR** (Institute of Marine Sciences, Italy)
+- **HCMR** (Hellenic Centre for Marine Research, Greece)
 
 ---
 
 ## License & Citation
 
-Most of our code is released under **MIT License** unless otherwise specified. If you use our tools or data in your research, please cite the relevant publications and/or the software directly using the DOI provided in each repository.
+Most of our code is released under **GPL-3.0 License** or **MIT License** unless otherwise specified. When using our tools, data, or educational materials in your research, please:
 
-### Recent Software Publications
-- **mediterranean-circulation-analysis** - Cite: Pascual et al. (2025) + software DOI
-- **mesoscale-eddy-detection** - Cite: Pascual et al. (2024) + software DOI
+1. **Cite the repository** using the provided DOI (when available)
+2. **Reference our publications** if you use methods described in our papers
+3. **Acknowledge the funding agencies** that support our research
+
+### Recent Repositories
+- **MASS24_Altimetry_tutorial** - Cite: [DOI: 10.5281/zenodo.13962687](https://doi.org/10.5281/zenodo.13962687)
 
 ---
 
-*Last updated: July 2025 | For the most current repositories, visit our [GitHub organization](https://github.com/IMEDEA-AP-LAB)*
+*Last updated: July 2025 | For the most current repositories, visit our [GitHub organization](https://github.com/IMEDEA-AP-LAB) | Part of the [TMOOC Research Group](https://imedea.uib-csic.es/en/research/marine-technologies-operational-and-coastal-oceanography/) at IMEDEA*
 
 </div>
