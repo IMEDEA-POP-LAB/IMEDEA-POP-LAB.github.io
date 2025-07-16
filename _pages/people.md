@@ -11,8 +11,6 @@ nav_order: 2
 
 Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.
 
-## Principal Investigator
-
 <div class="people row">
 
 <div class="person-card">
@@ -28,8 +26,7 @@ Our interdisciplinary research group brings together oceanographers, physicists,
 </div>
 
 </div>
-
-## Senior Members
+</div>
 
 <div class="people row">
 
@@ -47,8 +44,7 @@ Our interdisciplinary research group brings together oceanographers, physicists,
 </div>
 
 </div>
-
-## Ph.D. Students
+</div>
 
 <div class="people row">
 
@@ -64,6 +60,8 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
+</div>
+
 <div class="person-card">
   <div class="card-body">
     <h5 class="card-title">Paul Hargous</h5>
@@ -74,6 +72,8 @@ Our interdisciplinary research group brings together oceanographers, physicists,
     </div>
     <p class="card-text">Investigating mesoscale ocean variability in the Mediterranean Sea, focusing on eddy kinetic energy and geostrophic currents derived from satellite altimetry.</p>
   </div>
+</div>
+
 </div>
 
 <div class="person-card">
@@ -88,6 +88,8 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
+</div>
+
 <div class="person-card">
   <div class="card-body">
     <h5 class="card-title">Blanca Fernández-Álvarez</h5>
@@ -97,6 +99,8 @@ Our interdisciplinary research group brings together oceanographers, physicists,
     </div>
     <p class="card-text">Analyzing marine heatwaves in the Mediterranean Sea with focus on the Balearic Sea region and extreme temperature events.</p>
   </div>
+</div>
+
 </div>
 
 <div class="person-card">
@@ -112,8 +116,6 @@ Our interdisciplinary research group brings together oceanographers, physicists,
 
 </div>
 
-## Current Students
-
 <div class="people row">
 
 <div class="person-card">
@@ -128,6 +130,20 @@ Our interdisciplinary research group brings together oceanographers, physicists,
 </div>
 
 </div>
+
+## Alumni
+
+- **Dr. Laura Renault**  
+  *Postdoctoral Researcher (2012 - 2015)*  
+  Now Associate Professor at UCLA, specializing in ocean modeling and coastal dynamics. [ORCID](https://orcid.org/0000-0002-1234-5678)
+
+- **Dr. Marta Flexas**  
+  *Ph.D. Student (2005 - 2010)*  
+  Currently a research scientist at SOCIB, focusing on ocean observation systems. [ORCID](https://orcid.org/0000-0003-2345-6789)
+
+- **Dr. Joan Llabrés**  
+  *Ph.D. Student (2007 - 2012)*  
+  Now working in marine technology development in the private sector.
 
 ## Join Our Team
 
