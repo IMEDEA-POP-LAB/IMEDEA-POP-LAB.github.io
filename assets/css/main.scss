@@ -120,20 +120,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Typography */
+/* Minimalist typography */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.025em;
-  margin: 0 0 var(--space-4) 0;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--space-6) 0;
+  color: var(--gray-900);
 }
 
-h1 { font-size: var(--text-4xl); }
-h2 { font-size: var(--text-3xl); }
-h3 { font-size: var(--text-2xl); }
-h4 { font-size: var(--text-xl); }
-h5 { font-size: var(--text-lg); }
-h6 { font-size: var(--text-base); }
+h1 { 
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 200;
+  letter-spacing: -0.03em;
+  margin-bottom: var(--space-8);
+}
+
+h2 { 
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 300;
+  margin-bottom: var(--space-6);
+  margin-top: var(--space-16);
+}
+
+h3 { 
+  font-size: var(--text-xl);
+  font-weight: 400;
+  margin-bottom: var(--space-4);
+}
+
+h4 { 
+  font-size: var(--text-lg);
+  font-weight: 500;
+  margin-bottom: var(--space-3);
+}
+
+h5 { 
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+h6 { 
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gray-700);
+  margin-bottom: var(--space-2);
+}
 
 p {
   margin: 0 0 var(--space-4) 0;
@@ -247,33 +282,45 @@ a:hover {
   padding: var(--space-16) 0;
 }
 
-/* Modern hero section */
-.hero {
-  background: linear-gradient(135deg, var(--primary-50) 0%, var(--gray-50) 100%);
-  border-radius: var(--radius-2xl);
-  padding: var(--space-16) var(--space-8);
+/* Minimalist hero section */
+.intro-hero {
+  padding: var(--space-20) 0 var(--space-16) 0;
+  text-align: left;
   margin-bottom: var(--space-16);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  border-bottom: 1px solid var(--gray-200);
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: 
-    radial-gradient(circle at 20% 80%, rgba(3, 132, 199, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(8, 145, 178, 0.1) 0%, transparent 50%);
-  pointer-events: none;
+.lab-title {
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 200;
+  color: var(--gray-900);
+  margin: 0 0 var(--space-4) 0;
+  letter-spacing: -0.04em;
+  line-height: 0.85;
+  text-transform: lowercase;
 }
 
-.hero > * {
-  position: relative;
-  z-index: 1;
+.lab-subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: var(--gray-600);
+  font-weight: 300;
+  margin: 0;
+  letter-spacing: 0.01em;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+.lab-overview {
+  margin: var(--space-12) 0;
+  
+  p {
+    font-size: var(--text-lg);
+    color: var(--gray-700);
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0;
+    font-weight: 300;
+  }
 }
 
 /* About page modern styling */
@@ -391,43 +438,49 @@ a:hover {
   font-size: var(--text-sm);
 }
 
-/* Modern page headers */
+/* Modern minimalist page headers */
 .page-header {
-  margin-bottom: var(--space-16);
-  padding-bottom: var(--space-8);
-  text-align: center;
+  margin-bottom: var(--space-20);
+  padding-bottom: 0;
+  text-align: left;
   position: relative;
+  border: none;
 }
 
 .page-header::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 4px;
-  background: linear-gradient(90deg, var(--ocean-blue), var(--ocean-teal));
-  border-radius: var(--radius-sm);
+  display: none;
 }
 
 .page-title {
-  font-size: clamp(var(--text-3xl), 4vw, var(--text-5xl));
-  font-weight: 700;
-  color: var(--global-text-color);
-  margin: 0 0 var(--space-4) 0;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 300;
+  color: var(--gray-900);
+  margin: 0 0 var(--space-3) 0;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  text-transform: lowercase;
+  position: relative;
+}
+
+.page-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 2rem;
+  height: 2px;
+  background: var(--gray-900);
+  border-radius: 2px;
 }
 
 .page-description {
-  font-size: var(--text-xl);
-  color: var(--global-text-light);
-  margin: 0;
-  font-weight: 300;
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.6;
+  font-size: var(--text-lg);
+  color: var(--gray-600);
+  margin: var(--space-6) 0 0 0;
+  font-weight: 400;
+  max-width: 500px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 }
 
 /* Modern card components */
@@ -578,26 +631,42 @@ a:hover {
   text-underline-offset: 3px;
 }
 
-/* Modern publications styling */
+/* Modern minimalist publications styling */
 .publications {
   max-width: 900px;
   margin: 0 auto;
 }
 
 .publications h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 200;
+  margin-bottom: 3rem;
   color: var(--gray-900);
-  border-bottom: 2px solid var(--primary-200);
-  padding-bottom: 0.5rem;
+  border: none;
+  padding: 0;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  position: relative;
+}
+
+.publications h1::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background: var(--gray-900);
+  border-radius: 2px;
 }
 
 .publications h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 2rem 0 1rem 0;
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin: 3rem 0 1.5rem 0;
   color: var(--gray-800);
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
 }
 
 .publication-entry {
