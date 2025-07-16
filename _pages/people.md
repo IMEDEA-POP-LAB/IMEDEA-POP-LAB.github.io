@@ -24,30 +24,42 @@ Our interdisciplinary research group brings together oceanographers, physicists,
 
 ## Principal Investigator
 
-**Dr. Ananda Pascual**  
-Senior Scientist, CSIC  
-📧 [ananda.pascual@imedea.uib-csic.es](mailto:ananda.pascual@imedea.uib-csic.es)  
-🔗 [ORCID: 0000-0002-3832-9593](https://orcid.org/0000-0002-3832-9593)  
-*Tenure: 2008 - present*
+<div class="people row">
 
-**Research Focus:** Physical oceanography, mesoscale and submesoscale processes, satellite altimetry, ocean climate observations
+<div class="person-card">
+  <div class="card-body">
+    <h5 class="card-title">Dr. Ananda Pascual</h5>
+    <h6 class="card-subtitle">Senior Scientist, CSIC (2008 - present)</h6>
+    <div class="contact-info">
+      <div>📧 <a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></div>
+      <div>🔗 <a href="https://orcid.org/0000-0002-3832-9593">ORCID</a></div>
+    </div>
+    <p class="card-text">Physical oceanography, mesoscale and submesoscale processes, satellite altimetry, and ocean climate observations. Specializes in meso and submesoscale ocean processes and their climate impact using remote sensing, in-situ data, and numerical simulations.</p>
+  </div>
+</div>
 
-Ananda Pascual is a senior scientist at CSIC-IMEDEA specializing in meso and submesoscale ocean processes and their climate impact using remote sensing, in-situ data, and numerical simulations.
+</div>
 
 ---
 
 ## Senior Members
 
-**Dr. Vincent Combes**  
-Ramón y Cajal Fellow  
-📧 [vcombes@imedea.uib-csic.es](mailto:vcombes@imedea.uib-csic.es)  
-🌐 [www.vincentcombes.com](http://www.vincentcombes.com/)  
-🔗 [ORCID: 0000-0002-0416-1827](https://orcid.org/0000-0002-0416-1827)  
-*Tenure: 2022 - present*
+<div class="people row">
 
-**Research Focus:** Ocean modeling, coastal upwelling systems, eddy dynamics, remote sensing
+<div class="person-card">
+  <div class="card-body">
+    <h5 class="card-title">Dr. Vincent Combes</h5>
+    <h6 class="card-subtitle">Ramón y Cajal Fellow (2022 - present)</h6>
+    <div class="contact-info">
+      <div>📧 <a href="mailto:vcombes@imedea.uib-csic.es">vcombes@imedea.uib-csic.es</a></div>
+      <div>🌐 <a href="http://www.vincentcombes.com/">Website</a></div>
+      <div>🔗 <a href="https://orcid.org/0000-0002-0416-1827">ORCID</a></div>
+    </div>
+    <p class="card-text">Ocean modeling, coastal upwelling systems, eddy dynamics, and remote sensing. Specialist in realistic ocean modeling of regional and coastal seas, with expertise in low-frequency ocean variability and coastal processes.</p>
+  </div>
+</div>
 
-Specialist in realistic ocean modeling of regional and coastal seas, with expertise in low-frequency ocean variability and coastal processes.
+</div>
 
 ---
 
@@ -63,7 +75,7 @@ Specialist in realistic ocean modeling of regional and coastal seas, with expert
       <div>📧 <a href="mailto:everger@imedea.uib-csic.es">everger@imedea.uib-csic.es</a></div>
       <div>🔗 <a href="https://orcid.org/0009-0008-0964-6920">ORCID</a></div>
     </div>
-    <p class="card-text">Fine-scale ocean dynamics and SWOT satellite applications for enhanced eddy detection.</p>
+    <p class="card-text">Fine-scale ocean dynamics and SWOT satellite applications for enhanced eddy detection using multi-platform observations.</p>
   </div>
 </div>
 
@@ -119,8 +131,20 @@ Specialist in realistic ocean modeling of regional and coastal seas, with expert
 
 ## Current Students
 
-**Paula Alós** - Master Student  
-*Marine ecosystem dynamics in the Mediterranean Sea*
+<div class="people row">
+
+<div class="person-card">
+  <div class="card-body">
+    <h5 class="card-title">Paula Alós</h5>
+    <h6 class="card-subtitle">Master Student</h6>
+    <div class="contact-info">
+      <div>📚 Master's Thesis Project</div>
+    </div>
+    <p class="card-text">Marine ecosystem dynamics in the Mediterranean Sea</p>
+  </div>
+</div>
+
+</div>
 
 ---
 

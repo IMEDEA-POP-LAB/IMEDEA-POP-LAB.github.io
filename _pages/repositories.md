@@ -7,8 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-<div class="repositories">
-
 ## Code & Data
 
 Our research group is committed to open science and reproducible research. Here you'll find our open-source code, datasets, and computational tools that support our publications and ongoing research.
@@ -167,5 +165,3 @@ Most of our code is released under **GPL-3.0 License** or **MIT License** unless
 ---
 
 *Last updated: July 2025 | For the most current repositories, visit our [GitHub organization](https://github.com/IMEDEA-AP-LAB) | Part of the [TMOOC Research Group](https://imedea.uib-csic.es/en/research/marine-technologies-operational-and-coastal-oceanography/) at IMEDEA*
-
-</div>
