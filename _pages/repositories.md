@@ -9,12 +9,6 @@ nav_order: 5
 
 <div class="repositories">
 
-<div class="repo-intro">
-<p>We champion open science and reproducible research through publicly available code, datasets, and computational tools that advance Mediterranean oceanography.</p>
-</div>
-
-## Public Repositories
-
 <div class="repo-grid">
 
 <div class="repo-card">

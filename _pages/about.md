@@ -1,7 +1,5 @@
 ---
 layout: page
-title: Physical Ocean Processes
-description: <a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a> • Ananda Pascual Lab
 permalink: /
 
 news: false
@@ -12,7 +10,7 @@ social: true
 
 <div class="intro-hero">
   <h1 class="lab-title">Physical Ocean Processes</h1>
-  <p class="lab-subtitle">Understanding ocean circulation from submesoscale turbulence to basin-wide currents</p>
+  <p class="lab-subtitle">Ananda Pascual Lab • <a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a></p>
 </div>
 
 <div class="lab-overview">
@@ -64,8 +62,48 @@ social: true
 
 ## Recent News
 
-<div class="news-section-styled">
-**January 2025:** New publication accepted in *Journal of Geophysical Research: Oceans* on Mediterranean Deep Water formation variability. Our team successfully deployed autonomous gliders in the Western Mediterranean as part of our ERC project. Welcome to our new website!
+<div class="news-section-timeline">
+  <div class="news-entry">
+    <div class="news-date-col">Jan 15</div>
+    <div class="news-content-col">New publication accepted in <em>Journal of Geophysical Research: Oceans</em> on Mediterranean Deep Water formation variability.</div>
+  </div>
+  <div class="news-entry">
+    <div class="news-date-col">Jan 10</div>
+    <div class="news-content-col">Our team successfully deployed autonomous gliders in the Western Mediterranean as part of our ERC project.</div>
+  </div>
+  <div class="news-entry">
+    <div class="news-date-col">Jan 5</div>
+    <div class="news-content-col">Welcome to our new website! Explore our research, team, and latest findings.</div>
+  </div>
+</div>
+
+## Photo Gallery
+
+<div class="photo-gallery">
+  <div class="gallery-item">
+    <img src="/assets/img/gallery/research-1.jpg" alt="Research expedition">
+    <div class="gallery-caption">Research expedition in Mediterranean Sea</div>
+  </div>
+  <div class="gallery-item">
+    <img src="/assets/img/gallery/research-2.jpg" alt="Laboratory work">
+    <div class="gallery-caption">Data analysis and modeling</div>
+  </div>
+  <div class="gallery-item">
+    <img src="/assets/img/gallery/research-3.jpg" alt="Field instruments">
+    <div class="gallery-caption">Deploying oceanographic instruments</div>
+  </div>
+  <div class="gallery-item">
+    <img src="/assets/img/gallery/research-4.jpg" alt="Team collaboration">
+    <div class="gallery-caption">International collaboration meeting</div>
+  </div>
+  <div class="gallery-item">
+    <img src="/assets/img/gallery/research-5.jpg" alt="Satellite data">
+    <div class="gallery-caption">Satellite oceanography analysis</div>
+  </div>
+  <div class="gallery-item">
+    <img src="/assets/img/gallery/research-6.jpg" alt="Conference presentation">
+    <div class="gallery-caption">Presenting at international conference</div>
+  </div>
 </div>
 
 ## Recent Publications
