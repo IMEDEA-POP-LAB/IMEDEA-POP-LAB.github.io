@@ -114,11 +114,30 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: var(--global-text-color);
-  background-color: var(--global-bg-color);
+  background-color: var(--global-bg-color) !important;
+  background: white !important;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Force white background to override al-folio theme */
+html, 
+body,
+.page-content,
+.wrapper,
+main {
+  background: white !important;
+  background-color: white !important;
+}
+
+/* Ensure no blue gradients are applied to main content areas */
+.site-main,
+.content,
+.container {
+  background: white !important;
+  background-color: white !important;
 }
 
 /* Minimalist typography */
@@ -1102,4 +1121,224 @@ a:hover {
   }
 }
 
-/* ...existing code... */
+/* Alumni section styling */
+.alumni-section {
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+}
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.alumni-card {
+  background: white;
+  border: 1px solid var(--primary-100);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.alumni-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary-300);
+}
+
+.alumni-card h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-800);
+  margin-bottom: 0.5rem;
+}
+
+.alumni-period {
+  font-size: 0.85rem;
+  color: var(--primary-600);
+  font-weight: 500;
+  background: var(--primary-50);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
+.alumni-role {
+  font-weight: 500;
+  color: var(--text-700);
+  margin-bottom: 0.5rem;
+}
+
+.alumni-current {
+  font-size: 0.9rem;
+  color: var(--text-600);
+  margin: 0;
+}
+
+/* Collaborators and Visitors sections */
+.collaborators-section, .visitors-section {
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+}
+
+.collaborators-grid, .visitors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.collaborator-card, .visitor-card {
+  background: white;
+  border: 1px solid var(--primary-100);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.2s ease;
+  border-left: 4px solid var(--primary-400);
+}
+
+.collaborator-card:hover, .visitor-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  border-left-color: var(--primary-600);
+}
+
+.collaborator-card h5, .visitor-card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-800);
+  margin-bottom: 0.25rem;
+}
+
+.collaborator-affiliation, .visitor-affiliation {
+  font-size: 0.85rem;
+  color: var(--primary-600);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.collaborator-period, .visitor-period {
+  font-size: 0.8rem;
+  color: var(--text-500);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.collaborator-description, .visitor-description {
+  font-size: 0.9rem;
+  color: var(--text-600);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Repository cards styling */
+.repositories {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.repo-card {
+  background: white;
+  border: 1px solid var(--primary-100);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.repo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary-300);
+}
+
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.repo-header h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.repo-header h4 a {
+  color: var(--text-800);
+  text-decoration: none;
+}
+
+.repo-header h4 a:hover {
+  color: var(--primary-600);
+}
+
+.repo-language {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  background: var(--primary-100);
+  color: var(--primary-700);
+}
+
+.repo-card p {
+  color: var(--text-600);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.repo-stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.repo-stat {
+  font-size: 0.8rem;
+  color: var(--text-500);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.repo-topics {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.topic {
+  font-size: 0.75rem;
+  background: var(--primary-50);
+  color: var(--primary-700);
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--primary-200);
+}
+
+.repo-footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--primary-100);
+}
+
+.repo-footer p {
+  color: var(--text-500);
+  font-size: 0.9rem;
+}
