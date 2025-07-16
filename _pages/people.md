@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: People
-description: Meet our research team at Physical Ocean Processes - Ananda Pascual Lab
+description: Meet our research team
 nav: true
 nav_order: 2
 ---
@@ -41,7 +41,7 @@ nav_order: 2
 <div class="person-card senior-scientist">
   <div class="card-body">
     <img src="/assets/img/team/PascualAnanda.jpeg" alt="Dra. Ananda Pascual" class="profile-image">
-    <h5 class="card-title">Dr. Ananda Pascual</h5>
+    <h5 class="card-title">Dra. Ananda Pascual</h5>
     <h6 class="card-subtitle">Senior Scientist, CSIC (2008 - present)</h6>
     <div class="contact-info">
       <div>📧 <a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></div>
