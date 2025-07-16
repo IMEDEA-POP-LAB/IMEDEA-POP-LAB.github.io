@@ -2,12 +2,14 @@
 layout: page
 permalink: /people/
 title: People
-description: Meet our research team at the IMEDEA Physical Oceanography Laboratory
+description: Meet our research team at Physical Ocean Processes - Ananda Pascual Lab
 nav: true
 nav_order: 2
 ---
 
-Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.
+<div class="people-intro">
+  <p>Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.</p>
+</div>
 
 <div class="people row">
 
@@ -118,23 +120,26 @@ Our interdisciplinary research group brings together oceanographers, physicists,
 ## Alumni
 
 <div class="alumni-section">
-  <div class="alumni-list">
-    <div class="alumni-item">
-      <strong>Dr. Bàrbara Barceló-Llull</strong> <span class="alumni-period">(2012-2015)</span><br>
-      <em>Postdoctoral Researcher</em><br>
-      Now member of the  <a href="https://orcid.org/0000-0002-1234-5678">🔗</a>
+  <div class="alumni-grid">
+    <div class="alumni-card">
+      <h5>Dr. Bàrbara Barceló-Llull</h5>
+      <span class="alumni-period">2012-2015</span>
+      <p class="alumni-role">Postdoctoral Researcher</p>
+      <p class="alumni-current">IMEDEA Marine Ecology Group <a href="https://orcid.org/0000-0002-1234-5678">🔗</a></p>
     </div>
     
-    <div class="alumni-item">
-      <strong>Dr. Marta Flexas</strong> <span class="alumni-period">(2005-2010)</span><br>
-      <em>Ph.D. Student</em><br>
-      Research Scientist at SOCIB <a href="https://orcid.org/0000-0003-2345-6789">🔗</a>
+    <div class="alumni-card">
+      <h5>Dr. Marta Flexas</h5>
+      <span class="alumni-period">2005-2010</span>
+      <p class="alumni-role">Ph.D. Student</p>
+      <p class="alumni-current">Research Scientist at SOCIB <a href="https://orcid.org/0000-0003-2345-6789">🔗</a></p>
     </div>
     
-    <div class="alumni-item">
-      <strong>Dr. Joan Llabrés</strong> <span class="alumni-period">(2007-2012)</span><br>
-      <em>Ph.D. Student</em><br>
-      Marine Technology Development
+    <div class="alumni-card">
+      <h5>Dr. Joan Llabrés</h5>
+      <span class="alumni-period">2007-2012</span>
+      <p class="alumni-role">Ph.D. Student</p>
+      <p class="alumni-current">Marine Technology Development</p>
     </div>
   </div>
 </div>

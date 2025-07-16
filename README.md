@@ -1,6 +1,6 @@
-# IMEDEA-AP Oceanography Lab Website
+# Physical Ocean Processes - Ananda Pascual Lab Website
 
-Welcome to the IMEDEA-AP Physical Oceanography Laboratory website! This site is built with Jekyll and hosted on GitHub Pages.
+Welcome to the Physical Ocean Processes research group website! This site showcases the work of the Ananda Pascual Lab at IMEDEA and is built with Jekyll and hosted on GitHub Pages.
 
 ## 🌐 Live Site
 Visit our website at: [https://imedea-ap-lab.github.io](https://imedea-ap-lab.github.io)
