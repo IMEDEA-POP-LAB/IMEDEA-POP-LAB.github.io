@@ -19,17 +19,18 @@ selected_papers: false # disabled since we can't use jekyll-scholar on GitHub Pa
 social: true # includes social icons at the bottom of the page
 ---
 
-The **Ananda Pascual Lab** at IMEDEA focuses on understanding physical processes governing ocean circulation across multiple spatial and temporal scales, from submesoscale turbulence to basin-scale currents, and their interactions with climate systems.
+The **Ananda Pascual Lab** at IMEDEA advances our understanding of ocean circulation through cutting-edge research spanning multiple scales, from submesoscale turbulence to basin-wide currents and their complex interactions with climate systems.
 
-Our research combines **in-situ observations, satellite remote sensing, numerical modeling, and machine learning** to study ocean dynamics, with particular emphasis on the Mediterranean Sea and Southern Ocean regions.
+We integrate **in-situ observations, satellite remote sensing, numerical modeling, and machine learning** to decode ocean dynamics, with focused expertise in the Mediterranean Sea and Southern Ocean regions.
 
 ## Research Areas
 
-- **Ocean Dynamics**: Mesoscale and submesoscale processes, energy cascades, vertical transport
-- **Satellite Oceanography**: Altimetry applications, multi-platform observations, SWOT mission
-- **Climate Studies**: Marine heatwaves, ocean-atmosphere coupling, climate variability
-- **Data Science**: Machine learning in oceanography, physics-informed algorithms, forecasting
+**Ocean Dynamics** — Investigating mesoscale and submesoscale processes, energy cascades, and vertical transport mechanisms
 
----
+**Satellite Oceanography** — Developing altimetry applications, multi-platform observation strategies, and SWOT mission contributions
 
-We welcome collaborations and are always seeking motivated students and researchers. Explore our [projects](/projects/), [team](/people/), and [publications](/publications/).
+**Climate Studies** — Analyzing marine heatwaves, ocean-atmosphere coupling, and climate variability patterns
+
+**Data Science** — Applying machine learning to oceanography with physics-informed algorithms and advanced forecasting
+
+We actively collaborate with researchers worldwide and welcome motivated students and scientists to join our team. Explore our [projects](/projects/), meet our [team](/people/), and discover our [publications](/publications/).

@@ -11,8 +11,6 @@ nav_order: 2
 
 Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.
 
----
-
 ## Principal Investigator
 
 <div class="people row">
@@ -25,13 +23,11 @@ Our interdisciplinary research group brings together oceanographers, physicists,
       <div>📧 <a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></div>
       <div>🔗 <a href="https://orcid.org/0000-0002-3832-9593">ORCID</a></div>
     </div>
-    <p class="card-text">Physical oceanography, mesoscale and submesoscale processes, satellite altimetry, and ocean climate observations. Specializes in meso and submesoscale ocean processes and their climate impact using remote sensing, in-situ data, and numerical simulations.</p>
+    <p class="card-text">Leads research in physical oceanography, focusing on mesoscale and submesoscale processes, satellite altimetry, and ocean climate observations using advanced remote sensing and numerical simulations.</p>
   </div>
 </div>
 
 </div>
-
----
 
 ## Senior Members
 
@@ -46,13 +42,11 @@ Our interdisciplinary research group brings together oceanographers, physicists,
       <div>🌐 <a href="http://www.vincentcombes.com/">Website</a></div>
       <div>🔗 <a href="https://orcid.org/0000-0002-0416-1827">ORCID</a></div>
     </div>
-    <p class="card-text">Ocean modeling, coastal upwelling systems, eddy dynamics, and remote sensing. Specialist in realistic ocean modeling of regional and coastal seas, with expertise in low-frequency ocean variability and coastal processes.</p>
+    <p class="card-text">Specializes in ocean modeling, coastal upwelling systems, and eddy dynamics with expertise in regional and coastal sea modeling and low-frequency ocean variability.</p>
   </div>
 </div>
 
 </div>
-
----
 
 ## Ph.D. Students
 
@@ -66,7 +60,7 @@ Our interdisciplinary research group brings together oceanographers, physicists,
       <div>📧 <a href="mailto:everger@imedea.uib-csic.es">everger@imedea.uib-csic.es</a></div>
       <div>🔗 <a href="https://orcid.org/0009-0008-0964-6920">ORCID</a></div>
     </div>
-    <p class="card-text">Fine-scale ocean dynamics and SWOT satellite applications for enhanced eddy detection using multi-platform observations.</p>
+    <p class="card-text">Researching fine-scale ocean dynamics and SWOT satellite applications for enhanced eddy detection using multi-platform observations.</p>
   </div>
 </div>
 
@@ -78,7 +72,7 @@ Our interdisciplinary research group brings together oceanographers, physicists,
       <div>📧 <a href="mailto:hargous@imedea.uib-csic.es">hargous@imedea.uib-csic.es</a></div>
       <div>💼 <a href="https://www.linkedin.com/in/paul-hargous-964874195/">LinkedIn</a></div>
     </div>
-    <p class="card-text">Mesoscale ocean variability in the Mediterranean Sea, eddy kinetic energy, and geostrophic currents from satellite altimetry.</p>
+    <p class="card-text">Investigating mesoscale ocean variability in the Mediterranean Sea, focusing on eddy kinetic energy and geostrophic currents derived from satellite altimetry.</p>
   </div>
 </div>
 
@@ -90,7 +84,7 @@ Our interdisciplinary research group brings together oceanographers, physicists,
       <div>📧 <a href="mailto:cmarti@imedea.uib-csic.es">cmarti@imedea.uib-csic.es</a></div>
       <div>🔗 <a href="https://orcid.org/0009-0002-8276-7717">ORCID</a></div>
     </div>
-    <p class="card-text">Submesoscale ocean dynamics, energy cascades, and vertical transport processes in the Mediterranean Sea (CALYPSO project).</p>
+    <p class="card-text">Studying submesoscale ocean dynamics, energy cascades, and vertical transport processes in the Mediterranean Sea as part of the CALYPSO project.</p>
   </div>
 </div>
 
@@ -101,7 +95,7 @@ Our interdisciplinary research group brings together oceanographers, physicists,
     <div class="contact-info">
       <div>📧 <a href="mailto:bfernandez@imedea.uib-csic.es">bfernandez@imedea.uib-csic.es</a></div>
     </div>
-    <p class="card-text">Marine heatwaves in the Mediterranean Sea, focusing on the Balearic Sea region and extreme temperature events.</p>
+    <p class="card-text">Analyzing marine heatwaves in the Mediterranean Sea with focus on the Balearic Sea region and extreme temperature events.</p>
   </div>
 </div>
 
@@ -112,13 +106,11 @@ Our interdisciplinary research group brings together oceanographers, physicists,
     <div class="contact-info">
       <div>📧 <a href="mailto:dvega@imedea.uib-csic.es">dvega@imedea.uib-csic.es</a></div>
     </div>
-    <p class="card-text">Advanced oceanographic data analysis and modeling techniques.</p>
+    <p class="card-text">Developing advanced oceanographic data analysis and modeling techniques for understanding ocean dynamics.</p>
   </div>
 </div>
 
 </div>
-
----
 
 ## Current Students
 
@@ -131,13 +123,11 @@ Our interdisciplinary research group brings together oceanographers, physicists,
     <div class="contact-info">
       <div>📚 Master's Thesis Project</div>
     </div>
-    <p class="card-text">Marine ecosystem dynamics in the Mediterranean Sea</p>
+    <p class="card-text">Investigating marine ecosystem dynamics in the Mediterranean Sea</p>
   </div>
 </div>
 
 </div>
-
----
 
 ## Join Our Team
 
