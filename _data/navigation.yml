@@ -1,10 +1,8 @@
-- name: Home
+- name: About
   link: /
-- name: Research
-  link: /research/
+- name: People
+  link: /people/
+- name: Projects
+  link: /projects/
 - name: Publications
   link: /publications/
-- name: Team
-  link: /team/
-- name: Contact
-  link: /contact/
