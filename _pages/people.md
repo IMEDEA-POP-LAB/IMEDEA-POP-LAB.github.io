@@ -7,38 +7,11 @@ nav: true
 nav_order: 2
 ---
 
-<div class="people-intro">
-  <p>Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.</p>
-</div>
-
 ## Research Team
-
-<div class="category-legend">
-  <div class="legend-item">
-    <div class="legend-color senior"></div>
-    <span>Senior Scientists</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-color postdoc"></div>
-    <span>Postdoctoral Researchers</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-color phd"></div>
-    <span>Ph.D. Students</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-color master"></div>
-    <span>Master Students</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-color visiting"></div>
-    <span>Visiting Researchers</span>
-  </div>
-</div>
 
 <div class="people row">
 
-<div class="person-card senior-scientist">
+<div class="person-card">
   <div class="card-body">
     <img src="/assets/img/team/PascualAnanda.jpeg" alt="Dra. Ananda Pascual" class="profile-image">
     <h5 class="card-title">Dra. Ananda Pascual</h5>
@@ -51,7 +24,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="person-card postdoc">
+<div class="person-card">
   <div class="card-body">
     <img src="/assets/img/team/CombesVincent.jpeg" alt="Dr. Vincent Combes" class="profile-image">
     <h5 class="card-title">Dr. Vincent Combes</h5>
@@ -65,7 +38,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="person-card phd-student">
+<div class="person-card">
   <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Elisabet Verger-Miralles" class="profile-image">
     <h5 class="card-title">Elisabet Verger-Miralles</h5>
@@ -78,7 +51,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="person-card phd-student">
+<div class="person-card">
   <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Paul Hargous" class="profile-image">
     <h5 class="card-title">Paul Hargous</h5>
@@ -91,7 +64,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="person-card phd-student">
+<div class="person-card">
   <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Cristina Martí-Solana" class="profile-image">
     <h5 class="card-title">Cristina Martí-Solana</h5>
@@ -104,7 +77,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="person-card phd-student">
+<div class="person-card">
   <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Blanca Fernández-Álvarez" class="profile-image">
     <h5 class="card-title">Blanca Fernández-Álvarez</h5>
@@ -116,7 +89,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="person-card phd-student">
+<div class="person-card">
   <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Diego Vega-Giménez" class="profile-image">
     <h5 class="card-title">Diego Vega-Giménez</h5>
@@ -128,7 +101,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="person-card master-student">
+<div class="person-card">
   <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Paula Alós" class="profile-image">
     <h5 class="card-title">Paula Alós</h5>
