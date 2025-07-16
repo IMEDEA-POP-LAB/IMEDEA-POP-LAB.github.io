@@ -800,6 +800,235 @@ a:hover {
   }
 }
 
+/* People page styles */
+.people.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.person-card {
+  background: var(--global-card-bg);
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.person-card .profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid var(--primary-100);
+}
+
+.person-card .card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.person-card .card-subtitle {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--primary-600);
+  margin-bottom: 1rem;
+}
+
+.person-card .contact-info {
+  margin-bottom: 1rem;
+  
+  div {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+    
+    a {
+      color: var(--primary-600);
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.person-card .card-text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--gray-700);
+}
+
+/* Alumni section */
+.alumni-section {
+  margin: 2rem 0;
+}
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.alumni-card {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  padding: 1rem;
+  
+  h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: 0.5rem;
+  }
+}
+
+.alumni-period {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--primary-600);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.alumni-role {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin-bottom: 0.5rem;
+}
+
+.alumni-current {
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  
+  a {
+    color: var(--primary-600);
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Highlights grid for about page */
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.highlight-card {
+  background: var(--global-card-bg);
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: 0.75rem;
+  }
+  
+  p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--gray-700);
+    margin: 0;
+  }
+}
+
+/* Research areas grid */
+.research-areas-minimal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.research-item {
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--gray-700);
+    margin: 0;
+  }
+}
+
+/* Quick navigation */
+.quick-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--global-card-bg);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+}
+
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  
+  strong {
+    color: var(--gray-900);
+    margin-bottom: 0.25rem;
+  }
+  
+  span {
+    font-size: 0.875rem;
+    color: var(--gray-600);
+  }
+}
+
 /* Responsive adjustments */
 @media (max-width: 640px) {
   .publications {
@@ -821,5 +1050,24 @@ a:hover {
   .news-date, .pub-year {
     min-width: unset;
     font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .people.row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .highlights-grid,
+  .alumni-grid,
+  .quick-nav {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .research-areas-minimal {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
   }
 }
