@@ -1,32 +1,6 @@
 ---
-layou<div class="people-intro">
-  <p>Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.</p>
-</div>
-
-<!-- Principal Investigator - Featured Card -->
-<div class="featured-member">
-  <div class="featured-card">
-    <div class="featured-content">
-      <div class="featured-image">
-        <img src="/assets/img/team/placeholder.svg" alt="Dr. Ananda Pascual" class="profile-image">
-      </div>
-      <div class="featured-info">
-        <h3 class="featured-title">Dr. Ananda Pascual</h3>
-        <h4 class="featured-subtitle">Principal Investigator & Senior Scientist, CSIC</h4>
-        <p class="featured-period">2008 - present</p>
-        <div class="featured-contact">
-          <div class="contact-item">📧 <a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></div>
-          <div class="contact-item">🔗 <a href="https://orcid.org/0000-0002-3832-9593">ORCID Profile</a></div>
-        </div>
-        <p class="featured-description">Leads research in physical oceanography, focusing on mesoscale and submesoscale processes, satellite altimetry, and ocean climate observations using advanced remote sensing and numerical simulations. Directs the Physical Ocean Processes group at IMEDEA.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Research Team -->
-<h2 class="team-section-title">Research Team</h2>
-<div class="people row">people/
+layout: page
+permalink: /people/
 title: People
 description: Meet our research team at Physical Ocean Processes - Ananda Pascual Lab
 nav: true
@@ -36,6 +10,8 @@ nav_order: 2
 <div class="people-intro">
   <p>Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.</p>
 </div>
+
+## Research Team
 
 <div class="people row">
 

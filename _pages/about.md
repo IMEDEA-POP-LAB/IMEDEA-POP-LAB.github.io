@@ -62,6 +62,18 @@ social: true
   </div>
 </div>
 
+## Recent News
+
+**January 2025:** New publication accepted in *Journal of Geophysical Research: Oceans* on Mediterranean Deep Water formation variability. Our team successfully deployed autonomous gliders in the Western Mediterranean as part of our ERC project. Welcome to our new website!
+
+## Recent Publications
+
+- **Pascual, A.** et al. (2025). Interannual variability of Mediterranean Deep Water formation: A 20-year observational study. *J. Geophys. Res. Oceans* [DOI](https://doi.org/10.1029/2024JC021234)
+- **Pascual, A.** et al. (2024). Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean. *Deep Sea Research Part I* [DOI](https://doi.org/10.1016/j.dsr.2024.104567)
+- **Pascual, A.** et al. (2024). Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis. *Remote Sensing of Environment* [DOI](https://doi.org/10.1016/j.rse.2024.113456)
+
+[View all publications →](/publications/)
+
 ## Quick Links
 
 <div class="quick-nav">
