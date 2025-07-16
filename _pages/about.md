@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Physical Ocean Processes
+description: <a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a> • Ananda Pascual Lab
 permalink: /
-subtitle: <a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a> • Ananda Pascual Lab
 
 news: false
 latest_posts: false
@@ -64,7 +64,9 @@ social: true
 
 ## Recent News
 
+<div class="news-section-styled">
 **January 2025:** New publication accepted in *Journal of Geophysical Research: Oceans* on Mediterranean Deep Water formation variability. Our team successfully deployed autonomous gliders in the Western Mediterranean as part of our ERC project. Welcome to our new website!
+</div>
 
 ## Recent Publications
 
@@ -73,42 +75,6 @@ social: true
 - **Pascual, A.** et al. (2024). Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis. *Remote Sensing of Environment* [DOI](https://doi.org/10.1016/j.rse.2024.113456)
 
 [View all publications →](/publications/)
-
-## Quick Links
-
-<div class="quick-nav">
-  <a href="/people/" class="nav-link">
-    <div class="nav-icon">👥</div>
-    <div class="nav-text">
-      <strong>Team</strong>
-      <span>Meet our researchers</span>
-    </div>
-  </a>
-  
-  <a href="/projects/" class="nav-link">
-    <div class="nav-icon">🔬</div>
-    <div class="nav-text">
-      <strong>Projects</strong>
-      <span>Current research</span>
-    </div>
-  </a>
-  
-  <a href="/publications/" class="nav-link">
-    <div class="nav-icon">📚</div>
-    <div class="nav-text">
-      <strong>Publications</strong>
-      <span>Latest findings</span>
-    </div>
-  </a>
-  
-  <a href="/repositories/" class="nav-link">
-    <div class="nav-icon">💻</div>
-    <div class="nav-text">
-      <strong>Code & Data</strong>
-      <span>Open resources</span>
-    </div>
-  </a>
-</div>
 
 ---
 

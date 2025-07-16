@@ -7,9 +7,11 @@ nav: true
 nav_order: 5
 ---
 
-## Code & Data
+<div class="repositories">
 
-We champion open science and reproducible research through publicly available code, datasets, and computational tools that advance Mediterranean oceanography.
+<div class="repo-intro">
+<p>We champion open science and reproducible research through publicly available code, datasets, and computational tools that advance Mediterranean oceanography.</p>
+</div>
 
 ## Public Repositories
 
@@ -18,7 +20,7 @@ We champion open science and reproducible research through publicly available co
 <div class="repo-card">
   <div class="repo-header">
     <h4><a href="https://github.com/IMEDEA-AP-LAB/MASS24_Altimetry_tutorial" target="_blank"><i class="fab fa-github"></i> MASS24_Altimetry_tutorial</a></h4>
-    <span class="repo-language">Jupyter Notebook</span>
+    <span class="repo-language" data-language="jupyter">Jupyter Notebook</span>
   </div>
   <p>Interactive satellite altimetry tutorial from IMEDEA Autumn School (MASS) 2024. Features comprehensive Jupyter notebooks that guide users through advanced altimetry data processing and analysis techniques for Mediterranean oceanography.</p>
   <div class="repo-stats">
@@ -34,4 +36,10 @@ We champion open science and reproducible research through publicly available co
   </div>
 </div>
 
-*Last updated: July 2025 | For current repositories, visit our [GitHub organization](https://github.com/IMEDEA-AP-LAB) | Part of the [TMOOC Research Group](https://imedea.uib-csic.es/en/research/marine-technologies-operational-and-coastal-oceanography/) at IMEDEA*
+</div>
+
+<div class="repo-footer">
+<p><em>Last updated: July 2025 | For current repositories, visit our <a href="https://github.com/IMEDEA-AP-LAB" target="_blank">GitHub organization</a> | Part of the <a href="https://imedea.uib-csic.es/en/research/marine-technologies-operational-and-coastal-oceanography/" target="_blank">TMOOC Research Group</a> at IMEDEA</em></p>
+</div>
+
+</div>
