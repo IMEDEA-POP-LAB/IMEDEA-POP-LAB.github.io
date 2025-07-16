@@ -1,0 +1,28 @@
+---
+layout: default
+title: Home
+---
+
+# Ananda Pascual Lab
+## Mediterranean Institute for Advanced Studies - Physical Oceanography
+
+Welcome to the Physical Oceanography Laboratory at IMEDEA (Mediterranean Institute for Advanced Studies). Our research group focuses on understanding the dynamics of the Mediterranean Sea and its role in regional and global ocean systems.
+
+### Research Focus
+- **Physical Oceanography**: Ocean circulation, water mass formation, and mixing processes
+- **Mediterranean Sea Dynamics**: Regional oceanographic processes and climate interactions  
+- **Marine Sciences**: Interdisciplinary research combining physics, chemistry, and biology
+- **Coastal Oceanography**: Near-shore processes and land-sea interactions
+
+### Latest Research Highlights
+- Investigation of Mediterranean water mass variability
+- Advanced modeling of regional ocean circulation
+- Climate change impacts on Mediterranean oceanography
+- Deep water formation processes in the Western Mediterranean
+
+### Facilities & Equipment
+Our laboratory is equipped with state-of-the-art instrumentation for oceanographic research, including CTD sensors, current meters, and numerical modeling capabilities.
+
+---
+
+*Explore our [research projects](/research/), meet our [team](/team/), or [contact us](/contact/) for collaboration opportunities.*
