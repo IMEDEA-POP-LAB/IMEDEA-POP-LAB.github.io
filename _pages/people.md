@@ -7,15 +7,6 @@ nav: true
 nav_order: 2
 ---
 
----
-layout: page
-permalink: /people/
-title: People
-description: Meet our research team at the IMEDEA Physical Oceanography Laboratory
-nav: true
-nav_order: 2
----
-
 ## Our Team
 
 Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.
