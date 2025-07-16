@@ -1,0 +1,41 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="labGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#labGradient)"/>
+  
+  <!-- Computer screens -->
+  <rect x="50" y="60" width="80" height="50" fill="#1e293b" rx="3"/>
+  <rect x="55" y="65" width="70" height="40" fill="#0ea5e9" rx="2"/>
+  <rect x="60" y="70" width="15" height="8" fill="white" opacity="0.9"/>
+  <rect x="80" y="70" width="15" height="8" fill="white" opacity="0.7"/>
+  <rect x="100" y="70" width="15" height="8" fill="white" opacity="0.5"/>
+  
+  <rect x="270" y="60" width="80" height="50" fill="#1e293b" rx="3"/>
+  <rect x="275" y="65" width="70" height="40" fill="#10b981" rx="2"/>
+  <!-- Data visualization -->
+  <g stroke="white" stroke-width="1" fill="none">
+    <path d="M 280 95 L 290 90 L 300 85 L 310 88 L 320 80 L 330 75 L 340 78"/>
+    <circle cx="290" cy="90" r="1" fill="white"/>
+    <circle cx="310" cy="88" r="1" fill="white"/>
+    <circle cx="330" cy="75" r="1" fill="white"/>
+  </g>
+  
+  <!-- Lab equipment -->
+  <rect x="160" y="80" width="30" height="40" fill="#64748b" rx="2"/>
+  <rect x="165" y="85" width="20" height="5" fill="#0ea5e9"/>
+  <rect x="165" y="95" width="20" height="5" fill="#ef4444"/>
+  <rect x="165" y="105" width="20" height="5" fill="#22c55e"/>
+  
+  <!-- Desk -->
+  <rect x="40" y="110" width="320" height="10" fill="#8b5cf6"/>
+  <rect x="45" y="120" width="10" height="30" fill="#7c3aed"/>
+  <rect x="345" y="120" width="10" height="30" fill="#7c3aed"/>
+  
+  <text x="200" y="180" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Laboratory Analysis
+  </text>
+</svg>

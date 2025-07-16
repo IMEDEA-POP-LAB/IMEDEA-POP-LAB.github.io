@@ -1,0 +1,33 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="eddyGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="200" fill="#0f172a"/>
+  <!-- Mesoscale eddies -->
+  <circle cx="120" cy="80" r="40" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.8"/>
+  <circle cx="120" cy="80" r="25" fill="none" stroke="#0ea5e9" stroke-width="2" opacity="0.6"/>
+  <circle cx="120" cy="80" r="10" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4"/>
+  
+  <circle cx="280" cy="120" r="35" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.8"/>
+  <circle cx="280" cy="120" r="20" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.6"/>
+  <circle cx="280" cy="120" r="8" fill="none" stroke="#fcd34d" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Current vectors -->
+  <g stroke="white" stroke-width="1" fill="white" opacity="0.7">
+    <line x1="50" y1="50" x2="70" y2="45"/>
+    <polygon points="70,45 65,42 65,48"/>
+    <line x1="350" y1="60" x2="330" y2="55"/>
+    <polygon points="330,55 335,52 335,58"/>
+    <line x1="200" y1="160" x2="220" y2="170"/>
+    <polygon points="220,170 215,167 215,173"/>
+  </g>
+  
+  <text x="200" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Satellite Altimetry Data
+  </text>
+</svg>

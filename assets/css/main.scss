@@ -709,6 +709,20 @@ a:hover {
   padding: var(--space-8);
 }
 
+.person-card .profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--global-theme-color);
+  margin-bottom: var(--space-4);
+  transition: transform 0.3s ease;
+}
+
+.person-card:hover .profile-image {
+  transform: scale(1.1);
+}
+
 .person-card .card-title {
   font-size: var(--text-xl);
   font-weight: 600;
@@ -741,6 +755,57 @@ a:hover {
 }
 
 .person-card .contact-info a:hover {
+  color: var(--global-hover-color);
+}
+
+/* Alumni section styles */
+.alumni-section {
+  margin-top: var(--space-12);
+  padding: var(--space-8);
+  background: var(--global-card-bg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--global-divider-color);
+}
+
+.alumni-list {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.alumni-item {
+  padding: var(--space-4);
+  background: var(--global-bg-color);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--global-theme-color);
+  transition: all 0.3s ease;
+}
+
+.alumni-item:hover {
+  transform: translateX(8px);
+  box-shadow: var(--global-shadow);
+}
+
+.alumni-period {
+  color: var(--global-text-light);
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+
+.alumni-item em {
+  color: var(--global-theme-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--text-sm);
+}
+
+.alumni-item a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  margin-left: var(--space-2);
+  transition: color 0.2s ease;
+}
+
+.alumni-item a:hover {
   color: var(--global-hover-color);
 }
 
@@ -1224,5 +1289,97 @@ a:hover {
     box-shadow: none;
     border: 1px solid #ccc;
     break-inside: avoid;
+  }
+}
+
+/* Picture Gallery Styles */
+.gallery-container {
+  margin: var(--space-12) 0;
+  padding: var(--space-8) 0;
+  background: linear-gradient(135deg, var(--primary-50) 0%, var(--gray-50) 100%);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--global-divider-color);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-6);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+.gallery-item {
+  position: relative;
+  background: white;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--global-shadow);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--global-shadow-lg);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--space-4);
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  line-height: 1.4;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-caption {
+  transform: translateY(0);
+}
+
+/* Mobile responsive gallery */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-4);
+    padding: 0 var(--space-4);
+  }
+  
+  .gallery-item img {
+    height: 180px;
+  }
+  
+  .gallery-caption {
+    font-size: var(--text-xs);
+    padding: var(--space-3);
+  }
+}
+
+@media (max-width: 640px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  
+  .gallery-item img {
+    height: 160px;
   }
 }

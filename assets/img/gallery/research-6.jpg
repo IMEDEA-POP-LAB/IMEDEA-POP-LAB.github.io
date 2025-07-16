@@ -1,0 +1,75 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="meetingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#meetingGradient)"/>
+  
+  <!-- Conference table -->
+  <ellipse cx="200" cy="120" rx="150" ry="40" fill="#6366f1" opacity="0.8"/>
+  
+  <!-- People around table (simplified representations) -->
+  <g fill="#1e293b">
+    <!-- Person 1 -->
+    <circle cx="120" cy="100" r="12" fill="#fbbf24"/>
+    <rect x="115" y="112" width="10" height="15" fill="#3b82f6" rx="2"/>
+    
+    <!-- Person 2 -->
+    <circle cx="200" cy="85" r="12" fill="#f87171"/>
+    <rect x="195" y="97" width="10" height="15" fill="#10b981" rx="2"/>
+    
+    <!-- Person 3 -->
+    <circle cx="280" cy="100" r="12" fill="#a78bfa"/>
+    <rect x="275" y="112" width="10" height="15" fill="#f59e0b" rx="2"/>
+    
+    <!-- Person 4 -->
+    <circle cx="160" cy="140" r="12" fill="#22d3ee"/>
+    <rect x="155" y="152" width="10" height="15" fill="#ef4444" rx="2"/>
+    
+    <!-- Person 5 -->
+    <circle cx="240" cy="140" r="12" fill="#fb7185"/>
+    <rect x="235" y="152" width="10" height="15" fill="#8b5cf6" rx="2"/>
+  </g>
+  
+  <!-- Laptops -->
+  <g fill="#374151">
+    <rect x="150" y="110" width="20" height="12" rx="1"/>
+    <rect x="152" y="112" width="16" height="8" fill="#0ea5e9"/>
+    
+    <rect x="230" y="110" width="20" height="12" rx="1"/>
+    <rect x="232" y="112" width="16" height="8" fill="#22c55e"/>
+  </g>
+  
+  <!-- Documents/papers -->
+  <g fill="white" stroke="#94a3b8" stroke-width="1">
+    <rect x="170" y="115" width="15" height="10" rx="1"/>
+    <rect x="210" y="118" width="15" height="10" rx="1"/>
+    <rect x="180" y="125" width="12" height="8" rx="1"/>
+  </g>
+  
+  <!-- Presentation screen -->
+  <rect x="80" y="30" width="60" height="40" fill="#1e293b" rx="3"/>
+  <rect x="85" y="35" width="50" height="30" fill="#0ea5e9" rx="2"/>
+  <!-- Graph on screen -->
+  <g stroke="white" stroke-width="1" fill="none">
+    <path d="M 90 55 L 100 50 L 110 45 L 120 48 L 130 40"/>
+    <circle cx="100" cy="50" r="1" fill="white"/>
+    <circle cx="120" cy="48" r="1" fill="white"/>
+  </g>
+  
+  <!-- World map outline -->
+  <rect x="260" y="30" width="60" height="40" fill="#1e293b" rx="3"/>
+  <rect x="265" y="35" width="50" height="30" fill="#10b981" rx="2"/>
+  <!-- Continents -->
+  <g fill="#064e3b">
+    <ellipse cx="280" cy="45" rx="8" ry="4"/>
+    <ellipse cx="295" cy="50" rx="6" ry="3"/>
+    <rect x="285" y="52" width="10" height="6" rx="2"/>
+  </g>
+  
+  <text x="200" y="190" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Team Collaboration
+  </text>
+</svg>

@@ -7,14 +7,13 @@ nav: true
 nav_order: 2
 ---
 
-## Our Team
-
 Our interdisciplinary research group brings together oceanographers, physicists, and data scientists working at the forefront of ocean science.
 
 <div class="people row">
 
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Dr. Ananda Pascual" class="profile-image">
     <h5 class="card-title">Dr. Ananda Pascual</h5>
     <h6 class="card-subtitle">Senior Scientist, CSIC (2008 - present)</h6>
     <div class="contact-info">
@@ -25,13 +24,9 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
-</div>
-</div>
-
-<div class="people row">
-
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Dr. Vincent Combes" class="profile-image">
     <h5 class="card-title">Dr. Vincent Combes</h5>
     <h6 class="card-subtitle">Ramón y Cajal Fellow (2022 - present)</h6>
     <div class="contact-info">
@@ -43,13 +38,9 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
-</div>
-</div>
-
-<div class="people row">
-
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Elisabet Verger-Miralles" class="profile-image">
     <h5 class="card-title">Elisabet Verger-Miralles</h5>
     <h6 class="card-subtitle">Ph.D. Student (2023 - present)</h6>
     <div class="contact-info">
@@ -60,10 +51,9 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
-</div>
-
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Paul Hargous" class="profile-image">
     <h5 class="card-title">Paul Hargous</h5>
     <h6 class="card-subtitle">Ph.D. Student (2024 - present)</h6>
     <div class="contact-info">
@@ -74,10 +64,9 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
-</div>
-
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Cristina Martí-Solana" class="profile-image">
     <h5 class="card-title">Cristina Martí-Solana</h5>
     <h6 class="card-subtitle">Ph.D. Student (2024 - present)</h6>
     <div class="contact-info">
@@ -88,10 +77,9 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
-</div>
-
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Blanca Fernández-Álvarez" class="profile-image">
     <h5 class="card-title">Blanca Fernández-Álvarez</h5>
     <h6 class="card-subtitle">Ph.D. Student (2024 - present)</h6>
     <div class="contact-info">
@@ -101,10 +89,9 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
-</div>
-
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Diego Vega-Giménez" class="profile-image">
     <h5 class="card-title">Diego Vega-Giménez</h5>
     <h6 class="card-subtitle">Ph.D. Student (2024 - present)</h6>
     <div class="contact-info">
@@ -114,12 +101,9 @@ Our interdisciplinary research group brings together oceanographers, physicists,
   </div>
 </div>
 
-</div>
-
-<div class="people row">
-
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Paula Alós" class="profile-image">
     <h5 class="card-title">Paula Alós</h5>
     <h6 class="card-subtitle">Master Student</h6>
     <div class="contact-info">
@@ -133,17 +117,27 @@ Our interdisciplinary research group brings together oceanographers, physicists,
 
 ## Alumni
 
-- **Dr. Laura Renault**  
-  *Postdoctoral Researcher (2012 - 2015)*  
-  Now Associate Professor at UCLA, specializing in ocean modeling and coastal dynamics. [ORCID](https://orcid.org/0000-0002-1234-5678)
-
-- **Dr. Marta Flexas**  
-  *Ph.D. Student (2005 - 2010)*  
-  Currently a research scientist at SOCIB, focusing on ocean observation systems. [ORCID](https://orcid.org/0000-0003-2345-6789)
-
-- **Dr. Joan Llabrés**  
-  *Ph.D. Student (2007 - 2012)*  
-  Now working in marine technology development in the private sector.
+<div class="alumni-section">
+  <div class="alumni-list">
+    <div class="alumni-item">
+      <strong>Dr. Bàrbara Barceló-Llull</strong> <span class="alumni-period">(2012-2015)</span><br>
+      <em>Postdoctoral Researcher</em><br>
+      Now member of the  <a href="https://orcid.org/0000-0002-1234-5678">🔗</a>
+    </div>
+    
+    <div class="alumni-item">
+      <strong>Dr. Marta Flexas</strong> <span class="alumni-period">(2005-2010)</span><br>
+      <em>Ph.D. Student</em><br>
+      Research Scientist at SOCIB <a href="https://orcid.org/0000-0003-2345-6789">🔗</a>
+    </div>
+    
+    <div class="alumni-item">
+      <strong>Dr. Joan Llabrés</strong> <span class="alumni-period">(2007-2012)</span><br>
+      <em>Ph.D. Student</em><br>
+      Marine Technology Development
+    </div>
+  </div>
+</div>
 
 ## Join Our Team
 

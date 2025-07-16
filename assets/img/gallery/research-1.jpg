@@ -1,0 +1,24 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#oceanGradient)"/>
+  <g stroke="white" stroke-width="2" fill="none">
+    <!-- Research vessel -->
+    <rect x="150" y="80" width="100" height="40" rx="5" fill="white"/>
+    <rect x="160" y="70" width="20" height="15" fill="white"/>
+    <rect x="220" y="70" width="20" height="15" fill="white"/>
+    <line x1="170" y1="60" x2="170" y2="40"/>
+    <line x1="230" y1="60" x2="230" y2="35"/>
+    <!-- Waves -->
+    <path d="M 0 140 Q 50 130 100 140 T 200 140 T 300 140 T 400 140" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+    <path d="M 0 150 Q 50 145 100 150 T 200 150 T 300 150 T 400 150" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+  </g>
+  <text x="200" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Research Vessel
+  </text>
+</svg>

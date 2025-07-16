@@ -19,6 +19,8 @@ selected_papers: false # disabled since we can't use jekyll-scholar on GitHub Pa
 social: true # includes social icons at the bottom of the page
 ---
 
+# Exploring Ocean Dynamics Through Innovation
+
 The **Ananda Pascual Lab** at IMEDEA advances our understanding of ocean circulation through cutting-edge research spanning multiple scales, from submesoscale turbulence to basin-wide currents and their complex interactions with climate systems.
 
 We integrate **in-situ observations, satellite remote sensing, numerical modeling, and machine learning** to decode ocean dynamics, with focused expertise in the Mediterranean Sea and Southern Ocean regions.
@@ -32,5 +34,36 @@ We integrate **in-situ observations, satellite remote sensing, numerical modelin
 **Climate Studies** — Analyzing marine heatwaves, ocean-atmosphere coupling, and climate variability patterns
 
 **Data Science** — Applying machine learning to oceanography with physics-informed algorithms and advanced forecasting
+
+## Our Research in Action
+
+<div class="gallery-container">
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-1.jpg" alt="Oceanographic research vessel" />
+      <div class="gallery-caption">Research vessel collecting oceanographic data in the Mediterranean Sea</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-2.jpg" alt="Satellite data visualization" />
+      <div class="gallery-caption">Satellite altimetry data showing mesoscale eddies and current patterns</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-3.jpg" alt="Laboratory analysis" />
+      <div class="gallery-caption">Laboratory analysis and data processing at IMEDEA facilities</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-4.jpg" alt="Field work" />
+      <div class="gallery-caption">Field deployment of oceanographic instruments</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-5.jpg" alt="Data visualization" />
+      <div class="gallery-caption">Advanced visualization of ocean circulation models</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-6.jpg" alt="Team collaboration" />
+      <div class="gallery-caption">International collaboration and research meetings</div>
+    </div>
+  </div>
+</div>
 
 We actively collaborate with researchers worldwide and welcome motivated students and scientists to join our team. Explore our [projects](/projects/), meet our [team](/people/), and discover our [publications](/publications/).
