@@ -1,110 +1,106 @@
 ---
-layout: about
-title: about
+layout: page
+title: Physical Ocean Processes
 permalink: /
-subtitle: <a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a>. Physical Ocean Processes - Ananda Pascual Lab.
+subtitle: <a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a> • Ananda Pascual Lab
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>IMEDEA (CSIC-UIB)</p>
-    <p>C/ Miquel Marquès 21</p>
-    <p>07190 Esporles, Illes Balears</p>
-
-news: false # includes a list of news items
-latest_posts: false # includes a list of the newest posts
-selected_papers: false # disabled since we can't use jekyll-scholar on GitHub Pages
-social: true # includes social icons at the bottom of the page
+news: false
+latest_posts: false
+selected_papers: false
+social: true
 ---
 
-<div class="hero-header">
-  <div class="hero-content">
-    <h1 class="hero-title">Physical Ocean Processes</h1>
-    <p class="hero-subtitle">Ananda Pascual Lab | Advancing oceanographic science through cutting-edge research, from submesoscale turbulence to basin-wide circulation patterns</p>
-  </div>
-  <div class="hero-waves">
-    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M0,60 C300,10 600,110 900,60 C1050,35 1150,85 1200,60 L1200,120 L0,120 Z" fill="var(--ocean-blue)" opacity="0.3"/>
-      <path d="M0,80 C300,30 600,130 900,80 C1050,55 1150,105 1200,80 L1200,120 L0,120 Z" fill="var(--ocean-blue)" opacity="0.2"/>
-    </svg>
-  </div>
+<div class="intro-hero">
+  <h1 class="lab-title">Physical Ocean Processes</h1>
+  <p class="lab-subtitle">Understanding ocean circulation from submesoscale turbulence to basin-wide currents</p>
 </div>
 
-<div class="about-content">
-  <div class="intro-section">
-    <p class="lead-text">The <strong>Physical Ocean Processes</strong> group at IMEDEA advances our understanding of ocean circulation through cutting-edge research spanning multiple scales, from submesoscale turbulence to basin-wide currents and their complex interactions with climate systems.</p>
-    
-    <p class="intro-description">Led by <strong>Dr. Ananda Pascual</strong>, we integrate <strong>in-situ observations, satellite remote sensing, numerical modeling, and machine learning</strong> to decode ocean dynamics, with focused expertise in the Mediterranean Sea and Southern Ocean regions.</p>
-  </div>
-
-  <div class="research-overview">
-    <h2 class="section-title">Research Areas</h2>
-    <div class="research-grid">
-      <div class="research-card">
-        <div class="research-icon">🌊</div>
-        <h3>Ocean Dynamics</h3>
-        <p>Investigating mesoscale and submesoscale processes, energy cascades, and vertical transport mechanisms</p>
-      </div>
-      <div class="research-card">
-        <div class="research-icon">🛰️</div>
-        <h3>Satellite Oceanography</h3>
-        <p>Developing altimetry applications, multi-platform observation strategies, and SWOT mission contributions</p>
-      </div>
-      <div class="research-card">
-        <div class="research-icon">🌡️</div>
-        <h3>Climate Studies</h3>
-        <p>Analyzing marine heatwaves, ocean-atmosphere coupling, and climate variability patterns</p>
-      </div>
-      <div class="research-card">
-        <div class="research-icon">🤖</div>
-        <h3>Data Science</h3>
-        <p>Applying machine learning to oceanography with physics-informed algorithms and advanced forecasting</p>
-      </div>
-    </div>
-  </div>
+<div class="lab-overview">
+  <p>We advance oceanographic science through cutting-edge research that integrates <strong>in-situ observations</strong>, <strong>satellite remote sensing</strong>, <strong>numerical modeling</strong>, and <strong>machine learning</strong> to decode ocean dynamics. Our expertise spans the Mediterranean Sea and Southern Ocean regions.</p>
 </div>
 
-<div class="gallery-section">
-  <div class="section-header">
-    <h2 class="section-title">Our Research in Action</h2>
-    <p class="section-subtitle">Discover how we push the boundaries of oceanographic science through innovative research methods and international collaboration</p>
+## Research Focus
+
+<div class="research-areas-minimal">
+  <div class="research-item">
+    <h3>Ocean Dynamics</h3>
+    <p>Mesoscale and submesoscale processes, energy cascades, vertical transport mechanisms</p>
   </div>
   
-  <div class="gallery-container">
-    <div class="gallery-grid">
-      <div class="gallery-item">
-        <img src="/assets/img/gallery/research-1.jpg" alt="Oceanographic research vessel" />
-        <div class="gallery-caption">Research vessel collecting oceanographic data in the Mediterranean Sea</div>
-      </div>
-      <div class="gallery-item">
-        <img src="/assets/img/gallery/research-2.jpg" alt="Satellite data visualization" />
-        <div class="gallery-caption">Satellite altimetry data showing mesoscale eddies and current patterns</div>
-      </div>
-      <div class="gallery-item">
-        <img src="/assets/img/gallery/research-3.jpg" alt="Laboratory analysis" />
-        <div class="gallery-caption">Laboratory analysis and data processing at IMEDEA facilities</div>
-      </div>
-      <div class="gallery-item">
-        <img src="/assets/img/gallery/research-4.jpg" alt="Field work" />
-        <div class="gallery-caption">Field deployment of oceanographic instruments</div>
-      </div>
-      <div class="gallery-item">
-        <img src="/assets/img/gallery/research-5.jpg" alt="Data visualization" />
-        <div class="gallery-caption">Advanced visualization of ocean circulation models</div>
-      </div>
-      <div class="gallery-item">
-        <img src="/assets/img/gallery/research-6.jpg" alt="Team collaboration" />
-        <div class="gallery-caption">International collaboration and research meetings</div>
-      </div>
-    </div>
+  <div class="research-item">
+    <h3>Satellite Oceanography</h3>
+    <p>Altimetry applications, multi-platform observations, SWOT mission contributions</p>
+  </div>
+  
+  <div class="research-item">
+    <h3>Climate Studies</h3>
+    <p>Marine heatwaves, ocean-atmosphere coupling, climate variability</p>
+  </div>
+  
+  <div class="research-item">
+    <h3>Data Science</h3>
+    <p>Machine learning applications, physics-informed algorithms, forecasting</p>
   </div>
 </div>
 
-<div class="cta-section">
-  <div class="cta-content">
-    <h3>Join Our Research Community</h3>
-    <p>We actively collaborate with researchers worldwide and welcome motivated students and scientists to join our team. Explore our innovative <a href="/projects/">projects</a>, meet our diverse <a href="/people/">team</a>, and discover our latest <a href="/publications/">publications</a>.</p>
+## Current Highlights
+
+<div class="highlights-grid">
+  <div class="highlight-card">
+    <h4>Latest Research</h4>
+    <p>Investigating submesoscale dynamics in the Mediterranean Sea using SWOT satellite data and advanced machine learning techniques.</p>
   </div>
+  
+  <div class="highlight-card">
+    <h4>Open Positions</h4>
+    <p>We are recruiting PhD students and postdocs. <a href="/people/">Contact us</a> to explore opportunities in physical oceanography.</p>
+  </div>
+  
+  <div class="highlight-card">
+    <h4>Collaborations</h4>
+    <p>Active partnerships with international research institutions and participation in major oceanographic programs.</p>
+  </div>
+</div>
+
+## Quick Links
+
+<div class="quick-nav">
+  <a href="/people/" class="nav-link">
+    <div class="nav-icon">👥</div>
+    <div class="nav-text">
+      <strong>Team</strong>
+      <span>Meet our researchers</span>
+    </div>
+  </a>
+  
+  <a href="/projects/" class="nav-link">
+    <div class="nav-icon">🔬</div>
+    <div class="nav-text">
+      <strong>Projects</strong>
+      <span>Current research</span>
+    </div>
+  </a>
+  
+  <a href="/publications/" class="nav-link">
+    <div class="nav-icon">📚</div>
+    <div class="nav-text">
+      <strong>Publications</strong>
+      <span>Latest findings</span>
+    </div>
+  </a>
+  
+  <a href="/repositories/" class="nav-link">
+    <div class="nav-icon">💻</div>
+    <div class="nav-text">
+      <strong>Code & Data</strong>
+      <span>Open resources</span>
+    </div>
+  </a>
+</div>
+
+---
+
+<div class="contact-footer">
+  <p><strong>Principal Investigator:</strong> Dr. Ananda Pascual | <a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></p>
+  <p><strong>Location:</strong> IMEDEA (CSIC-UIB), C/ Miquel Marquès 21, 07190 Esporles, Illes Balears, Spain</p>
 </div>
