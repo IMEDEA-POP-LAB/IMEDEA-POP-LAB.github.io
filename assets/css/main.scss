@@ -1136,6 +1136,75 @@ a:hover {
   }
 }
 
+/* Research Areas Styling for Homepage */
+.research-areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.research-area {
+  background: var(--global-card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--global-shadow);
+  transition: all 0.3s ease;
+  border: 1px solid var(--global-divider-color);
+}
+
+.research-area:hover {
+  box-shadow: var(--global-shadow-md);
+  transform: translateY(-2px);
+}
+
+.research-area h3 {
+  color: var(--global-theme-color);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.research-area ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-area li {
+  padding: 0.5rem 0;
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--gray-100);
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.research-area li:last-child {
+  border-bottom: none;
+}
+
+.research-area li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--global-theme-color);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .research-areas {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .research-area {
+    padding: 1rem;
+  }
+}
+
 /* Print styles */
 @media print {
   .site-header,
