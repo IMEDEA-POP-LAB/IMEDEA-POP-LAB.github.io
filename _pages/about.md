@@ -54,10 +54,12 @@ social: true
     <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
   </div>
 
-## recent publications
-
-{% include recent-publications.html %}
-
+<div class="publications-cta">
+  <a href="/publications/" class="cta-button">
+    <span class="cta-text">View All Publications</span>
+    <span class="cta-arrow">→</span>
+  </a>
+</div>
 ---
 
 <div class="contact-footer">
