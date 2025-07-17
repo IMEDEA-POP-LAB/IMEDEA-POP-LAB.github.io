@@ -108,6 +108,9 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  /* Additional navbar visibility fixes */
+  padding-top: 0 !important;
 }
 
 /* ========================================================================== */
@@ -400,40 +403,46 @@ main > header,
   }
 }
 
-/* Modern header with glassmorphism effect - force blue gradient */
+/* Modern header with solid blue background - highly visible */
 .site-header,
 .navbar,
 .navbar-nav,
-header,
+header.navbar,
 .header,
 .navbar-light,
-.navbar-expand-md {
-  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: var(--space-6) 0;
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  box-shadow: var(--global-shadow-md);
-  min-height: auto;
+.navbar-expand-md,
+nav.navbar {
+  background: var(--ocean-blue) !important;
+  background-color: var(--ocean-blue) !important;
+  background-image: none !important;
+  border-bottom: 2px solid var(--ocean-deep) !important;
+  padding: var(--space-4) 0 !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  min-height: 60px !important;
 }
 
 /* Remove any white backgrounds from navbar elements */
 .navbar-collapse,
 .navbar-nav,
 .nav-item,
-.nav-link {
+.nav-link,
+.navbar-brand {
   background: transparent !important;
   background-color: transparent !important;
+  background-image: none !important;
 }
 
 /* Override Bootstrap collapse styles */
 .navbar-collapse.show,
 .navbar-collapse.collapsing {
-  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
+  background: var(--ocean-blue) !important;
+  background-color: var(--ocean-blue) !important;
   border-radius: var(--radius-md);
   margin-top: var(--space-2);
+  padding: var(--space-3);
 }
 
 .site-header .container,
@@ -512,13 +521,21 @@ header,
   color: var(--ocean-light) !important;
 }
 
-/* Ensure navbar toggle button is visible */
+/* Ensure navbar toggle button is visible with white background */
 .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  padding: 4px 8px !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25) !important;
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .site-nav .page-link {
@@ -1637,4 +1654,54 @@ h1, .page-title,
     min-width: auto;
     font-weight: 700;
   }
+}
+
+/* Force navbar to always be visible */
+.fixed-top,
+.navbar-fixed-top {
+  background: var(--ocean-blue) !important;
+  background-color: var(--ocean-blue) !important;
+}
+
+/* Ensure navbar container is properly styled */
+.navbar .container,
+.navbar .container-fluid {
+  background: transparent !important;
+  max-width: 1200px;
+}
+
+/* Make sure navbar brand is visible */
+.navbar-brand {
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: var(--text-xl) !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: var(--ocean-light) !important;
+  text-decoration: none !important;
+}
+
+/* Navigation links visibility */
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 500 !important;
+  padding: var(--space-2) var(--space-3) !important;
+  margin: 0 var(--space-1) !important;
+  border-radius: var(--radius-sm) !important;
+  transition: all 0.2s ease !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  text-decoration: none !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  font-weight: 600 !important;
 }
