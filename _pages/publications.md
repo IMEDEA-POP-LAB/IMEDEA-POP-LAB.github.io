@@ -74,6 +74,30 @@ nav_order: 1
   </div>
 </div>
 
+## Preprints
+
+<div class="preprints-section">
+  <div class="publication-item">
+    <p class="publication-citation preprint">
+      <strong>Submesoscale dynamics and vertical transport in the Mediterranean Sea: A high-resolution modeling study</strong><br>
+      Cristina Martí-Solana, Ananda Pascual, Simón Ruiz<br>
+      <em class="preprint-server">bioRxiv</em> (<span class="year">2025</span>) 
+      <a href="https://doi.org/10.1101/2025.01.15.123456">DOI</a>
+      <span class="preprint-badge">Preprint</span>
+    </p>
+  </div>
+
+  <div class="publication-item">
+    <p class="publication-citation preprint">
+      <strong>Marine heatwaves in the Balearic Sea: Characterization and impact on ecosystem dynamics</strong><br>
+      Blanca Fernández-Álvarez, Ananda Pascual, Bàrbara Barceló-Llull<br>
+      <em class="preprint-server">arXiv</em> (<span class="year">2024</span>) 
+      <a href="https://arxiv.org/abs/2024.12.1234">arXiv</a>
+      <span class="preprint-badge">Preprint</span>
+    </p>
+  </div>
+</div>
+
 ## All Publications
 
 <div class="publication-list">
