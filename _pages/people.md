@@ -185,13 +185,10 @@ nav_order: 2
 <div class="alumni-simple">
   <div class="alumni-list">
     <div class="alumni-item">
-      <strong>Dr. Bàrbara Barceló-Llull</strong> (2012-2015) • Postdoc • Now at IMEDEA Marine Ecology Group
+      <strong>Dra. Bàrbara Barceló-Llull</strong> (2012-2015) • Postdoc • Now at IMEDEA Marine Ecology Group
     </div>
     <div class="alumni-item">
-      <strong>Dr. Marta Flexas</strong> (2005-2010) • PhD Student • Now Research Scientist at SOCIB
-    </div>
-    <div class="alumni-item">
-      <strong>Dr. Joan Llabrés</strong> (2007-2012) • PhD Student • Now in Marine Technology Development
+      <strong>Dr. Daniel R. Tarry</strong> (2018-2024) • PhD Student • Now Postdoc at 
     </div>
   </div>
 </div>
