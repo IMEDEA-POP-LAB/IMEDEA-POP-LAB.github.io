@@ -61,9 +61,8 @@ nav_order: 1
     <p class="publication-citation preprint">
       <strong>SWOT and multi-platform observations enhance small-scale intrathermocline eddy detection</strong><br>
       Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d’Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A.z<br>
-      <em class="preprint-server">bioRxiv</em> (<span class="year">2025</span>) 
-      <a href="https://doi.org/10.22541/essoar.173315547.75973902/v1">DOI</a>
-      <span class="preprint-badge">Preprint</span>
+      <em class="preprint-server">ESS Open Archive</em> (<span class="year">2025</span>) 
+      <a href="https://doi.org/10.22541/essoar.173315547.75973902/v1" class="link-doi">DOI</a>
     </p>
   </div>
 
@@ -71,9 +70,8 @@ nav_order: 1
     <p class="publication-citation preprint">
       <strong>Marine heatwaves in the Balearic Sea: Characterization and impact on ecosystem dynamics</strong><br>
       Blanca Fernández-Álvarez, Ananda Pascual, Bàrbara Barceló-Llull<br>
-      <em class="preprint-server">arXiv</em> (<span class="year">2024</span>) 
-      <a href="https://arxiv.org/abs/2024.12.1234">arXiv</a>
-      <span class="preprint-badge">Preprint</span>
+      <em class="preprint-server">EGUsphere</em> (<span class="year">2024</span>) 
+      <a href="https://doi.org/10.5194/egusphere-2024-4065" class="link-doi">DOI</a>
     </p>
   </div>
 </div>
@@ -86,14 +84,14 @@ nav_order: 1
 
 <div class="publication-item">
   <p class="publication-citation">
-    Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M. (2024). </strong>Changes in the Gulf Stream path over the last 3 decades.</strong> State of the Planet 4-osr8, 4.
+    Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M. (2024). <strong>Changes in the Gulf Stream path over the last 3 decades.</strong> State of the Planet 4-osr8, 4.
     <a href="https://doi.org/10.5194/sp-4-osr8-4-2024">DOI</a>
   </p>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
-    Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L. (2024). </strong>Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas.</strong> Front. Mar. Sci., Volume 11.
+    Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L. (2024). <strong>Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas.</strong> Front. Mar. Sci., Volume 11.
     <a href="https://doi.org/10.3389/fmars.2024.1458036">DOI</a>
   </p>
 </div>
