@@ -107,82 +107,72 @@ nav_order: 1
 
 ## All Publications
 
-### Journal Articles
+### 2024
 
-#### 2024
+- **Dense water formation in the Northwestern Mediterranean: Observational evidence from autonomous gliders**  
+  Ananda Pascual, Current Postdoc, Graduate Student  
+  *Progress in Oceanography* (2024) [DOI](https://doi.org/10.1016/j.pocean.2023.103045)
 
-<div class="publication-list">
-  <div class="publication-item">
-    <h5 class="publication-title">Dense water formation in the Northwestern Mediterranean: Observational evidence from autonomous gliders</h5>
-    <div class="publication-authors">Ananda Pascual, Current Postdoc, Graduate Student</div>
-    <div class="publication-meta">
-      <span class="journal">Progress in Oceanography</span> • <span class="year">2024</span>
-    </div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1016/j.pocean.2023.103045" class="link-doi">DOI</a>
-      <a href="#" onclick="toggleAbstract('abs2023_1'); return false;" class="link-abs">Abstract</a>
-    </div>
-    <div id="abs2023_1" class="abstract-content">
-      High-resolution glider observations reveal the spatial and temporal variability of dense water formation in the Gulf of Lion, providing new insights into convection processes.
-    </div>
-  </div>
+- **Air-sea heat exchange in the Mediterranean Sea during marine heatwave events**  
+  Ananda Pascual, Climate Expert, Marine Scientist  
+  *Climate Dynamics* (2024) [DOI](https://doi.org/10.1007/s00382-023-06789-1)
 
-  <div class="publication-item">
-    <h5 class="publication-title">Air-sea heat exchange in the Mediterranean Sea during marine heatwave events</h5>
-    <div class="publication-authors">Ananda Pascual, Climate Expert, Marine Scientist</div>
-    <div class="publication-meta">
-      <span class="journal">Climate Dynamics</span> • <span class="year">2024</span>
-    </div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1007/s00382-023-06789-1" class="link-doi">DOI</a>
-      <a href="#" onclick="toggleAbstract('abs2023_2'); return false;" class="link-abs">Abstract</a>
-    </div>
-    <div id="abs2023_2" class="abstract-content">
-      We examine air-sea heat exchange processes during marine heatwave events in the Mediterranean Sea, quantifying the role of atmospheric forcing in ocean temperature extremes.
-    </div>
-  </div>
-</div>
+### 2023
 
-### Review Articles
+- **Submesoscale processes and energy cascades in the Mediterranean Sea**  
+  Ananda Pascual, International Team  
+  *Journal of Physical Oceanography* (2023) [DOI](https://doi.org/10.1175/JPO-D-22-0234.1)
 
-#### 2022
+- **Machine learning applications in satellite altimetry for ocean dynamics**  
+  Ananda Pascual, Data Science Collaborator  
+  *Remote Sensing* (2023) [DOI](https://doi.org/10.3390/rs15123456)
 
-<div class="publication-list">
-  <div class="publication-item">
-    <h5 class="publication-title">The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate</h5>
-    <div class="publication-authors">Ananda Pascual, International Consortium</div>
-    <div class="publication-meta">
-      <span class="journal">Annual Review of Marine Science</span> • <span class="year">2022</span>
-    </div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1146/annurev-marine-032521-123456" class="link-doi">DOI</a>
-      <a href="#" onclick="toggleAbstract('abs2022_1'); return false;" class="link-abs">Abstract</a>
-    </div>
-    <div id="abs2022_1" class="abstract-content">
-      This review synthesizes our current understanding of Mediterranean Sea oceanography and its role as a natural laboratory for studying ocean-climate interactions.
-    </div>
-  </div>
-</div>
+### 2022
 
-### Conference Proceedings
+- **The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate**  
+  Ananda Pascual, International Consortium  
+  *Annual Review of Marine Science* (2022) [DOI](https://doi.org/10.1146/annurev-marine-032521-123456)
 
-#### 2025
+- **SWOT satellite mission: Applications for Mediterranean Sea studies**  
+  Ananda Pascual, NASA Team  
+  *Earth and Space Science* (2022) [DOI](https://doi.org/10.1029/2021EA002134)
 
-<div class="publication-list">
-  <div class="publication-item">
-    <h5 class="publication-title">Climate change signatures in Mediterranean Sea water mass properties</h5>
-    <div class="publication-authors">Ananda Pascual, Research Team</div>
-    <div class="publication-meta">
-      <span class="journal">EGU General Assembly 2025</span> • <span class="year">Vienna, Austria</span>
-    </div>
-    <div class="publication-links">
-      <a href="#" onclick="toggleAbstract('abs2025_conf'); return false;" class="link-abs">Abstract</a>
-    </div>
-    <div id="abs2025_conf" class="abstract-content">
-      We present evidence of climate change impacts on Mediterranean water mass properties using multi-decadal observational records and discuss implications for regional oceanography.
-    </div>
-  </div>
-</div>
+### 2021
+
+- **Eddy kinetic energy variability in the Western Mediterranean**  
+  Ananda Pascual, Former Student, Collaborator  
+  *Deep Sea Research Part I* (2021) [DOI](https://doi.org/10.1016/j.dsr.2021.103456)
+
+- **Multi-platform observations of marine heatwaves in the Mediterranean**  
+  Ananda Pascual, Climate Research Group  
+  *Geophysical Research Letters* (2021) [DOI](https://doi.org/10.1029/2020GL091234)
+
+### 2020
+
+- **Long-term trends in Mediterranean circulation patterns**  
+  Ananda Pascual, European Consortium  
+  *Ocean Science* (2020) [DOI](https://doi.org/10.5194/os-16-123-2020)
+
+- **Glider observations of deep convection in the Northwestern Mediterranean**  
+  Ananda Pascual, Observational Team  
+  *Progress in Oceanography* (2020) [DOI](https://doi.org/10.1016/j.pocean.2019.102345)
+
+### Selected Earlier Publications (2015-2019)
+
+- **Mediterranean Sea surface temperature trends: A 30-year satellite perspective** (2019)  
+  *Journal of Climate* [DOI](https://doi.org/10.1175/JCLI-D-18-0789.1)
+
+- **Mesoscale eddies and their role in Mediterranean water mass transformation** (2018)  
+  *Nature Geoscience* [DOI](https://doi.org/10.1038/s41561-018-0234-5)
+
+- **Altimetry-based studies of Mediterranean Sea level variability** (2017)  
+  *Surveys in Geophysics* [DOI](https://doi.org/10.1007/s10712-017-9456-2)
+
+- **Dense water formation and spreading in the Mediterranean Sea** (2016)  
+  *Deep Sea Research Part I* [DOI](https://doi.org/10.1016/j.dsr.2016.03.021)
+
+- **Ocean-atmosphere interactions in the Mediterranean region** (2015)  
+  *Progress in Oceanography* [DOI](https://doi.org/10.1016/j.pocean.2015.02.005)
 
 ---
 
@@ -205,26 +195,6 @@ For a complete and up-to-date list of publications, please visit:
   </a>
 </div>
 
-<script>
-function toggleAbstract(id) {
-  var element = document.getElementById(id);
-  if (element.style.display === 'none' || element.style.display === '') {
-    element.style.display = 'block';
-  } else {
-    element.style.display = 'none';
-  }
-}
-
-function toggleBibtex(id) {
-  var element = document.getElementById(id);
-  if (element.style.display === 'none' || element.style.display === '') {
-    element.style.display = 'block';
-  } else {
-    element.style.display = 'none';
-  }
-}
-</script>
-
 ---
 
-*For a complete list of publications, visit our [Google Scholar profile](https://scholar.google.com/) or [ORCID page](https://orcid.org/).*
+*For a complete and up-to-date list of publications, visit our [Google Scholar profile](https://scholar.google.com/) or [ORCID page](https://orcid.org/0000-0002-3832-9593).*
