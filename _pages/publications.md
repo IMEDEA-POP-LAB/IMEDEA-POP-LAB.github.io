@@ -86,15 +86,15 @@ nav_order: 1
 
 <div class="publication-item">
   <p class="publication-citation">
-  Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M. (2024). </strong>Changes in the Gulf Stream path over the last 3 decades.</strong> State of the Planet 4-osr8, 4.
-  <a href="https://doi.org/10.5194/sp-4-osr8-4-2024">DOI</a>
+    Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M. (2024). </strong>Changes in the Gulf Stream path over the last 3 decades.</strong> State of the Planet 4-osr8, 4.
+    <a href="https://doi.org/10.5194/sp-4-osr8-4-2024">DOI</a>
   </p>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
-  Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L. (2024). </strong>Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas.</strong> Front. Mar. Sci., Volume 11.
-  <a href="https://doi.org/10.3389/fmars.2024.1458036">DOI</a>
+    Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L. (2024). </strong>Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas.</strong> Front. Mar. Sci., Volume 11.
+    <a href="https://doi.org/10.3389/fmars.2024.1458036">DOI</a>
   </p>
 </div>
 

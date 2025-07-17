@@ -1,0 +1,133 @@
+/* Site Footer Styles */
+
+.site-footer {
+  background: var(--color-bg-footer, var(--gray-50));
+  border-top: 1px solid var(--gray-200);
+  margin-top: 3rem;
+  padding: 2rem 0 1rem;
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    
+    @media (min-width: 768px) {
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 3rem;
+    }
+  }
+  
+  .footer-section {
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--global-text-color);
+    }
+    
+    p, li {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.5rem;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    a {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      transition: color 0.2s ease;
+      
+      &:hover {
+        color: var(--global-hover-color);
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .footer-contact {
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      
+      i {
+        width: 1.2rem;
+        margin-right: 0.5rem;
+        color: var(--global-theme-color);
+      }
+    }
+  }
+  
+  .footer-social {
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      background: var(--global-theme-color);
+      color: white;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        background: var(--global-hover-color);
+        transform: translateY(-2px);
+      }
+      
+      i {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid var(--gray-200);
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    
+    p {
+      font-size: 0.8rem;
+      color: var(--global-text-color-light);
+      margin: 0;
+    }
+    
+    .footer-links {
+      margin-top: 0.5rem;
+      
+      a {
+        color: var(--global-theme-color);
+        text-decoration: none;
+        margin: 0 0.5rem;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/* Dark mode adjustments */
+html.dark .site-footer {
+  background: var(--gray-900);
+  border-top-color: var(--gray-700);
+  
+  .footer-bottom {
+    border-top-color: var(--gray-700);
+  }
+}
