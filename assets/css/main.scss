@@ -318,11 +318,13 @@ a:hover {
 
 .page-title {
   font-size: clamp(2.5rem, 6vw, 4rem) !important;
-  font-weight: 700 !important;
-  color: var(--ocean-deep) !important;
-  margin-bottom: var(--space-4) !important;
+  font-weight: 100 !important;
+  color: #000 !important;
+  margin-bottom: var(--space-8) !important;
   letter-spacing: -0.04em !important;
   line-height: 1.1 !important;
+  text-transform: lowercase !important;
+  position: relative !important;
   background: none !important;
   background-color: transparent !important;
   background-image: none !important;
@@ -331,6 +333,17 @@ a:hover {
   text-shadow: none !important;
   padding: 0 !important;
   outline: none !important;
+}
+
+/* Add underline to page title */
+.page-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0.8ch;
+  height: 1px;
+  background: #000;
 }
 
 .page-description {
@@ -344,22 +357,18 @@ a:hover {
 /* Section headings improvements */
 .section-title {
   font-size: var(--text-2xl);
-  font-weight: 600;
-  color: var(--ocean-deep);
+  font-weight: 300;
+  color: #000 !important;
   margin: var(--space-12) 0 var(--space-6) 0;
   position: relative;
-  padding-left: var(--space-4);
+  background: none !important;
+  border: none !important;
+  text-transform: none !important;
 }
 
 .section-title::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: linear-gradient(135deg, var(--ocean-blue), var(--ocean-teal));
-  border-radius: 2px;
+  display: none !important;
+  content: none !important;
 }
 
 /* Page content heading overrides - ultra minimalist approach */
@@ -1450,11 +1459,13 @@ header,
 }
 
 .featured-content h3 {
-  color: var(--ocean-deep) !important;
+  color: #000 !important;
   margin-bottom: var(--space-4);
   font-size: var(--text-lg);
-  font-weight: 600;
-  text-transform: lowercase !important;
+  font-weight: 400;
+  text-transform: none !important;
+  background: none !important;
+  border: none !important;
 }
 
 .featured-item {
@@ -1569,11 +1580,13 @@ header,
 }
 
 .education-activities h3 {
-  color: var(--ocean-deep) !important;
+  color: #000 !important;
   margin-bottom: var(--space-4);
   font-size: var(--text-lg);
-  font-weight: 600;
-  text-transform: lowercase !important;
+  font-weight: 400;
+  text-transform: none !important;
+  background: none !important;
+  border: none !important;
 }
 
 .activity-list {
