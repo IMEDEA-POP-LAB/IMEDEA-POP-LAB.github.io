@@ -214,6 +214,22 @@ nav_order: 2
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
     </div>
 
+    <div class="collaborator-card featured">
+      <div class="collaborator-header">
+        <h5>[Name]</h5>
+        <span class="collaboration-status ongoing">Ongoing</span>
+      </div>
+      <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
+    </div>
+
+    <div class="collaborator-card featured">
+      <div class="collaborator-header">
+        <h5>[Name]</h5>
+        <span class="collaboration-status ongoing">Ongoing</span>
+      </div>
+      <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
+    </div>
+
   </div>
 </div>
 
@@ -221,6 +237,30 @@ nav_order: 2
 
 <div class="section-highlight visitors-section">
   <div class="visitors-grid">
+
+    <div class="visitor-card featured">
+      <div class="visitor-header">
+        <h5>[Name]</h5>
+        <span class="visit-status current">June - Aug 2024</span>
+      </div>
+      <div class="visitor-affiliation">Woods Hole Oceanographic Institution, USA</div>
+    </div>
+
+    <div class="visitor-card featured">
+      <div class="visitor-header">
+        <h5>[Name]</h5>
+        <span class="visit-status current">June - Aug 2024</span>
+      </div>
+      <div class="visitor-affiliation">Woods Hole Oceanographic Institution, USA</div>
+    </div>
+
+    <div class="visitor-card featured">
+      <div class="visitor-header">
+        <h5>[Name]</h5>
+        <span class="visit-status current">June - Aug 2024</span>
+      </div>
+      <div class="visitor-affiliation">Woods Hole Oceanographic Institution, USA</div>
+    </div>
 
     <div class="visitor-card featured">
       <div class="visitor-header">

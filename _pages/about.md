@@ -17,7 +17,7 @@ social: true
   <p>We advance oceanographic science through cutting-edge research that integrates <strong>in-situ observations</strong>, <strong>satellite remote sensing</strong>, <strong>numerical modeling</strong>, and <strong>machine learning</strong> to decode ocean dynamics. Our expertise spans the Mediterranean Sea and Southern Ocean regions.</p>
 </div>
 
-## Research Focus
+## research Focus
 
 <div class="research-areas-minimal">
   <div class="research-item">
@@ -41,14 +41,14 @@ social: true
   </div>
 </div>
 
-## News
+## news
 
   <div class="news-item">
     <span class="news-date">July 17, 2025</span>
     <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
   </div>
 
-## Photo Gallery
+<!-- Photo Gallery -->
 
 <div class="photo-gallery">
   <div class="gallery-item">
@@ -77,7 +77,7 @@ social: true
   </div>
 </div>
 
-## Recent Publications
+## recent publications
 
 - **Pascual, A.** et al. (2025). Interannual variability of Mediterranean Deep Water formation: A 20-year observational study. *J. Geophys. Res. Oceans* [DOI](https://doi.org/10.1029/2024JC021234)
 - **Pascual, A.** et al. (2024). Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean. *Deep Sea Research Part I* [DOI](https://doi.org/10.1016/j.dsr.2024.104567)
