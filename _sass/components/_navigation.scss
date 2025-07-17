@@ -211,3 +211,87 @@ header[role="banner"],
   font-weight: 700 !important;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
+
+/* Site header - actual HTML structure */
+.site-header {
+  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
+  border-bottom: none !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15) !important;
+  z-index: 1000 !important;
+  padding: var(--space-4) 0 !important;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.site-header .container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 var(--space-6) !important;
+}
+
+.site-title {
+  font-weight: 700 !important;
+  font-size: var(--text-xl) !important;
+  color: white !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.site-title:hover {
+  color: var(--ocean-light) !important;
+  text-decoration: none !important;
+  transform: translateY(-1px) !important;
+}
+
+.site-nav {
+  display: flex !important;
+  align-items: center !important;
+  gap: var(--space-6) !important;
+}
+
+.page-link {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  font-size: var(--text-base) !important;
+  padding: var(--space-2) var(--space-3) !important;
+  border-radius: var(--radius-md) !important;
+  transition: all 0.2s ease !important;
+  position: relative !important;
+}
+
+.page-link:hover {
+  color: var(--ocean-light) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  text-decoration: none !important;
+  transform: translateY(-1px) !important;
+}
+
+.page-link:active,
+.page-link.active {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+}
+
+/* Mobile responsive navigation */
+@media (max-width: 768px) {
+  .site-header .container {
+    flex-direction: column !important;
+    gap: var(--space-3) !important;
+  }
+  
+  .site-nav {
+    gap: var(--space-4) !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  
+  .page-link {
+    font-size: var(--text-sm) !important;
+    padding: var(--space-2) !important;
+  }
+}
