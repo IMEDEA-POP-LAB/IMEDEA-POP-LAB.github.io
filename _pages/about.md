@@ -19,7 +19,6 @@ social: true
 
 <!-- Research Gallery -->
 <div class="photo-gallery">
-  <h2>Research in Action</h2>
   <div class="gallery-grid">
     <div class="gallery-item">
       <img src="/assets/img/gallery/research-1.jpg" alt="Research expedition">
@@ -55,7 +54,7 @@ social: true
     <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
   </div>
 
-## Recent Publications
+## recent publications
 
 {% include recent-publications.html %}
 
