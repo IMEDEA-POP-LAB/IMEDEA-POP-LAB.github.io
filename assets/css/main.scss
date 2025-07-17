@@ -200,6 +200,37 @@ h1 {
   outline: none !important;
 }
 
+/* Stronger overrides for main page h1 headings */
+.page-content h1,
+.page-content h1:first-child,
+.post-content h1,
+article h1,
+.page-header h1,
+.post-header h1,
+h1[id],
+h1.page-title,
+h1.lab-title {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-attachment: initial !important;
+  background-clip: initial !important;
+  background-origin: initial !important;
+  background-position: initial !important;
+  background-repeat: initial !important;
+  background-size: initial !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  color: #000 !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
 /* Add underline to first letter of main headings (h1 only) */
 h1::first-letter {
   position: relative;
@@ -325,16 +356,22 @@ a:hover {
 
 /* Page content heading overrides - ultra minimalist approach */
 .page-content h1:first-child {
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 100;
+  font-size: clamp(2.5rem, 6vw, 4rem) !important;
+  font-weight: 100 !important;
   color: #000 !important;
-  margin-bottom: var(--space-8);
-  letter-spacing: -0.04em;
-  line-height: 1.1;
+  margin-bottom: var(--space-8) !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.1 !important;
   text-transform: lowercase !important;
   background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
   border: none !important;
-  position: relative;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  outline: none !important;
+  position: relative !important;
 }
 
 .page-content h1:first-child::after {
@@ -556,16 +593,22 @@ header,
 }
 
 .lab-title {
-  font-size: clamp(3rem, 8vw, 5rem);
-  font-weight: 200;
+  font-size: clamp(3rem, 8vw, 5rem) !important;
+  font-weight: 200 !important;
   color: var(--gray-900) !important;
-  margin: 0 0 var(--space-4) 0;
-  letter-spacing: -0.04em;
-  line-height: 0.85;
+  margin: 0 0 var(--space-4) 0 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 0.85 !important;
   text-transform: lowercase !important;
   background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
   border: none !important;
-  position: relative;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  outline: none !important;
+  position: relative !important;
 }
 
 .lab-title::after {
@@ -1392,10 +1435,9 @@ header,
 
 /* Featured content section */
 .featured-content {
-  background: var(--gray-50);
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-lg);
-  padding: var(--space-6);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
   margin: var(--space-6) 0;
 }
 
@@ -1408,22 +1450,27 @@ header,
 }
 
 .featured-item {
-  display: flex;
-  gap: var(--space-4);
-  padding: var(--space-4) 0;
-  border-bottom: 1px solid var(--gray-200);
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  transition: all 0.2s ease;
+  box-shadow: var(--global-shadow);
 }
 
-.featured-item:last-child {
-  border-bottom: none;
+.featured-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--global-shadow-md);
+  border-color: var(--ocean-blue);
 }
 
 .featured-date {
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--ocean-blue);
-  min-width: 120px;
-  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-2);
 }
 
 .featured-details {
@@ -1433,7 +1480,8 @@ header,
 .featured-title {
   font-weight: 600;
   color: var(--gray-900);
-  margin-bottom: var(--space-1);
+  margin-bottom: var(--space-2);
+  line-height: 1.4;
 }
 
 .featured-venue {
