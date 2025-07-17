@@ -17,30 +17,6 @@ social: true
   <p>We advance oceanographic science through cutting-edge research that integrates <strong>in-situ observations</strong>, <strong>satellite remote sensing</strong>, <strong>numerical modeling</strong>, and <strong>machine learning</strong> to decode ocean dynamics. Our expertise spans the Mediterranean Sea and Southern Ocean regions.</p>
 </div>
 
-## research Focus
-
-<div class="research-areas-minimal">
-  <div class="research-item">
-    <h3>Ocean Dynamics</h3>
-    <p>Mesoscale and submesoscale processes, energy cascades, vertical transport mechanisms</p>
-  </div>
-  
-  <div class="research-item">
-    <h3>Satellite Oceanography</h3>
-    <p>Altimetry applications, multi-platform observations, SWOT mission contributions</p>
-  </div>
-  
-  <div class="research-item">
-    <h3>Climate Studies</h3>
-    <p>Marine heatwaves, ocean-atmosphere coupling, climate variability</p>
-  </div>
-  
-  <div class="research-item">
-    <h3>Data Science</h3>
-    <p>Machine learning applications, physics-informed algorithms, forecasting</p>
-  </div>
-</div>
-
 <!-- Research Gallery -->
 <div class="photo-gallery">
   <h2>Research in Action</h2>
