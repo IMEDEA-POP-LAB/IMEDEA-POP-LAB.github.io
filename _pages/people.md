@@ -196,92 +196,40 @@ nav_order: 2
 ## collaborators
 
 <div class="section-highlight collaborators-section">
-  <div class="highlight-header">
-    <h3>🤝 Active Research Partnerships</h3>
-    <p class="highlight-subtitle">Current collaborations driving innovative oceanographic research</p>
-  </div>
   <div class="collaborators-grid">
+
     <div class="collaborator-card featured">
       <div class="collaborator-header">
         <h5>Dr. Simón Ruiz</h5>
         <span class="collaboration-status ongoing">Ongoing</span>
       </div>
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
-      <p class="collaborator-description">Numerical modeling and ocean-atmosphere interactions in the Mediterranean Sea, with focus on mesoscale dynamics and regional climate studies.</p>
     </div>
     
-    <div class="collaborator-card featured">
+     <div class="collaborator-card featured">
       <div class="collaborator-header">
         <h5>Dr. Baptiste Mourre</h5>
         <span class="collaboration-status ongoing">Ongoing</span>
       </div>
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
-      <p class="collaborator-description">Collaborative research on ocean boundary currents and shelf-slope exchange processes using satellite observations and in-situ data.</p>
     </div>
-    
-    <div class="collaborator-card featured">
-      <div class="collaborator-header">
-        <h5>Dr. Francesco Nencioli</h5>
-        <span class="collaboration-status active">2019 - present</span>
-      </div>
-      <div class="collaborator-affiliation">Aix-Marseille University, France</div>
-      <p class="collaborator-description">Joint studies on lagrangian coherent structures and submesoscale processes in the Western Mediterranean using glider observations.</p>
-    </div>
-    
-    <div class="collaborator-card featured">
-      <div class="collaborator-header">
-        <h5>Dr. Rosemary Morrow</h5>
-        <span class="collaboration-status active">2018 - present</span>
-      </div>
-      <div class="collaborator-affiliation">LEGOS, France</div>
-      <p class="collaborator-description">SWOT satellite mission applications and fine-scale ocean dynamics research, including algorithm development and validation studies.</p>
-    </div>
+
   </div>
 </div>
 
 ## visitors
 
 <div class="section-highlight visitors-section">
-  <div class="highlight-header">
-    <h3>🌍 International Research Exchange</h3>
-    <p class="highlight-subtitle">Visiting researchers contributing to our scientific community</p>
-  </div>
   <div class="visitors-grid">
+
     <div class="visitor-card featured">
       <div class="visitor-header">
-        <h5>Dr. Sarah Johnson</h5>
+        <h5>[Name]</h5>
         <span class="visit-status current">June - Aug 2024</span>
       </div>
       <div class="visitor-affiliation">Woods Hole Oceanographic Institution, USA</div>
-      <p class="visitor-description">Research stay focused on machine learning applications for eddy detection and tracking in satellite altimetry data.</p>
     </div>
     
-    <div class="visitor-card featured">
-      <div class="visitor-header">
-        <h5>Marco Restrepo</h5>
-        <span class="visit-status ongoing">Sep 2024 - Feb 2025</span>
-      </div>
-      <div class="visitor-affiliation">Universidad Nacional de Colombia</div>
-      <p class="visitor-description">Master's thesis research on Mediterranean Sea surface temperature trends and marine heatwave analysis using remote sensing data.</p>
-    </div>
-    
-    <div class="visitor-card featured">
-      <div class="visitor-header">
-        <h5>Dr. Elena Mauri</h5>
-        <span class="visit-status completed">Mar - May 2024</span>
-      </div>
-      <div class="visitor-affiliation">CNR-ISMAR, Italy</div>
-      <p class="visitor-description">Collaborative work on Mediterranean circulation patterns and comparison of model outputs with observational datasets.</p>
-    </div>
-    
-    <div class="visitor-card featured">
-      <div class="visitor-header">
-        <h5>Lisa Chen</h5>
-        <span class="visit-status upcoming">Jan - Mar 2025</span>
-      </div>
-      <div class="visitor-affiliation">National Taiwan University</div>
-      <p class="visitor-description">PhD exchange focused on comparing Mediterranean and Pacific Ocean submesoscale dynamics using multi-platform observations.</p>
-    </div>
   </div>
 </div>
 
