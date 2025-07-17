@@ -20,54 +20,32 @@ Welcome to the Physical Ocean Processes research group website! This site showca
 
 ## 🚀 Quick Start
 
-### For Simple Edits (Recommended)
+### Direct GitHub Editing (Recommended)
 1. Navigate to any file on GitHub
 2. Click the pencil icon (✏️) to edit
 3. Make your changes
 4. Add a commit message and click "Commit changes"
 5. Changes will appear on the website in 1-5 minutes
 
-### For Local Development
+### Local Development (Optional)
 ```bash
 git clone https://github.com/IMEDEA-AP-LAB/IMEDEA-AP-LAB.github.io.git
 cd IMEDEA-AP-LAB.github.io
-./scripts/serve.sh
+bundle install
+bundle exec jekyll serve
 ```
 
-## 🛠️ Scripts & Automation
+## 🎨 Design System
 
-We've included several scripts to make website management easier:
-
-### Development Server
-```bash
-./scripts/serve.sh [port]
-```
-- Starts local development server with live reload
-- Default port: 4000
-- Auto-installs dependencies if needed
-
-### Build & Deploy
-```bash
+### Modern Ocean Theme
+- **Colors**: Blue gradient navigation, ocean-inspired palette
+- **Typography**: Inter font family with clean, minimal headings
+- **Layout**: Card-based design with consistent spacing
+- **Responsive**: Mobile-first approach with flexible grids
 ./scripts/build.sh [--deploy]
 ```
 - Builds the website for production
 - Use `--deploy` flag to automatically commit and push changes
-
-### Create New Content
-```bash
-./scripts/new-content.sh [type] [name]
-```
-- **Projects**: `./scripts/new-content.sh project project-name`
-- **News**: `./scripts/new-content.sh news news-title` 
-- **Publications**: `./scripts/new-content.sh publication "Title"`
-
-### Optimize Images
-```bash
-./scripts/optimize-images.sh [directory]
-```
-- Compresses images for web
-- Creates thumbnails for gallery
-- Requires ImageMagick: `brew install imagemagick`
 
 ## 📁 Site Structure
 
@@ -87,13 +65,19 @@ IMEDEA-AP-LAB.github.io/
 │   ├── publications.md     # Publications page
 │   ├── repositories.md     # Code repositories
 │   └── outreach.md         # Outreach activities
-├── _projects/              # Individual project files
 ├── assets/                 # Static assets
-│   ├── css/main.scss       # Main stylesheet
+│   ├── css/
+│   │   ├── main.scss       # Main stylesheet
+│   │   └── scss/           # Organized SCSS partials
+│   │       ├── base/       # Variables, mixins, reset
+│   │       ├── components/ # Cards, buttons, navigation
+│   │       ├── layout/     # Layout utilities
+│   │       ├── pages/      # Page-specific styles
+│   │       └── utilities/  # Overrides and utilities
 │   └── img/                # Images
 │       ├── team/           # Team photos
 │       └── gallery/        # Research gallery
-└── scripts/                # Automation scripts
+└── templates/              # Content templates
 ```
 
 ## 📝 Content Management

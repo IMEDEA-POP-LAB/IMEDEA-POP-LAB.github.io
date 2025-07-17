@@ -1,45 +1,56 @@
-### [Dr./Prof./Name] [Full Name]
+<!--
+=============================================================================
+PERSON TEMPLATE - Copy this template to add a new team member
+=============================================================================
 
-**Position:** [Your current position/title]  
-**Email:** [your.email@institution.edu]  
-**Office:** [Office location/building]  
-**Phone:** [Phone number] *(optional)*  
-**Website:** [Personal website URL] *(optional)*  
-**ORCID:** [0000-0000-0000-0000] *(optional)*  
+INSTRUCTIONS FOR GITHUB EDITING:
+1. Copy the team member card template below
+2. Go to _pages/people.md on GitHub
+3. Click the pencil icon to edit
+4. Find the appropriate section (Principal Investigator, Postdocs, PhD Students, etc.)
+5. Paste the template in that section
+6. Replace all [bracketed placeholders] with the person's information
+7. Upload team photo to assets/img/team/ (400x400px recommended)
+8. Commit your changes
 
-**Research Interests:** [Brief list of your main research areas - keep to 2-3 key topics]
-
-[Write a paragraph about your background, education, and current research. Include your role in the lab, what you're working on, and any key expertise you bring to the team. Keep it concise but informative - about 3-4 sentences.]
-
-#### Education *(optional section)*
-- **Ph.D.** in [Field], [University], [Year]
-- **M.S.** in [Field], [University], [Year]  
-- **B.S.** in [Field], [University], [Year]
-
-#### Current Projects *(optional section)*
-- [Project 1 name or brief description]
-- [Project 2 name or brief description]
-
-#### Selected Publications *(optional section)*
-- [Citation for key publication 1]
-- [Citation for key publication 2]
-- [Citation for key publication 3]
-
----
-
-<!-- INSTRUCTIONS FOR USE:
-
-1. Copy this template
-2. Replace all bracketed placeholders [like this] with your information
-3. Remove any optional sections you don't want to include
-4. Keep the "---" separator line at the end
-5. Add your completed entry to the _pages/people.md file
-
-FORMATTING TIPS:
-- Use **bold** for field labels like "Position:"
-- Use *italics* for optional items
-- Keep descriptions concise and professional
-- Include links where helpful: [Link text](URL)
-- Remove this comment block before adding to the people page
-
+TIPS:
+- Use square photos (400x400px) for consistency
+- Keep bios concise (2-3 sentences)
+- Include relevant links (ORCID, personal website, etc.)
+=============================================================================
 -->
+
+<!-- TEAM MEMBER CARD - Add this to the appropriate section in people.md -->
+<div class="team-member">
+  <img src="/assets/img/team/[photo-filename.jpg]" alt="[Person Name]" class="team-photo">
+  
+  <h3 class="team-name">[Dr./Prof.] [Full Name]</h3>
+  
+  <div class="team-role">[Position/Title]</div>
+  
+  <div class="team-description">
+    <p>[Write a brief 2-3 sentence bio. Include their background, current research focus, and role in the lab.]</p>
+    
+    <p><strong>Research Interests:</strong> [List 2-3 main research areas]</p>
+    
+    <p><strong>Contact:</strong> [email@institution.edu]</p>
+  </div>
+  
+  <div class="team-links">
+    <a href="[ORCID-URL]" class="team-link">ORCID</a>
+    <a href="[personal-website]" class="team-link">Website</a>
+    <a href="[Google-Scholar]" class="team-link">Scholar</a>
+  </div>
+</div>
+<!-- END TEAM MEMBER CARD -->
+
+
+<!-- ALTERNATIVE: Simple text-based format for Alumni/Collaborators -->
+**[Full Name]** - [Position/Role] ([Years]) - [Current position/institution]
+
+
+<!-- SUPERVISOR INFO (for PhD students/postdocs) -->
+<div class="supervisor-info">
+  <div class="supervisor-label">Supervisor</div>
+  <div class="supervisor-name">[Supervisor Name]</div>
+</div>

@@ -54,29 +54,34 @@ The website is built with:
 
 ## 🔧 Development Workflow
 
-### 1. Setup
+### 1. Direct GitHub Editing
+The recommended workflow for this site is direct editing on GitHub:
+
+1. Navigate to the file you want to edit on GitHub
+2. Click the pencil icon to edit
+3. Make your changes
+4. Commit directly to the `main` branch
+5. GitHub Pages will automatically rebuild and deploy
+
+### 2. Local Development (Optional)
+If you prefer local development:
+
 ```bash
 git clone [repository]
 cd IMEDEA-AP-LAB.github.io
-make setup  # or bundle install
+bundle install
+bundle exec jekyll serve
 ```
 
-### 2. Development
-```bash
-make serve  # Start development server
-# Edit files - changes auto-reload
-```
+### 3. CSS Organization
+The CSS is now fully modularized in `assets/css/scss/`:
+- `base/` - Variables, mixins, reset, typography
+- `components/` - Reusable components (cards, buttons, navigation)
+- `layout/` - Layout containers and utilities  
+- `pages/` - Page-specific styles
+- `utilities/` - Overrides and utility classes
 
-### 3. Testing
-```bash
-make test   # Build with strict mode
-make build  # Production build
-```
-
-### 4. Deployment
-```bash
-make deploy # Build and push to GitHub
-```
+Edit the appropriate SCSS partial for your changes.
 
 ## 📝 Content Guidelines
 

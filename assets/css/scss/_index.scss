@@ -21,4 +21,9 @@
 @import 'pages/about';
 @import 'pages/people';
 @import 'pages/publications';
+@import 'pages/projects';
+@import 'pages/repositories';
 @import 'pages/outreach';
+
+// Utilities and overrides (should be last)
+@import 'utilities/overrides';
