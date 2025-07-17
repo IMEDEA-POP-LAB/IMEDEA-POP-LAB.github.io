@@ -107,72 +107,151 @@ nav_order: 1
 
 ## All Publications
 
-### 2024
+<div class="publication-list">
 
-- **Dense water formation in the Northwestern Mediterranean: Observational evidence from autonomous gliders**  
-  Ananda Pascual, Current Postdoc, Graduate Student  
-  *Progress in Oceanography* (2024) [DOI](https://doi.org/10.1016/j.pocean.2023.103045)
+<h3 class="publication-year-header">2024</h3>
 
-- **Air-sea heat exchange in the Mediterranean Sea during marine heatwave events**  
-  Ananda Pascual, Climate Expert, Marine Scientist  
-  *Climate Dynamics* (2024) [DOI](https://doi.org/10.1007/s00382-023-06789-1)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Dense water formation in the Northwestern Mediterranean: Observational evidence from autonomous gliders</strong><br>
+    Ananda Pascual, Current Postdoc, Graduate Student<br>
+    <em class="journal">Progress in Oceanography</em> (<span class="year">2024</span>) 
+    <a href="https://doi.org/10.1016/j.pocean.2023.103045">DOI</a>
+  </p>
+</div>
 
-### 2023
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Air-sea heat exchange in the Mediterranean Sea during marine heatwave events</strong><br>
+    Ananda Pascual, Climate Expert, Marine Scientist<br>
+    <em class="journal">Climate Dynamics</em> (<span class="year">2024</span>) 
+    <a href="https://doi.org/10.1007/s00382-023-06789-1">DOI</a>
+  </p>
+</div>
 
-- **Submesoscale processes and energy cascades in the Mediterranean Sea**  
-  Ananda Pascual, International Team  
-  *Journal of Physical Oceanography* (2023) [DOI](https://doi.org/10.1175/JPO-D-22-0234.1)
+<h3 class="publication-year-header">2023</h3>
 
-- **Machine learning applications in satellite altimetry for ocean dynamics**  
-  Ananda Pascual, Data Science Collaborator  
-  *Remote Sensing* (2023) [DOI](https://doi.org/10.3390/rs15123456)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Submesoscale processes and energy cascades in the Mediterranean Sea</strong><br>
+    Ananda Pascual, International Team<br>
+    <em class="journal">Journal of Physical Oceanography</em> (<span class="year">2023</span>) 
+    <a href="https://doi.org/10.1175/JPO-D-22-0234.1">DOI</a>
+  </p>
+</div>
 
-### 2022
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Machine learning applications in satellite altimetry for ocean dynamics</strong><br>
+    Ananda Pascual, Data Science Collaborator<br>
+    <em class="journal">Remote Sensing</em> (<span class="year">2023</span>) 
+    <a href="https://doi.org/10.3390/rs15123456">DOI</a>
+  </p>
+</div>
 
-- **The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate**  
-  Ananda Pascual, International Consortium  
-  *Annual Review of Marine Science* (2022) [DOI](https://doi.org/10.1146/annurev-marine-032521-123456)
+<h3 class="publication-year-header">2022</h3>
 
-- **SWOT satellite mission: Applications for Mediterranean Sea studies**  
-  Ananda Pascual, NASA Team  
-  *Earth and Space Science* (2022) [DOI](https://doi.org/10.1029/2021EA002134)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate</strong><br>
+    Ananda Pascual, International Consortium<br>
+    <em class="journal">Annual Review of Marine Science</em> (<span class="year">2022</span>) 
+    <a href="https://doi.org/10.1146/annurev-marine-032521-123456">DOI</a>
+  </p>
+</div>
 
-### 2021
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>SWOT satellite mission: Applications for Mediterranean Sea studies</strong><br>
+    Ananda Pascual, NASA Team<br>
+    <em class="journal">Earth and Space Science</em> (<span class="year">2022</span>) 
+    <a href="https://doi.org/10.1029/2021EA002134">DOI</a>
+  </p>
+</div>
 
-- **Eddy kinetic energy variability in the Western Mediterranean**  
-  Ananda Pascual, Former Student, Collaborator  
-  *Deep Sea Research Part I* (2021) [DOI](https://doi.org/10.1016/j.dsr.2021.103456)
+<h3 class="publication-year-header">2021</h3>
 
-- **Multi-platform observations of marine heatwaves in the Mediterranean**  
-  Ananda Pascual, Climate Research Group  
-  *Geophysical Research Letters* (2021) [DOI](https://doi.org/10.1029/2020GL091234)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Eddy kinetic energy variability in the Western Mediterranean</strong><br>
+    Ananda Pascual, Former Student, Collaborator<br>
+    <em class="journal">Deep Sea Research Part I</em> (<span class="year">2021</span>) 
+    <a href="https://doi.org/10.1016/j.dsr.2021.103456">DOI</a>
+  </p>
+</div>
 
-### 2020
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Multi-platform observations of marine heatwaves in the Mediterranean</strong><br>
+    Ananda Pascual, Climate Research Group<br>
+    <em class="journal">Geophysical Research Letters</em> (<span class="year">2021</span>) 
+    <a href="https://doi.org/10.1029/2020GL091234">DOI</a>
+  </p>
+</div>
 
-- **Long-term trends in Mediterranean circulation patterns**  
-  Ananda Pascual, European Consortium  
-  *Ocean Science* (2020) [DOI](https://doi.org/10.5194/os-16-123-2020)
+<h3 class="publication-year-header">2020</h3>
 
-- **Glider observations of deep convection in the Northwestern Mediterranean**  
-  Ananda Pascual, Observational Team  
-  *Progress in Oceanography* (2020) [DOI](https://doi.org/10.1016/j.pocean.2019.102345)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Long-term trends in Mediterranean circulation patterns</strong><br>
+    Ananda Pascual, European Consortium<br>
+    <em class="journal">Ocean Science</em> (<span class="year">2020</span>) 
+    <a href="https://doi.org/10.5194/os-16-123-2020">DOI</a>
+  </p>
+</div>
 
-### Selected Earlier Publications (2015-2019)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Glider observations of deep convection in the Northwestern Mediterranean</strong><br>
+    Ananda Pascual, Observational Team<br>
+    <em class="journal">Progress in Oceanography</em> (<span class="year">2020</span>) 
+    <a href="https://doi.org/10.1016/j.pocean.2019.102345">DOI</a>
+  </p>
+</div>
 
-- **Mediterranean Sea surface temperature trends: A 30-year satellite perspective** (2019)  
-  *Journal of Climate* [DOI](https://doi.org/10.1175/JCLI-D-18-0789.1)
+<h3 class="publication-year-header">Selected Earlier Publications (2015-2019)</h3>
 
-- **Mesoscale eddies and their role in Mediterranean water mass transformation** (2018)  
-  *Nature Geoscience* [DOI](https://doi.org/10.1038/s41561-018-0234-5)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Mediterranean Sea surface temperature trends: A 30-year satellite perspective</strong><br>
+    <em class="journal">Journal of Climate</em> (<span class="year">2019</span>) 
+    <a href="https://doi.org/10.1175/JCLI-D-18-0789.1">DOI</a>
+  </p>
+</div>
 
-- **Altimetry-based studies of Mediterranean Sea level variability** (2017)  
-  *Surveys in Geophysics* [DOI](https://doi.org/10.1007/s10712-017-9456-2)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Mesoscale eddies and their role in Mediterranean water mass transformation</strong><br>
+    <em class="journal">Nature Geoscience</em> (<span class="year">2018</span>) 
+    <a href="https://doi.org/10.1038/s41561-018-0234-5">DOI</a>
+  </p>
+</div>
 
-- **Dense water formation and spreading in the Mediterranean Sea** (2016)  
-  *Deep Sea Research Part I* [DOI](https://doi.org/10.1016/j.dsr.2016.03.021)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Altimetry-based studies of Mediterranean Sea level variability</strong><br>
+    <em class="journal">Surveys in Geophysics</em> (<span class="year">2017</span>) 
+    <a href="https://doi.org/10.1007/s10712-017-9456-2">DOI</a>
+  </p>
+</div>
 
-- **Ocean-atmosphere interactions in the Mediterranean region** (2015)  
-  *Progress in Oceanography* [DOI](https://doi.org/10.1016/j.pocean.2015.02.005)
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Dense water formation and spreading in the Mediterranean Sea</strong><br>
+    <em class="journal">Deep Sea Research Part I</em> (<span class="year">2016</span>) 
+    <a href="https://doi.org/10.1016/j.dsr.2016.03.021">DOI</a>
+  </p>
+</div>
+
+<div class="publication-item">
+  <p class="publication-citation">
+    <strong>Ocean-atmosphere interactions in the Mediterranean region</strong><br>
+    <em class="journal">Progress in Oceanography</em> (<span class="year">2015</span>) 
+    <a href="https://doi.org/10.1016/j.pocean.2015.02.005">DOI</a>
+  </p>
+</div>
+
+</div>
 
 ---
 
