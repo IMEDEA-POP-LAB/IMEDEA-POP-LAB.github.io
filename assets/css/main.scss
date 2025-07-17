@@ -128,33 +128,37 @@ main {
   background-color: white !important;
 }
 
-/* Minimalist typography */
+/* Minimalist typography with thin headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
   margin: 0 0 var(--space-6) 0;
   color: var(--gray-900);
 }
 
 h1 { 
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.5rem, 6vw, 4rem);
   font-weight: 200;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   margin-bottom: var(--space-8);
+  color: var(--ocean-deep);
 }
 
 h2 { 
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
   font-weight: 300;
   margin-bottom: var(--space-6);
-  margin-top: var(--space-16);
+  margin-top: var(--space-12);
+  color: var(--ocean-deep);
+  background: none !important;
 }
 
 h3 { 
   font-size: var(--text-xl);
   font-weight: 400;
   margin-bottom: var(--space-4);
+  color: var(--gray-900);
 }
 
 h4 { 
@@ -194,6 +198,91 @@ a:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
+}
+
+/* Page title and content styling */
+.page-header {
+  margin-bottom: var(--space-12);
+  padding-bottom: var(--space-6);
+  border-bottom: 2px solid var(--global-divider-color);
+}
+
+.page-title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  color: var(--ocean-deep);
+  margin-bottom: var(--space-4);
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+.page-description {
+  font-size: var(--text-lg);
+  color: var(--global-text-light);
+  margin: 0;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+/* Section headings improvements */
+.section-title {
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  color: var(--ocean-deep);
+  margin: var(--space-12) 0 var(--space-6) 0;
+  position: relative;
+  padding-left: var(--space-4);
+}
+
+.section-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(135deg, var(--ocean-blue), var(--ocean-teal));
+  border-radius: 2px;
+}
+
+/* Improve default h1 in pages */
+.page-content h1:first-child {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 200;
+  color: var(--ocean-deep);
+  margin-bottom: var(--space-8);
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+/* Better h2 styling for sections - just left border accent */
+.page-content h2 {
+  font-size: var(--text-2xl);
+  font-weight: 300;
+  color: var(--ocean-deep);
+  margin: var(--space-12) 0 var(--space-6) 0;
+  position: relative;
+  padding-left: var(--space-4);
+  background: none;
+}
+
+.page-content h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 4px;
+  height: 1.2em;
+  background: linear-gradient(135deg, var(--ocean-blue), var(--ocean-teal));
+  border-radius: 2px;
+}
+
+/* Better h3 styling */
+.page-content h3 {
+  font-size: var(--text-xl);
+  font-weight: 400;
+  color: var(--gray-900);
+  margin: var(--space-8) 0 var(--space-4) 0;
 }
 
 /* Layout components */
@@ -1163,11 +1252,6 @@ header,
   border-top: 1px solid var(--primary-100);
 }
 
-.repo-footer p {
-  color: var(--text-500);
-  font-size: 0.9rem;
-}
-
 /* ========================================================================== */
 /* OUTREACH PAGE STYLES */
 /* ========================================================================== */
@@ -1664,4 +1748,159 @@ header,
   .impact-stats {
     grid-template-columns: 1fr;
   }
+}
+
+/* News section styling */
+.news-section {
+  margin: var(--space-8) 0;
+}
+
+.news-item {
+  display: flex;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  margin-bottom: var(--space-3);
+  background: white;
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--ocean-blue);
+  box-shadow: var(--global-shadow);
+  transition: all 0.2s ease;
+}
+
+.news-item:hover {
+  transform: translateX(4px);
+  box-shadow: var(--global-shadow-md);
+  border-left-color: var(--ocean-teal);
+}
+
+.news-date {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ocean-blue);
+  white-space: nowrap;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.news-content {
+  flex: 1;
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
+.news-content em {
+  font-style: italic;
+  color: var(--ocean-teal);
+}
+
+@media (max-width: 640px) {
+  .news-item {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  
+  .news-date {
+    min-width: auto;
+  }
+}
+
+/* Photo Gallery styling */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-6);
+  margin: var(--space-8) 0;
+}
+
+.gallery-item {
+  background: white;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--global-shadow);
+  transition: all 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--global-shadow-lg);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-caption {
+  padding: var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--gray-600);
+  text-align: center;
+  background: var(--gray-50);
+}
+
+/* Research areas styling */
+.research-areas-minimal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
+  margin: var(--space-8) 0;
+}
+
+.research-item {
+  background: white;
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-200);
+  box-shadow: var(--global-shadow);
+  transition: all 0.3s ease;
+}
+
+.research-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--global-shadow-md);
+  border-color: var(--primary-300);
+}
+
+.research-item h3 {
+  color: var(--ocean-deep);
+  margin-bottom: var(--space-3);
+  font-size: var(--text-lg);
+  font-weight: 600;
+}
+
+.research-item p {
+  color: var(--gray-600);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Contact footer */
+.contact-footer {
+  background: var(--gray-50);
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-200);
+  margin-top: var(--space-12);
+  text-align: center;
+}
+
+.contact-footer p {
+  margin: var(--space-2) 0;
+  color: var(--gray-700);
+}
+
+.contact-footer strong {
+  color: var(--ocean-deep);
+}
+
+.contact-footer a {
+  color: var(--ocean-blue);
+  text-decoration: none;
+}
+
+.contact-footer a:hover {
+  color: var(--ocean-teal);
+  text-decoration: underline;
 }
