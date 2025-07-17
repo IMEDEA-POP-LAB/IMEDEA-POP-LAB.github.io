@@ -119,6 +119,8 @@ h1, h2, h3, h4, h5, h6,
 .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6,
 .page-title, .section-title {
   background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
   border: none !important;
   box-shadow: none !important;
   text-shadow: none !important;
@@ -126,6 +128,32 @@ h1, h2, h3, h4, h5, h6,
   color: #000 !important;
   outline: none !important;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Additional page title resets - target any theme-specific classes */
+.page-header .page-title,
+.post-header .page-title,
+.projects .page-title,
+.page-title,
+header .page-title,
+.header .page-title,
+main .page-title {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-attachment: initial !important;
+  background-clip: initial !important;
+  background-origin: initial !important;
+  background-position: initial !important;
+  background-repeat: initial !important;
+  background-size: initial !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* Remove all pseudo-elements */
@@ -264,11 +292,30 @@ a:hover {
 /* PAGE LAYOUT */
 /* ========================================================================== */
 
-/* Page header */
+/* Page header - force clean backgrounds */
 .page-header {
   margin-bottom: var(--space-12);
   padding-bottom: var(--space-6);
   border-bottom: 2px solid var(--global-divider-color);
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Force clean backgrounds on any page header containers */
+.page-header,
+.post-header,
+header,
+.header,
+main > header,
+.page-content > header,
+.projects-header,
+.projects .page-header {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border-image: none !important;
+  box-shadow: none !important;
 }
 
 .page-description {
