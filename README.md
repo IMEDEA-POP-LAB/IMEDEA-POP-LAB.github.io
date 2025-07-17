@@ -55,8 +55,7 @@ IMEDEA-AP-LAB.github.io/
 ├── _data/                   # Data files
 │   ├── navigation.yml       # Navigation menu
 │   └── publications.yml     # Publications database
-├── _includes/               # Reusable components
-│   └── recent-publications.html
+├── _includes/               # Reusable components (currently empty)
 ├── _layouts/                # Page templates
 ├── _pages/                  # Main site pages
 │   ├── about.md            # Homepage

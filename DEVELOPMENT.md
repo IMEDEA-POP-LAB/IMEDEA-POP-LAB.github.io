@@ -143,11 +143,8 @@ google_analytics: UA-XXXXXXXX-X
 
 ## 🎯 Advanced Features
 
-### Dynamic Publications
-The homepage automatically shows recent publications from the data file using:
-```liquid
-{% include recent-publications.html %}
-```
+### Publications Display
+Publications are now displayed directly in the publications page with a simplified card-based format for recent publications and a plain citation format for all publications.
 
 ### Responsive Navigation
 Mobile-first design with flexbox navigation that works without JavaScript.
