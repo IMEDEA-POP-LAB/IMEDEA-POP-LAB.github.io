@@ -212,86 +212,124 @@ header[role="banner"],
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* Site header - actual HTML structure */
+/* Site header - main branch styling */
 .site-header {
   background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
-  border-bottom: none !important;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15) !important;
-  z-index: 1000 !important;
+  background-color: var(--ocean-blue) !important;
+  border-bottom: 2px solid var(--ocean-deep) !important;
   padding: var(--space-4) 0 !important;
   position: sticky !important;
   top: 0 !important;
+  z-index: 1000 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+  min-height: 70px !important;
+  width: 100% !important;
 }
 
 .site-header .container {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-  padding: 0 var(--space-6) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent !important;
+  max-width: 1200px;
 }
 
 .site-title {
-  font-weight: 700 !important;
-  font-size: var(--text-xl) !important;
   color: white !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
   text-decoration: none !important;
-  transition: all 0.2s ease !important;
+  font-size: var(--text-2xl) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  transition: all 0.3s ease !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
 }
 
 .site-title:hover {
   color: var(--ocean-light) !important;
   text-decoration: none !important;
   transform: translateY(-1px) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
 
 .site-nav {
-  display: flex !important;
-  align-items: center !important;
-  gap: var(--space-6) !important;
+  display: flex;
+  gap: var(--space-6);
+  align-items: center;
 }
 
-.page-link {
+.site-nav .page-link {
   color: white !important;
   text-decoration: none !important;
-  font-weight: 500 !important;
-  font-size: var(--text-base) !important;
-  padding: var(--space-2) var(--space-3) !important;
+  font-weight: 600 !important;
+  font-size: var(--text-sm) !important;
+  letter-spacing: 0.025em !important;
+  text-transform: uppercase !important;
+  padding: var(--space-2) var(--space-4) !important;
   border-radius: var(--radius-md) !important;
-  transition: all 0.2s ease !important;
+  transition: all 0.3s ease !important;
   position: relative !important;
+  overflow: hidden !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
 }
 
-.page-link:hover {
+.site-nav .page-link:hover {
   color: var(--ocean-light) !important;
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-2px) !important;
   text-decoration: none !important;
-  transform: translateY(-1px) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
 }
 
-.page-link:active,
-.page-link.active {
-  background: rgba(255, 255, 255, 0.2) !important;
+/* Shimmer effect on links */
+.site-nav .page-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.site-nav .page-link:hover::before {
+  left: 100%;
+}
+
+/* Navigation active states */
+.site-nav .page-link.active,
+.site-nav .page-link[aria-current="page"] {
   color: white !important;
+  background: rgba(255, 255, 255, 0.25) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Remove conflicting backgrounds */
+.site-nav,
+.site-nav *,
+.page-link {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
 }
 
 /* Mobile responsive navigation */
 @media (max-width: 768px) {
   .site-header .container {
-    flex-direction: column !important;
-    gap: var(--space-3) !important;
+    flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
   }
   
   .site-nav {
-    gap: var(--space-4) !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
   }
   
-  .page-link {
-    font-size: var(--text-sm) !important;
-    padding: var(--space-2) !important;
+  .site-nav .page-link {
+    font-size: var(--text-xs);
+    padding: var(--space-2) var(--space-3);
   }
 }
