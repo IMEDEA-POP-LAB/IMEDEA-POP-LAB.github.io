@@ -33,10 +33,20 @@ body {
 
 // Headings Reset & Styles
 h1, h2, h3, h4, h5, h6 {
-  @include heading-reset;
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  color: currentColor !important;
+  outline: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   font-family: inherit;
-  line-height: var(--leading-tight);
-  font-weight: var(--font-normal);
+  line-height: 1.25;
+  font-weight: 400;
   margin: 0;
 }
 

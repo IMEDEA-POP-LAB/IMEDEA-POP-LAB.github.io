@@ -2,7 +2,7 @@
 // Main SCSS Index - Import all partials
 // =============================================================================
 
-// Base styles
+// Base styles (order matters - variables and mixins first!)
 @import 'base/variables';
 @import 'base/mixins';
 @import 'base/reset';
