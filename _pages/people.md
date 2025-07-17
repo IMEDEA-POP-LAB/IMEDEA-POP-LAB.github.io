@@ -2,11 +2,11 @@
 layout: page
 permalink: /people/
 title: People
-description: Meet our research team
+description: Meet our research team, past members, collaborators and visitors
 nav: true
 nav_order: 2
 ---
-## Research Team
+## research team
 
 <div class="people row">
 
@@ -180,7 +180,7 @@ nav_order: 2
 
 </div>
 
-## Alumni
+## alumni
 
 <div class="alumni-simple">
   <div class="alumni-list">
@@ -196,7 +196,7 @@ nav_order: 2
   </div>
 </div>
 
-## Collaborators
+## collaborators
 
 <div class="section-highlight collaborators-section">
   <div class="highlight-header">
@@ -242,7 +242,7 @@ nav_order: 2
   </div>
 </div>
 
-## Visitors
+## visitors
 
 <div class="section-highlight visitors-section">
   <div class="highlight-header">
