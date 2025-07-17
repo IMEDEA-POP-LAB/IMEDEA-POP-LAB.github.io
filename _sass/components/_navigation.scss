@@ -2,6 +2,19 @@
 // Navigation Component - Header with blue gradient and responsive nav
 // =============================================================================
 
+/* ULTIMATE NUCLEAR OPTION - Force blue gradient on ALL possible header selectors */
+*[class*="site-header"],
+*[class*="header"],
+header,
+.site-header,
+nav.site-header,
+.wrapper > .site-header,
+body > .wrapper > .site-header {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+}
+
 /* Nuclear option - override any possible navbar background conflicts */
 nav,
 nav[role="navigation"],
@@ -212,11 +225,16 @@ header[role="banner"],
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* Site header - main branch styling */
-.site-header {
-  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
-  background-color: var(--ocean-blue) !important;
-  border-bottom: 2px solid var(--ocean-deep) !important;
+/* Site header - main branch styling with nuclear specificity */
+header.site-header,
+.site-header,
+.wrapper .site-header,
+body .site-header,
+html .site-header {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  border-bottom: 2px solid #164e63 !important;
   padding: var(--space-4) 0 !important;
   position: sticky !important;
   top: 0 !important;

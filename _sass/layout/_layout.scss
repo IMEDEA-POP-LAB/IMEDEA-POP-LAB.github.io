@@ -26,15 +26,15 @@
   position: static !important;
 }
 
-/* Force clean backgrounds on any page header containers */
+/* Force clean backgrounds on any page header containers - but NOT site-header */
 .page-header,
 .post-header,
-header,
-.header,
 main > header,
 .page-content > header,
 .projects-header,
-.projects .page-header {
+.projects .page-header,
+header:not(.site-header),
+.header:not(.site-header) {
   background: none !important;
   background-color: transparent !important;
   background-image: none !important;
