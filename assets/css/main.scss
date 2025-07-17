@@ -110,14 +110,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Force all heading styles to be minimalist everywhere */
+/* Force all heading styles to be clean, remove theme decorations */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6,
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6,
-article h1, article h2, article h3, article h4, article h5, article h6 {
+article h1, article h2, article h3, article h4, article h5, article h6,
+.page-header h1, .post-header h1 {
   background: none !important;
   background-color: transparent !important;
+  background-image: none !important;
   border: none !important;
   border-left: none !important;
   border-bottom: none !important;
@@ -128,42 +130,61 @@ article h1, article h2, article h3, article h4, article h5, article h6 {
   padding: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  text-transform: lowercase !important;
   color: #000 !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
 }
 
-/* Remove any theme-specific heading decorations */
+/* Remove any theme-specific heading decorations and pseudo-elements */
 .page-content h1::before,
 .page-content h2::before,
 .page-content h3::before,
 h1::before,
 h2::before,
-h3::before {
+h3::before,
+.page-header h1::before,
+.post-header h1::before {
   display: none !important;
+  content: none !important;
 }
 
+/* Base heading styles - clean and minimalist */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.2;
   letter-spacing: -0.025em;
   margin: 0 0 var(--space-6) 0;
   color: #000 !important;
   background: none !important;
   border: none !important;
+  position: relative;
+}
+
+/* Main page headings (h1) - lowercase and underline style */
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem) !important;
+  font-weight: 100 !important;
+  letter-spacing: -0.04em !important;
+  margin-bottom: var(--space-8) !important;
+  color: #000 !important;
   text-transform: lowercase !important;
+  position: relative !important;
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  outline: none !important;
+}
+
+/* Add underline to first letter of main headings (h1 only) */
+h1::first-letter {
   position: relative;
 }
 
-/* Add underline to first letter of headings */
-h1::first-letter,
-h2::first-letter,
-h3::first-letter {
-  position: relative;
-}
-
-h1::after,
-h2::after,
-h3::after {
+h1::after {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -173,55 +194,48 @@ h3::after {
   background: #000;
 }
 
-h1 { 
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 100;
-  letter-spacing: -0.04em;
-  margin-bottom: var(--space-8);
-  color: #000 !important;
-  text-transform: lowercase !important;
-}
-
+/* Section headings (h2) - normal case, no underline */
 h2 { 
   font-size: clamp(1.75rem, 4vw, 2.5rem);
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: var(--space-6);
   margin-top: var(--space-12);
   color: #000 !important;
   background: none !important;
-  text-transform: lowercase !important;
+  text-transform: none !important;
 }
 
+/* Subsection headings (h3) - normal case, no underline */
 h3 { 
   font-size: var(--text-xl);
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: var(--space-4);
   color: #000 !important;
-  text-transform: lowercase !important;
+  text-transform: none !important;
 }
 
 h4 { 
   font-size: var(--text-lg);
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: var(--space-3);
   color: #000 !important;
-  text-transform: lowercase !important;
+  text-transform: none !important;
 }
 
 h5 { 
   font-size: var(--text-base);
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: var(--space-2);
   color: #000 !important;
-  text-transform: lowercase !important;
+  text-transform: none !important;
 }
 
 h6 { 
   font-size: var(--text-sm);
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: var(--space-2);
   color: #000 !important;
-  text-transform: lowercase !important;
+  text-transform: none !important;
   letter-spacing: 0.05em;
 }
 
@@ -1443,22 +1457,34 @@ header,
 
 .press-item:hover {
   transform: translateY(-1px);
-  box-shadow: var(--global-shadow);
+  box-shadow: var(--global-shadow-md);
   border-color: var(--ocean-blue);
 }
 
 .press-date {
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   font-weight: 600;
   color: var(--ocean-blue);
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-1);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .press-title {
+  margin-bottom: var(--space-2);
+}
+
+.press-title a {
   font-size: var(--text-lg);
   font-weight: 600;
   color: var(--gray-900);
-  margin-bottom: var(--space-2);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.press-title a:hover {
+  color: var(--ocean-blue);
+  text-decoration: underline;
 }
 
 .press-outlet {
@@ -1466,6 +1492,14 @@ header,
   color: var(--ocean-teal);
   font-weight: 500;
   font-style: italic;
+  margin-bottom: var(--space-2);
+}
+
+.press-excerpt {
+  font-size: var(--text-sm);
+  color: var(--gray-600);
+  line-height: 1.5;
+  margin-top: var(--space-2);
 }
 
 /* Education activities section */
@@ -2134,27 +2168,26 @@ header,
   color: white !important;
 }
 
-/* PhD supervisor info */
+/* PhD supervisor info - integrated style */
 .supervisor-info {
-  margin-top: var(--space-3);
-  padding: var(--space-3);
-  background: var(--primary-50);
-  border-radius: var(--radius-sm);
-  border-left: 3px solid var(--primary-400);
+  margin-top: var(--space-2);
+  margin-bottom: var(--space-2);
 }
 
 .supervisor-info .supervisor-label {
   font-size: var(--text-xs);
-  font-weight: 600;
-  color: var(--primary-700);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: var(--gray-600);
   margin-bottom: var(--space-1);
+  display: inline;
+  margin-right: var(--space-2);
 }
 
 .supervisor-info .supervisor-name {
-  font-size: var(--text-sm);
-  font-weight: 500;
-  color: var(--gray-800);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  color: var(--gray-700);
   margin: 0;
+  display: inline;
+  font-style: italic;
 }

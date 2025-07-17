@@ -72,20 +72,35 @@ We believe in sharing the excitement of ocean science with the public through va
 <div class="press-releases">
   <div class="press-item">
     <div class="press-date">January 2025</div>
-    <div class="press-title">New Study Reveals Deep Water Formation Changes</div>
+    <div class="press-title">
+      <a href="https://example.com/diario-mallorca-deep-water" target="_blank">
+        New Study Reveals Deep Water Formation Changes
+      </a>
+    </div>
     <div class="press-outlet">Diario de Mallorca</div>
+    <div class="press-excerpt">Research shows significant alterations in Mediterranean deep water formation patterns due to climate change impacts...</div>
   </div>
   
   <div class="press-item">
     <div class="press-date">October 2024</div>
-    <div class="press-title">Mediterranean Sea Temperatures Rising Faster Than Expected</div>
+    <div class="press-title">
+      <a href="https://example.com/el-pais-mediterranean-temperatures" target="_blank">
+        Mediterranean Sea Temperatures Rising Faster Than Expected
+      </a>
+    </div>
     <div class="press-outlet">El País</div>
+    <div class="press-excerpt">Latest satellite data analysis reveals accelerating warming trends in the Mediterranean basin with implications for marine ecosystems...</div>
   </div>
   
   <div class="press-item">
     <div class="press-date">June 2024</div>
-    <div class="press-title">Satellite Data Shows Alarming Ocean Warming Trends</div>
+    <div class="press-title">
+      <a href="https://example.com/nature-satellite-ocean-warming" target="_blank">
+        Satellite Data Shows Alarming Ocean Warming Trends
+      </a>
+    </div>
     <div class="press-outlet">Nature News</div>
+    <div class="press-excerpt">Advanced satellite altimetry reveals unprecedented ocean warming patterns affecting global circulation systems...</div>
   </div>
 </div>
 
