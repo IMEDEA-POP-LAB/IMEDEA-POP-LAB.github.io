@@ -128,58 +128,65 @@ main {
   background-color: white !important;
 }
 
-/* Minimalist typography with thin headings */
+/* Ultra-minimalist typography with very thin headings */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: 200;
   line-height: 1.2;
   letter-spacing: -0.025em;
   margin: 0 0 var(--space-6) 0;
-  color: var(--gray-900);
+  color: #000;
+  background: none !important;
+  border: none !important;
+  text-transform: none;
 }
 
 h1 { 
   font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: -0.04em;
   margin-bottom: var(--space-8);
-  color: var(--ocean-deep);
+  color: #000;
+  text-transform: none;
 }
 
 h2 { 
   font-size: clamp(1.75rem, 4vw, 2.5rem);
-  font-weight: 300;
+  font-weight: 200;
   margin-bottom: var(--space-6);
   margin-top: var(--space-12);
-  color: var(--ocean-deep);
+  color: #000;
   background: none !important;
+  text-transform: none;
 }
 
 h3 { 
   font-size: var(--text-xl);
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: var(--space-4);
-  color: var(--gray-900);
+  color: #000;
 }
 
 h4 { 
   font-size: var(--text-lg);
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: var(--space-3);
+  color: #000;
 }
 
 h5 { 
   font-size: var(--text-base);
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: var(--space-2);
+  color: #000;
 }
 
 h6 { 
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: 500;
+  margin-bottom: var(--space-2);
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--gray-700);
-  margin-bottom: var(--space-2);
 }
 
 p {
@@ -245,44 +252,38 @@ a:hover {
   border-radius: 2px;
 }
 
-/* Improve default h1 in pages */
+/* Page content heading overrides - minimalist approach */
 .page-content h1:first-child {
   font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 200;
-  color: var(--ocean-deep);
+  font-weight: 100;
+  color: #000;
   margin-bottom: var(--space-8);
   letter-spacing: -0.04em;
   line-height: 1.1;
+  text-transform: none;
+  background: none !important;
+  border: none !important;
 }
 
-/* Better h2 styling for sections - just left border accent */
+/* Better h2 styling for sections - completely minimalist */
 .page-content h2 {
   font-size: var(--text-2xl);
-  font-weight: 300;
-  color: var(--ocean-deep);
+  font-weight: 200;
+  color: #000;
   margin: var(--space-12) 0 var(--space-6) 0;
-  position: relative;
-  padding-left: var(--space-4);
-  background: none;
-}
-
-.page-content h2::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.25em;
-  width: 4px;
-  height: 1.2em;
-  background: linear-gradient(135deg, var(--ocean-blue), var(--ocean-teal));
-  border-radius: 2px;
+  background: none !important;
+  text-transform: none;
+  border: none !important;
 }
 
 /* Better h3 styling */
 .page-content h3 {
   font-size: var(--text-xl);
-  font-weight: 400;
-  color: var(--gray-900);
+  font-weight: 200;
+  color: #000;
   margin: var(--space-8) 0 var(--space-4) 0;
+  background: none !important;
+  border: none !important;
 }
 
 /* Layout components */
@@ -1253,175 +1254,34 @@ header,
 }
 
 /* ========================================================================== */
-/* OUTREACH PAGE STYLES */
+/* OUTREACH PAGE STYLES - SIMPLIFIED */
 /* ========================================================================== */
 
-.outreach-intro {
-  background: linear-gradient(135deg, var(--primary-50), var(--ocean-light));
-  padding: 2rem;
-  border-radius: 12px;
-  margin-bottom: 3rem;
-  border: 1px solid var(--primary-100);
+/* Simple clean formatting for outreach content */
+.page-content p {
+  margin-bottom: var(--space-4);
+  line-height: 1.7;
 }
 
-.outreach-intro p {
-  font-size: 1.1rem;
-  color: var(--ocean-deep);
-  margin: 0;
-  text-align: center;
-  line-height: 1.6;
-  font-weight: 500;
-}
-
-.outreach-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.outreach-card {
-  background: var(--global-card-bg);
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: var(--global-shadow-md);
-  border: 1px solid var(--gray-200);
-  transition: all 0.3s ease;
-}
-
-.outreach-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--global-shadow-lg);
-  border-color: var(--primary-300);
-}
-
-.outreach-icon {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.outreach-card h3 {
-  color: var(--ocean-deep);
-  margin-bottom: 1.5rem;
-  text-align: center;
-  font-size: 1.3rem;
+.page-content p strong {
   font-weight: 600;
+  color: var(--gray-900);
 }
 
-.outreach-items {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.outreach-item {
-  background: var(--gray-50);
-  padding: 1.25rem;
-  border-radius: 8px;
-  border-left: 4px solid var(--ocean-blue);
-  transition: all 0.2s ease;
-}
-
-.outreach-item:hover {
-  background: var(--primary-50);
-  border-left-color: var(--ocean-teal);
-}
-
-.item-date {
-  font-size: 0.8rem;
+.page-content p em {
+  font-style: italic;
   color: var(--ocean-blue);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 0.5rem;
 }
 
-.item-title {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--ocean-deep);
-  margin-bottom: 0.25rem;
-}
+/* END OUTREACH STYLES */
 
-.item-source {
-  font-size: 0.9rem;
-  color: var(--ocean-teal);
-  font-weight: 500;
-  margin-bottom: 0.75rem;
-}
+/* ========================================================================== */
+/* PEOPLE PAGE STYLES */
+/* ========================================================================== */
+/* PEOPLE PAGE STYLES */
+/* ========================================================================== */
 
-.outreach-item p {
-  font-size: 0.9rem;
-  color: var(--gray-600);
-  line-height: 1.5;
-  margin: 0;
-}
-
-/* Blog Posts Section */
-.blog-section {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.blog-post {
-  background: var(--global-card-bg);
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: var(--global-shadow);
-  border: 1px solid var(--gray-200);
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.blog-post::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(90deg, var(--ocean-blue), var(--ocean-teal));
-  transition: left 0.3s ease;
-}
-
-.blog-post:hover::before {
-  left: 0;
-}
-
-.blog-post:hover {
-  box-shadow: var(--global-shadow-md);
-  border-color: var(--primary-300);
-}
-
-.post-header {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--gray-200);
-}
-
-.post-header h3 {
-  color: var(--ocean-deep);
-  margin-bottom: 0.5rem;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-.post-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.post-meta > div:first-child {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
+.people.row {
 .post-tags {
   display: flex;
   gap: 0.5rem;
@@ -1750,47 +1610,52 @@ header,
   }
 }
 
-/* News section styling */
+/* News section styling - clean table format */
 .news-section {
   margin: var(--space-8) 0;
+  border-top: 1px solid var(--gray-200);
+  padding-top: var(--space-4);
 }
 
 .news-item {
   display: flex;
-  gap: var(--space-4);
-  padding: var(--space-4);
-  margin-bottom: var(--space-3);
-  background: white;
-  border-radius: var(--radius-md);
-  border-left: 4px solid var(--ocean-blue);
-  box-shadow: var(--global-shadow);
+  gap: var(--space-6);
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--gray-100);
   transition: all 0.2s ease;
 }
 
+.news-item:last-child {
+  border-bottom: none;
+}
+
 .news-item:hover {
-  transform: translateX(4px);
-  box-shadow: var(--global-shadow-md);
-  border-left-color: var(--ocean-teal);
+  background: var(--gray-50);
+  margin: 0 calc(-1 * var(--space-4));
+  padding: var(--space-4) var(--space-4);
+  border-radius: var(--radius-md);
 }
 
 .news-date {
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--ocean-blue);
+  color: var(--gray-600);
   white-space: nowrap;
-  min-width: 80px;
+  min-width: 110px;
   flex-shrink: 0;
 }
 
 .news-content {
   flex: 1;
-  color: var(--gray-700);
+  color: var(--gray-800);
   line-height: 1.6;
+  font-size: var(--text-sm);
 }
 
 .news-content em {
   font-style: italic;
-  color: var(--ocean-teal);
+  color: var(--ocean-blue);
+  font-weight: 500;
 }
 
 @media (max-width: 640px) {
