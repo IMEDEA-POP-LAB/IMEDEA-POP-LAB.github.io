@@ -1,0 +1,9 @@
+<svg width="240" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="160" fill="#ecfdf5"/>
+  <rect x="10" y="10" width="220" height="100" fill="white" stroke="#10b981"/>
+  <text x="120" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#065f46">Nature News</text>
+  <text x="120" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#047857">Satellite Data Shows</text>
+  <text x="120" y="70" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#047857">Ocean Warming Trends</text>
+  <rect x="10" y="120" width="220" height="30" fill="#10b981"/>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">June 2024</text>
+</svg>
