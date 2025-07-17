@@ -1282,6 +1282,12 @@ header,
 /* ========================================================================== */
 
 .people.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
 .post-tags {
   display: flex;
   gap: 0.5rem;
