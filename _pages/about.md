@@ -41,41 +41,43 @@ social: true
   </div>
 </div>
 
+<!-- Research Gallery -->
+<div class="photo-gallery">
+  <h2>Research in Action</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-1.jpg" alt="Research expedition">
+      <div class="gallery-caption">Research expedition in Mediterranean Sea</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-2.jpg" alt="Laboratory work">
+      <div class="gallery-caption">Data analysis and modeling</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-3.jpg" alt="Field instruments">
+      <div class="gallery-caption">Deploying oceanographic instruments</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-4.jpg" alt="Team collaboration">
+      <div class="gallery-caption">International collaboration meeting</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-5.jpg" alt="Satellite data">
+      <div class="gallery-caption">Satellite oceanography analysis</div>
+    </div>
+    <div class="gallery-item">
+      <img src="/assets/img/gallery/research-6.jpg" alt="Conference presentation">
+      <div class="gallery-caption">Presenting at international conference</div>
+    </div>
+  </div>
+</div>
+
 ## news
 
   <div class="news-item">
     <span class="news-date">July 17, 2025</span>
     <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
   </div>
-
-<!-- Photo Gallery -->
-
-<div class="photo-gallery">
-  <div class="gallery-item">
-    <img src="/assets/img/gallery/research-1.jpg" alt="Research expedition">
-    <div class="gallery-caption">Research expedition in Mediterranean Sea</div>
-  </div>
-  <div class="gallery-item">
-    <img src="/assets/img/gallery/research-2.jpg" alt="Laboratory work">
-    <div class="gallery-caption">Data analysis and modeling</div>
-  </div>
-  <div class="gallery-item">
-    <img src="/assets/img/gallery/research-3.jpg" alt="Field instruments">
-    <div class="gallery-caption">Deploying oceanographic instruments</div>
-  </div>
-  <div class="gallery-item">
-    <img src="/assets/img/gallery/research-4.jpg" alt="Team collaboration">
-    <div class="gallery-caption">International collaboration meeting</div>
-  </div>
-  <div class="gallery-item">
-    <img src="/assets/img/gallery/research-5.jpg" alt="Satellite data">
-    <div class="gallery-caption">Satellite oceanography analysis</div>
-  </div>
-  <div class="gallery-item">
-    <img src="/assets/img/gallery/research-6.jpg" alt="Conference presentation">
-    <div class="gallery-caption">Presenting at international conference</div>
-  </div>
-</div>
 
 ## Recent Publications
 

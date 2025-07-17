@@ -302,10 +302,19 @@
   margin: var(--space-16) 0;
 }
 
+.photo-gallery h2 {
+  font-size: var(--text-3xl) !important;
+  font-weight: 300 !important;
+  color: #000 !important;
+  margin-bottom: var(--space-8) !important;
+  text-transform: none !important;
+  text-align: center;
+}
+
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
   margin-top: var(--space-8);
 }
 
@@ -316,10 +325,29 @@
   aspect-ratio: 4 / 3;
   box-shadow: var(--global-shadow);
   transition: all 0.3s ease;
+  background: var(--gray-100);
+  cursor: pointer;
+}
+
+.gallery-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(22, 78, 99, 0.1) 0%, rgba(2, 132, 199, 0.1) 100%);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover::before {
+  opacity: 1;
 }
 
 .gallery-item:hover {
-  transform: scale(1.02);
+  transform: translateY(-4px) scale(1.02);
   box-shadow: var(--global-shadow-lg);
 }
 
@@ -339,12 +367,52 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
   color: white;
-  padding: var(--space-4);
+  padding: var(--space-6) var(--space-4) var(--space-4);
   font-size: var(--text-sm);
   font-weight: 500;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.gallery-item:hover .gallery-caption {
+  transform: translateY(0);
+}
+
+/* Lightbox effect on click (optional enhancement) */
+.gallery-item:active {
+  transform: translateY(-2px) scale(1.01);
+}
+
+/* Grid responsive adjustments */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-4);
+  }
+  
+  .gallery-item {
+    aspect-ratio: 5 / 4;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  
+  .gallery-item {
+    aspect-ratio: 16 / 10;
+  }
+  
+  .gallery-caption {
+    font-size: var(--text-xs);
+    padding: var(--space-4) var(--space-3) var(--space-3);
+  }
 }
 
 /* Contact footer styling for about page */
@@ -487,9 +555,9 @@
     gap: var(--space-4);
   }
   
-  .gallery-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: var(--space-3);
+  .research-areas-minimal {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
   }
   
   .contact-info {
