@@ -79,44 +79,7 @@ social: true
 
 ## Recent Publications
 
-<div class="recent-publications-preview">
-  <div class="publication-preview">
-    <h4 class="pub-title">Interannual variability of Mediterranean Deep Water formation: A 20-year observational study</h4>
-    <div class="pub-meta">
-      <span class="pub-journal">Journal of Geophysical Research: Oceans</span>
-      <span class="pub-year">2025</span>
-    </div>
-    <div class="pub-authors">Ananda Pascual, et al.</div>
-    <a href="https://doi.org/10.1029/2024JC021234" class="pub-link">View Publication</a>
-  </div>
-
-  <div class="publication-preview">
-    <h4 class="pub-title">Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean</h4>
-    <div class="pub-meta">
-      <span class="pub-journal">Deep Sea Research Part I</span>
-      <span class="pub-year">2024</span>
-    </div>
-    <div class="pub-authors">Ananda Pascual, et al.</div>
-    <a href="https://doi.org/10.1016/j.dsr.2024.104567" class="pub-link">View Publication</a>
-  </div>
-
-  <div class="publication-preview">
-    <h4 class="pub-title">Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis</h4>
-    <div class="pub-meta">
-      <span class="pub-journal">Remote Sensing of Environment</span>
-      <span class="pub-year">2024</span>
-    </div>
-    <div class="pub-authors">Ananda Pascual, et al.</div>
-    <a href="https://doi.org/10.1016/j.rse.2024.113456" class="pub-link">View Publication</a>
-  </div>
-</div>
-
-<div class="publications-cta">
-  <a href="/publications/" class="cta-button">
-    <span class="cta-text">View All Publications</span>
-    <span class="cta-arrow">→</span>
-  </a>
-</div>
+{% include recent-publications.html %}
 
 ---
 
