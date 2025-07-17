@@ -1506,3 +1506,128 @@ header,
     align-self: flex-end;
   }
 }
+
+/* ========================================================================== */
+/* NUCLEAR OPTION - REMOVE ALL TITLE BOXES */
+/* ========================================================================== */
+
+/* Target every possible title and header combination */
+.page,
+.page-header,
+.post-header,
+header,
+.header,
+main > header,
+.page-content > header,
+.projects-header,
+.projects .page-header,
+.page .page-header,
+div.page-header,
+section.page-header,
+article header,
+.page article,
+.page-content,
+.post-content,
+main,
+.main,
+.content,
+.page-wrapper,
+.site-content {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-attachment: initial !important;
+  background-clip: initial !important;
+  background-origin: initial !important;
+  background-position: initial !important;
+  background-repeat: initial !important;
+  background-size: initial !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  outline: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Target any title element in any context */
+h1, .page-title,
+.page h1, .page .page-title,
+.page-header h1, .page-header .page-title,
+.post-header h1, .post-header .page-title,
+header h1, header .page-title,
+.header h1, .header .page-title,
+main h1, main .page-title,
+.main h1, .main .page-title,
+.content h1, .content .page-title,
+.page-content h1, .page-content .page-title,
+.post-content h1, .post-content .page-title,
+article h1, article .page-title {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-attachment: initial !important;
+  background-clip: initial !important;
+  background-origin: initial !important;
+  background-position: initial !important;
+  background-repeat: initial !important;
+  background-size: initial !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  outline: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+}
+
+/* Remove any pseudo-elements that might create boxes */
+.page::before, .page::after,
+.page-header::before, .page-header::after,
+.post-header::before, .post-header::after,
+header::before, header::after,
+.header::before, .header::after,
+main::before, main::after,
+.main::before, .main::after,
+.content::before, .content::after,
+.page-content::before, .page-content::after,
+.post-content::before, .post-content::after,
+article::before, article::after,
+h1::before, .page-title::before {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Universal reset for any potential theme classes */
+[class*="header"],
+[class*="title"],
+[class*="page"],
+[class*="post"],
+[class*="content"],
+[class*="wrapper"],
+[class*="container"] {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Specific override for title elements */
+[class*="title"] h1,
+[class*="header"] h1,
+[class*="page"] h1 {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* ========================================================================== */
