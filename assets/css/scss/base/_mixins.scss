@@ -1,0 +1,169 @@
+// =============================================================================
+// Mixins & Functions
+// =============================================================================
+
+// Responsive Breakpoints
+@mixin breakpoint($size) {
+  @if map-has-key($breakpoints, $size) {
+    @media (min-width: map-get($breakpoints, $size)) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint #{$size} not found in $breakpoints map";
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @if map-has-key($breakpoints, $size) {
+    $breakpoint-value: map-get($breakpoints, $size);
+    @media (max-width: #{$breakpoint-value - 1px}) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint #{$size} not found in $breakpoints map";
+  }
+}
+
+// Typography Mixins
+@mixin text-style($size: base, $weight: normal, $line-height: normal) {
+  font-size: var(--text-#{$size});
+  font-weight: var(--font-#{$weight});
+  @if $line-height != normal {
+    line-height: var(--leading-#{$line-height});
+  }
+}
+
+@mixin heading-reset {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  color: currentColor !important;
+  outline: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+// Layout Mixins
+@mixin container {
+  max-width: var(--container-xl);
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+  
+  @include breakpoint-down(sm) {
+    padding: 0 var(--space-4);
+  }
+}
+
+@mixin card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  transition: var(--transition-base);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-primary);
+  }
+}
+
+@mixin button-reset {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+// Visual Effects
+@mixin gradient-bg($from, $to, $direction: 135deg) {
+  background: linear-gradient(#{$direction}, #{$from} 0%, #{$to} 100%);
+}
+
+@mixin focus-ring {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+@mixin visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+// Grid Mixins
+@mixin grid-auto($min-width: 280px, $gap: var(--space-6)) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(#{$min-width}, 1fr));
+  gap: #{$gap};
+}
+
+// Flexbox Utilities
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// Animation Mixins
+@mixin hover-lift {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+}
+
+@mixin fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+// Truncate Text
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin line-clamp($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: #{$lines};
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Functions
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+  @return $number;
+}

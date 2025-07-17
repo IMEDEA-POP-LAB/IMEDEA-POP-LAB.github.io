@@ -1,0 +1,368 @@
+// =============================================================================
+// People Page Styles
+// =============================================================================
+
+/* People page container */
+.people-page {
+  padding: var(--space-8) 0;
+}
+
+/* Team sections */
+.team-section {
+  margin-bottom: var(--space-16);
+}
+
+.team-section h2 {
+  font-size: var(--text-3xl) !important;
+  font-weight: 300 !important;
+  color: #000 !important;
+  margin-bottom: var(--space-8) !important;
+  text-transform: none !important;
+}
+
+/* Team grid layout */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
+  margin-bottom: var(--space-8);
+}
+
+/* Team member cards */
+.team-member {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: var(--global-shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.team-member::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(135deg, var(--ocean-blue), var(--ocean-teal));
+}
+
+.team-member:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--global-shadow-lg);
+  border-color: var(--ocean-blue);
+}
+
+.team-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto var(--space-4);
+  border: 4px solid var(--gray-100);
+  transition: all 0.3s ease;
+}
+
+.team-member:hover .team-photo {
+  border-color: var(--ocean-blue);
+  transform: scale(1.05);
+}
+
+.team-name {
+  font-size: var(--text-lg) !important;
+  font-weight: 600 !important;
+  color: var(--gray-900) !important;
+  margin: 0 0 var(--space-2) 0 !important;
+}
+
+.team-role {
+  font-size: var(--text-sm);
+  color: var(--ocean-blue);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-3);
+}
+
+.team-description {
+  font-size: var(--text-sm);
+  color: var(--gray-600);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+
+.team-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.team-link {
+  padding: var(--space-1) var(--space-2);
+  background: var(--gray-100);
+  color: var(--gray-700);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+}
+
+.team-link:hover {
+  background: var(--ocean-blue);
+  color: white;
+  text-decoration: none;
+}
+
+/* Alumni section - simplified */
+.alumni-section {
+  margin-bottom: var(--space-12);
+}
+
+.alumni-section h2 {
+  font-size: var(--text-2xl) !important;
+  font-weight: 300 !important;
+  color: #000 !important;
+  margin-bottom: var(--space-6) !important;
+}
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-4);
+}
+
+.alumni-item {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.alumni-item:hover {
+  background: white;
+  box-shadow: var(--global-shadow);
+  transform: translateY(-2px);
+}
+
+.alumni-name {
+  font-size: var(--text-sm) !important;
+  font-weight: 600 !important;
+  color: var(--gray-900) !important;
+  margin: 0 0 var(--space-1) 0 !important;
+}
+
+.alumni-position {
+  font-size: var(--text-xs);
+  color: var(--gray-600);
+  margin-bottom: var(--space-2);
+}
+
+.alumni-years {
+  font-size: var(--text-xs);
+  color: var(--ocean-blue);
+  font-weight: 600;
+  background: var(--gray-100);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+}
+
+/* Simplified sections for collaborators and visitors */
+.collaborators-section,
+.visitors-section {
+  margin-bottom: var(--space-12);
+  padding: var(--space-8);
+  background: var(--gray-50);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-200);
+}
+
+.collaborators-section h2,
+.visitors-section h2 {
+  font-size: var(--text-xl) !important;
+  font-weight: 400 !important;
+  color: var(--gray-800) !important;
+  margin-bottom: var(--space-4) !important;
+  text-align: center;
+}
+
+/* Collaborators section */
+.collaborators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-4);
+}
+
+.collaborator-item {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.collaborator-item:hover {
+  box-shadow: var(--global-shadow);
+  transform: translateY(-2px);
+  border-color: var(--ocean-blue);
+}
+
+.collaborator-name {
+  font-size: var(--text-sm) !important;
+  font-weight: 600 !important;
+  color: var(--gray-900) !important;
+  margin: 0 0 var(--space-1) 0 !important;
+}
+
+.collaborator-institution {
+  font-size: var(--text-xs);
+  color: var(--gray-600);
+  margin-bottom: var(--space-2);
+  font-style: italic;
+}
+
+.collaborator-location {
+  font-size: var(--text-xs);
+  color: var(--ocean-blue);
+  font-weight: 600;
+}
+
+/* Visitors section */
+.visitors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-3);
+}
+
+.visitor-item {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.visitor-item:hover {
+  box-shadow: var(--global-shadow);
+  transform: translateY(-2px);
+  border-color: var(--ocean-teal);
+}
+
+.visitor-name {
+  font-size: var(--text-sm) !important;
+  font-weight: 600 !important;
+  color: var(--gray-900) !important;
+  margin: 0 0 var(--space-1) 0 !important;
+}
+
+.visitor-period {
+  font-size: var(--text-xs);
+  color: var(--gray-600);
+  margin-bottom: var(--space-1);
+}
+
+.visitor-purpose {
+  font-size: var(--text-xs);
+  color: var(--ocean-teal);
+  font-weight: 600;
+  background: var(--gray-100);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+}
+
+/* Supervisor information styling */
+.supervisor-info {
+  background: linear-gradient(135deg, var(--gray-50), var(--primary-50));
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  margin: var(--space-3) 0;
+  text-align: left;
+  position: relative;
+}
+
+.supervisor-info::before {
+  content: '👨‍🏫';
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  font-size: var(--text-sm);
+  opacity: 0.6;
+}
+
+.supervisor-label {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--ocean-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-1);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.supervisor-label::before {
+  content: '•';
+  color: var(--ocean-blue);
+  font-weight: bold;
+}
+
+.supervisor-name {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--gray-800);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.supervisor-name::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background: var(--ocean-teal);
+  border-radius: 50%;
+  margin-right: var(--space-1);
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  
+  .alumni-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--space-3);
+  }
+  
+  .collaborators-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+  
+  .visitors-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--space-2);
+  }
+  
+  .collaborators-section,
+  .visitors-section {
+    padding: var(--space-4);
+  }
+}

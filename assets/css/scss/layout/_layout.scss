@@ -1,0 +1,117 @@
+// =============================================================================
+// Layout Components - Header, navigation, containers
+// =============================================================================
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 var(--space-4);
+  }
+}
+
+/* Page header - force clean backgrounds */
+.page-header {
+  margin-bottom: var(--space-12);
+  padding-bottom: 0;
+  border-bottom: none;
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  position: static !important;
+}
+
+/* Force clean backgrounds on any page header containers */
+.page-header,
+.post-header,
+header,
+.header,
+main > header,
+.page-content > header,
+.projects-header,
+.projects .page-header {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border-image: none !important;
+  box-shadow: none !important;
+}
+
+.page-description {
+  font-size: var(--text-lg);
+  color: var(--global-text-light);
+  margin: 0;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+/* Page title specific styles */
+.page-title {
+  font-size: clamp(2.5rem, 6vw, 4rem) !important;
+  font-weight: 100 !important;
+  color: #000 !important;
+  margin-bottom: var(--space-8) !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.1 !important;
+  text-transform: lowercase !important;
+  position: relative !important;
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  outline: none !important;
+}
+
+/* Add underline to page title */
+.page-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0.8ch;
+  height: 1px;
+  background: #000;
+}
+
+/* Section headings improvements */
+.section-title {
+  font-size: var(--text-2xl);
+  font-weight: 300;
+  color: #000 !important;
+  margin: var(--space-12) 0 var(--space-6) 0;
+  position: relative;
+  background: none !important;
+  border: none !important;
+  text-transform: none !important;
+}
+
+/* Ensure page headers and titles scroll with content */
+.page-header,
+.post-header,
+.page-content > header,
+main > header,
+.projects-header,
+.page .page-header {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+
+/* Ensure titles are not sticky or fixed */
+h1, .page-title,
+.page h1, .page .page-title,
+.page-header h1, .page-header .page-title {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+}
