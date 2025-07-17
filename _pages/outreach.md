@@ -15,8 +15,11 @@ We believe in sharing the excitement of ocean science with the public through va
   <div class="featured-item">
     <div class="featured-date">March 2024</div>
     <div class="featured-details">
-      <div class="featured-title">Ocean Mysteries Revealed by Satellites</div>
+      <div class="featured-title">Del espacio al Mediterráneo: Persiguiendo corrientes marinas</div>
       <div class="featured-venue">TEDx Palma Talk</div>
+      <div class="featured-video">
+        <iframe width="100%" height="200" src="https://youtu.be/WQd9LeIdLSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
   
