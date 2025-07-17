@@ -6,7 +6,6 @@ description: Meet our research team
 nav: true
 nav_order: 2
 ---
-
 ## Research Team
 
 <div class="people row">

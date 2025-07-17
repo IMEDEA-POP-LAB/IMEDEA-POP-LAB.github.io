@@ -41,26 +41,7 @@ social: true
   </div>
 </div>
 
-## Current Highlights
-
-<div class="highlights-grid">
-  <div class="highlight-card">
-    <h4>Latest Research</h4>
-    <p>Investigating submesoscale dynamics in the Mediterranean Sea using SWOT satellite data and advanced machine learning techniques.</p>
-  </div>
-  
-  <div class="highlight-card">
-    <h4>Open Positions</h4>
-    <p>We are recruiting PhD students and postdocs. <a href="/people/">Contact us</a> to explore opportunities in physical oceanography.</p>
-  </div>
-  
-  <div class="highlight-card">
-    <h4>Collaborations</h4>
-    <p>Active partnerships with international research institutions and participation in major oceanographic programs.</p>
-  </div>
-</div>
-
-## Recent News
+## News
 
 <div class="news-section">
   <div class="news-item">
