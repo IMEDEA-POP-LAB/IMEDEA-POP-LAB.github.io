@@ -53,7 +53,7 @@ nav_order: 1
   </div>
 </div>
 
-<!-- ## Preprints -->
+### Accepted
 
 <div class="preprints-section">
   <div class="publication-item">
@@ -129,16 +129,22 @@ nav_order: 1
   <p class="publication-citation">
     <strong>3D intrusions transport active surface microbial assemblages to the dark ocean</strong><br>
     Freilich, M. A., Poirier, C., Dever, M., Alou-Font, E., Allen, J., Cabornero, A., ... A. Pascual & Mahadevan, A.<br>
-    <em class="journal">Proceedings of the National Academy of Sciences (PNAS)</em> (<span class="year">2024</span>) 121(19), e2319937121.
+    <em class="journal">Proceedings of the National Academy of Sciences (PNAS)</em> (<span class="year">2024</span>) 121(19), e2319937121
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1073/pnas.2319937121" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>CLOINet: Ocean state reconstructions through remote-sensing, in-situ sparse observations and Deep Learning</strong><br>
     Cutolo, E., Pascual, A., Ruiz, S., Zarokanellos, N. D., & Fablet, R.<br>
-    <em class="journal">Frontiers in Marine Science</em> (<span class="year">2024</span>) 11, 1151868.
+    <em class="journal">Frontiers in Marine Science</em> (<span class="year">2024</span>) 11, 1151868
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.3389/fmars.2024.1151868" class="link-doi">DOI</a>
+  </div>
 </div>
    
 <h3 class="publication-year-header">2023</h3>

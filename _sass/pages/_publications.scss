@@ -67,7 +67,6 @@
 .publication-list .publication-title,
 .publication-list .publication-meta,
 .publication-list .publication-authors,
-.publication-list .publication-links,
 .publication-list .abstract-content,
 .publication-list .bibtex-content {
   display: none;
@@ -239,6 +238,27 @@
   letter-spacing: 0.05em;
   transition: all 0.2s ease;
   cursor: pointer;
+}
+
+/* Publication list links styling */
+.publication-list .publication-links {
+  display: flex;
+  gap: var(--space-1);
+  margin-top: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.publication-list .publication-links a {
+  padding: 4px var(--space-3);
+  border-radius: var(--radius-md);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .recent-publications .abstract-content,
