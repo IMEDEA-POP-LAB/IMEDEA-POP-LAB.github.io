@@ -37,7 +37,7 @@
   --ocean-light: #67e8f9;
   
   /* Semantic colors */
-  --global-bg-color: #ffffff;
+  --global-bg-color: #f0f9ff;
   --global-text-color: var(--gray-800);
   --global-text-light: var(--gray-600);
   --global-theme-color: var(--ocean-blue);
@@ -723,8 +723,8 @@ header,
 
 
 .person-card .profile-image {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
