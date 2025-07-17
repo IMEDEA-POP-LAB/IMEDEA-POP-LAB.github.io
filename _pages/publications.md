@@ -21,15 +21,10 @@ nav_order: 1
     <div class="publication-authors">Barceló-Llull, B., Rosselló, P., Combes, V. et al.</div>
     <div class="publication-links">
       <a href="https://doi.org/10.1038/s41598-025-06149-9" class="link-doi">DOI</a>
-      <a href="#" onclick="toggleAbstract('abs2025_1'); return false;" class="link-abs">Abstract</a>
-      <a href="#" onclick="toggleBibtex('bib2025_1'); return false;" class="link-bib">BibTeX</a>
     </div>
-    <div id="abs2025_1" class="abstract-content">
-      This study examines the interannual variability of Mediterranean Deep Water formation using 20 years of observational data. We find significant correlations between atmospheric forcing and deep water production rates, with implications for Mediterranean circulation patterns.
-    </div>
-    <div id="bib2025_1" class="bibtex-content">
-      <pre>@article{barcelo-llull_kuroshio_2025,
-	title = {Kuroshio {Extension} and {Gulf} {Stream} dominate the {Eddy} {Kinetic} {Energy} intensification observed in the global ocean},
+
+
+
 	volume = {15},
 	copyright = {2025 The Author(s)},
 	issn = {2045-2322},
@@ -61,23 +56,6 @@ nav_order: 1
     <div class="publication-authors">Ananda Pascual, Another Researcher, PhD Student</div>
     <div class="publication-links">
       <a href="https://doi.org/10.1016/j.dsr.2024.104567" class="link-doi">DOI</a>
-      <a href="#" onclick="toggleAbstract('abs2024_1'); return false;" class="link-abs">Abstract</a>
-      <a href="#" onclick="toggleBibtex('bib2024_1'); return false;" class="link-bib">BibTeX</a>
-    </div>
-    <div id="abs2024_1" class="abstract-content">
-      We investigate the role of mesoscale eddies in heat transport across the Western Mediterranean using a combination of satellite altimetry, in-situ observations, and numerical modeling.
-    </div>
-    <div id="bib2024_1" class="bibtex-content">
-      <pre>@article{pascual2024mesoscale,
-  title={Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean},
-  author={Pascual, Ananda and Researcher, Another and Student, PhD},
-  journal={Deep Sea Research Part I},
-  volume={198},
-  pages={104567},
-  year={2024},
-  publisher={Elsevier},
-  doi={10.1016/j.dsr.2024.104567}
-}</pre>
     </div>
   </div>
 
@@ -92,23 +70,6 @@ nav_order: 1
     <div class="publication-authors">Ananda Pascual, International Collaborator, Research Team</div>
     <div class="publication-links">
       <a href="https://doi.org/10.1016/j.rse.2024.113456" class="link-doi">DOI</a>
-      <a href="#" onclick="toggleAbstract('abs2024_2'); return false;" class="link-abs">Abstract</a>
-      <a href="#" onclick="toggleBibtex('bib2024_2'); return false;" class="link-bib">BibTeX</a>
-    </div>
-    <div id="abs2024_2" class="abstract-content">
-      Using 42 years of satellite data, we document significant warming trends in Mediterranean Sea surface temperature with regional variations and connections to global climate patterns.
-    </div>
-    <div id="bib2024_2" class="bibtex-content">
-      <pre>@article{pascual2024climate,
-  title={Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis (1982-2024)},
-  author={Pascual, Ananda and Collaborator, International and Team, Research},
-  journal={Remote Sensing of Environment},
-  volume={301},
-  pages={113456},
-  year={2024},
-  publisher={Elsevier},
-  doi={10.1016/j.rse.2024.113456}
-}</pre>
     </div>
   </div>
 </div>
