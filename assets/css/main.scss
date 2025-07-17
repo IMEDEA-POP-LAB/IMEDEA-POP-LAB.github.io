@@ -110,34 +110,67 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Force white background to override al-folio theme */
-html, 
-body,
-.page-content,
-.wrapper,
-main {
-  background: white !important;
-  background-color: white !important;
+/* Force all heading styles to be minimalist everywhere */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6,
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6,
+article h1, article h2, article h3, article h4, article h5, article h6 {
+  background: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-transform: lowercase !important;
+  color: #000 !important;
 }
 
-/* Ensure no blue gradients are applied to main content areas */
-.site-main,
-.content,
-.container {
-  background: white !important;
-  background-color: white !important;
+/* Remove any theme-specific heading decorations */
+.page-content h1::before,
+.page-content h2::before,
+.page-content h3::before,
+h1::before,
+h2::before,
+h3::before {
+  display: none !important;
 }
 
-/* Ultra-minimalist typography with very thin headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   line-height: 1.2;
   letter-spacing: -0.025em;
   margin: 0 0 var(--space-6) 0;
-  color: #000;
+  color: #000 !important;
   background: none !important;
   border: none !important;
-  text-transform: none;
+  text-transform: lowercase !important;
+  position: relative;
+}
+
+/* Add underline to first letter of headings */
+h1::first-letter,
+h2::first-letter,
+h3::first-letter {
+  position: relative;
+}
+
+h1::after,
+h2::after,
+h3::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0.8ch;
+  height: 1px;
+  background: #000;
 }
 
 h1 { 
@@ -145,8 +178,8 @@ h1 {
   font-weight: 100;
   letter-spacing: -0.04em;
   margin-bottom: var(--space-8);
-  color: #000;
-  text-transform: none;
+  color: #000 !important;
+  text-transform: lowercase !important;
 }
 
 h2 { 
@@ -154,38 +187,41 @@ h2 {
   font-weight: 200;
   margin-bottom: var(--space-6);
   margin-top: var(--space-12);
-  color: #000;
+  color: #000 !important;
   background: none !important;
-  text-transform: none;
+  text-transform: lowercase !important;
 }
 
 h3 { 
   font-size: var(--text-xl);
   font-weight: 200;
   margin-bottom: var(--space-4);
-  color: #000;
+  color: #000 !important;
+  text-transform: lowercase !important;
 }
 
 h4 { 
   font-size: var(--text-lg);
   font-weight: 300;
   margin-bottom: var(--space-3);
-  color: #000;
+  color: #000 !important;
+  text-transform: lowercase !important;
 }
 
 h5 { 
   font-size: var(--text-base);
   font-weight: 400;
   margin-bottom: var(--space-2);
-  color: #000;
+  color: #000 !important;
+  text-transform: lowercase !important;
 }
 
 h6 { 
   font-size: var(--text-sm);
   font-weight: 500;
   margin-bottom: var(--space-2);
-  color: #000;
-  text-transform: uppercase;
+  color: #000 !important;
+  text-transform: lowercase !important;
   letter-spacing: 0.05em;
 }
 
@@ -252,38 +288,72 @@ a:hover {
   border-radius: 2px;
 }
 
-/* Page content heading overrides - minimalist approach */
+/* Page content heading overrides - ultra minimalist approach */
 .page-content h1:first-child {
   font-size: clamp(2.5rem, 6vw, 4rem);
   font-weight: 100;
-  color: #000;
+  color: #000 !important;
   margin-bottom: var(--space-8);
   letter-spacing: -0.04em;
   line-height: 1.1;
-  text-transform: none;
+  text-transform: lowercase !important;
   background: none !important;
   border: none !important;
+  position: relative;
+}
+
+.page-content h1:first-child::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0.8ch;
+  height: 1px;
+  background: #000;
 }
 
 /* Better h2 styling for sections - completely minimalist */
 .page-content h2 {
   font-size: var(--text-2xl);
   font-weight: 200;
-  color: #000;
+  color: #000 !important;
   margin: var(--space-12) 0 var(--space-6) 0;
   background: none !important;
-  text-transform: none;
+  text-transform: lowercase !important;
   border: none !important;
+  position: relative;
+}
+
+.page-content h2::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0.8ch;
+  height: 1px;
+  background: #000;
 }
 
 /* Better h3 styling */
 .page-content h3 {
   font-size: var(--text-xl);
   font-weight: 200;
-  color: #000;
+  color: #000 !important;
   margin: var(--space-8) 0 var(--space-4) 0;
   background: none !important;
   border: none !important;
+  text-transform: lowercase !important;
+  position: relative;
+}
+
+.page-content h3::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0.8ch;
+  height: 1px;
+  background: #000;
 }
 
 /* Layout components */
@@ -299,12 +369,14 @@ a:hover {
   }
 }
 
-/* Modern header with glassmorphism effect */
+/* Modern header with glassmorphism effect - force blue gradient */
 .site-header,
 .navbar,
 .navbar-nav,
 header,
-.header {
+.header,
+.navbar-light,
+.navbar-expand-md {
   background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -314,6 +386,23 @@ header,
   z-index: 50;
   box-shadow: var(--global-shadow-md);
   min-height: auto;
+}
+
+/* Remove any white backgrounds from navbar elements */
+.navbar-collapse,
+.navbar-nav,
+.nav-item,
+.nav-link {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Override Bootstrap collapse styles */
+.navbar-collapse.show,
+.navbar-collapse.collapsing {
+  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
+  border-radius: var(--radius-md);
+  margin-top: var(--space-2);
 }
 
 .site-header .container,
@@ -454,11 +543,24 @@ header,
 .lab-title {
   font-size: clamp(3rem, 8vw, 5rem);
   font-weight: 200;
-  color: var(--gray-900);
+  color: var(--gray-900) !important;
   margin: 0 0 var(--space-4) 0;
   letter-spacing: -0.04em;
   line-height: 0.85;
-  text-transform: lowercase;
+  text-transform: lowercase !important;
+  background: none !important;
+  border: none !important;
+  position: relative;
+}
+
+.lab-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0.8ch;
+  height: 2px;
+  background: #000;
 }
 
 .lab-subtitle {
@@ -1254,7 +1356,7 @@ header,
 }
 
 /* ========================================================================== */
-/* OUTREACH PAGE STYLES - SIMPLIFIED */
+/* OUTREACH PAGE STYLES - SIMPLIFIED BUT STRUCTURED */
 /* ========================================================================== */
 
 /* Simple clean formatting for outreach content */
@@ -1271,6 +1373,192 @@ header,
 .page-content p em {
   font-style: italic;
   color: var(--ocean-blue);
+}
+
+/* Featured content section */
+.featured-content {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+.featured-content h3 {
+  color: var(--ocean-deep) !important;
+  margin-bottom: var(--space-4);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  text-transform: lowercase !important;
+}
+
+.featured-item {
+  display: flex;
+  gap: var(--space-4);
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.featured-item:last-child {
+  border-bottom: none;
+}
+
+.featured-date {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ocean-blue);
+  min-width: 120px;
+  flex-shrink: 0;
+}
+
+.featured-details {
+  flex: 1;
+}
+
+.featured-title {
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: var(--space-1);
+}
+
+.featured-venue {
+  font-size: var(--text-sm);
+  color: var(--ocean-teal);
+  font-style: italic;
+}
+
+/* Press releases section */
+.press-releases {
+  margin: var(--space-8) 0;
+}
+
+.press-item {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  margin-bottom: var(--space-4);
+  transition: all 0.2s ease;
+}
+
+.press-item:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--global-shadow);
+  border-color: var(--ocean-blue);
+}
+
+.press-date {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ocean-blue);
+  margin-bottom: var(--space-2);
+}
+
+.press-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: var(--space-2);
+}
+
+.press-outlet {
+  font-size: var(--text-sm);
+  color: var(--ocean-teal);
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Education activities section */
+.education-activities {
+  background: var(--primary-50);
+  border: 1px solid var(--primary-200);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+.education-activities h3 {
+  color: var(--ocean-deep) !important;
+  margin-bottom: var(--space-4);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  text-transform: lowercase !important;
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--primary-200);
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-icon {
+  color: var(--ocean-blue);
+  font-size: var(--text-lg);
+  margin-top: var(--space-1);
+  flex-shrink: 0;
+}
+
+.activity-content {
+  flex: 1;
+}
+
+.activity-title {
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: var(--space-1);
+}
+
+.activity-description {
+  font-size: var(--text-sm);
+  color: var(--gray-700);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Contact section */
+.outreach-contact {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin: var(--space-8) 0;
+  text-align: center;
+}
+
+.outreach-contact h3 {
+  color: var(--ocean-deep) !important;
+  margin-bottom: var(--space-4);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  text-transform: lowercase !important;
+}
+
+.outreach-contact p {
+  margin: 0;
+  color: var(--gray-700);
+}
+
+.outreach-contact a {
+  color: var(--ocean-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.outreach-contact a:hover {
+  color: var(--ocean-teal);
+  text-decoration: underline;
 }
 
 /* END OUTREACH STYLES */
@@ -1774,4 +2062,99 @@ header,
 .contact-footer a:hover {
   color: var(--ocean-teal);
   text-decoration: underline;
+}
+
+/* Social profile links for people cards */
+.social-links {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  margin-top: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  background: var(--gray-100);
+  color: var(--gray-700) !important;
+  text-decoration: none;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.social-link:hover {
+  background: var(--primary-100);
+  color: var(--primary-700) !important;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.social-link.orcid {
+  background: #a6ce39;
+  color: white !important;
+}
+
+.social-link.orcid:hover {
+  background: #8fb832;
+  color: white !important;
+}
+
+.social-link.linkedin {
+  background: #0077b5;
+  color: white !important;
+}
+
+.social-link.linkedin:hover {
+  background: #005885;
+  color: white !important;
+}
+
+.social-link.website {
+  background: var(--ocean-blue);
+  color: white !important;
+}
+
+.social-link.website:hover {
+  background: var(--ocean-teal);
+  color: white !important;
+}
+
+.social-link.email {
+  background: var(--gray-600);
+  color: white !important;
+}
+
+.social-link.email:hover {
+  background: var(--gray-700);
+  color: white !important;
+}
+
+/* PhD supervisor info */
+.supervisor-info {
+  margin-top: var(--space-3);
+  padding: var(--space-3);
+  background: var(--primary-50);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--primary-400);
+}
+
+.supervisor-info .supervisor-label {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--primary-700);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-1);
+}
+
+.supervisor-info .supervisor-name {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--gray-800);
+  margin: 0;
 }

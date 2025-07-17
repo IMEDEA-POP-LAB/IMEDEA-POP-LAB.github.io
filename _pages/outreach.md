@@ -9,22 +9,89 @@ nav_order: 4
 
 We believe in sharing the excitement of ocean science with the public through various outreach activities.
 
-## media
+## featured content
 
-**December 2024** - Climate Change and Mediterranean Marine Heatwaves - *IB3 Radio*  
-**March 2024** - Ocean Mysteries Revealed by Satellites - *TEDx Palma*  
-**September 2024** - Mediterranean Ocean Circulation - *La 2 Documentary*
+<div class="featured-content">
+  <div class="featured-item">
+    <div class="featured-date">March 2024</div>
+    <div class="featured-details">
+      <div class="featured-title">Ocean Mysteries Revealed by Satellites</div>
+      <div class="featured-venue">TEDx Palma Talk</div>
+    </div>
+  </div>
+  
+  <div class="featured-item">
+    <div class="featured-date">September 2024</div>
+    <div class="featured-details">
+      <div class="featured-title">Mediterranean Ocean Circulation</div>
+      <div class="featured-venue">La 2 Documentary</div>
+    </div>
+  </div>
+  
+  <div class="featured-item">
+    <div class="featured-date">December 2024</div>
+    <div class="featured-details">
+      <div class="featured-title">Climate Change and Mediterranean Marine Heatwaves</div>
+      <div class="featured-venue">IB3 Radio Interview</div>
+    </div>
+  </div>
+</div>
 
 ## education
 
-School visits, university lectures, and science festival participation.
+<div class="education-activities">
+  <ul class="activity-list">
+    <li class="activity-item">
+      <div class="activity-icon">🎓</div>
+      <div class="activity-content">
+        <div class="activity-title">School Visits</div>
+        <div class="activity-description">Regular presentations at local schools about oceanography and climate science</div>
+      </div>
+    </li>
+    
+    <li class="activity-item">
+      <div class="activity-icon">📚</div>
+      <div class="activity-content">
+        <div class="activity-title">University Lectures</div>
+        <div class="activity-description">Guest lectures at UIB and other Mediterranean universities</div>
+      </div>
+    </li>
+    
+    <li class="activity-item">
+      <div class="activity-icon">🔬</div>
+      <div class="activity-content">
+        <div class="activity-title">Science Festivals</div>
+        <div class="activity-description">Participation in Nit de la Recerca and other science outreach events</div>
+      </div>
+    </li>
+  </ul>
+</div>
 
-## press
+## press releases
 
-**January 2025** - Deep Water Formation Changes - *Diario de Mallorca*  
-**October 2024** - Mediterranean Sea Temperature Rise - *El País*  
-**June 2024** - Ocean Warming Trends - *Nature News*
+<div class="press-releases">
+  <div class="press-item">
+    <div class="press-date">January 2025</div>
+    <div class="press-title">New Study Reveals Deep Water Formation Changes</div>
+    <div class="press-outlet">Diario de Mallorca</div>
+  </div>
+  
+  <div class="press-item">
+    <div class="press-date">October 2024</div>
+    <div class="press-title">Mediterranean Sea Temperatures Rising Faster Than Expected</div>
+    <div class="press-outlet">El País</div>
+  </div>
+  
+  <div class="press-item">
+    <div class="press-date">June 2024</div>
+    <div class="press-title">Satellite Data Shows Alarming Ocean Warming Trends</div>
+    <div class="press-outlet">Nature News</div>
+  </div>
+</div>
 
 ## contact
 
-For media inquiries: [ananda.pascual@imedea.uib-csic.es](mailto:ananda.pascual@imedea.uib-csic.es)
+<div class="outreach-contact">
+  <p>For media inquiries and collaboration requests:</p>
+  <p><a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></p>
+</div>
