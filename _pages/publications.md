@@ -59,10 +59,10 @@ nav_order: 1
 <div class="preprints-section">
   <div class="publication-item">
     <p class="publication-citation preprint">
-      <strong>Submesoscale dynamics and vertical transport in the Mediterranean Sea: A high-resolution modeling study</strong><br>
-      Cristina Martí-Solana, Ananda Pascual, Simón Ruiz<br>
+      <strong>SWOT and multi-platform observations enhance small-scale intrathermocline eddy detection</strong><br>
+      Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d’Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A.z<br>
       <em class="preprint-server">bioRxiv</em> (<span class="year">2025</span>) 
-      <a href="https://doi.org/10.1101/2025.01.15.123456">DOI</a>
+      <a href="https://doi.org/10.22541/essoar.173315547.75973902/v1">DOI</a>
       <span class="preprint-badge">Preprint</span>
     </p>
   </div>
@@ -86,21 +86,29 @@ nav_order: 1
 
 <div class="publication-item">
   <p class="publication-citation">
-    <strong>Dense water formation in the Northwestern Mediterranean: Observational evidence from autonomous gliders</strong><br>
-    Ananda Pascual, Current Postdoc, Graduate Student<br>
-    <em class="journal">Progress in Oceanography</em> (<span class="year">2024</span>) 
-    <a href="https://doi.org/10.1016/j.pocean.2023.103045">DOI</a>
+  Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M. (2024). </strong>Changes in the Gulf Stream path over the last 3 decades.</strong> State of the Planet 4-osr8, 4.
+  <a href="https://doi.org/10.5194/sp-4-osr8-4-2024">DOI</a>
   </p>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
-    <strong>Air-sea heat exchange in the Mediterranean Sea during marine heatwave events</strong><br>
-    Ananda Pascual, Climate Expert, Marine Scientist<br>
-    <em class="journal">Climate Dynamics</em> (<span class="year">2024</span>) 
-    <a href="https://doi.org/10.1007/s00382-023-06789-1">DOI</a>
+  Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L. (2024). </strong>Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas.</strong> Front. Mar. Sci., Volume 11.
+  <a href="https://doi.org/10.3389/fmars.2024.1458036">DOI</a>
   </p>
 </div>
+
+
+<!-- Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L. (2024). Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas. Front. Mar. Sci., Volume 11. doi: 10.3389/fmars.2024.1458036
+
+Tanhua, T., Le Traon, P.-Y., Köstner, N., Eparkhina, D., Navarro, G., Bonnet Dunbar, M., Speich, S., Pascual, A., Von Schuckmann, K., Liguori, G., Karstensen, J., Hassoun, A. E. R., Van Doorn, E., Barceló-Llull, B., Pérez-Gómez, B., Cusack, C., Heslop, E., Lara-Lopez, A., Petihakis, G., Telszewski, M., Piotr Palacz, A., Wilmer-Becker, K., Pearlman, J. S., Muñiz Piniella, Á., Heymans, J. J. and Lips, I. (2024). Towards a sustained and fit-for-purpose European Ocean Observing and Forecasting System. Front. Mar. Sci., Volume 11. doi: 10.3389/fmars.2024.139454
+
+Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M. I. and Pascual, A. (2024). Robust intensification of global ocean Eddy Kinetic Energy from three decades of satellite altimetry observations. ArXiv (submitted to Scientific Reports). doi: 10.48550/arXiv.2406.08014
+
+Freilich, M. A., Poirier, C., Dever, M., Alou-Font, E., Allen, J., Cabornero, A., ... A. Pascual & Mahadevan, A. (2024). 3D intrusions transport active surface microbial assemblages to the dark ocean. Proceedings of the National Academy of Sciences, PNAS, 121(19), e2319937121.
+
+Cutolo, E., Pascual, A., Ruiz, S., Zarokanellos, N. D., & Fablet, R. (2024). CLOINet: Ocean state reconstructions through remote-sensing, in-situ sparse observations and Deep Learning. Frontiers in Marine Science, 11, 1151868. -->
+   
 
 <h3 class="publication-year-header">2023</h3>
 
