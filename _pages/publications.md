@@ -108,10 +108,10 @@ nav_order: 1
     <strong>Towards a sustained and fit-for-purpose European Ocean Observing and Forecasting System</strong><br>
     Tanhua, T., Le Traon, P.-Y., Köstner, N., Eparkhina, D., Navarro, G., Bonnet Dunbar, M., Speich, S., Pascual, A., Von Schuckmann, K., Liguori, G., Karstensen, J., Hassoun, A. E. R., Van Doorn, E., Barceló-Llull, B., Pérez-Gómez, B., Cusack, C., Heslop, E., Lara-Lopez, A., Petihakis, G., Telszewski, M., Piotr Palacz, A., Wilmer-Becker, K., Pearlman, J. S., Muñiz Piniella, Á., Heymans, J. J. and Lips, I.<br>
     <em class="journal">Frontiers in Marine Science</em> (<span class="year">2024</span>)
-  </p>
   <div class="publication-links">
     <a href="https://doi.org/10.3389/fmars.2024.139454" class="link-doi">DOI</a>
   </div>
+  </p>
 </div>
 
 <div class="publication-item">
@@ -119,10 +119,10 @@ nav_order: 1
     <strong>Robust intensification of global ocean Eddy Kinetic Energy from three decades of satellite altimetry observations</strong><br>
     Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M. I. and Pascual, A.<br>
     <em class="journal">ArXiv (submitted to Scientific Reports)</em> (<span class="year">2024</span>)
-  </p>
   <div class="publication-links">
     <a href="https://doi.org/10.48550/arXiv.2406.08014" class="link-doi">DOI</a>
   </div>
+  </p>
 </div>
 
 <div class="publication-item">
@@ -130,10 +130,10 @@ nav_order: 1
     <strong>3D intrusions transport active surface microbial assemblages to the dark ocean</strong><br>
     Freilich, M. A., Poirier, C., Dever, M., Alou-Font, E., Allen, J., Cabornero, A., ... A. Pascual & Mahadevan, A.<br>
     <em class="journal">Proceedings of the National Academy of Sciences (PNAS)</em> (<span class="year">2024</span>) 121(19), e2319937121
-  </p>
   <div class="publication-links">
     <a href="https://doi.org/10.1073/pnas.2319937121" class="link-doi">DOI</a>
   </div>
+  </p>
 </div>
 
 <div class="publication-item">
@@ -141,10 +141,10 @@ nav_order: 1
     <strong>CLOINet: Ocean state reconstructions through remote-sensing, in-situ sparse observations and Deep Learning</strong><br>
     Cutolo, E., Pascual, A., Ruiz, S., Zarokanellos, N. D., & Fablet, R.<br>
     <em class="journal">Frontiers in Marine Science</em> (<span class="year">2024</span>) 11, 1151868
-  </p>
   <div class="publication-links">
     <a href="https://doi.org/10.3389/fmars.2024.1151868" class="link-doi">DOI</a>
   </div>
+  </p>
 </div>
    
 <h3 class="publication-year-header">2023</h3>
