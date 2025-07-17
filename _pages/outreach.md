@@ -71,39 +71,16 @@ We believe in sharing the excitement of ocean science with the public through va
 
 <div class="press-releases">
   <div class="press-item">
-    <div class="press-date">January 2025</div>
+    <div class="press-date">July 2025</div>
     <div class="press-title">
-      <a href="https://example.com/diario-mallorca-deep-water" target="_blank">
-        New Study Reveals Deep Water Formation Changes
+      <a href="https://www.diariodemallorca.es/mallorca/2025/07/12/unica-mallorquina-expedicion-oceano-agencia-119603634.html" target="_blank">
+       La única mallorquina en la expedición en el océano de la Agencia Espacial Europea: "Hay mucho por explorar"
       </a>
     </div>
     <div class="press-outlet">Diario de Mallorca</div>
-    <div class="press-excerpt">Research shows significant alterations in Mediterranean deep water formation patterns due to climate change impacts...</div>
+    <div class="press-excerpt">La algaidina Elisabet Verger-Miralles, estudiante de doctorado de Oceanografía Física y Clima, ha sido la única mallorquina entre los seis españolas seleccionados como embajadores de la Década de las Naciones Unidas para las Ciencias Oceánicas.</div>
   </div>
   
-  <div class="press-item">
-    <div class="press-date">October 2024</div>
-    <div class="press-title">
-      <a href="https://example.com/el-pais-mediterranean-temperatures" target="_blank">
-        Mediterranean Sea Temperatures Rising Faster Than Expected
-      </a>
-    </div>
-    <div class="press-outlet">El País</div>
-    <div class="press-excerpt">Latest satellite data analysis reveals accelerating warming trends in the Mediterranean basin with implications for marine ecosystems...</div>
-  </div>
-  
-  <div class="press-item">
-    <div class="press-date">June 2024</div>
-    <div class="press-title">
-      <a href="https://example.com/nature-satellite-ocean-warming" target="_blank">
-        Satellite Data Shows Alarming Ocean Warming Trends
-      </a>
-    </div>
-    <div class="press-outlet">Nature News</div>
-    <div class="press-excerpt">Advanced satellite altimetry reveals unprecedented ocean warming patterns affecting global circulation systems...</div>
-  </div>
-</div>
-
 ## contact
 
 <div class="outreach-contact">

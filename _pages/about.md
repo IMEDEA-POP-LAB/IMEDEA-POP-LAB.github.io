@@ -43,37 +43,10 @@ social: true
 
 ## News
 
-<div class="news-section">
   <div class="news-item">
-    <span class="news-date">Jan 15, 2025</span>
-    <span class="news-content">New publication accepted in <em>Journal of Geophysical Research: Oceans</em> on Mediterranean Deep Water formation variability.</span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Jan 10, 2025</span>
-    <span class="news-content">Our team successfully deployed autonomous gliders in the Western Mediterranean as part of our ERC project.</span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Jan 5, 2025</span>
+    <span class="news-date">July 17, 2025</span>
     <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
   </div>
-  
-  <div class="news-item">
-    <span class="news-date">Dec 20, 2024</span>
-    <span class="news-content">Ananda Pascual invited as keynote speaker at the International Symposium on Physical Oceanography in Barcelona.</span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Dec 15, 2024</span>
-    <span class="news-content">Congratulations to Maria for successfully defending her PhD thesis on "Submesoscale processes in the Mediterranean Sea".</span>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Nov 28, 2024</span>
-    <span class="news-content">New ERC Starting Grant awarded for "Machine Learning Applications in Ocean Forecasting" - €1.5M over 5 years.</span>
-  </div>
-</div>
 
 ## Photo Gallery
 

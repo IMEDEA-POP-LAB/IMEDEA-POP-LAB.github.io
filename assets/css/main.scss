@@ -140,11 +140,32 @@ article h1, article h2, article h3, article h4, article h5, article h6,
 .page-content h1::before,
 .page-content h2::before,
 .page-content h3::before,
+.page-content h4::before,
+.page-content h5::before,
+.page-content h6::before,
 h1::before,
 h2::before,
 h3::before,
+h4::before,
+h5::before,
+h6::before,
 .page-header h1::before,
 .post-header h1::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* Remove any after pseudo-elements that might create boxes or underlines for non-h1 headings */
+.page-content h2::after,
+.page-content h3::after,
+.page-content h4::after,
+.page-content h5::after,
+.page-content h6::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
   display: none !important;
   content: none !important;
 }
@@ -329,45 +350,25 @@ a:hover {
 /* Better h2 styling for sections - completely minimalist */
 .page-content h2 {
   font-size: var(--text-2xl);
-  font-weight: 200;
+  font-weight: 300;
   color: #000 !important;
   margin: var(--space-12) 0 var(--space-6) 0;
   background: none !important;
-  text-transform: lowercase !important;
+  text-transform: none !important;
   border: none !important;
   position: relative;
-}
-
-.page-content h2::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0.8ch;
-  height: 1px;
-  background: #000;
 }
 
 /* Better h3 styling */
 .page-content h3 {
   font-size: var(--text-xl);
-  font-weight: 200;
+  font-weight: 400;
   color: #000 !important;
   margin: var(--space-8) 0 var(--space-4) 0;
   background: none !important;
   border: none !important;
-  text-transform: lowercase !important;
+  text-transform: none !important;
   position: relative;
-}
-
-.page-content h3::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0.8ch;
-  height: 1px;
-  background: #000;
 }
 
 /* Layout components */
