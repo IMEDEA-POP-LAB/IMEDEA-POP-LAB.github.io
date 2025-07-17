@@ -58,7 +58,7 @@ nav_order: 1
 <div class="preprints-section">
   <div class="publication-item">
     <p class="publication-citation preprint">
-      <strong>SWOT and multi-platform observations enhance small-scale intrathermocline eddy detection</strong><br>
+      <strong>SWOT enhances small-scale eddy detection in the Mediterranean Sea</strong><br>
       Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d’Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A.z<br>
       <em class="preprint-server">ESS Open Archive</em> (<span class="year">2025</span>) 
       <a href="https://doi.org/10.22541/essoar.173315547.75973902/v1" class="link-doi">DOI</a>
