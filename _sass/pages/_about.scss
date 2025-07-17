@@ -8,6 +8,137 @@
   padding: var(--space-8) 0;
 }
 
+/* Intro hero section - matching actual HTML classes */
+.intro-hero {
+  text-align: left;
+  margin-bottom: var(--space-16);
+  max-width: 800px;
+}
+
+.lab-title {
+  font-size: clamp(2.5rem, 6vw, 4rem) !important;
+  font-weight: 100 !important;
+  color: #000 !important;
+  margin-bottom: var(--space-4) !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.1 !important;
+  text-transform: lowercase !important;
+  position: relative !important;
+}
+
+.lab-title::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 1ch;
+  height: 2px;
+  background: #000;
+}
+
+.lab-subtitle {
+  font-size: var(--text-lg);
+  color: var(--global-text-light);
+  line-height: 1.7;
+  margin: 0 0 var(--space-8) 0;
+  max-width: 700px;
+}
+
+.lab-subtitle a {
+  color: var(--ocean-blue);
+  text-decoration: none;
+}
+
+.lab-subtitle a:hover {
+  text-decoration: underline;
+}
+
+.lab-overview {
+  font-size: var(--text-lg);
+  color: var(--global-text-color);
+  line-height: 1.7;
+  margin-bottom: var(--space-12);
+  max-width: 800px;
+}
+
+.lab-overview strong {
+  color: var(--ocean-blue);
+  font-weight: 600;
+}
+
+/* Research areas */
+.research-areas-minimal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-6);
+  margin-bottom: var(--space-12);
+}
+
+.research-item {
+  padding: var(--space-6);
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.research-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(135deg, var(--ocean-blue), var(--ocean-teal));
+}
+
+.research-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--global-shadow-md);
+  border-color: var(--ocean-blue);
+}
+
+.research-item h3 {
+  font-size: var(--text-xl) !important;
+  font-weight: 600 !important;
+  color: var(--gray-900) !important;
+  margin: 0 0 var(--space-3) 0 !important;
+}
+
+.research-item p {
+  font-size: var(--text-sm);
+  color: var(--gray-600);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* News section */
+.news-item {
+  display: flex;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  border-left: 3px solid var(--ocean-blue);
+  background: var(--gray-50);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-bottom: var(--space-4);
+}
+
+.news-date {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ocean-blue);
+  white-space: nowrap;
+  min-width: 120px;
+}
+
+.news-content {
+  font-size: var(--text-sm);
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
 /* Minimalist hero section */
 .hero-section {
   text-align: left;
