@@ -1,17 +1,22 @@
-# Physical Ocean Processes - Ananda Pascual Lab Website
+# 🌊 Physical Ocean Processes - Ananda Pascual Lab
 
-Welcome to the Physical Ocean Processes research group website! This site showcases the work of the Ananda Pascual Lab at IMEDEA and is built with Jekyll and hosted on GitHub Pages.
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-red.svg)](https://jekyllrb.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-deployed-green.svg)](https://imedea-ap-lab.github.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+Welcome to the Physical Ocean Processes research group website! This site showcases the work of the Ananda Pascual Lab at the Mediterranean Institute for Advanced Studies (IMEDEA).
 
 ## 🌐 Live Site
-Visit our website at: [https://imedea-ap-lab.github.io](https://imedea-ap-lab.github.io)
+**[https://imedea-ap-lab.github.io](https://imedea-ap-lab.github.io)**
 
 ## 📋 Table of Contents
-- [Quick Start](#quick-start)
-- [Adding New Content](#adding-new-content)
-- [Editing Existing Content](#editing-existing-content)
-- [Site Structure](#site-structure)
-- [Publishing Changes](#publishing-changes)
-- [Troubleshooting](#troubleshooting)
+- [Quick Start](#-quick-start)
+- [Scripts & Automation](#-scripts--automation)
+- [Site Structure](#-site-structure)
+- [Content Management](#-content-management)
+- [Development](#-development)
+- [Deployment](#-deployment)
+- [Troubleshooting](#-troubleshooting)
 
 ## 🚀 Quick Start
 
@@ -19,26 +24,258 @@ Visit our website at: [https://imedea-ap-lab.github.io](https://imedea-ap-lab.gi
 1. Navigate to any file on GitHub
 2. Click the pencil icon (✏️) to edit
 3. Make your changes
-4. Scroll down and add a commit message
-5. Click "Commit changes"
-6. Changes will appear on the website in 1-5 minutes
+4. Add a commit message and click "Commit changes"
+5. Changes will appear on the website in 1-5 minutes
 
-### For Advanced Users
+### For Local Development
 ```bash
 git clone https://github.com/IMEDEA-AP-LAB/IMEDEA-AP-LAB.github.io.git
 cd IMEDEA-AP-LAB.github.io
-# Make your changes
+./scripts/serve.sh
+```
+
+## 🛠️ Scripts & Automation
+
+We've included several scripts to make website management easier:
+
+### Development Server
+```bash
+./scripts/serve.sh [port]
+```
+- Starts local development server with live reload
+- Default port: 4000
+- Auto-installs dependencies if needed
+
+### Build & Deploy
+```bash
+./scripts/build.sh [--deploy]
+```
+- Builds the website for production
+- Use `--deploy` flag to automatically commit and push changes
+
+### Create New Content
+```bash
+./scripts/new-content.sh [type] [name]
+```
+- **Projects**: `./scripts/new-content.sh project project-name`
+- **News**: `./scripts/new-content.sh news news-title` 
+- **Publications**: `./scripts/new-content.sh publication "Title"`
+
+### Optimize Images
+```bash
+./scripts/optimize-images.sh [directory]
+```
+- Compresses images for web
+- Creates thumbnails for gallery
+- Requires ImageMagick: `brew install imagemagick`
+
+## 📁 Site Structure
+
+```
+IMEDEA-AP-LAB.github.io/
+├── _config.yml              # Site configuration
+├── _data/                   # Data files
+│   ├── navigation.yml       # Navigation menu
+│   └── publications.yml     # Publications database
+├── _includes/               # Reusable components
+│   └── recent-publications.html
+├── _layouts/                # Page templates
+├── _pages/                  # Main site pages
+│   ├── about.md            # Homepage
+│   ├── people.md           # Team page
+│   ├── projects.md         # Projects page
+│   ├── publications.md     # Publications page
+│   ├── repositories.md     # Code repositories
+│   └── outreach.md         # Outreach activities
+├── _projects/              # Individual project files
+├── assets/                 # Static assets
+│   ├── css/main.scss       # Main stylesheet
+│   └── img/                # Images
+│       ├── team/           # Team photos
+│       └── gallery/        # Research gallery
+└── scripts/                # Automation scripts
+```
+
+## 📝 Content Management
+
+### Adding Team Members
+Edit `_pages/people.md` and add:
+
+```markdown
+<div class="person-card">
+  <div class="card-body">
+    <img src="/assets/img/team/name.jpg" alt="Name" class="profile-image">
+    <h5 class="card-title">Dr. Full Name</h5>
+    <p class="card-subtitle">Position Title</p>
+    <div class="social-links">
+      <a href="mailto:email@example.com" class="social-link">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+    </div>
+    <p class="card-text">Brief bio and research interests.</p>
+  </div>
+</div>
+```
+
+### Adding Publications
+Edit `_data/publications.yml` and add to the `recent:` section:
+
+```yaml
+- title: "Your Publication Title"
+  authors: "Author Names"
+  journal: "Journal Name"
+  year: 2025
+  doi: "https://doi.org/..."
+  abstract: "Publication abstract"
+  bibtex: |
+    @article{key2025,
+      title={Your Publication Title},
+      author={Author Names},
+      journal={Journal Name},
+      year={2025}
+    }
+```
+
+### Adding Projects
+Use the script: `./scripts/new-content.sh project project-name`
+
+Or manually create in `_projects/` with this template:
+
+```yaml
+---
+layout: page
+title: "Project Title"
+description: "Brief description"
+img: /assets/img/projects/project.jpg
+importance: 1
+category: research
+---
+```
+
+## 💻 Development
+
+### Prerequisites
+- Ruby 2.7+
+- Bundler
+- Git
+
+### Local Setup
+```bash
+# Clone repository
+git clone https://github.com/IMEDEA-AP-LAB/IMEDEA-AP-LAB.github.io.git
+cd IMEDEA-AP-LAB.github.io
+
+# Install dependencies
+bundle install
+
+# Start development server
+./scripts/serve.sh
+
+# Or manually:
+bundle exec jekyll serve --livereload
+```
+
+### Making Changes
+1. Create a new branch: `git checkout -b feature/your-feature`
+2. Make your changes
+3. Test locally: `./scripts/serve.sh`
+4. Build for production: `./scripts/build.sh`
+5. Commit and push: `git add . && git commit -m "Description" && git push`
+6. Create a pull request
+
+## 🚀 Deployment
+
+### Automatic (Recommended)
+Push to `main` branch and GitHub Pages will automatically build and deploy.
+
+### Manual with Script
+```bash
+./scripts/build.sh --deploy
+```
+
+### Manual Commands
+```bash
 git add .
-git commit -m "Your commit message"
+git commit -m "Update website"
 git push origin main
 ```
 
-## ➕ Adding New Content
+## 🎨 Customization
 
-### Adding a New Team Member
+### Colors & Styling
+Edit `assets/css/main.scss` to modify:
+- Color scheme (CSS variables at top)
+- Typography
+- Layout and spacing
+- Component styles
 
-1. Go to `_pages/people.md`
-2. Add a new person in this format:
+### Navigation
+Edit `_data/navigation.yml` to modify menu items:
+
+```yaml
+- name: "Home"
+  link: "/"
+- name: "People"
+  link: "/people/"
+```
+
+### Site Configuration
+Edit `_config.yml` for:
+- Site title and description
+- Social media links
+- SEO settings
+- Plugin configuration
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+**Build fails:**
+```bash
+bundle update
+./scripts/build.sh
+```
+
+**Images not loading:**
+- Check file paths start with `/assets/img/`
+- Verify files exist in repository
+- Run `./scripts/optimize-images.sh`
+
+**Local server won't start:**
+```bash
+# Kill any existing Jekyll processes
+pkill -f jekyll
+
+# Try different port
+./scripts/serve.sh 4001
+```
+
+**Changes not appearing:**
+- Wait 1-5 minutes for GitHub Pages to rebuild
+- Check GitHub Actions tab for build status
+- Clear browser cache
+
+### Getting Help
+1. Check [GitHub Issues](https://github.com/IMEDEA-AP-LAB/IMEDEA-AP-LAB.github.io/issues)
+2. Review [Jekyll Documentation](https://jekyllrb.com/docs/)
+3. Contact the lab's technical team
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+---
+
+**Maintained by the IMEDEA-AP Physical Ocean Processes Lab**  
+*Mediterranean Institute for Advanced Studies (IMEDEA)*
 
 ```markdown
 ### Dr. [Name]
