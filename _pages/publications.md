@@ -2,8 +2,6 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Complete list of     Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L. (2024). <strong>Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas.</strong> Front. Mar. Sci., Volume 11.
-    <a href="https://doi.org/10.3389/fmars.2024.1458036" class="link-doi">DOI</a>search publications and academic contributions
 nav: true
 nav_order: 1
 ---
@@ -87,9 +85,11 @@ nav_order: 1
   <p class="publication-citation">
     <strong>Changes in the Gulf Stream path over the last 3 decades</strong><br>
     Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M.<br>
-    <em class="journal">State of the Planet 4-osr8</em> (<span class="year">2024</span>) 
-    <a href="https://doi.org/10.5194/sp-4-osr8-4-2024" class="link-doi">DOI</a>
+    <em class="journal">State of the Planet 4-osr8</em> (<span class="year">2024</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.5194/sp-4-osr8-4-2024" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
@@ -101,22 +101,17 @@ nav_order: 1
   </p>
 </div>
 
-<div class="publication-item">
-  <p class="publication-citation">
-    <strong>Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas</strong><br>
-    Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L.<br>
-    <em class="journal">Frontiers in Marine Science</em> (<span class="year">2024</span>)
-    <a href="https://doi.org/10.3389/fmars.2024.1458036" class="link-doi">DOI</a>
-  </p>
-</div>
+
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Towards a sustained and fit-for-purpose European Ocean Observing and Forecasting System</strong><br>
     Tanhua, T., Le Traon, P.-Y., Köstner, N., Eparkhina, D., Navarro, G., Bonnet Dunbar, M., Speich, S., Pascual, A., Von Schuckmann, K., Liguori, G., Karstensen, J., Hassoun, A. E. R., Van Doorn, E., Barceló-Llull, B., Pérez-Gómez, B., Cusack, C., Heslop, E., Lara-Lopez, A., Petihakis, G., Telszewski, M., Piotr Palacz, A., Wilmer-Becker, K., Pearlman, J. S., Muñiz Piniella, Á., Heymans, J. J. and Lips, I.<br>
     <em class="journal">Frontiers in Marine Science</em> (<span class="year">2024</span>)
-    <a href="https://doi.org/10.3389/fmars.2024.139454" class="link-doi">DOI</a>
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.3389/fmars.2024.139454" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
@@ -124,8 +119,10 @@ nav_order: 1
     <strong>Robust intensification of global ocean Eddy Kinetic Energy from three decades of satellite altimetry observations</strong><br>
     Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M. I. and Pascual, A.<br>
     <em class="journal">ArXiv (submitted to Scientific Reports)</em> (<span class="year">2024</span>)
-    <a href="https://doi.org/10.48550/arXiv.2406.08014" class="link-doi">DOI</a>
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.48550/arXiv.2406.08014" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
@@ -150,18 +147,22 @@ nav_order: 1
   <p class="publication-citation">
     <strong>Submesoscale processes and energy cascades in the Mediterranean Sea</strong><br>
     Ananda Pascual, International Team<br>
-    <em class="journal">Journal of Physical Oceanography</em> (<span class="year">2023</span>) 
-    <a href="https://doi.org/10.1175/JPO-D-22-0234.1" class="link-doi">DOI</a>
+    <em class="journal">Journal of Physical Oceanography</em> (<span class="year">2023</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1175/JPO-D-22-0234.1" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Machine learning applications in satellite altimetry for ocean dynamics</strong><br>
     Ananda Pascual, Data Science Collaborator<br>
-    <em class="journal">Remote Sensing</em> (<span class="year">2023</span>) 
-    <a href="https://doi.org/10.3390/rs15123456" class="link-doi">DOI</a>
+    <em class="journal">Remote Sensing</em> (<span class="year">2023</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.3390/rs15123456" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <h3 class="publication-year-header">2022</h3>
@@ -170,18 +171,22 @@ nav_order: 1
   <p class="publication-citation">
     <strong>The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate</strong><br>
     Ananda Pascual, International Consortium<br>
-    <em class="journal">Annual Review of Marine Science</em> (<span class="year">2022</span>) 
-    <a href="https://doi.org/10.1146/annurev-marine-032521-123456" class="link-doi">DOI</a>
+    <em class="journal">Annual Review of Marine Science</em> (<span class="year">2022</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1146/annurev-marine-032521-123456" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>SWOT satellite mission: Applications for Mediterranean Sea studies</strong><br>
     Ananda Pascual, NASA Team<br>
-    <em class="journal">Earth and Space Science</em> (<span class="year">2022</span>) 
-    <a href="https://doi.org/10.1029/2021EA002134" class="link-doi">DOI</a>
+    <em class="journal">Earth and Space Science</em> (<span class="year">2022</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1029/2021EA002134" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <h3 class="publication-year-header">2021</h3>
@@ -190,18 +195,22 @@ nav_order: 1
   <p class="publication-citation">
     <strong>Eddy kinetic energy variability in the Western Mediterranean</strong><br>
     Ananda Pascual, Former Student, Collaborator<br>
-    <em class="journal">Deep Sea Research Part I</em> (<span class="year">2021</span>) 
-    <a href="https://doi.org/10.1016/j.dsr.2021.103456" class="link-doi">DOI</a>
+    <em class="journal">Deep Sea Research Part I</em> (<span class="year">2021</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1016/j.dsr.2021.103456" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Multi-platform observations of marine heatwaves in the Mediterranean</strong><br>
     Ananda Pascual, Climate Research Group<br>
-    <em class="journal">Geophysical Research Letters</em> (<span class="year">2021</span>) 
-    <a href="https://doi.org/10.1029/2020GL091234" class="link-doi">DOI</a>
+    <em class="journal">Geophysical Research Letters</em> (<span class="year">2021</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1029/2020GL091234" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <h3 class="publication-year-header">2020</h3>
@@ -210,18 +219,22 @@ nav_order: 1
   <p class="publication-citation">
     <strong>Long-term trends in Mediterranean circulation patterns</strong><br>
     Ananda Pascual, European Consortium<br>
-    <em class="journal">Ocean Science</em> (<span class="year">2020</span>) 
-    <a href="https://doi.org/10.5194/os-16-123-2020" class="link-doi">DOI</a>
+    <em class="journal">Ocean Science</em> (<span class="year">2020</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.5194/os-16-123-2020" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Glider observations of deep convection in the Northwestern Mediterranean</strong><br>
     Ananda Pascual, Observational Team<br>
-    <em class="journal">Progress in Oceanography</em> (<span class="year">2020</span>) 
-    <a href="https://doi.org/10.1016/j.pocean.2019.102345" class="link-doi">DOI</a>
+    <em class="journal">Progress in Oceanography</em> (<span class="year">2020</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1016/j.pocean.2019.102345" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <h3 class="publication-year-header">Selected Earlier Publications (2015-2019)</h3>
@@ -229,41 +242,51 @@ nav_order: 1
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Mediterranean Sea surface temperature trends: A 30-year satellite perspective</strong><br>
-    <em class="journal">Journal of Climate</em> (<span class="year">2019</span>) 
-    <a href="https://doi.org/10.1175/JCLI-D-18-0789.1" class="link-doi">DOI</a>
+    <em class="journal">Journal of Climate</em> (<span class="year">2019</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1175/JCLI-D-18-0789.1" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Mesoscale eddies and their role in Mediterranean water mass transformation</strong><br>
-    <em class="journal">Nature Geoscience</em> (<span class="year">2018</span>) 
-    <a href="https://doi.org/10.1038/s41561-018-0234-5" class="link-doi">DOI</a>
+    <em class="journal">Nature Geoscience</em> (<span class="year">2018</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1038/s41561-018-0234-5" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Altimetry-based studies of Mediterranean Sea level variability</strong><br>
-    <em class="journal">Surveys in Geophysics</em> (<span class="year">2017</span>) 
-    <a href="https://doi.org/10.1007/s10712-017-9456-2" class="link-doi">DOI</a>
+    <em class="journal">Surveys in Geophysics</em> (<span class="year">2017</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1007/s10712-017-9456-2" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Dense water formation and spreading in the Mediterranean Sea</strong><br>
-    <em class="journal">Deep Sea Research Part I</em> (<span class="year">2016</span>) 
-    <a href="https://doi.org/10.1016/j.dsr.2016.03.021" class="link-doi">DOI</a>
+    <em class="journal">Deep Sea Research Part I</em> (<span class="year">2016</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1016/j.dsr.2016.03.021" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Ocean-atmosphere interactions in the Mediterranean region</strong><br>
-    <em class="journal">Progress in Oceanography</em> (<span class="year">2015</span>) 
-    <a href="https://doi.org/10.1016/j.pocean.2015.02.005" class="link-doi">DOI</a>
+    <em class="journal">Progress in Oceanography</em> (<span class="year">2015</span>)
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1016/j.pocean.2015.02.005" class="link-doi">DOI</a>
+  </div>
 </div>
 
 </div>
