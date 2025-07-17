@@ -157,37 +157,85 @@ h1::after, .page-title::after {
   background: #000;
 }
 
-/* Section headings (h2) */
-h2, .section-title { 
-  font-size: clamp(1.75rem, 4vw, 2.5rem);
-  font-weight: 300;
-  margin: var(--space-12) 0 var(--space-6) 0;
+/* ========================================================================== */
+/* UNIFIED HEADING SYSTEM - CONSISTENT ACROSS ALL PAGES */
+/* ========================================================================== */
+
+/* Main section headings (h2) - large, prominent but clean */
+h2, .section-title,
+.page-content h2, .post-content h2, article h2,
+.outreach h2, .people h2, .projects h2, .publications h2, .repositories h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem) !important;
+  font-weight: 300 !important;
+  color: #000 !important;
+  margin: var(--space-12) 0 var(--space-6) 0 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.025em !important;
+  background: none !important;
+  border: none !important;
+  text-transform: none !important;
+  position: relative;
 }
 
-/* Subsection headings (h3-h6) */
-h3 { 
-  font-size: var(--text-xl);
-  font-weight: 400;
-  margin: var(--space-8) 0 var(--space-4) 0;
+/* Subsection headings (h3) - medium size, clear hierarchy */
+h3,
+.page-content h3, .post-content h3, article h3,
+.outreach h3, .people h3, .projects h3, .publications h3, .repositories h3,
+.research-item h3, .newsletter-card h3 {
+  font-size: var(--text-xl) !important;
+  font-weight: 400 !important;
+  color: #000 !important;
+  margin: var(--space-8) 0 var(--space-4) 0 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.015em !important;
+  background: none !important;
+  border: none !important;
+  text-transform: none !important;
 }
 
-h4 { 
-  font-size: var(--text-lg);
-  font-weight: 500;
-  margin: var(--space-6) 0 var(--space-3) 0;
+/* Minor headings (h4) - smaller but clear */
+h4,
+.page-content h4, .post-content h4, article h4,
+.outreach h4, .people h4, .projects h4, .publications h4, .repositories h4,
+.repo-header h4, .social-platform h4 {
+  font-size: var(--text-lg) !important;
+  font-weight: 500 !important;
+  color: #000 !important;
+  margin: var(--space-6) 0 var(--space-3) 0 !important;
+  line-height: 1.4 !important;
+  background: none !important;
+  border: none !important;
+  text-transform: none !important;
 }
 
-h5 { 
-  font-size: var(--text-base);
-  font-weight: 500;
-  margin: var(--space-4) 0 var(--space-2) 0;
+/* Detail headings (h5) - compact but readable */
+h5,
+.page-content h5, .post-content h5, article h5,
+.outreach h5, .people h5, .projects h5, .publications h5, .repositories h5,
+.alumni-card h5, .collaborator-card h5, .visitor-card h5 {
+  font-size: var(--text-base) !important;
+  font-weight: 500 !important;
+  color: #000 !important;
+  margin: var(--space-4) 0 var(--space-2) 0 !important;
+  line-height: 1.4 !important;
+  background: none !important;
+  border: none !important;
+  text-transform: none !important;
 }
 
-h6 { 
-  font-size: var(--text-sm);
-  font-weight: 600;
-  margin: var(--space-3) 0 var(--space-2) 0;
-  letter-spacing: 0.05em;
+/* Fine headings (h6) - smallest, for labels and captions */
+h6,
+.page-content h6, .post-content h6, article h6,
+.outreach h6, .people h6, .projects h6, .publications h6, .repositories h6 {
+  font-size: var(--text-sm) !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+  margin: var(--space-3) 0 var(--space-2) 0 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  background: none !important;
+  border: none !important;
 }
 
 /* ========================================================================== */
