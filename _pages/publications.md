@@ -12,15 +12,15 @@ nav_order: 1
 <div class="recent-publications">
   <div class="publication-item featured">
     <div class="publication-header">
-      <h4 class="publication-title">Interannual variability of Mediterranean Deep Water formation: A 20-year observational study</h4>
+      <h4 class="publication-title">Kuroshio Extension and Gulf Stream dominate the Eddy Kinetic Energy intensification observed in the global ocean</h4>
       <div class="publication-meta">
-        <span class="journal">Journal of Geophysical Research: Oceans</span>
+        <span class="journal">Scientific Reports</span>
         <span class="year">2025</span>
       </div>
     </div>
-    <div class="publication-authors">Ananda Pascual, First Coauthor, Second Coauthor</div>
+    <div class="publication-authors">Barceló-Llull, B., Rosselló, P., Combes, V. et al.</div>
     <div class="publication-links">
-      <a href="https://doi.org/10.1029/2024JC021234" class="link-doi">DOI</a>
+      <a href="https://doi.org/10.1038/s41598-025-06149-9" class="link-doi">DOI</a>
       <a href="#" onclick="toggleAbstract('abs2025_1'); return false;" class="link-abs">Abstract</a>
       <a href="#" onclick="toggleBibtex('bib2025_1'); return false;" class="link-bib">BibTeX</a>
     </div>
@@ -28,16 +28,24 @@ nav_order: 1
       This study examines the interannual variability of Mediterranean Deep Water formation using 20 years of observational data. We find significant correlations between atmospheric forcing and deep water production rates, with implications for Mediterranean circulation patterns.
     </div>
     <div id="bib2025_1" class="bibtex-content">
-      <pre>@article{pascual2025mediterranean,
-  title={Interannual variability of Mediterranean Deep Water formation: A 20-year observational study},
-  author={Pascual, Ananda and Coauthor, First and Coauthor, Second},
-  journal={Journal of Geophysical Research: Oceans},
-  volume={130},
-  number={1},
-  pages={123--145},
-  year={2025},
-  publisher={AGU},
-  doi={10.1029/2024JC021234}
+      <pre>@article{barcelo-llull_kuroshio_2025,
+	title = {Kuroshio {Extension} and {Gulf} {Stream} dominate the {Eddy} {Kinetic} {Energy} intensification observed in the global ocean},
+	volume = {15},
+	copyright = {2025 The Author(s)},
+	issn = {2045-2322},
+	url = {https://www.nature.com/articles/s41598-025-06149-9},
+	doi = {10.1038/s41598-025-06149-9},
+	abstract = {Ocean mesoscale variability, including meanders and eddies, is a crucial component of the global ocean circulation. The Eddy Kinetic Energy (EKE) of these features accounts for about 90\% of the ocean’s total kinetic energy. This study investigates if the global ocean mesoscale variability is becoming more energetic by analyzing 30 years of satellite altimetric observations. We use two observational products: one constructed from a consistent pair of altimeters and another including all available missions. Our results reveal a significant global EKE strengthening of 1–3\% per decade. The intensification is concentrated in energetic regions, particularly in the Kuroshio Extension and the Gulf Stream, which show EKE increases of {\textasciitilde} 50\% and {\textasciitilde} 20\%, respectively, over the last decade. These observations raise new questions about the impact of the Gulf Stream strengthening on the Atlantic meridional overturning circulation (AMOC) and challenge existing climate models, emphasizing the need for improved representation of small-scale ocean processes.},
+	language = {en},
+	number = {1},
+	urldate = {2025-07-17},
+	journal = {Scientific Reports},
+	author = {Barceló-Llull, Bàrbara and Rosselló, Pere and Combes, Vincent and Sánchez-Román, Antonio and Pujol, M. Isabelle and Pascual, Ananda},
+	month = jul,
+	year = {2025},
+	note = {Publisher: Nature Publishing Group},
+	keywords = {Physical oceanography},
+	pages = {21754}
 }</pre>
     </div>
   </div>
