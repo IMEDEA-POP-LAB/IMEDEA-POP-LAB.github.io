@@ -403,46 +403,81 @@ main > header,
   }
 }
 
-/* Modern header with blue gradient background - highly visible */
-.site-header,
-.navbar,
-.navbar-nav,
-header.navbar,
-.header,
-.navbar-light,
-.navbar-expand-md,
-nav.navbar {
+/* Modern header with blue gradient background - targeting actual HTML structure */
+.site-header {
   background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
   background-color: var(--ocean-blue) !important;
-  background-image: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
   border-bottom: 2px solid var(--ocean-deep) !important;
   padding: var(--space-4) 0 !important;
   position: sticky !important;
   top: 0 !important;
   z-index: 1000 !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
-  min-height: 60px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+  min-height: 70px !important;
+  width: 100% !important;
 }
 
-/* Remove any white backgrounds from navbar elements */
-.navbar-collapse,
-.navbar-nav,
-.nav-item,
-.nav-link,
-.navbar-brand {
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent !important;
+  max-width: 1200px;
+}
+
+.site-title {
+  color: white !important;
+  text-decoration: none !important;
+  font-size: var(--text-2xl) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  transition: all 0.3s ease !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+.site-title:hover {
+  color: var(--ocean-light) !important;
+  text-decoration: none !important;
+  transform: translateY(-1px) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.site-nav {
+  display: flex;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+.site-nav .page-link {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: var(--text-sm) !important;
+  letter-spacing: 0.025em !important;
+  text-transform: uppercase !important;
+  padding: var(--space-2) var(--space-4) !important;
+  border-radius: var(--radius-md) !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  overflow: hidden !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.site-nav .page-link:hover {
+  color: var(--ocean-light) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-2px) !important;
+  text-decoration: none !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Remove any conflicting backgrounds from navigation elements */
+.site-nav,
+.site-nav *,
+.page-link {
   background: transparent !important;
   background-color: transparent !important;
   background-image: none !important;
-}
-
-/* Override Bootstrap collapse styles */
-.navbar-collapse.show,
-.navbar-collapse.collapsing {
-  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
-  background-color: var(--ocean-blue) !important;
-  border-radius: var(--radius-md);
-  margin-top: var(--space-2);
-  padding: var(--space-3);
 }
 
 .site-header .container,
@@ -453,89 +488,40 @@ nav.navbar {
   align-items: center;
 }
 
-.site-title,
-.navbar-brand,
-.navbar-brand:hover,
-.navbar-brand:focus {
+/* Add mobile responsiveness for the site navigation */
+@media (max-width: 768px) {
+  .site-header .container {
+    flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+  }
+  
+  .site-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+  }
+  
+  .site-nav .page-link {
+    font-size: var(--text-xs);
+    padding: var(--space-2) var(--space-3);
+  }
+}
+
+/* Navigation active states and interactions */
+.site-nav .page-link.active,
+.site-nav .page-link[aria-current="page"] {
   color: white !important;
-  text-decoration: none;
-  font-size: var(--text-2xl);
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.25) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
 
-.site-title:hover,
-.navbar-brand:hover {
-  color: var(--ocean-light) !important;
-  text-decoration: none;
-  transform: translateY(-1px);
-}
-
-.site-nav,
-.navbar-nav {
-  display: flex;
-  gap: var(--space-8);
-  align-items: center;
-}
-
-.navbar-nav .nav-link,
-.site-nav a {
-  color: rgba(255, 255, 255, 0.9) !important;
-  text-decoration: none;
-  font-weight: 500;
-  padding: var(--space-2) var(--space-4);
-  border-radius: var(--radius-md);
-  transition: all 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover,
-.site-nav a:hover {
-  color: white !important;
-  background: rgba(255, 255, 255, 0.1);
-  text-decoration: none;
-}
-
-.navbar-nav .nav-link.active,
-.site-nav a.active {
-  color: white !important;
-  background: rgba(255, 255, 255, 0.2);
-}
-
-/* Override any Bootstrap navbar styles */
-.navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.9) !important;
-}
-
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus {
-  color: white !important;
-}
-
-.navbar-light .navbar-brand {
-  color: white !important;
-}
-
-.navbar-light .navbar-brand:hover,
-.navbar-light .navbar-brand:focus {
-  color: var(--ocean-light) !important;
-}
-
-/* Ensure navbar toggle button is visible with white background */
-.navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.5) !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  padding: 4px 8px !important;
-}
-
-.navbar-toggler:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25) !important;
-}
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-  width: 20px !important;
-  height: 20px !important;
+/* Ensure consistent navigation styling across all pages */
+.site-header,
+header.site-header {
+  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
+  background-color: var(--ocean-blue) !important;
 }
 
 .site-nav .page-link {
@@ -1522,7 +1508,7 @@ h1, .page-title,
 .page-header h1, .page-header .page-title,
 .post-header h1, .post-header .page-title,
 header h1, header .page-title,
-.header h1, .header .page-title,
+.Header h1, .Header .page-title,
 main h1, main .page-title,
 .main h1, .main .page-title,
 .content h1, .content .page-title,
@@ -1553,7 +1539,7 @@ article h1, article .page-title {
 .page-header::before, .page-header::after,
 .post-header::before, .post-header::after,
 header::before, header::after,
-.header::before, .header::after,
+.Header::before, .Header::after,
 main::before, main::after,
 .main::before, .main::after,
 .content::before, .content::after,
@@ -1676,35 +1662,40 @@ h1, .page-title,
   color: white !important;
   font-weight: 700 !important;
   font-size: var(--text-xl) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
 }
 
 .navbar-brand:hover,
 .navbar-brand:focus {
   color: var(--ocean-light) !important;
   text-decoration: none !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Navigation links visibility */
 .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.95) !important;
-  font-weight: 500 !important;
+  color: white !important;
+  font-weight: 600 !important;
   padding: var(--space-2) var(--space-3) !important;
   margin: 0 var(--space-1) !important;
   border-radius: var(--radius-sm) !important;
   transition: all 0.2s ease !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
-  color: white !important;
-  background: rgba(255, 255, 255, 0.15) !important;
+  color: var(--ocean-light) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
   text-decoration: none !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
 }
 
 .navbar-nav .nav-link.active {
   color: white !important;
-  background: rgba(255, 255, 255, 0.2) !important;
-  font-weight: 600 !important;
+  background: rgba(255, 255, 255, 0.25) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Supervisor information styling */
@@ -2121,3 +2112,48 @@ h1, .page-title,
     font-size: var(--text-xs);
   }
 }
+
+/* ========================================================================== */
+/* NAVBAR BACKGROUND ENFORCEMENT - ENSURE BLUE GRADIENT IS ALWAYS VISIBLE */
+/* ========================================================================== */
+
+/* Nuclear option - override any possible navbar background conflicts */
+nav,
+nav[role="navigation"],
+.navbar,
+.navigation,
+.site-header,
+header[role="banner"],
+.main-nav,
+.primary-nav,
+.top-nav {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+}
+
+/* Ensure the background persists on scroll and interaction */
+.navbar:hover,
+.navbar:focus,
+.navbar:active,
+.navbar.scrolled,
+.navbar.fixed,
+.navbar.sticky {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+}
+
+/* Override any potential CSS framework conflicts */
+.navbar-default,
+.navbar-inverse,
+.navbar-light,
+.navbar-dark,
+.bg-light,
+.bg-white,
+.bg-transparent {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+}
+
+/* ========================================================================== */
