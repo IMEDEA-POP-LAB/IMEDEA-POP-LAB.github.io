@@ -24,33 +24,6 @@ nav_order: 1
     </div>
   </div>
 
-  <div class="publication-item featured">
-    <div class="publication-header">
-      <h4 class="publication-title">Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean</h4>
-      <div class="publication-meta">
-        <span class="journal">Deep Sea Research Part I</span>
-        <span class="year">2024</span>
-      </div>
-    </div>
-    <div class="publication-authors">Ananda Pascual, Another Researcher, PhD Student</div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1016/j.dsr.2024.104567" class="link-doi">DOI</a>
-    </div>
-  </div>
-
-  <div class="publication-item featured">
-    <div class="publication-header">
-      <h4 class="publication-title">Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis</h4>
-      <div class="publication-meta">
-        <span class="journal">Remote Sensing of Environment</span>
-        <span class="year">2024</span>
-      </div>
-    </div>
-    <div class="publication-authors">Ananda Pascual, International Collaborator, Research Team</div>
-    <div class="publication-links">
-      <a href="https://doi.org/10.1016/j.rse.2024.113456" class="link-doi">DOI</a>
-    </div>
-  </div>
 </div>
 
 ### accepted
@@ -67,7 +40,7 @@ nav_order: 1
 
   <div class="publication-item">
     <p class="publication-citation preprint">
-      <strong>Marine heatwaves in the Balearic Sea: Characterization and impact on ecosystem dynamics</strong><br>
+      <strong>Tracking Marine Heatwaves in the Balearic Sea: Temperature Trends and the Role of Detection Methods</strong><br>
       Blanca Fernández-Álvarez, Ananda Pascual, Bàrbara Barceló-Llull<br>
       <em class="preprint-server">EGUsphere</em> (<span class="year">2024</span>) 
       <a href="https://doi.org/10.5194/egusphere-2024-4065" class="link-doi">DOI</a>
