@@ -31,16 +31,18 @@
   border-bottom: none;
   margin-bottom: var(--space-6);
   border-left: 4px solid var(--ocean-blue);
+  font-size: var(--text-base);
 }
 
 /* Accepted publications - new style */
 .publication-item.accepted {
-  padding: var(--space-3);
+  padding: var(--space-2);
   background: #fffbe6;
   border-radius: var(--radius-sm);
   border-bottom: none;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-4);
   border-left: 4px solid #fbbf24; /* yellow-400 */
+  font-size: var(--text-sm);
 }
 
 /* Simple citation text */

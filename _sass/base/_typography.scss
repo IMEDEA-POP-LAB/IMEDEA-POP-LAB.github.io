@@ -91,7 +91,7 @@ h2, .section-title,
 /* Subsection headings (h3) - medium size, clear hierarchy */
 h3,
 .page-content h3, .post-content h3, article h3,
-.outreach h3, .people h3, .projects h3, .publications h3, .repositories h3 {
+.outreach h3, .people h3, .projects h3, .publications h3, .page-content.publications h3, .repositories h3 {
   font-size: clamp(1.25rem, 3vw, 1.75rem) !important;
   font-weight: 400 !important;
   color: #000 !important;
