@@ -59,8 +59,6 @@ To change a publication's status, simply change the class name.
 
 ## All Publications
 
-<div class="publication-list">
-
 ### 2024
 
 <div class="publication-item published">
@@ -374,8 +372,6 @@ To change a publication's status, simply change the class name.
   <div class="publication-links">
     <a href="https://doi.org/10.1016/j.pocean.2015.02.005" class="link-doi">DOI</a>
   </div>
-</div>
-
 </div>
 
 ---
