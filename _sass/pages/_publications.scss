@@ -26,10 +26,21 @@
 /* Featured publications can have slight emphasis */
 .publication-item.featured {
   padding: var(--space-3);
-  background: var(--gray-50);
+  background: linear-gradient(135deg, white 0%, var(--gray-50) 100%);
   border-radius: var(--radius-sm);
   border-bottom: none;
   margin-bottom: var(--space-6);
+  border-left: 4px solid var(--ocean-blue);
+}
+
+/* Accepted publications - new style */
+.publication-item.accepted {
+  padding: var(--space-3);
+  background: #fffbe6;
+  border-radius: var(--radius-sm);
+  border-bottom: none;
+  margin-bottom: var(--space-6);
+  border-left: 4px solid #fbbf24; /* yellow-400 */
 }
 
 /* Simple citation text */
