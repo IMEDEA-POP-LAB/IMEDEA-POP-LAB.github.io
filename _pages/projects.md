@@ -46,7 +46,7 @@ horizontal: false
     </div>
     <div class="project-title">Obsea4Clim</div>
     <div class="project-meta">2024-2028</div>
-    <div class="project-desc">Ocean observations and indicators for climate and assesmens </div>
+    <div class="project-desc">Ocean observations and indicators for climate and assessments</div>
   </div>
 
 </div>
