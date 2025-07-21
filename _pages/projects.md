@@ -15,9 +15,11 @@ horizontal: false
 
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/alianza_observa_logo.svg' | relative_url }}" alt="Alianza Observa Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/alianza_observa_logo.avif' | relative_url }}" alt="Alianza Observa Project Logo">
     </div>
-    <div class="project-title">Alianza Observa</div>
+    <div class="project-title">
+      <a ref=https://alianzaobserva.com target="_blank">Alianza Observa</a>
+    </div>
     <div class="project-meta">2025-2027</div>
     <div class="project-desc">Red Estratégica de Observación de la Tierra por satélite</div>
   </div>
