@@ -26,7 +26,7 @@ horizontal: false
   
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/sltac.svg' | relative_url }}" alt="SLTAC Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/sltac_logo.png' | relative_url }}" alt="SLTAC Project Logo">
     </div>
     <div class="project-title">Sea Level TAC</div>
     <div class="project-meta">2024-2028 | PI: Dr. Ananda Pascual</div>
