@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects and ongoing investigations
+description: Our key research initiatives
 nav: true
 nav_order: 3
 display_categories: [current, completed]
@@ -13,33 +13,44 @@ horizontal: false
 
 <div class="project-cards">
   <div class="project-card">
-    <div class="project-title">CALYPSO: Characterizing submesoscale processes in the Mediterranean Sea</div>
-    <div class="project-meta"><strong>Funding:</strong> Spanish Ministry of Science and Innovation<br><strong>Duration:</strong> 2022-2025<br><strong>PI:</strong> Dr. Ananda Pascual</div>
-    <div class="project-desc">Advancing our understanding of submesoscale processes in the Mediterranean Sea through innovative integration of in-situ observations, satellite data, and numerical modeling. This project revolutionizes how we study energy cascades between mesoscale and submesoscale motions and their critical role in vertical transport.</div>
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/calypso_logo.svg' | relative_url }}" alt="CALYPSO Project Logo">
+    </div>
+    <div class="project-title">CALYPSO</div>
+    <div class="project-meta">2022-2025 | PI: Dr. Ananda Pascual</div>
+    <div class="project-desc">Characterizing submesoscale processes in the Mediterranean Sea through innovative multi-platform observations.</div>
     <ul class="project-objectives">
-      <li>Analyze energy transfer between different spatial scales</li>
-      <li>Study vertical transport mechanisms at submesoscales</li>
-      <li>Integrate multi-platform observations (gliders, SWOT, altimetry)</li>
+      <li>Study energy transfer across scales</li>
+      <li>Analyze vertical transport mechanisms</li>
+      <li>Integrate in-situ and satellite data</li>
     </ul>
   </div>
+  
   <div class="project-card">
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/swot_logo.svg' | relative_url }}" alt="SWOT Project Logo">
+    </div>
     <div class="project-title">SWOT Mediterranean Applications</div>
-    <div class="project-meta"><strong>Funding:</strong> European Space Agency<br><strong>Duration:</strong> 2023-2026<br><strong>PI:</strong> Dr. Ananda Pascual</div>
-    <div class="project-desc">Pioneering the use of the Surface Water and Ocean Topography (SWOT) satellite mission to unlock fine-scale ocean dynamics in the Mediterranean Sea, delivering unprecedented insights into mesoscale and submesoscale processes.</div>
+    <div class="project-meta">2023-2026 | PI: Dr. Ananda Pascual</div>
+    <div class="project-desc">Utilizing SWOT satellite data to unlock fine-scale ocean dynamics in the Mediterranean Sea.</div>
     <ul class="project-objectives">
-      <li>Develop cutting-edge algorithms for eddy detection using SWOT data</li>
-      <li>Validate satellite observations with comprehensive in-situ measurements</li>
-      <li>Study Mediterranean circulation at revolutionary spatial resolution</li>
+      <li>Develop eddy detection algorithms</li>
+      <li>Validate with in-situ measurements</li>
+      <li>Map circulation at high resolution</li>
     </ul>
   </div>
+  
   <div class="project-card">
-    <div class="project-title">Marine Heatwaves in the Balearic Sea</div>
-    <div class="project-meta"><strong>Funding:</strong> Regional Government of the Balearic Islands<br><strong>Duration:</strong> 2024-2027<br><strong>PI:</strong> Dr. Ananda Pascual</div>
-    <div class="project-desc">Investigating the complex mechanisms driving marine heatwaves in the Balearic Sea region, examining their frequency, intensity, and cascading impacts on marine ecosystems.</div>
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/heatwave_logo.svg' | relative_url }}" alt="Marine Heatwaves Project Logo">
+    </div>
+    <div class="project-title">Marine Heatwaves</div>
+    <div class="project-meta">2024-2027 | PI: Dr. Ananda Pascual</div>
+    <div class="project-desc">Investigating marine heatwaves in the Balearic Sea and their ecological impacts.</div>
     <ul class="project-objectives">
-      <li>Characterize marine heatwave events in the western Mediterranean</li>
-      <li>Identify physical drivers and predictability patterns</li>
-      <li>Assess ecosystem impacts and vulnerability</li>
+      <li>Characterize heatwave events</li>
+      <li>Identify physical drivers</li>
+      <li>Assess ecosystem impacts</li>
     </ul>
   </div>
 </div>
@@ -48,22 +59,29 @@ horizontal: false
 
 <div class="project-cards completed">
   <div class="project-card">
-    <div class="project-title">Mediterranean Mesoscale Variability (2018-2022)</div>
-    <div class="project-meta"><strong>Funding:</strong> Spanish National Research Council<br><strong>PI:</strong> Dr. Ananda Pascual</div>
-    <div class="project-desc">Delivered comprehensive insights into mesoscale variability in the Mediterranean Sea using advanced satellite altimetry and in-situ observations.</div>
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/mesoscale_logo.svg' | relative_url }}" alt="Mesoscale Variability Project Logo">
+    </div>
+    <div class="project-title">Mediterranean Mesoscale Variability</div>
+    <div class="project-meta">2018-2022 | PI: Dr. Ananda Pascual</div>
+    <div class="project-desc">Analyzed mesoscale dynamics in the Mediterranean using satellite altimetry and in-situ data.</div>
   </div>
+  
   <div class="project-card">
-    <div class="project-title">Ocean-Atmosphere Interactions (2020-2023)</div>
-    <div class="project-meta"><strong>Funding:</strong> European Commission (Horizon 2020)<br><strong>PI:</strong> Dr. Vincent Combes</div>
-    <div class="project-desc">Explored ocean-atmosphere coupling processes in coastal and open ocean regions, with specialized focus on upwelling systems.</div>
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/interaction_logo.svg' | relative_url }}" alt="Ocean-Atmosphere Project Logo">
+    </div>
+    <div class="project-title">Ocean-Atmosphere Interactions</div>
+    <div class="project-meta">2020-2023 | PI: Dr. Vincent Combes</div>
+    <div class="project-desc">Studied coupling processes between ocean and atmosphere in coastal regions.</div>
   </div>
 </div>
 
 ## Collaborative Networks
 
 <ul class="collab-list">
-  <li><strong>Global Ocean Observing System (GOOS)</strong> — Contributing to worldwide ocean monitoring networks</li>
-  <li><strong>Mediterranean Ocean Observing System for the Environment (MOOSE)</strong> — Advancing regional ocean observation capabilities</li>
-  <li><strong>International SWOT Science Team</strong> — Pioneering satellite oceanography applications</li>
-  <li><strong>Copernicus Marine Environment Monitoring Service (CMEMS)</strong> — Supporting operational oceanography services</li>
+  <li><strong>Global Ocean Observing System (GOOS)</strong></li>
+  <li><strong>Mediterranean Ocean Observing System (MOOSE)</strong></li>
+  <li><strong>International SWOT Science Team</strong></li>
+  <li><strong>Copernicus Marine Service (CMEMS)</strong></li>
 </ul>
