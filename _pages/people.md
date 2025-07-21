@@ -48,7 +48,7 @@ nav_order: 2
         <span>ORCID</span>
       </a>
     </div>
-    <p class="card-text">currently a Ramón y Cajal with double affiliation (IMEDEA / UIB, Mallorca, SPAIN). Previously, VC has been a Senior Research Associate at Oregon State University, in the CEOAS department since 2010. VC got his Phd from Georgia Tech (Atlanta) in 2010 and an engineering degree in Hydraulics from the ENSEEIHT (France) in 2005. VC is specialized in modeling realistic ocean flows in regional and coastal seas including the Gulf of Alaska, California Current, Peru Chile Current system, Patagonian shelf and Southeast Atlantic. He is particularly interested in the low frequency ocean variability, coastal and shelfbreak upwellings, eddy dynamics, transport of nutrient rich shelf water to the deep ocean and remote sensing.</p>
+    <p class="card-text">Has been a Senior Research Associate at Oregon State University, in the CEOAS department since 2010. He got his Phd from Georgia Tech (Atlanta) in 2010 and an engineering degree in Hydraulics from the ENSEEIHT (France) in 2005. He is specialized in modeling realistic ocean flows in regional and coastal seas including the Gulf of Alaska, California Current, Peru Chile Current system, Patagonian shelf and Southeast Atlantic. He is particularly interested in the low frequency ocean variability, coastal and shelfbreak upwellings, eddy dynamics, transport of nutrient rich shelf water to the deep ocean and remote sensing.</p>
   </div>
 </div>
 
@@ -117,7 +117,7 @@ nav_order: 2
       <div class="supervisor-label">PhD Supervisors</div>
       <div class="supervisor-name">Dra. Ananda Pascual, Dr. Simón Ruiz</div>
     </div>
-    <p class="card-text">Her research focuses on the energy cascade between meso- and submesoscales, spectral analysis of oceanographic data, and the physical processes driving vertical transport in the upper ocean. She is actively involved in the CALYPSO project, combining in-situ observations and spectral methods to study ocean fronts and fine-scale variability in the Mediterranean Sea.</p>
+    <p class="card-text">Her research focuses on the energy cascade between meso- and submesoscales, spectral analysis of oceanographic data, and the physical processes driving vertical transport in the upper ocean.</p>
   </div>
 </div>
 
