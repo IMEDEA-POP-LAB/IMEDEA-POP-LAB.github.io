@@ -12,47 +12,43 @@ horizontal: false
 ## Current Research Projects
 
 <div class="project-cards">
+
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/calypso_logo.svg' | relative_url }}" alt="CALYPSO Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/alianza_observa_logo.svg' | relative_url }}" alt="Alianza Observa Project Logo">
     </div>
-    <div class="project-title">CALYPSO</div>
-    <div class="project-meta">2022-2025 | PI: Dr. Ananda Pascual</div>
-    <div class="project-desc">Characterizing submesoscale processes in the Mediterranean Sea through innovative multi-platform observations.</div>
-    <ul class="project-objectives">
-      <li>Study energy transfer across scales</li>
-      <li>Analyze vertical transport mechanisms</li>
-      <li>Integrate in-situ and satellite data</li>
-    </ul>
+    <div class="project-title">Alianza Observa</div>
+    <div class="project-meta">2025-2027</div>
+    <div class="project-desc">Red Estratégica de Observación de la Tierra por satélite</div>
   </div>
   
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/swot_logo.svg' | relative_url }}" alt="SWOT Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/sltac.svg' | relative_url }}" alt="SLTAC Project Logo">
     </div>
-    <div class="project-title">SWOT Mediterranean Applications</div>
-    <div class="project-meta">2023-2026 | PI: Dr. Ananda Pascual</div>
-    <div class="project-desc">Utilizing SWOT satellite data to unlock fine-scale ocean dynamics in the Mediterranean Sea.</div>
-    <ul class="project-objectives">
-      <li>Develop eddy detection algorithms</li>
-      <li>Validate with in-situ measurements</li>
-      <li>Map circulation at high resolution</li>
-    </ul>
+    <div class="project-title">Sea Level TAC</div>
+    <div class="project-meta">2024-2028 | PI: Dr. Ananda Pascual</div>
+    <div class="project-desc">Sea Level Thematic Assembly Center - Copernicus Marine Environtment Monitoring Service - 24251L02-COP-TAC SL-2100</div>
   </div>
   
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/heatwave_logo.svg' | relative_url }}" alt="Marine Heatwaves Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/fastswot_logo.svg' | relative_url }}" alt="FaSt-SWOT Project Logo">
     </div>
-    <div class="project-title">Marine Heatwaves</div>
-    <div class="project-meta">2024-2027 | PI: Dr. Ananda Pascual</div>
-    <div class="project-desc">Investigating marine heatwaves in the Balearic Sea and their ecological impacts.</div>
-    <ul class="project-objectives">
-      <li>Characterize heatwave events</li>
-      <li>Identify physical drivers</li>
-      <li>Assess ecosystem impacts</li>
-    </ul>
+    <div class="project-title">FaSt-SWOT</div>
+    <div class="project-meta">2022-2026</div>
+    <div class="project-desc">Fine-Scale ocean currents from integrated multi-platform experiments and numerical simulations: contribution to the new SWOT satellite mission (PID2021-122417NB-I00)</div>
   </div>
+
+  <div class="project-card">
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/obsea4clim_logo.svg' | relative_url }}" alt="Obsea4Clim Project Logo">
+    </div>
+    <div class="project-title">Obsea4Clim</div>
+    <div class="project-meta">2024-2028</div>
+    <div class="project-desc">Ocean observations and indicators for climate and assesmens </div>
+  </div>
+
 </div>
 
 ## Completed Projects
