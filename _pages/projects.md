@@ -18,7 +18,9 @@ horizontal: false
       <img class="project-logo" src="{{ '/assets/img/projects/alianza_observa_logo.avif' | relative_url }}" alt="Alianza Observa Project Logo">
     </div>
     <div class="project-title">
-      <a href=https://alianzaobserva.com target="_blank">Alianza Observa</a>
+      <a href="https://alianzaobserva.com" target="_blank">
+       Alianza Observa
+      </a>
     </div>
     <div class="project-meta">2025-2027</div>
     <div class="project-desc">Red Estratégica de Observación de la Tierra por satélite</div>
