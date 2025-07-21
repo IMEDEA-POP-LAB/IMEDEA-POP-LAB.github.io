@@ -60,84 +60,30 @@
 
     <footer class="site-footer">
       <div class="container">
-        <div class="footer-content">
-          <!-- About Section -->
-          <div class="footer-section">
-            <h3>{{ site.title }}</h3>
-            <p>{{ site.description }}</p>
-            {% if site.contact_note %}
-              <p>{{ site.contact_note }}</p>
-            {% endif %}
+        <div class="footer-simplified">
+          <!-- Contact Info -->
+          <div class="footer-info">
+            <p>
+              <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Contact Us</a>
+              {% if site.github_username %}
+                <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+              {% endif %}
+              {% if site.twitter_username %}
+                <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Twitter</a>
+              {% endif %}
+            </p>
+            <p><i class="fas fa-map-marker-alt"></i> IMEDEA (UIB-CSIC), Mallorca, Balearic Islands, Spain</p>
           </div>
           
-          <!-- Contact Section -->
-          <div class="footer-section footer-contact">
-            <h3>Contact</h3>
-            {% if site.email %}
-              <div class="contact-item">
-                <i class="fas fa-envelope"></i>
-                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-              </div>
-            {% endif %}
-            {% if site.work_url %}
-              <div class="contact-item">
-                <i class="fas fa-building"></i>
-                <a href="{{ site.work_url }}" target="_blank" rel="noopener">IMEDEA (UIB-CSIC)</a>
-              </div>
-            {% endif %}
-            <div class="contact-item">
-              <i class="fas fa-map-marker-alt"></i>
-              <span>Mallorca, Balearic Islands, Spain</span>
-            </div>
-          </div>
-          
-          <!-- Quick Links -->
-          <div class="footer-section">
-            <h3>Quick Links</h3>
-            <ul>
-              {% for item in site.data.navigation %}
-                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-              {% endfor %}
-            </ul>
-            
-            {% if site.github_username or site.twitter_username or site.scholar_userid or site.orcid_id %}
-              <div class="footer-social">
-                <h3>Follow Us</h3>
-                <div class="social-links">
-                  {% if site.github_username %}
-                    <a href="https://github.com/{{ site.github_username }}" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
-                      <i class="fab fa-github"></i>
-                    </a>
-                  {% endif %}
-                  {% if site.twitter_username %}
-                    <a href="https://twitter.com/{{ site.twitter_username }}" class="social-link" target="_blank" rel="noopener" aria-label="Twitter">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  {% endif %}
-                  {% if site.scholar_userid %}
-                    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" class="social-link" target="_blank" rel="noopener" aria-label="Google Scholar">
-                      <i class="ai ai-google-scholar"></i>
-                    </a>
-                  {% endif %}
-                  {% if site.orcid_id %}
-                    <a href="https://orcid.org/{{ site.orcid_id }}" class="social-link" target="_blank" rel="noopener" aria-label="ORCID">
-                      <i class="ai ai-orcid"></i>
-                    </a>
-                  {% endif %}
-                </div>
+          <!-- Copyright -->
+          <div class="footer-copyright">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+            {% if site.footer_text %}
+              <div class="footer-links">
+                {{ site.footer_text }}
               </div>
             {% endif %}
           </div>
-        </div>
-        
-        <!-- Footer Bottom -->
-        <div class="footer-bottom">
-          <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-          {% if site.footer_text %}
-            <div class="footer-links">
-              {{ site.footer_text }}
-            </div>
-          {% endif %}
         </div>
       </div>
     </footer>

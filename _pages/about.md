@@ -17,6 +17,21 @@ social: true
   <p>We advance oceanographic science through cutting-edge research that integrates <strong>in-situ observations</strong>, <strong>satellite remote sensing</strong>, <strong>numerical modeling</strong>, and <strong>machine learning</strong> to decode ocean dynamics. Our expertise spans the Mediterranean Sea and Southern Ocean regions.</p>
 </div>
 
+## news
+
+  <div class="news-item">
+    <span class="news-date">July 17, 2025</span>
+    <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
+  </div>
+
+<div class="publications-cta">
+  <a href="/publications/" class="cta-button">
+    <span class="cta-text">View All Publications</span>
+    <span class="cta-arrow">→</span>
+  </a>
+</div>
+---
+
 <!-- Research Gallery -->
 <div class="photo-gallery">
   <div class="gallery-grid">
@@ -46,21 +61,6 @@ social: true
     </div>
   </div>
 </div>
-
-## news
-
-  <div class="news-item">
-    <span class="news-date">July 17, 2025</span>
-    <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
-  </div>
-
-<div class="publications-cta">
-  <a href="/publications/" class="cta-button">
-    <span class="cta-text">View All Publications</span>
-    <span class="cta-arrow">→</span>
-  </a>
-</div>
----
 
 <div class="contact-footer">
   <p><strong>Principal Investigator:</strong> Dr. Ananda Pascual | <a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></p>

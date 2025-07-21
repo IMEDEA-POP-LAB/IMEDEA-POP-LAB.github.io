@@ -226,7 +226,7 @@ To change a publication's status, simply change the class name.
   <div class="publication-links">
     <a href="https://doi.org/10.3389/fmars.2021.737671" class="link-doi">DOI</a>
   </div>
-</div>9
+</div>
 
 
 ### 2021

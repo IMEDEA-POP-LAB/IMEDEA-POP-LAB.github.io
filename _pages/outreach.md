@@ -7,9 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-We believe in sharing the excitement of ocean science with the public through various outreach activities.
-
-## featured content
+<!-- featured content -->
 
 <div class="featured-content">
   <div class="featured-item">
@@ -83,10 +81,3 @@ We believe in sharing the excitement of ocean science with the public through va
     <div class="press-outlet">Diario de Mallorca</div>
     <div class="press-excerpt">La algaidina Elisabet Verger-Miralles, estudiante de doctorado de Oceanografía Física y Clima, ha sido la única mallorquina entre los seis españolas seleccionados como embajadores de la Década de las Naciones Unidas para las Ciencias Oceánicas.</div>
   </div>
-  
-## contact
-
-<div class="outreach-contact">
-  <p>For media inquiries and collaboration requests:</p>
-  <p><a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></p>
-</div>
