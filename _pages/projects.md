@@ -18,9 +18,7 @@ horizontal: false
       <img class="project-logo" src="{{ '/assets/img/projects/alianza_observa_logo.avif' | relative_url }}" alt="Alianza Observa Project Logo">
     </div>
     <div class="project-title">
-      <a href="https://alianzaobserva.com" target="_blank">
-       Alianza Observa
-      </a>
+      <a href='https://alianzaobserva.com' target="_blank">Alianza Observa</a>
     </div>
     <div class="project-meta">2025-2027</div>
     <div class="project-desc">Red Estratégica de Observación de la Tierra por satélite</div>
@@ -31,7 +29,7 @@ horizontal: false
       <img class="project-logo" src="{{ '/assets/img/projects/sltac_logo.png' | relative_url }}" alt="SLTAC Project Logo">
     </div>
     <div class="project-title">Sea Level TAC</div>
-    <div class="project-meta">2024-2028 | PI: Dr. Ananda Pascual</div>
+    <div class="project-meta">2024-2028</div>
     <div class="project-desc">Sea Level Thematic Assembly Center - Copernicus Marine Environtment Monitoring Service - 24251L02-COP-TAC SL-2100</div>
   </div>
   
