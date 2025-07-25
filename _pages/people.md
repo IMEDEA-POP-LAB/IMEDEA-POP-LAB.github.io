@@ -54,6 +54,44 @@ nav_order: 2
 
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/baptiste_mourre.jpg" alt="Dr. Baptiste Mourre" class="profile-image">
+    <h5 class="card-title">Dr. Baptiste Mourre</h5>
+    <h6 class="card-subtitle">Research Scientist (2022 - present)</h6>
+    <div class="social-links">
+      <a href="mailto:bmourre@imedea.uib-csic.es" class="social-link email">
+        <span>📧</span>
+        <span>Email</span>
+      </a>
+      <a href="https://orcid.org/0000-0002-5056-0423" class="social-link orcid">
+        <span>🔗</span>
+        <span>ORCID</span>
+      </a>
+    </div>
+    <p class="card-text"></p>
+  </div>
+</div>
+
+<div class="person-card">
+  <div class="card-body">
+    <img src="/assets/img/team/PengJenPing.jpg" alt="Dr. Jen-Ping Peng" class="profile-image">
+    <h5 class="card-title">Dr. Jen-Ping Peng</h5>
+    <h6 class="card-subtitle">Postdoctoral Researcher (2025 - present)</h6>
+    <div class="social-links">
+      <a href="mailto:jppeng@imedea.uib-csic.es" class="social-link email">
+        <span>📧</span>
+        <span>Email</span>
+      </a>
+      <a href="https://orcid.org/0000-0003-1575-0165" class="social-link orcid">
+        <span>🔗</span>
+        <span>ORCID</span>
+      </a>
+    </div>
+    <p class="card-text"></p>
+  </div>
+</div>
+
+<div class="person-card">
+  <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Elisabet Verger-Miralles" class="profile-image">
     <h5 class="card-title">Elisabet Verger-Miralles</h5>
     <h6 class="card-subtitle">Ph.D. Student (2023 - present)</h6>
@@ -185,10 +223,25 @@ nav_order: 2
 <div class="alumni-simple">
   <div class="alumni-list">
     <div class="alumni-item">
+      <strong>Dr. Daniel R. Tarry</strong> (2018-2023) • PhD Student • Now Postdoc at University of Washington 
+    </div>
+    <div class="alumni-item">
+      <strong>Dr. Eugenio Cutolo</strong> (2018-2023) • PhD Student • Now Postdoc at IMT Atlantique 
+    </div>
+    <div class="alumni-item">
+      <strong>Dr. Saïd Ouala</strong> (2017-2021) • PhD Student • Now Tenure-Track Associate Professor at IMT Atlantique
+    </div>
+    <div class="alumni-item">
+      <strong>Dra. Laura Gómez-Navarro</strong> (2016-2020) • PhD Student • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
+    </div>
+    <div class="alumni-item">
       <strong>Dra. Bàrbara Barceló-Llull</strong> (2012-2015) • Postdoc • Now at IMEDEA Marine Ecology Group
     </div>
     <div class="alumni-item">
-      <strong>Dr. Daniel R. Tarry</strong> (2018-2024) • PhD Student • Now Postdoc at 
+      <strong>Dr. Romain Escudier</strong> (2011-2015) • PhD Student • Now at Mercator Ocean International
+    </div>
+    <div class="alumni-item">
+      <strong>Dr. Enrique Vidal Vijande</strong> (2007-2010) • PhD Student • Now Founding Partner at SOLWORKS
     </div>
   </div>
 </div>
