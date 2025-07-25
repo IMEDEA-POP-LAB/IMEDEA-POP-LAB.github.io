@@ -235,7 +235,7 @@ nav_order: 2
       <strong>Dra. Laura Gómez-Navarro</strong> (2016-2020) • PhD Student • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
     </div>
     <div class="alumni-item">
-      <strong>Dra. Bàrbara Barceló-Llull</strong> (2012-2015) • Postdoc • Now at IMEDEA Marine Ecology Group
+      <strong>Dra. Bàrbara Barceló-Llull</strong> (2012-2015) • PhD Student • Now at IMEDEA Marine Ecology Group
     </div>
     <div class="alumni-item">
       <strong>Dr. Romain Escudier</strong> (2011-2015) • PhD Student • Now at Mercator Ocean International
