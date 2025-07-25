@@ -1,0 +1,158 @@
+// =============================================================================
+// Typography - Clean and minimal headings
+// =============================================================================
+
+/* Reset all heading decorations */
+h1, h2, h3, h4, h5, h6,
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6,
+.page-title, .section-title {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  color: #000 !important;
+  outline: none !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Additional page title resets - target any theme-specific classes */
+.page-header .page-title,
+.post-header .page-title,
+.projects .page-title,
+.page-title,
+header .page-title,
+.header .page-title,
+main .page-title {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-attachment: initial !important;
+  background-clip: initial !important;
+  background-origin: initial !important;
+  background-position: initial !important;
+  background-repeat: initial !important;
+  background-size: initial !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Remove all pseudo-elements */
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before,
+h2::after, h3::after, h4::after, h5::after, h6::after,
+.section-title::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* Main headings (h1) - lowercase with underline */
+h1, .page-title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 100;
+  letter-spacing: -0.04em;
+  margin: 0 0 var(--space-8) 0;
+  text-transform: lowercase;
+  position: relative;
+}
+
+/* Add underline to h1 only */
+h1::after, .page-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0.8ch;
+  height: 1px;
+  background: #000;
+}
+
+/* Unified heading system - consistent across all pages */
+
+/* Main section headings (h2) - large, prominent but clean */
+h2, .section-title,
+.page-content h2, .post-content h2, article h2,
+.outreach h2, .people h2, .projects h2, .publications h2, .repositories h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem) !important;
+  font-weight: 300 !important;
+  color: #000 !important;
+  margin: var(--space-8) 0 var(--space-4) 0 !important;
+  text-transform: none !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.2 !important;
+}
+
+/* Subsection headings (h3) - medium size, clear hierarchy */
+h3,
+.page-content h3, .post-content h3, article h3,
+.outreach h3, .people h3, .projects h3, .publications h3, .page-content.publications h3, .repositories h3 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem) !important;
+  font-weight: 400 !important;
+  color: #000 !important;
+  margin: var(--space-6) 0 var(--space-3) 0 !important;
+  text-transform: none !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.3 !important;
+}
+
+/* Minor headings (h4) - smaller but clear */
+h4,
+.page-content h4, .post-content h4, article h4,
+.outreach h4, .people h4, .projects h4, .publications h4, .repositories h4 {
+  font-size: clamp(1.125rem, 2.5vw, 1.375rem) !important;
+  font-weight: 500 !important;
+  color: #000 !important;
+  margin: var(--space-5) 0 var(--space-2) 0 !important;
+  text-transform: none !important;
+  line-height: 1.4 !important;
+}
+
+/* Detail headings (h5) - compact but readable */
+h5,
+.page-content h5, .post-content h5, article h5,
+.outreach h5, .people h5, .projects h5, .publications h5, .repositories h5 {
+  font-size: clamp(1rem, 2vw, 1.125rem) !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+  margin: var(--space-4) 0 var(--space-2) 0 !important;
+  text-transform: none !important;
+  line-height: 1.4 !important;
+}
+
+/* Fine headings (h6) - smallest, for labels and captions */
+h6,
+.page-content h6, .post-content h6, article h6,
+.outreach h6, .people h6, .projects h6, .publications h6, .repositories h6 {
+  font-size: clamp(0.875rem, 1.5vw, 1rem) !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  margin: var(--space-3) 0 var(--space-1) 0 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  line-height: 1.4 !important;
+}
+
+/* Basic text styles */
+p {
+  margin: 0 0 var(--space-4) 0;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}

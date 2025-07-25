@@ -7,9 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-We believe in sharing the excitement of ocean science with the public through various outreach activities.
-
-## featured content
+<!-- featured content -->
 
 <div class="featured-content">
   <div class="featured-item">
@@ -73,6 +71,7 @@ We believe in sharing the excitement of ocean science with the public through va
 ## press releases
 
 <div class="press-releases">
+
   <div class="press-item">
     <div class="press-date">July 2025</div>
     <div class="press-title">
@@ -83,10 +82,16 @@ We believe in sharing the excitement of ocean science with the public through va
     <div class="press-outlet">Diario de Mallorca</div>
     <div class="press-excerpt">La algaidina Elisabet Verger-Miralles, estudiante de doctorado de Oceanografía Física y Clima, ha sido la única mallorquina entre los seis españolas seleccionados como embajadores de la Década de las Naciones Unidas para las Ciencias Oceánicas.</div>
   </div>
-  
-## contact
 
-<div class="outreach-contact">
-  <p>For media inquiries and collaboration requests:</p>
-  <p><a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></p>
+  <div class="press-item">
+    <div class="press-date">August 2024</div>
+    <div class="press-title">
+      <a href=" https://www.innovaspain.com/ananda-pascual-oceanos-libro-blanco-csic-imedea/" target="_blank">
+       Ananda Pascual: "Los océanos son un espejo de lo que ocurre en el mundo"
+      </a>
+    </div>
+    <div class="press-outlet">Innovaspain</div>
+    <div class="press-excerpt">La oceanógrafa física coordina el Libro Blanco del CSIC sobre los océanos, que reúne los grandes retos de la investigación oceánica de la década.</div>
+  </div>
+
 </div>

@@ -1,0 +1,30 @@
+// =============================================================================
+// Main SCSS Index - Import all partials
+// =============================================================================
+
+// Base styles (order matters - variables and mixins first!)
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/reset';
+@import 'base/typography';
+
+// Layout
+@import 'layout/layout';
+@import 'layout/footer';
+@import 'layout/utilities';
+
+// Components
+@import 'components/navigation';
+@import 'components/cards';
+@import 'components/buttons';
+
+// Pages
+@import 'pages/about';
+@import 'pages/people';
+@import 'pages/publications';
+@import 'pages/projects_simplified';
+@import 'pages/repositories';
+@import 'pages/outreach';
+
+// Utilities and overrides (should be last)
+@import 'utilities/overrides';

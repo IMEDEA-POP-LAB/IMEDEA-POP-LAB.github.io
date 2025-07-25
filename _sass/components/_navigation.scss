@@ -1,0 +1,353 @@
+// =============================================================================
+// Navigation Component - Header with blue gradient and responsive nav
+// =============================================================================
+
+/* ULTIMATE NUCLEAR OPTION - Force blue gradient on ALL possible header selectors */
+*[class*="site-header"],
+*[class*="header"],
+header,
+.site-header,
+nav.site-header,
+.wrapper > .site-header,
+body > .wrapper > .site-header {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+}
+
+/* Nuclear option - override any possible navbar background conflicts */
+nav,
+nav[role="navigation"],
+.navbar,
+.navigation,
+.site-header,
+header[role="banner"],
+.main-nav,
+.primary-nav,
+.top-nav {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+}
+
+/* Ensure the background persists on scroll and interaction */
+.navbar:hover,
+.navbar:focus,
+.navbar:active,
+.navbar.scrolled,
+.navbar.fixed,
+.navbar.sticky {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+}
+
+/* Override any potential CSS framework conflicts */
+.navbar-default,
+.navbar-inverse,
+.navbar-light,
+.navbar-dark,
+.bg-light,
+.bg-white,
+.bg-transparent {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+}
+
+/* Modern header with blue gradient background - targeting actual HTML structure */
+.fixed-top {
+  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
+  border-bottom: none !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15) !important;
+  z-index: 1000 !important;
+  height: auto !important;
+  min-height: 60px !important;
+  padding: var(--space-2) 0 !important;
+}
+
+/* Override Bootstrap navbar styles specifically */
+.navbar.navbar-expand-md.navbar-dark.fixed-top {
+  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
+  background-color: var(--ocean-blue) !important;
+  padding: var(--space-2) 0 !important;
+}
+
+/* Navbar container styling */
+.navbar .container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+  background: transparent !important;
+}
+
+/* Brand styling */
+.navbar-brand {
+  font-weight: 700 !important;
+  font-size: var(--text-xl) !important;
+  color: white !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  padding: var(--space-2) 0 !important;
+  margin-right: var(--space-8) !important;
+}
+
+.navbar-brand:hover {
+  color: var(--ocean-light) !important;
+  text-decoration: none !important;
+}
+
+/* Remove any conflicting backgrounds from navigation elements */
+.navbar-collapse,
+.navbar-nav,
+.nav-item,
+.nav-link {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Navigation list styling */
+.navbar-nav {
+  display: flex !important;
+  align-items: center !important;
+  gap: var(--space-1) !important;
+  margin-left: auto !important;
+}
+
+/* Add mobile responsiveness for the site navigation */
+@media (max-width: 768px) {
+  .navbar .container-fluid {
+    padding: 0 var(--space-4);
+  }
+  
+  .navbar-brand {
+    font-size: var(--text-lg) !important;
+    margin-right: var(--space-4) !important;
+  }
+  
+  .navbar-nav {
+    gap: 0 !important;
+    margin-top: var(--space-2) !important;
+  }
+}
+
+/* Navigation active states and interactions */
+.navbar-toggler {
+  border: none !important;
+  color: white !important;
+  text-shadow: none !important;
+}
+
+/* Ensure consistent navigation styling across all pages */
+.nav-item .nav-link {
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: var(--text-sm) !important;
+  padding: var(--space-2) var(--space-3) !important;
+  margin: 0 var(--space-1) !important;
+  border-radius: var(--radius-sm) !important;
+  transition: all 0.2s ease !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+  text-decoration: none !important;
+  border: none !important;
+  background: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus {
+  color: var(--ocean-light) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  text-decoration: none !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  transform: translateY(-1px) !important;
+}
+
+.nav-item .nav-link.active {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.25) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Force navbar to always be visible with gradient */
+.fixed-top,
+.navbar-fixed-top {
+  background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-blue) 100%) !important;
+  background-color: var(--ocean-blue) !important;
+}
+
+/* Ensure navbar container is properly styled */
+.navbar .container,
+.navbar .container-fluid {
+  background: transparent !important;
+  max-width: 1200px;
+}
+
+/* Make sure navbar brand is visible */
+.navbar-brand {
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: var(--text-xl) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: var(--ocean-light) !important;
+  text-decoration: none !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Navigation links visibility */
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600 !important;
+  padding: var(--space-2) var(--space-3) !important;
+  margin: 0 var(--space-1) !important;
+  border-radius: var(--radius-sm) !important;
+  transition: all 0.2s ease !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--ocean-light) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  text-decoration: none !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.25) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Site header - main branch styling with nuclear specificity */
+header.site-header,
+.site-header,
+.wrapper .site-header,
+body .site-header,
+html .site-header {
+  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  background-color: #0284c7 !important;
+  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  border-bottom: 2px solid #164e63 !important;
+  padding: var(--space-4) 0 !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+  min-height: 70px !important;
+  width: 100% !important;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent !important;
+  max-width: 1200px;
+}
+
+.site-title {
+  color: white !important;
+  text-decoration: none !important;
+  font-size: var(--text-2xl) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  transition: all 0.3s ease !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+.site-title:hover {
+  color: var(--ocean-light) !important;
+  text-decoration: none !important;
+  transform: translateY(-1px) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.site-nav {
+  display: flex;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+.site-nav .page-link {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: var(--text-sm) !important;
+  letter-spacing: 0.025em !important;
+  text-transform: uppercase !important;
+  padding: var(--space-2) var(--space-4) !important;
+  border-radius: var(--radius-md) !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  overflow: hidden !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.site-nav .page-link:hover {
+  color: var(--ocean-light) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-2px) !important;
+  text-decoration: none !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Shimmer effect on links */
+.site-nav .page-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.site-nav .page-link:hover::before {
+  left: 100%;
+}
+
+/* Navigation active states */
+.site-nav .page-link.active,
+.site-nav .page-link[aria-current="page"] {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.25) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Remove conflicting backgrounds */
+.site-nav,
+.site-nav *,
+.page-link {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Mobile responsive navigation */
+@media (max-width: 768px) {
+  .site-header .container {
+    flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+  }
+  
+  .site-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+  }
+  
+  .site-nav .page-link {
+    font-size: var(--text-xs);
+    padding: var(--space-2) var(--space-3);
+  }
+}

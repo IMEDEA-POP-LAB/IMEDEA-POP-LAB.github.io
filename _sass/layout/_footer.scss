@@ -1,0 +1,73 @@
+/* Site Footer Styles */
+
+.site-footer {
+  background: var(--color-bg-footer, var(--gray-50));
+  border-top: 1px solid var(--gray-200);
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  
+  .footer-simplified {
+    text-align: center;
+  }
+  
+  .footer-info {
+    margin-bottom: 1rem;
+    
+    p {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.5rem;
+    }
+    
+    a {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      margin: 0 0.75rem;
+      transition: color 0.2s ease;
+      
+      i {
+        margin-right: 0.3rem;
+      }
+      
+      &:hover {
+        color: var(--global-hover-color);
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .footer-copyright {
+    border-top: 1px solid var(--gray-200);
+    padding-top: 1rem;
+    p {
+      font-size: 0.8rem;
+      color: var(--global-text-color-light);
+      margin: 0;
+    }
+    
+    .footer-links {
+      margin-top: 0.5rem;
+      
+      a {
+        color: var(--global-theme-color);
+        text-decoration: none;
+        margin: 0 0.5rem;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/* Dark mode adjustments */
+html.dark .site-footer {
+  background: var(--gray-900);
+  border-top-color: var(--gray-700);
+  
+  .footer-copyright {
+    border-top-color: var(--gray-700);
+  }
+}

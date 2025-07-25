@@ -25,7 +25,7 @@ nav_order: 2
         <span>ORCID</span>
       </a>
     </div>
-    <p class="card-text">Leads research in physical oceanography, focusing on mesoscale and submesoscale processes, satellite altimetry, and ocean climate observations using advanced remote sensing and numerical simulations.</p>
+    <p class="card-text">Senior scientist at the Spanish National Research Council (CSIC) at IMEDEA in Mallorca, Spain. She obtained her Ph.D. in Physical Oceanography from the University of the Balearic Islands in 2003, followed by positions at the CLS Space Oceanography Division in Toulouse as a Marie Skłodowska-Curie postdoctoral fellow, and at IMEDEA as a Ramon y Cajal tenure-track fellow. Her research primarily focuses on understanding meso and submesoscale processes in the ocean and their impact on climate, using a combination of remote sensing, in-situ data, and numerical simulations. .</p>
   </div>
 </div>
 
@@ -48,7 +48,7 @@ nav_order: 2
         <span>ORCID</span>
       </a>
     </div>
-    <p class="card-text">Specializes in ocean modeling, coastal upwelling systems, and eddy dynamics with expertise in regional and coastal sea modeling and low-frequency ocean variability.</p>
+    <p class="card-text">Has been a Senior Research Associate at Oregon State University, in the CEOAS department since 2010. He got his Phd from Georgia Tech (Atlanta) in 2010 and an engineering degree in Hydraulics from the ENSEEIHT (France) in 2005. He is specialized in modeling realistic ocean flows in regional and coastal seas including the Gulf of Alaska, California Current, Peru Chile Current system, Patagonian shelf and Southeast Atlantic. He is particularly interested in the low frequency ocean variability, coastal and shelfbreak upwellings, eddy dynamics, transport of nutrient rich shelf water to the deep ocean and remote sensing.</p>
   </div>
 </div>
 
@@ -132,7 +132,7 @@ nav_order: 2
       <div class="supervisor-label">PhD Supervisor</div>
       <div class="supervisor-name">Dra. Ananda Pascual, Dr. Vincent Combes</div>
     </div>
-    <p class="card-text">Investigating mesoscale ocean variability in the Mediterranean Sea, focusing on eddy kinetic energy and geostrophic currents derived from satellite altimetry.</p>
+    <p class="card-text">His research focuses on mesoscale ocean variability in the Mediterranean Sea, particularly on eddy kinetic energy (EKE) and geostrophic currents derived from satellite altimetry as well as ocean transport using in-situ observations and remote sensing data.</p>
   </div>
 </div>
 
@@ -155,7 +155,7 @@ nav_order: 2
       <div class="supervisor-label">PhD Supervisors</div>
       <div class="supervisor-name">Dra. Ananda Pascual, Dr. Simón Ruiz</div>
     </div>
-    <p class="card-text">Studying submesoscale ocean dynamics, energy cascades, and vertical transport processes in the Mediterranean Sea as part of the CALYPSO project.</p>
+    <p class="card-text">Her research focuses on the energy cascade between meso- and submesoscales, spectral analysis of oceanographic data, and the physical processes driving vertical transport in the upper ocean.</p>
   </div>
 </div>
 
@@ -174,7 +174,7 @@ nav_order: 2
       <div class="supervisor-label">PhD Supervisor</div>
       <div class="supervisor-name">Dra. Ananda Pascual, Dra. Bàrbara Barceló-Llull</div>
     </div>
-    <p class="card-text">Analyzing marine heatwaves in the Mediterranean Sea with focus on the Balearic Sea region and extreme temperature events.</p>
+    <p class="card-text"></p>
   </div>
 </div>
 
@@ -193,7 +193,7 @@ nav_order: 2
       <div class="supervisor-label">PhD Supervisor</div>
       <div class="supervisor-name">Dra. Ananda Pascual, Dr. Angel Amores</div>
     </div>
-    <p class="card-text">Developing advanced oceanographic data analysis and modeling techniques for understanding ocean dynamics.</p>
+    <p class="card-text"></p>
   </div>
 </div>
 
@@ -212,7 +212,7 @@ nav_order: 2
       <div class="supervisor-label">Supervisor</div>
       <div class="supervisor-name">Dra. Ananda Pascual</div>
     </div>
-    <p class="card-text">Investigating marine ecosystem dynamics in the Mediterranean Sea</p>
+    <p class="card-text"></p>
   </div>
 </div>
 
@@ -325,9 +325,3 @@ nav_order: 2
     
   </div>
 </div>
-
-## Join Our Team
-
-We welcome applications from motivated students and researchers. Current opportunities include Ph.D. positions, postdoctoral fellowships, and Master's thesis projects in physical oceanography and marine sciences.
-
-**Contact:** Dr. Ananda Pascual at [ananda.pascual@imedea.uib-csic.es](mailto:ananda.pascual@imedea.uib-csic.es)

@@ -107,3 +107,53 @@ For more information about this project, contact:
 ---
 
 *Last updated: [Date]*
+
+<!--
+=============================================================================
+PROJECT TEMPLATE - Copy this template to create a new project
+=============================================================================
+
+INSTRUCTIONS FOR GITHUB EDITING:
+1. Copy all content below this comment block
+2. Go to _pages/projects.md on GitHub
+3. Click the pencil icon to edit
+4. Paste the template content in the appropriate section
+5. Replace all [bracketed placeholders] with your content
+6. Upload any images to assets/img/projects/ first
+7. Commit your changes
+
+TIPS:
+- Use 1200x600px images for best display
+- Keep descriptions concise but informative
+- Use the same format for consistency
+=============================================================================
+-->
+
+<!-- PROJECT CARD - Add this to the projects page -->
+<div class="project-card">
+  <div class="project-content">
+    <div class="project-header">
+      <h3 class="project-title">[Your Project Title]</h3>
+      <div class="project-meta">
+        <span class="project-status [active/completed/upcoming]">[Status]</span>
+        <span class="project-tag">[Category/Field]</span>
+      </div>
+    </div>
+    
+    <p class="project-description">
+      [Write a compelling 2-3 sentence summary of your project. What is it about and why is it important?]
+    </p>
+    
+    <div class="project-team">
+      <strong>Team:</strong> [List team members involved]
+    </div>
+    
+    <div class="project-links">
+      <a href="[link-to-detailed-page]" class="project-link primary">Learn More</a>
+      <a href="[link-to-publication]" class="project-link">Publication</a>
+      <a href="[link-to-data]" class="project-link">Data</a>
+    </div>
+  </div>
+</div>
+
+<!-- END PROJECT CARD -->

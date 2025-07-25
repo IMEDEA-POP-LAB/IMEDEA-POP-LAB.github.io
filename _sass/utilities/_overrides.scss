@@ -1,0 +1,180 @@
+// =============================================================================
+// Reset & Override Utilities - Nuclear options for theme conflicts
+// =============================================================================
+
+/* ========================================================================== */
+/* NUCLEAR OPTION - REMOVE ALL TITLE BOXES AND BACKGROUND CONFLICTS */
+/* ========================================================================== */
+
+/* Target every possible title and header combination */
+h1, h2, h3, h4, h5, h6,
+.page-title, .post-title, .section-title,
+.page-header .page-title,
+.post-header .page-title,
+.projects .page-title,
+header .page-title,
+.header .page-title,
+main .page-title,
+.page-content h1, .page-content h2, .page-content h3,
+.page-content h4, .page-content h5, .page-content h6,
+.post-content h1, .post-content h2, .post-content h3,
+.post-content h4, .post-content h5, .post-content h6,
+article h1, article h2, article h3, article h4, article h5, article h6,
+.outreach h1, .outreach h2, .outreach h3,
+.people h1, .people h2, .people h3,
+.projects h1, .projects h2, .projects h3,
+.publications h1, .publications h2, .publications h3,
+.repositories h1, .repositories h2, .repositories h3 {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-attachment: initial !important;
+  background-clip: initial !important;
+  background-origin: initial !important;
+  background-position: initial !important;
+  background-repeat: initial !important;
+  background-size: initial !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  outline: none !important;
+}
+
+/* Target any title element in any context */
+[class*="title"],
+[class*="header"],
+[class*="heading"] {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Remove any pseudo-elements that might create boxes */
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before,
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after,
+.page-title::before, .page-title::after,
+.section-title::before, .section-title::after,
+[class*="title"]::before, [class*="title"]::after,
+[class*="header"]::before, [class*="header"]::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Universal reset for any potential theme classes */
+.al-folio h1, .al-folio h2, .al-folio h3,
+.bootstrap h1, .bootstrap h2, .bootstrap h3,
+.theme h1, .theme h2, .theme h3 {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* ========================================================================== */
+/* VISIBILITY AND SCROLL FIXES */
+/* ========================================================================== */
+
+/* Ensure page headers and titles scroll with content */
+.page-header,
+.post-header,
+.page-content > header,
+main > header,
+.projects-header,
+.page .page-header {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+
+/* Ensure titles are not sticky or fixed */
+h1, .page-title,
+.page h1, .page .page-title,
+.page-header h1, .page-header .page-title {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+}
+
+/* ========================================================================== */
+/* ACCESSIBILITY AND INTERACTION STATES */
+/* ========================================================================== */
+
+/* Focus states for accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--ocean-blue);
+  outline-offset: 2px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ========================================================================== */
+/* PRINT STYLES */
+/* ========================================================================== */
+
+@media print {
+  /* Hide navigation and interactive elements */
+  nav, .navbar, .navigation,
+  .btn, button,
+  .social-links,
+  .external-profiles {
+    display: none !important;
+  }
+  
+  /* Optimize text for print */
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+    color: black !important;
+    background: white !important;
+  }
+  
+  /* Remove shadows and effects */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  /* Ensure links are visible */
+  a {
+    color: black !important;
+    text-decoration: underline !important;
+  }
+  
+  /* Page breaks */
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+  
+  .page-break {
+    page-break-before: always;
+  }
+}

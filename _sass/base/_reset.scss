@@ -1,0 +1,246 @@
+// =============================================================================
+// Base Reset & Typography
+// =============================================================================
+
+// Modern CSS Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: $font-stack-sans;
+  font-size: var(--text-base);
+  font-weight: var(--font-normal);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  background: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+// Headings Reset & Styles
+h1, h2, h3, h4, h5, h6 {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  color: currentColor !important;
+  outline: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  font-family: inherit;
+  line-height: 1.25;
+  font-weight: 400;
+  margin: 0;
+}
+
+// Main heading (h1) - Lowercase with underline
+h1 {
+  @include text-style(4xl, light);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  letter-spacing: -0.04em;
+  margin-bottom: var(--space-8);
+  text-transform: lowercase;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0.8ch;
+    height: 1px;
+    background: currentColor;
+  }
+}
+
+// Section headings (h2)
+h2 {
+  @include text-style(2xl, light);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin: var(--space-12) 0 var(--space-6) 0;
+  letter-spacing: -0.025em;
+}
+
+// Subsection headings (h3)
+h3 {
+  @include text-style(xl, normal);
+  margin: var(--space-8) 0 var(--space-4) 0;
+  letter-spacing: -0.015em;
+}
+
+// Minor headings (h4)
+h4 {
+  @include text-style(lg, medium);
+  margin: var(--space-6) 0 var(--space-3) 0;
+}
+
+// Detail headings (h5)
+h5 {
+  @include text-style(base, medium);
+  margin: var(--space-4) 0 var(--space-2) 0;
+}
+
+// Fine headings (h6)
+h6 {
+  @include text-style(sm, semibold);
+  margin: var(--space-3) 0 var(--space-2) 0;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+// Paragraph styles
+p {
+  margin-bottom: var(--space-4);
+  line-height: var(--leading-relaxed);
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Link styles
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: var(--transition-base);
+  
+  &:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
+  
+  &:focus-visible {
+    @include focus-ring;
+  }
+}
+
+// List styles
+ul, ol {
+  margin-bottom: var(--space-4);
+  padding-left: var(--space-6);
+}
+
+li {
+  margin-bottom: var(--space-1);
+}
+
+// Code styles
+code {
+  font-family: $font-stack-mono;
+  font-size: 0.875em;
+  background: var(--gray-100);
+  padding: 0.125em 0.25em;
+  border-radius: var(--radius-sm);
+}
+
+pre {
+  font-family: $font-stack-mono;
+  background: var(--gray-900);
+  color: var(--gray-100);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  margin-bottom: var(--space-4);
+  
+  code {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+}
+
+// Blockquote
+blockquote {
+  border-left: 4px solid var(--color-primary);
+  padding-left: var(--space-4);
+  margin: var(--space-6) 0;
+  font-style: italic;
+  color: var(--color-text-light);
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: var(--space-6);
+}
+
+th, td {
+  padding: var(--space-3);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+th {
+  font-weight: var(--font-semibold);
+  background: var(--gray-50);
+}
+
+// Form elements
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: var(--transition-base);
+  
+  &:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1);
+  }
+}
+
+// Button reset
+button {
+  @include button-reset;
+}
+
+// Utility classes for typography
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.font-light { font-weight: var(--font-light); }
+.font-normal { font-weight: var(--font-normal); }
+.font-medium { font-weight: var(--font-medium); }
+.font-semibold { font-weight: var(--font-semibold); }
+.font-bold { font-weight: var(--font-bold); }
+
+.text-xs { font-size: var(--text-xs); }
+.text-sm { font-size: var(--text-sm); }
+.text-base { font-size: var(--text-base); }
+.text-lg { font-size: var(--text-lg); }
+.text-xl { font-size: var(--text-xl); }
+.text-2xl { font-size: var(--text-2xl); }
+
+.leading-tight { line-height: var(--leading-tight); }
+.leading-normal { line-height: var(--leading-normal); }
+.leading-relaxed { line-height: var(--leading-relaxed); }

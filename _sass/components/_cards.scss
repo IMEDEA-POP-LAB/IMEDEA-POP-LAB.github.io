@@ -1,0 +1,115 @@
+// =============================================================================
+// Card Components - Reusable card styles for various content
+// =============================================================================
+
+/* Modern card container */
+.modern-card {
+  background: var(--global-card-bg);
+  border: 1px solid var(--global-divider-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--global-shadow);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.modern-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--global-shadow-lg);
+  border-color: var(--ocean-blue);
+}
+
+/* Card content */
+.card-content {
+  padding: var(--space-6);
+}
+
+.card-header {
+  padding: var(--space-6) var(--space-6) 0;
+}
+
+.card-footer {
+  padding: 0 var(--space-6) var(--space-6);
+}
+
+/* Card image */
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+/* Card title */
+.card-title {
+  font-size: var(--text-xl) !important;
+  font-weight: 600 !important;
+  color: var(--gray-900) !important;
+  margin: 0 0 var(--space-3) 0 !important;
+  line-height: 1.4 !important;
+}
+
+/* Card description */
+.card-description {
+  font-size: var(--text-sm);
+  color: var(--gray-600);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+
+/* Card meta information */
+.card-meta {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+  font-size: var(--text-xs);
+  color: var(--gray-500);
+  margin-bottom: var(--space-3);
+}
+
+.card-meta-item {
+  background: var(--gray-100);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+/* Card grid layouts */
+.card-grid {
+  display: grid;
+  gap: var(--space-6);
+  margin: var(--space-8) 0;
+}
+
+.card-grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card-grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card-grid-4 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .card-grid,
+  .card-grid-2,
+  .card-grid-3,
+  .card-grid-4 {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  
+  .card-content {
+    padding: var(--space-4);
+  }
+  
+  .card-header {
+    padding: var(--space-4) var(--space-4) 0;
+  }
+  
+  .card-footer {
+    padding: 0 var(--space-4) var(--space-4);
+  }
+}

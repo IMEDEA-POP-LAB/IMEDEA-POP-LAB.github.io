@@ -60,11 +60,30 @@
 
     <footer class="site-footer">
       <div class="container">
-        <div class="footer-content">
-          {% if site.footer_text %}
-            <p>{{ site.footer_text }}</p>
-          {% endif %}
-          <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        <div class="footer-simplified">
+          <!-- Contact Info -->
+          <div class="footer-info">
+            <p>
+              <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Contact Us</a>
+              {% if site.github_username %}
+                <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+              {% endif %}
+              {% if site.twitter_username %}
+                <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Twitter</a>
+              {% endif %}
+            </p>
+            <p><i class="fas fa-map-marker-alt"></i> IMEDEA (UIB-CSIC), Mallorca, Balearic Islands, Spain</p>
+          </div>
+          
+          <!-- Copyright -->
+          <div class="footer-copyright">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+            {% if site.footer_text %}
+              <div class="footer-links">
+                {{ site.footer_text }}
+              </div>
+            {% endif %}
+          </div>
         </div>
       </div>
     </footer>
