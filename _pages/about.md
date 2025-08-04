@@ -9,7 +9,7 @@ social: true
 ---
 
 <div class="intro-hero">
-  <h1 class="lab-title">Physical Ocean Processes</h1>
+  <h1 class="lab-title" style="text-transform: capitalize;">Physical Ocean Processes</h1>
   <p class="lab-subtitle">Ananda Pascual Lab • <a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a></p>
 </div>
 
@@ -17,7 +17,7 @@ social: true
   <p>The Physical Ocean Processes lab at IMEDEA focuses on <strong>physical oceanography</strong>, investigating <strong>ocean dynamics at meso-</strong> and <strong>submesoscales</strong> to better understand the structure and variability of ocean circulation. By combining <strong>satellite altimetry</strong>, <strong>in situ observations</strong>, and <strong>numerical modeling</strong>, the team contributes to the validation and scientific exploitation of <strong>new altimetric products</strong> and the reconstruction of ocean state variables using advanced techniques, including <strong>artificial intelligence</strong>. Part of the research is conducted in <strong>the Mediterranean Sea</strong>, a region particularly vulnerable to climate change, where the effects of <strong>ocean warming</strong> and <strong>intensified extremes</strong> can be observed with increasing clarity. The approaches and scientific questions addressed are, however, relevant to ocean regions worldwide. Applications include improving ocean prediction systems and understanding potential impacts on marine ecosystems. Current investigations include the analysis of data from the <strong>SWOT satellite mission</strong>, the study of <strong>marine heatwaves</strong> and <strong>storm surges</strong>, the influence of <strong>small-scale dynamics on large-scale ocean circulation</strong> and <strong>climate</strong>, and the development of <strong>AI-based 3D reconstruction methods</strong>.</p>
 </div>
 
-## news
+## News
 
   <div class="news-item">
     <span class="news-date">July 17, 2025</span>
