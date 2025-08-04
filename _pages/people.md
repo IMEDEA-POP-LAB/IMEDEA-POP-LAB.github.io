@@ -67,7 +67,7 @@ nav_order: 2
         <span>ORCID</span>
       </a>
     </div>
-    <p class="card-text"></p>
+    <p class="card-text">Add Description</p>
   </div>
 </div>
 
@@ -86,7 +86,7 @@ nav_order: 2
         <span>ORCID</span>
       </a>
     </div>
-    <p class="card-text"></p>
+    <p class="card-text">Add Description</p>
   </div>
 </div>
 
@@ -109,7 +109,7 @@ nav_order: 2
       <div class="supervisor-label">PhD Supervisor</div>
       <div class="supervisor-name">Dra. Ananda Pascual, Dr. Baptiste Mourre</div>
     </div>
-    <p class="card-text">Researching fine-scale ocean dynamics and SWOT satellite applications for enhanced eddy detection using multi-platform observations.</p>
+    <p class="card-text">Add Description</p>
   </div>
 </div>
 
@@ -174,7 +174,7 @@ nav_order: 2
       <div class="supervisor-label">PhD Supervisor</div>
       <div class="supervisor-name">Dra. Ananda Pascual, Dra. Bàrbara Barceló-Llull</div>
     </div>
-    <p class="card-text"></p>
+    <p class="card-text">Add Description</p>
   </div>
 </div>
 
@@ -193,7 +193,7 @@ nav_order: 2
       <div class="supervisor-label">PhD Supervisor</div>
       <div class="supervisor-name">Dra. Ananda Pascual, Dr. Angel Amores</div>
     </div>
-    <p class="card-text"></p>
+    <p class="card-text">Add Description</p>
   </div>
 </div>
 
@@ -261,7 +261,7 @@ nav_order: 2
     
      <div class="collaborator-card featured">
       <div class="collaborator-header">
-        <h5>Dr. Baptiste Mourre</h5>
+        <h5>Collaborator #2</h5>
         <span class="collaboration-status ongoing">Ongoing</span>
       </div>
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
@@ -269,7 +269,7 @@ nav_order: 2
 
     <div class="collaborator-card featured">
       <div class="collaborator-header">
-        <h5>[Name]</h5>
+        <h5>Collaborator #3</h5>
         <span class="collaboration-status ongoing">Ongoing</span>
       </div>
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
@@ -277,7 +277,7 @@ nav_order: 2
 
     <div class="collaborator-card featured">
       <div class="collaborator-header">
-        <h5>[Name]</h5>
+        <h5>Collaborator #4</h5>
         <span class="collaboration-status ongoing">Ongoing</span>
       </div>
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
