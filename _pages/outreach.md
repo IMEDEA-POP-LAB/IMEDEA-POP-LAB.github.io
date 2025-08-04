@@ -20,24 +20,31 @@ nav_order: 4
       </div>
     </div>
   </div>
-  
-  <div class="featured-item">
-    <div class="featured-date">[Date]</div>
-    <div class="featured-details">
-      <div class="featured-title">[Title]</div>
-      <div class="featured-venue">[Subtitle]</div>
-    </div>
-  </div>
-  
-  <div class="featured-item">
-    <div class="featured-date">[Date]</div>
-    <div class="featured-details">
-      <div class="featured-title">[Title]</div>
-      <div class="featured-venue">[Subtitle]</div>
-    </div>
-  </div>
-</div>
 
+<div class="featured-content">
+  <div class="featured-item">
+    <div class="featured-date">February 2022</div>
+    <div class="featured-details">
+      <div class="featured-title">Mujeres STEM CSIC Balears #11F</div>
+      <div class="featured-venue">CSIC Illes Balears </div>
+      <div class="featured-video">
+        <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=cc4fR1Hubg8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+<div class="featured-content">
+  <div class="featured-item">
+    <div class="featured-date">March 2018</div>
+    <div class="featured-details">
+      <div class="featured-title">Understanding of oceanic processes in the Mediterranean</div>
+      <div class="featured-venue">MedSUB Documentary</div>
+      <div class="featured-video">
+        <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=rr9xdHcFwvs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
 ## education
 
 <div class="education-activities">
@@ -71,6 +78,17 @@ nav_order: 4
 ## press releases
 
 <div class="press-releases">
+
+  <div class="press-item">
+    <div class="press-date">July 2025</div>
+    <div class="press-title">
+      <a href="https://www.elperiodico.com/es/medio-ambiente/20250707/disparado-temperatura-agua-mediterraneo-espanol-119356965" target="_blank">
+       Así se ha disparado la temperatura del agua en el Mediterráneo español desde hace 40 años
+      </a>
+    </div>
+    <div class="press-outlet">El Periódico</div>
+    <div class="press-excerpt">El mar Mediterráneo, cuya temperatura media era de 22,6 °C en 1986, ha registrado picos hasta cinco grados por encima de lo normal para estas fechas, lo que lo convierte en un factor de riesgo para la formación de tormentas severas.</div>
+  </div>
 
   <div class="press-item">
     <div class="press-date">July 2025</div>
