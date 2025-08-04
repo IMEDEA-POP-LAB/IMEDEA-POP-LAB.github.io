@@ -26,9 +26,9 @@ nav_order: 4
     <div class="featured-date">February 2022</div>
     <div class="featured-details">
       <div class="featured-title">Mujeres STEM CSIC Balears #11F</div>
-      <div class="featured-venue">CSIC Illes Balears </div>
+      <div class="featured-venue">CSIC Illes Balears</div>
       <div class="featured-video">
-        <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=cc4fR1Hubg8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="200" src="https://www.youtube.com/embed/cc4fR1Hubg8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@ nav_order: 4
       <div class="featured-title">Understanding of oceanic processes in the Mediterranean</div>
       <div class="featured-venue">MedSUB Documentary</div>
       <div class="featured-video">
-        <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=rr9xdHcFwvs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="200" src="https://www.youtube.com/embed/rr9xdHcFwvs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
