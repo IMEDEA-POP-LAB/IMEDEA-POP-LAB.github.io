@@ -212,8 +212,12 @@ To change a publication's status, simply change the class name.
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Independent Quality Assessment of Essential Climate Variables: Lessons Learned from the Copernicus Climate Change Service</strong><br>
-    Yang, C., Cagnazzo, C., Artale, V., Buongiorno Nardelli, B., Buontempo, C., Busatto, J., Caporaso, L., Cesarini, C., Cionni, 
+    Yang, C., Cagnazzo, C., Artale, V., Buongiorno Nardelli, B., Buontempo, C., Busatto, J., Caporaso, L., Cesarini, C., Cionni, I., Coll, J., Crezee, B., Cristofanelli, P., de Toma, V., Essa, Y. H., Eyring, V., Fierli, F., Grant, L., Hassler, B., Hirschi, M., Huybrechts, P., Le Merle, E., Leonelli, F. E., Lin, X., Madonna, F., Mason, E., Massonnet, F., Marcos, M., Marullo, S., Müller, B., Obregon, A., Organelli, E., Palacz, A., Pascual, A., Pisano, A., Putero, D., Rana, A., Sánchez-Román, A., Seneviratne, S. I., Serva, F., Storto, A., Thiery, W., Throne, P., Van Tricht, L., Verhaegen, Y., Volpe, G., Santoleri, R.<br>
+    <em class="journal">Bulletin of the American Meteorological Society</em> (<span class="year">2022</span>) E2032–E2049 
   </p>
+  <div class="publication-links">
+    <a href="https://doi.org/10.1175/BAMS-D-21-0109.1" class="link-doi">DOI</a>
+  </div>
 </div>
 
 <div class="publication-item">
