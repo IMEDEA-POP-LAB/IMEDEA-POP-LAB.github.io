@@ -48,6 +48,10 @@
 }
 
 .project-logo {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; 
   width: 80px;
   height: 80px;
 }
