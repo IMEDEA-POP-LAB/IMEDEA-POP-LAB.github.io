@@ -44,7 +44,7 @@ horizontal: false
 
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/obsea4clim_logo.svg' | relative_url }}" alt="Obsea4Clim Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/obsea4clim_logo.png' | relative_url }}" alt="Obsea4Clim Project Logo">
     </div>
     <div class="project-title">Obsea4Clim</div>
     <div class="project-meta">2024-2028</div>
