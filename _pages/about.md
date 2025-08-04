@@ -9,7 +9,7 @@ social: true
 ---
 
 <div class="intro-hero">
-  <h1 class="lab-title" style="text-transform: capitalize;">Physical Ocean Processes</h1>
+  <h1 class="lab-title" style="text-transform: none;">Physical Ocean Processes</h1>
   <p class="lab-subtitle">Ananda Pascual Lab • <a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a></p>
 </div>
 
