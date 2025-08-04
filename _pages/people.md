@@ -6,7 +6,7 @@ description: Meet our research team, past members, collaborators and visitors
 nav: true
 nav_order: 2
 ---
-## research team
+## Research team
 
 <div class="people row">
 
@@ -230,7 +230,7 @@ nav_order: 2
 
 </div>
 
-## alumni
+## Alumni
 
 <div class="alumni-simple">
   <div class="alumni-list">
@@ -255,10 +255,13 @@ nav_order: 2
     <div class="alumni-item">
       <strong>Enrique Vidal Vijande</strong> (2007-2010) • PhD Student • Now Founding Partner at SOLWORKS
     </div>
+    <div class="alumni-item">
+      <strong>Helena Antich Homar </strong> (2022) • Master's Thesis 
+    </div>
   </div>
 </div>
 
-## collaborators
+## Collaborators
 
 <div class="section-highlight collaborators-section">
   <div class="collaborators-grid">
@@ -298,7 +301,7 @@ nav_order: 2
   </div>
 </div>
 
-## visitors
+## Visitors
 
 <div class="section-highlight visitors-section">
   <div class="visitors-grid">
