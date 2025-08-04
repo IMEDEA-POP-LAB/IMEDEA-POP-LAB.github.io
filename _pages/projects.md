@@ -23,7 +23,43 @@ horizontal: false
     <div class="project-meta">2025-2027</div>
     <div class="project-desc">Red Estratégica de Observación de la Tierra por satélite</div>
   </div>
-  
+
+  <div class="project-card">
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/mariademaeztu_logo.png' | relative_url }}" alt="Maria de Maeztu Logo">
+    </div>
+    <div class="project-title">Unidad de Excelencia María de Maeztu</div>
+    <div class="project-meta">2023-2026</div>
+    <div class="project-desc">Prestigious accreditation recognizing scientific excellence and leadership at the frontier of knowledge</div>
+  </div>
+
+   <div class="project-card">
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/ECMWF_logo.png' | relative_url }}" alt="ECMWF C3S Logo">
+    </div>
+    <div class="project-title">Implementing Framework Agreement n.ECMWF/COPERNICUS/2024/C3S2_520_CNR</div>
+    <div class="project-meta">2022-2026</div>
+    <div class="project-desc">Analysis of the quality of products available in the Climate Data Store database</div>
+  </div>
+
+   <div class="project-card">
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/Cryo-TEMPO_logo.png' | relative_url }}" alt="Cryo-TEMPO Logo">
+    </div>
+    <div class="project-title">CryoSat-2 ThEMatic PrOducts – Cryo-TEMPO</div>
+    <div class="project-meta">2020-2025</div>
+    <div class="project-desc">Developing and providing advanced data products from the CryoSat mission, specifically for studying land ice, sea ice, and polar oceans</div>
+  </div>
+
+   <div class="project-card">
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/Calypso-logo.png' | relative_url }}" alt="Calypso Logo">
+    </div>
+    <div class="project-title">CALYPSO</div>
+    <div class="project-meta">2020-2025</div>
+    <div class="project-desc">Coherent Lagrangian Pathways from the Surface Ocean to Interior</div>
+  </div>
+
   <div class="project-card">
     <div class="project-logo-container">
       <img class="project-logo" src="{{ '/assets/img/projects/sltac_logo.png' | relative_url }}" alt="SLTAC Project Logo">
