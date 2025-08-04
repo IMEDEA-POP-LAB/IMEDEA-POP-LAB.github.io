@@ -25,7 +25,7 @@ nav_order: 2
         <span>ORCID</span>
       </a>
     </div>
-    <p class="card-text">Senior scientist at the Spanish National Research Council (CSIC) at IMEDEA in Mallorca, Spain. She obtained her Ph.D. in Physical Oceanography from the University of the Balearic Islands in 2003, followed by positions at the CLS Space Oceanography Division in Toulouse as a Marie Skłodowska-Curie postdoctoral fellow, and at IMEDEA as a Ramon y Cajal tenure-track fellow. Her research primarily focuses on understanding meso and submesoscale processes in the ocean and their impact on climate, using a combination of remote sensing, in-situ data, and numerical simulations. .</p>
+    <p class="card-text">Senior scientist at the Spanish National Research Council (CSIC) at IMEDEA in Mallorca, Spain. She obtained her Ph.D. in Physical Oceanography from the University of the Balearic Islands in 2003, followed by positions at the CLS Space Oceanography Division in Toulouse as a Marie Skłodowska-Curie postdoctoral fellow, and at IMEDEA as a Ramon y Cajal tenure-track fellow. Her research primarily focuses on understanding meso and submesoscale processes in the ocean and their impact on climate, using a combination of remote sensing, in-situ data, and numerical simulations.</p>
   </div>
 </div>
 
