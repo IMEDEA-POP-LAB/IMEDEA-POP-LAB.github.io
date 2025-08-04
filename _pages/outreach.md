@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 <!-- featured content -->
-
+## Featured Videos
 <div class="featured-content">
   <div class="featured-item">
     <div class="featured-date">March 2024</div>
@@ -44,7 +44,7 @@ nav_order: 4
   </div>
 </div> 
   
-## education
+## Education
 
 <div class="education-activities">
   <ul class="activity-list">
@@ -74,7 +74,7 @@ nav_order: 4
   </ul>
 </div>
 
-## press releases
+## Recent Press Releases
 
 <div class="press-releases">
 
