@@ -19,9 +19,7 @@ nav_order: 4
         <iframe width="100%" height="200" src="https://www.youtube.com/embed/WQd9LeIdLSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-  </div>
 
-<div class="featured-content">
   <div class="featured-item">
     <div class="featured-date">February 2022</div>
     <div class="featured-details">
@@ -33,7 +31,6 @@ nav_order: 4
     </div>
   </div>
 
-<div class="featured-content">
   <div class="featured-item">
     <div class="featured-date">March 2018</div>
     <div class="featured-details">
@@ -44,6 +41,7 @@ nav_order: 4
       </div>
     </div>
   </div>
+</div> 
   
 ## education
 
