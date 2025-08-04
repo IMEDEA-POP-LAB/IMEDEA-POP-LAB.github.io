@@ -14,7 +14,7 @@ nav_order: 4
     <div class="featured-date">March 2024</div>
     <div class="featured-details">
       <div class="featured-title">Del espacio al Mediterráneo: Persiguiendo corrientes marinas</div>
-      <div class="featured-venue">TEDx Palma Talk</div>
+      <div class="featured-venue">FaSt-SWOT Documentary</div>
       <div class="featured-video">
         <iframe width="100%" height="200" src="https://www.youtube.com/embed/WQd9LeIdLSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -22,18 +22,18 @@ nav_order: 4
   </div>
   
   <div class="featured-item">
-    <div class="featured-date">September 2024</div>
+    <div class="featured-date">[Date]</div>
     <div class="featured-details">
-      <div class="featured-title">Mediterranean Ocean Circulation</div>
-      <div class="featured-venue">La 2 Documentary</div>
+      <div class="featured-title">[Title]</div>
+      <div class="featured-venue">[Subtitle]</div>
     </div>
   </div>
   
   <div class="featured-item">
-    <div class="featured-date">December 2024</div>
+    <div class="featured-date">[Date]</div>
     <div class="featured-details">
-      <div class="featured-title">Climate Change and Mediterranean Marine Heatwaves</div>
-      <div class="featured-venue">IB3 Radio Interview</div>
+      <div class="featured-title">[Title]</div>
+      <div class="featured-venue">[Subtitle]</div>
     </div>
   </div>
 </div>
