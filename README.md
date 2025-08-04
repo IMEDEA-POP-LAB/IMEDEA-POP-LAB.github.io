@@ -34,25 +34,10 @@ cd IMEDEA-AP-LAB.github.io
 bundle install
 bundle exec jekyll serve
 ```
-
-## 🎨 Design System
-
-### Modern Ocean Theme
-- **Colors**: Ocean blue gradient navigation with consistent branding
-- **Typography**: Inter font family for readability and professionalism
-- **Layout**: Card-based design with responsive grid systems
-- **Components**: Modular SCSS architecture for maintainability
-- **Responsive**: Mobile-first approach with flexible breakpoints
-
-### Key Features
-- **Comprehensive Footer**: Contact info, quick links, and social media
-- **Publication Management**: Separate sections for recent publications, accepted papers, and complete publication list
-- **Team Showcase**: Card-based layout with hover effects and social links
-- **Research Gallery**: Organized photo collections with modern grid layout
-## 🏗️ Site Architecture
+## Design
 
 ### Modular SCSS Structure
-The website uses a modern, maintainable SCSS architecture:
+The website uses a maintainable SCSS architecture:
 
 ```
 _sass/
@@ -346,17 +331,6 @@ Edit `_data/navigation.yml`:
   link: "/publications/"
 ```
 
-### Colors & Styling
-Modify `_sass/base/_variables.scss`:
-```scss
-:root {
-  --ocean-blue: #2E86C1;
-  --ocean-deep: #1B4F72;
-  --global-theme-color: var(--ocean-blue);
-  --global-hover-color: var(--ocean-deep);
-}
-```
-
 ### Footer Content
 The comprehensive footer is automatically populated from `_config.yml`:
 - Contact information
@@ -439,25 +413,6 @@ Additional documentation available in the repository:
 - **CSS_ORGANIZATION.md**: Detailed SCSS structure and guidelines
 - **DEVELOPMENT.md**: Advanced development practices
 - **templates/**: Content creation templates
-
-## 🔄 Recent Updates (2025)
-
-### Major Improvements
-- ✅ **Modular SCSS Architecture**: Organized into logical partials
-- ✅ **Enhanced Publications Page**: Separate sections for different publication types
-- ✅ **Comprehensive Footer**: Contact, navigation, and social links
-- ✅ **Improved Team Page**: Better card layout with hover effects
-- ✅ **Consistent Button Styling**: All DOI links with uniform appearance
-- ✅ **Responsive Design**: Improved mobile experience
-- ✅ **Clean Navigation**: Fixed blue gradient background
-- ✅ **Photo Gallery**: Organized research image collections
-
-### Technical Improvements
-- Removed build tools for GitHub-only workflow
-- Fixed Jekyll build errors
-- Improved CSS maintainability
-- Enhanced accessibility
-- Optimized performance
 
 ## 📄 License
 
