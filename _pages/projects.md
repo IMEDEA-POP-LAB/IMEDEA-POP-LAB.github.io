@@ -53,7 +53,7 @@ horizontal: false
 
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/fastswot_logo.jpg' | relative_url }}" alt="FaSt-SWOT Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/fast_swot_logo.jpg' | relative_url }}" alt="FaSt-SWOT Project Logo">
     </div>
     <div class="project-title">FaSt-SWOT</div>
     <div class="project-meta">2022-2026</div>
