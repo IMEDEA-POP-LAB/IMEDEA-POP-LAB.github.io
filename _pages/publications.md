@@ -5,7 +5,6 @@ title: publications
 nav: true
 nav_order: 1
 ---
-
 <!-- Links to external profiles -->
 
 <div class="external-profiles">
@@ -23,7 +22,6 @@ nav_order: 1
   </a>
 </div>
 
----
 
 <!--
 PUBLICATION ITEM TEMPLATE (easy to update):
@@ -50,10 +48,10 @@ To change a publication's status, simply change the class name.
 
 <div class="publication-item featured">
   <strong>Kuroshio Extension and Gulf Stream dominate the Eddy Kinetic Energy intensification observed in the global ocean</strong><br>
-  Barceló-Llull, B., Rosselló, P., Combes, V. et al.<br>
+  Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M.I. and Pascual, A.<br>
   <em class="journal">Scientific Reports</em> (<span class="year">2025</span>)
   <div class="publication-links">
-    <a href="https://doi.org/10.1038/s41598-025-06149-9" class="link-doi">DOI</a>
+    <a href="https://doi.org/10.1038/s41598-025-06149-9" target="_blank" class="link-doi">DOI</a>
   </div>
 </div>
 
