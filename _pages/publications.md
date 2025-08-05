@@ -9,15 +9,15 @@ nav_order: 1
 <!-- Links to external profiles -->
 
 <div class="external-profiles">
-  <a href="https://scholar.google.com/" class="profile-link google-scholar">
+  <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link google-scholar">
     <span class="profile-icon">🎓</span>
     <span class="profile-text">Google Scholar</span>
   </a>
-  <a href="https://orcid.org/0000-0002-3832-9593" class="profile-link orcid">
+  <a href="https://orcid.org/0000-0001-9476-9272" target="_blank" class="profile-link orcid">
     <span class="profile-icon">🔗</span>
     <span class="profile-text">ORCID Profile</span>
   </a>
-  <a href="https://www.researchgate.net/" class="profile-link researchgate">
+  <a href="https://www.researchgate.net/profile/Ananda-Pascual" target="_blank" class="profile-link researchgate">
     <span class="profile-icon">📊</span>
     <span class="profile-text">ResearchGate</span>
   </a>
