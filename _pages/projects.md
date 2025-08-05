@@ -111,10 +111,17 @@ horizontal: false
 </div>
 
 ## Collaborative Networks
-
+<!--
 <ul class="collab-list">
   <li><strong>Global Ocean Observing System (GOOS)</strong></li>
   <li><strong>Mediterranean Ocean Observing System (MOOSE)</strong></li>
   <li><strong>International SWOT Science Team</strong></li>
   <li><strong>Copernicus Marine Service (CMEMS)</strong></li>
+</ul>
+-->
+<ul class="collab-list">
+  <li>Collaborative network 1</li>
+  <li>Collaborative network 2</li>
+  <li>Collaborative network 3</li>
+  <li>Collaborative network 4</li>
 </ul>
