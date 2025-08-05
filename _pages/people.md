@@ -280,7 +280,7 @@ nav_order: 2
     
      <div class="collaborator-card featured">
       <div class="collaborator-header">
-        <h5>Collaborator #2</h5>
+        <h5>Dra. Bárbara Barceló-Llull</h5>
         <span class="collaboration-status ongoing">Ongoing</span>
       </div>
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
