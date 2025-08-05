@@ -345,7 +345,7 @@ To change a publication's status, simply change the class name.
 </div>
 -->
 ### Selected Earlier Publications (2015-2019)
-
+<!--
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Mediterranean Sea surface temperature trends: A 30-year satellite perspective</strong><br>
@@ -395,3 +395,4 @@ To change a publication's status, simply change the class name.
     <a href="https://doi.org/10.1016/j.pocean.2015.02.005" class="link-doi">DOI</a>
   </div>
 </div>
+-->
