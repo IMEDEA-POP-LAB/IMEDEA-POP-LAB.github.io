@@ -6,6 +6,25 @@ nav: true
 nav_order: 1
 ---
 
+<!-- Links to external profiles -->
+
+<div class="external-profiles">
+  <a href="https://scholar.google.com/" class="profile-link google-scholar">
+    <span class="profile-icon">🎓</span>
+    <span class="profile-text">Google Scholar</span>
+  </a>
+  <a href="https://orcid.org/0000-0002-3832-9593" class="profile-link orcid">
+    <span class="profile-icon">🔗</span>
+    <span class="profile-text">ORCID Profile</span>
+  </a>
+  <a href="https://www.researchgate.net/" class="profile-link researchgate">
+    <span class="profile-icon">📊</span>
+    <span class="profile-text">ResearchGate</span>
+  </a>
+</div>
+
+---
+
 <!--
 PUBLICATION ITEM TEMPLATE (easy to update):
 ===========================================
@@ -24,6 +43,7 @@ Available STATUS classes:
 - published (regular publications)
 
 To change a publication's status, simply change the class name.
+
 -->
 
 ## Recent Publications
@@ -377,28 +397,3 @@ To change a publication's status, simply change the class name.
     <a href="https://doi.org/10.1016/j.pocean.2015.02.005" class="link-doi">DOI</a>
   </div>
 </div>
-
----
-
-## External Profiles
-
-For a complete and up-to-date list of publications, please visit:
-
-<div class="external-profiles">
-  <a href="https://scholar.google.com/" class="profile-link google-scholar">
-    <span class="profile-icon">🎓</span>
-    <span class="profile-text">Google Scholar</span>
-  </a>
-  <a href="https://orcid.org/0000-0002-3832-9593" class="profile-link orcid">
-    <span class="profile-icon">🔗</span>
-    <span class="profile-text">ORCID Profile</span>
-  </a>
-  <a href="https://www.researchgate.net/" class="profile-link researchgate">
-    <span class="profile-icon">📊</span>
-    <span class="profile-text">ResearchGate</span>
-  </a>
-</div>
-
----
-
-*For a complete and up-to-date list of publications, visit our [Google Scholar profile](https://scholar.google.com/) or [ORCID page](https://orcid.org/0000-0002-3832-9593).*
