@@ -182,7 +182,7 @@ nav_order: 2
       <div class="supervisor-name">Dra. Ananda Pascual, Dra. Bàrbara Barceló-Llull</div>
     </div>
     -->
-    <p class="card-text">Add Description</p>
+    <p class="card-text">Her research focuses on the definition, drivers, and impacts of surface and subsurface marine heatwaves in the Mediterranean Sea, as well as their links to mesoscale ocean processes.</p>
   </div>
 </div>
 
