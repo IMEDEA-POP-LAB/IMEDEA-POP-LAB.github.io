@@ -10,9 +10,14 @@ header,
 nav.site-header,
 .wrapper > .site-header,
 body > .wrapper > .site-header {
+  background: linear-gradient(135deg, #1b263b 0%, #415a77 100%) !important;
+  background-color: #415a77 !important;
+  background-image: linear-gradient(135deg, #1b263b 0%, #415a77 100%) !important;
+  /* 
   background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
   background-color: #0284c7 !important;
   background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
+  */
 }
 
 /* Nuclear option - override any possible navbar background conflicts */
