@@ -321,7 +321,7 @@ To change a publication's status, simply change the class name.
 
 
 ### 2020
-
+<!--
 <div class="publication-item">
   <p class="publication-citation">
     <strong>Long-term trends in Mediterranean circulation patterns</strong><br>
@@ -343,7 +343,7 @@ To change a publication's status, simply change the class name.
     <a href="https://doi.org/10.1016/j.pocean.2019.102345" class="link-doi">DOI</a>
   </div>
 </div>
-
+-->
 ### Selected Earlier Publications (2015-2019)
 
 <div class="publication-item">
