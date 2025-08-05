@@ -235,25 +235,25 @@ nav_order: 2
 <div class="alumni-simple">
   <div class="alumni-list">
     <div class="alumni-item">
-      <strong>Daniel R. Tarry</strong> (2018-2023) • PhD Student • Now Postdoc at University of Washington 
+      <strong>Daniel R. Tarry</strong> (2018-2023) • PhD Student • Now Postdoc at [University of Washington](https://apl.uw.edu/) 
     </div>
     <div class="alumni-item">
-      <strong>Eugenio Cutolo</strong> (2018-2023) • PhD Student • Now Postdoc at IMT Atlantique 
+      <strong>Eugenio Cutolo</strong> (2018-2023) • PhD Student • Now Postdoc at [IMT Atlantique](https://www.imt-atlantique.fr/en/about/departments/mathematical-electrical-engineering)
     </div>
     <div class="alumni-item">
-      <strong>Saïd Ouala</strong> (2017-2021) • PhD Student • Now Tenure-Track Associate Professor at IMT Atlantique
+      <strong>Saïd Ouala</strong> (2017-2021) • PhD Student • Now Tenure-Track Associate Professor at [IMT Atlantique](https://www.imt-atlantique.fr/en/person/said-ouala)
     </div>
     <div class="alumni-item">
       <strong>Laura Gómez-Navarro</strong> (2016-2020) • PhD Student • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
     </div>
     <div class="alumni-item">
-      <strong>Bàrbara Barceló-Llull</strong> (2012-2015) • PhD Student • Now at IMEDEA Marine Ecology Group
+      <strong>Bàrbara Barceló-Llull</strong> (2012-2015) • PhD Student • Now at [IMEDEA Marine Ecology Group](https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340)
     </div>
     <div class="alumni-item">
       <strong>Romain Escudier</strong> (2011-2015) • PhD Student • Now at Mercator Ocean International
     </div>
     <div class="alumni-item">
-      <strong>Enrique Vidal Vijande</strong> (2007-2010) • PhD Student • Now Founding Partner at SOLWORKS
+      <strong>Enrique Vidal Vijande</strong> (2007-2010) • PhD Student • Now Founding Partner at [SOLWORKS](https://www.solworks.eu/)
     </div>
     <div class="alumni-item">
       <strong>Helena Antich Homar </strong> (2022) • Master's Thesis 
