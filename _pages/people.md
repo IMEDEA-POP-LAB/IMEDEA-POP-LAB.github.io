@@ -276,6 +276,12 @@ nav_order: 2
         <span class="collaboration-status ongoing">Ongoing</span>
       </div>
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
+      <div class="social-links">
+        <a href="https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=316" target="_blank" class="social-link imedea-link">
+          <span>🏢</span>
+          <span>IMEDEA</span>
+        </a>
+      </div> 
     </div>
     
      <div class="collaborator-card featured">
@@ -284,6 +290,12 @@ nav_order: 2
         <span class="collaboration-status ongoing">Ongoing</span>
       </div>
       <div class="collaborator-affiliation">IMEDEA (CSIC-UIB)</div>
+      <div class="social-links">
+        <a href="https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340" target="_blank" class="social-link imedea-link">
+          <span>🏢</span>
+          <span>IMEDEA</span>
+        </a>
+      </div>
     </div>
 
     <div class="collaborator-card featured">
