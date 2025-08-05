@@ -53,7 +53,7 @@ horizontal: false
 
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/fastswot_logo.svg' | relative_url }}" alt="FaSt-SWOT Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/fastswot_logo.jpg' | relative_url }}" alt="FaSt-SWOT Project Logo">
     </div>
     <div class="project-title">FaSt-SWOT</div>
     <div class="project-meta">2022-2026</div>
@@ -95,18 +95,18 @@ horizontal: false
     <div class="project-logo-container">
       <img class="project-logo" src="{{ '/assets/img/projects/mesoscale_logo.svg' | relative_url }}" alt="Mesoscale Variability Project Logo">
     </div>
-    <div class="project-title">Mediterranean Mesoscale Variability</div>
-    <div class="project-meta">2018-2022 | PI: Dr. Ananda Pascual</div>
-    <div class="project-desc">Analyzed mesoscale dynamics in the Mediterranean using satellite altimetry and in-situ data.</div>
+    <div class="project-title">Project #1</div>
+    <div class="project-meta">XXXX-XXXX</div>
+    <div class="project-desc">Add Description</div>
   </div>
   
   <div class="project-card">
     <div class="project-logo-container">
       <img class="project-logo" src="{{ '/assets/img/projects/interaction_logo.svg' | relative_url }}" alt="Ocean-Atmosphere Project Logo">
     </div>
-    <div class="project-title">Ocean-Atmosphere Interactions</div>
-    <div class="project-meta">2020-2023 | PI: Dr. Vincent Combes</div>
-    <div class="project-desc">Studied coupling processes between ocean and atmosphere in coastal regions.</div>
+    <div class="project-title">Project #2</div>
+    <div class="project-meta">XXXX-XXXX</div>
+    <div class="project-desc">Add Description</div>
   </div>
 </div>
 
