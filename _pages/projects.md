@@ -44,7 +44,7 @@ horizontal: false
 
    <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/sltac_logo.png' | relative_url }}" alt="SLTAC Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/SWINT_logo.png' | relative_url }}" alt="SWINT Project Logo">
     </div>
     <div class="project-title">SWINT</div>
     <div class="project-meta">2024-2026</div>
@@ -62,7 +62,7 @@ horizontal: false
 
   <div class="project-card">
     <div class="project-logo-container">
-      <img class="project-logo" src="{{ '/assets/img/projects/sltac_logo.png' | relative_url }}" alt="SLTAC Project Logo">
+      <img class="project-logo" src="{{ '/assets/img/projects/4DMED_logo.png' | relative_url }}" alt="4DMED Project Logo">
     </div>
     <div class="project-title">ESA 4DMED-SEA</div>
     <div class="project-meta">2023-2025</div>
