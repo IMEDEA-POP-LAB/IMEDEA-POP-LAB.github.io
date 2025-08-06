@@ -20,7 +20,7 @@ nav_order: 2
         <span>📧</span>
         <span>Email</span>
       </a>
-      <a href="https://orcid.org/0000-0002-3832-9593" class="social-link orcid">
+      <a href="https://orcid.org/0000-0001-9476-9272" class="social-link orcid">
         <span>🔗</span>
         <span>ORCID</span>
       </a>
