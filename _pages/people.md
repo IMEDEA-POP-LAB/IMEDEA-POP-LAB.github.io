@@ -281,10 +281,10 @@ nav_order: 2
 
     <h3>Postdocs</h3>
     <div class="alumni-item">
-      <strong>Bàrbara Barceló-Llull</strong> (2018-YYYY) • Now at <a href = 'https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340'>IMEDEA Marine Ecology Group</a>
+      <strong>Bàrbara Barceló-Llull</strong> (2020-2023) • Now at <a href = 'https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340'>IMEDEA Marine Ecology Group</a>
     </div>
     <div class="alumni-item">
-      <strong>Laura Gómez-Navarro</strong> (2023-2025) • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
+      <strong>Laura Gómez-Navarro</strong> (2022-2025) • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
     </div>
 
     <h3>PhD Students</h3>
