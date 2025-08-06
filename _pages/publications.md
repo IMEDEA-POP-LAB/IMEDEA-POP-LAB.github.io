@@ -6,13 +6,12 @@ nav: true
 nav_order: 1
 ---
 <!-- Links to external profiles -->
+<!--
 <div class="external-profiles">
-  <!--
   <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link google-scholar">
     <span class="profile-icon">🎓</span>
     <span class="profile-text">Google Scholar</span>
   </a>
-  -->
   <a href="https://orcid.org/0000-0001-9476-9272" target="_blank" class="profile-link orcid">
     <span class="profile-icon">🔗</span>
     <span class="profile-text">ORCID Profile</span>
@@ -22,7 +21,7 @@ nav_order: 1
     <span class="profile-text">ResearchGate</span>
   </a>
 </div>
-
+-->
 
 <!--
 PUBLICATION ITEM TEMPLATE (easy to update):
