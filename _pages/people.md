@@ -279,16 +279,16 @@ nav_order: 2
 <div class="alumni-simple">
   <div class="alumni-list">
 
-    <!-- === Postdocs === -->
     <h3>Postdocs</h3>
     <div class="alumni-item">
-      <strong>Bàrbara Barceló-Llull</strong> (2018-Present) • Now at <a href = 'https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340'>IMEDEA Marine Ecology Group</a>
+      <strong>Bàrbara Barceló-Llull</strong> (2018-YYYY) • Now at <a href = 'https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340'>IMEDEA Marine Ecology Group</a>
     </div>
     <div class="alumni-item">
-      <strong>Laura Gómez-Navarro</strong> (2023-Present) • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
+      <strong>Laura Gómez-Navarro</strong> (2023-2025) • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
     </div>
 
-    <!-- === PhD Students === -->
+    <h3>PhD Students</h3>
+    <div class="alumni-item">
       <strong>Daniel R. Tarry</strong> (2018-2023) • PhD Student • Now Postdoc at <a href = 'https://apl.uw.edu/'>University of Washington</a> 
     </div>
     <div class="alumni-item">
@@ -304,10 +304,11 @@ nav_order: 2
       <strong>Enrique Vidal Vijande</strong> (2007-2010) • PhD Student • Now Founding Partner at <a href = 'https://www.solworks.eu/'>SOLWORKS</a>
     </div>
 
-    <!-- === Master's Theses === -->
+    <h3>Master's Theses</h3>
     <div class="alumni-item">
-      <strong>Helena Antich Homar </strong> (2022) • Master's Thesis 
+      <strong>Helena Antich Homar</strong> (2022) • Master's Thesis 
     </div>
+    
   </div>
 </div>
 
