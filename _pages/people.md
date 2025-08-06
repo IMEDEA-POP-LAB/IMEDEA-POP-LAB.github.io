@@ -289,24 +289,24 @@ nav_order: 2
 
     <h3>PhD Students</h3>
     <div class="alumni-item">
-      <strong>Daniel R. Tarry</strong> (2018-2023) • PhD Student • Now Postdoc at <a href = 'https://apl.uw.edu/'>University of Washington</a> 
+      <strong>Daniel R. Tarry</strong> (2018-2023) • Now Postdoc at <a href = 'https://apl.uw.edu/'>University of Washington</a> 
     </div>
     <div class="alumni-item">
-      <strong>Eugenio Cutolo</strong> (2018-2023) • PhD Student • Now Postdoc at <a href = 'https://www.imt-atlantique.fr/en/about/departments/mathematical-electrical-engineering'>IMT Atlantique</a> 
+      <strong>Eugenio Cutolo</strong> (2018-2023) • Now Postdoc at <a href = 'https://www.imt-atlantique.fr/en/about/departments/mathematical-electrical-engineering'>IMT Atlantique</a> 
     </div>
     <div class="alumni-item">
-      <strong>Saïd Ouala</strong> (2017-2021) • PhD Student • Now Tenure-Track Associate Professor at <a href = 'https://www.imt-atlantique.fr/en/person/said-ouala'>IMT Atlantique</a>
+      <strong>Saïd Ouala</strong> (2017-2021) • Now Tenure-Track Associate Professor at <a href = 'https://www.imt-atlantique.fr/en/person/said-ouala'>IMT Atlantique</a>
     </div>
     <div class="alumni-item">
-      <strong>Romain Escudier</strong> (2011-2015) • PhD Student • Now at Mercator Ocean International
+      <strong>Romain Escudier</strong> (2011-2015) • Now at Mercator Ocean International
     </div>
     <div class="alumni-item">
-      <strong>Enrique Vidal Vijande</strong> (2007-2010) • PhD Student • Now Founding Partner at <a href = 'https://www.solworks.eu/'>SOLWORKS</a>
+      <strong>Enrique Vidal Vijande</strong> (2007-2010) • Now Founding Partner at <a href = 'https://www.solworks.eu/'>SOLWORKS</a>
     </div>
 
     <h3>Master's Theses</h3>
     <div class="alumni-item">
-      <strong>Helena Antich Homar</strong> (2022) • Master's Thesis 
+      <strong>Helena Antich Homar</strong> (2022)
     </div>
     
   </div>
