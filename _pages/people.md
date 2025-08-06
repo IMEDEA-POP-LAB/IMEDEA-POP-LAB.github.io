@@ -77,6 +77,25 @@ nav_order: 2
 
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Dr. Diego Cortés-Morales" class="profile-image">
+    <h5 class="card-title">Dr. Diego Cortés-Morales</h5>
+    <h6 class="card-subtitle">Postdoctoral Researcher (2024 - present)</h6>
+    <div class="social-links">
+      <a href="mailto:dcortes@imedea.uib-csic.es" class="social-link email">
+        <span>📧</span>
+        <span>Email</span>
+      </a>
+      <a href="https://orcid.org/0009-0004-7159-2645" class="social-link orcid">
+        <span>🔗</span>
+        <span>ORCID</span>
+      </a>
+    </div>
+    <p class="card-text">Add Description</p>
+  </div>
+</div>
+
+<div class="person-card">
+  <div class="card-body">
     <img src="/assets/img/team/PengJenPing.jpg" alt="Dr. Jen-Ping Peng" class="profile-image">
     <h5 class="card-title">Dr. Jen-Ping Peng</h5>
     <h6 class="card-subtitle">Postdoctoral Researcher (2025 - present)</h6>
@@ -197,6 +216,27 @@ nav_order: 2
     <h6 class="card-subtitle">Ph.D. Student (2024 - present)</h6>
     <div class="social-links">
       <a href="mailto:dvega@imedea.uib-csic.es" class="social-link email">
+        <span>📧</span>
+        <span>Email</span>
+      </a>
+    </div>
+    <!--
+    <div class="supervisor-info">
+      <div class="supervisor-label">PhD Supervisor</div>
+      <div class="supervisor-name">Dra. Ananda Pascual, Dr. Angel Amores</div>
+    </div>
+     -->
+    <p class="card-text">Add Description</p>
+  </div>
+</div>
+
+<div class="person-card">
+  <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Joan Armajach-Riera" class="profile-image">
+    <h5 class="card-title">Joan Armajach-Riera</h5>
+    <h6 class="card-subtitle">Research Technician (2025 - present)</h6>
+    <div class="social-links">
+      <a href="mailto:joanarmajach12@gmail.com" class="social-link email">
         <span>📧</span>
         <span>Email</span>
       </a>
