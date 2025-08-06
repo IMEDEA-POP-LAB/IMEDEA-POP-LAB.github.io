@@ -67,7 +67,7 @@ horizontal: false
     <div class="project-title">ESA 4DMED-SEA</div>
     <div class="project-meta">2023-2025</div>
     <div class="project-desc">Sustaining the Mediterranean Sea: Fostering Science, Preserving Ocean Life</div>
-  </div
+  </div>
     
   <div class="project-card">
     <div class="project-logo-container">
