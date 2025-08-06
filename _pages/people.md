@@ -278,7 +278,17 @@ nav_order: 2
 
 <div class="alumni-simple">
   <div class="alumni-list">
+
+    <!-- === Postdocs === -->
+    <h3>Postdocs</h3>
     <div class="alumni-item">
+      <strong>Bàrbara Barceló-Llull</strong> (2018-Present) • Now at <a href = 'https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340'>IMEDEA Marine Ecology Group</a>
+    </div>
+    <div class="alumni-item">
+      <strong>Laura Gómez-Navarro</strong> (2023-Present) • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
+    </div>
+
+    <!-- === PhD Students === -->
       <strong>Daniel R. Tarry</strong> (2018-2023) • PhD Student • Now Postdoc at <a href = 'https://apl.uw.edu/'>University of Washington</a> 
     </div>
     <div class="alumni-item">
@@ -288,17 +298,13 @@ nav_order: 2
       <strong>Saïd Ouala</strong> (2017-2021) • PhD Student • Now Tenure-Track Associate Professor at <a href = 'https://www.imt-atlantique.fr/en/person/said-ouala'>IMT Atlantique</a>
     </div>
     <div class="alumni-item">
-      <strong>Laura Gómez-Navarro</strong> (2016-2020) • PhD Student • Now Postdoc with a Marie Skłodowska-Curie fellowship at ICM 
-    </div>
-    <div class="alumni-item">
-      <strong>Bàrbara Barceló-Llull</strong> (2012-2015) • PhD Student • Now at <a href = 'https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340'>IMEDEA Marine Ecology Group</a>
-    </div>
-    <div class="alumni-item">
       <strong>Romain Escudier</strong> (2011-2015) • PhD Student • Now at Mercator Ocean International
     </div>
     <div class="alumni-item">
       <strong>Enrique Vidal Vijande</strong> (2007-2010) • PhD Student • Now Founding Partner at <a href = 'https://www.solworks.eu/'>SOLWORKS</a>
     </div>
+
+    <!-- === Master's Theses === -->
     <div class="alumni-item">
       <strong>Helena Antich Homar </strong> (2022) • Master's Thesis 
     </div>
