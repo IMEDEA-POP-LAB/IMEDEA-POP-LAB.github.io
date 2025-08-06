@@ -140,6 +140,27 @@ nav_order: 2
 
 <div class="person-card">
   <div class="card-body">
+    <img src="/assets/img/team/placeholder.svg" alt="Diego Vega-Giménez" class="profile-image">
+    <h5 class="card-title">Diego Vega-Giménez</h5>
+    <h6 class="card-subtitle">Ph.D. Student (2023 - present)</h6>
+    <div class="social-links">
+      <a href="mailto:dvega@imedea.uib-csic.es" class="social-link email">
+        <span>📧</span>
+        <span>Email</span>
+      </a>
+    </div>
+    <!--
+    <div class="supervisor-info">
+      <div class="supervisor-label">PhD Supervisor</div>
+      <div class="supervisor-name">Dra. Ananda Pascual, Dr. Angel Amores</div>
+    </div>
+     -->
+    <p class="card-text">Add Description</p>
+  </div>
+</div>
+
+<div class="person-card">
+  <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Paul Hargous" class="profile-image">
     <h5 class="card-title">Paul Hargous</h5>
     <h6 class="card-subtitle">Ph.D. Student (2024 - present)</h6>
@@ -206,27 +227,6 @@ nav_order: 2
     </div>
     -->
     <p class="card-text">Her research focuses on the definition, drivers, and impacts of surface and subsurface marine heatwaves in the Mediterranean Sea, as well as their links to mesoscale ocean processes.</p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="card-body">
-    <img src="/assets/img/team/placeholder.svg" alt="Diego Vega-Giménez" class="profile-image">
-    <h5 class="card-title">Diego Vega-Giménez</h5>
-    <h6 class="card-subtitle">Ph.D. Student (2024 - present)</h6>
-    <div class="social-links">
-      <a href="mailto:dvega@imedea.uib-csic.es" class="social-link email">
-        <span>📧</span>
-        <span>Email</span>
-      </a>
-    </div>
-    <!--
-    <div class="supervisor-info">
-      <div class="supervisor-label">PhD Supervisor</div>
-      <div class="supervisor-name">Dra. Ananda Pascual, Dr. Angel Amores</div>
-    </div>
-     -->
-    <p class="card-text">Add Description</p>
   </div>
 </div>
 
