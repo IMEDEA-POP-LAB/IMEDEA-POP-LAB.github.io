@@ -96,7 +96,7 @@ horizontal: false
       <img class="project-logo" src="{{ '/assets/img/projects/mesoscale_logo.svg' | relative_url }}" alt="Mesoscale Variability Project Logo">
     </div>
     <div class="project-title">Project #1</div>
-    <div class="project-meta">XXXX-XXXX</div>
+    <!-- <div class="project-meta">XXXX-XXXX</div> -->
     <div class="project-desc">Add Description</div>
   </div>
   
@@ -105,7 +105,7 @@ horizontal: false
       <img class="project-logo" src="{{ '/assets/img/projects/interaction_logo.svg' | relative_url }}" alt="Ocean-Atmosphere Project Logo">
     </div>
     <div class="project-title">Project #2</div>
-    <div class="project-meta">XXXX-XXXX</div>
+    <!-- <div class="project-meta">XXXX-XXXX</div> -->
     <div class="project-desc">Add Description</div>
   </div>
 </div>
