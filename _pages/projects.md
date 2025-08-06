@@ -42,6 +42,15 @@ horizontal: false
     <div class="project-desc">Sea Level Thematic Assembly Center - Copernicus Marine Environtment Monitoring Service - 24251L02-COP-TAC SL-2100</div>
   </div>
 
+   <div class="project-card">
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/sltac_logo.png' | relative_url }}" alt="SLTAC Project Logo">
+    </div>
+    <div class="project-title">SWINT</div>
+    <div class="project-meta">2024-2026</div>
+    <div class="project-desc">SWOT satellite ocean data integration into regional high-resolution data-assimilative numerical models</div>
+  </div>
+
   <div class="project-card">
     <div class="project-logo-container">
       <img class="project-logo" src="{{ '/assets/img/projects/mariademaeztu_logo.png' | relative_url }}" alt="Maria de Maeztu Logo">
@@ -51,6 +60,15 @@ horizontal: false
     <div class="project-desc">Prestigious accreditation recognizing scientific excellence and leadership at the frontier of knowledge</div>
   </div>
 
+  <div class="project-card">
+    <div class="project-logo-container">
+      <img class="project-logo" src="{{ '/assets/img/projects/sltac_logo.png' | relative_url }}" alt="SLTAC Project Logo">
+    </div>
+    <div class="project-title">ESA 4DMED-SEA</div>
+    <div class="project-meta">2023-2025</div>
+    <div class="project-desc">Sustaining the Mediterranean Sea: Fostering Science, Preserving Ocean Life</div>
+  </div
+    
   <div class="project-card">
     <div class="project-logo-container">
       <img class="project-logo" src="{{ '/assets/img/projects/fast_swot_logo.jpg' | relative_url }}" alt="FaSt-SWOT Project Logo">
