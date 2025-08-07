@@ -234,7 +234,7 @@ nav_order: 2
   <div class="card-body">
     <img src="/assets/img/team/placeholder.svg" alt="Joan Armajach-Riera" class="profile-image">
     <h5 class="card-title">Joan Armajach-Riera</h5>
-    <h6 class="card-subtitle">Research Technician (2025 - present)</h6>
+    <h6 class="card-subtitle">Research Support Staff (2025 - present)</h6>
     <div class="social-links">
       <a href="mailto:joanarmajach12@gmail.com" class="social-link email">
         <span>📧</span>
