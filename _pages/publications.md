@@ -45,6 +45,23 @@ To change a publication's status, simply change the class name.
 -->
 
 ## Recent Publications
+<div class="publication-item featured">
+  <strong>Tracking Marine Heatwaves in the Balearic Sea: Temperature Trends and the Role of Detection Methods</strong><br>
+  Blanca Fernández-Álvarez, Ananda Pascual, Bàrbara Barceló-Llull<br>
+  <em class="journal">EGUsphere</em> (<span class="year">2024</span>)
+  <div class="publication-links">
+    <a href="https://doi.org/10.5194/egusphere-2024-4065" class="link-doi">DOI</a>
+  </div>
+</div>
+
+<div class="publication-item featured">
+  <strong>SWOT enhances small-scale eddy detection in the Mediterranean Sea</strong><br>
+  Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A.<br>
+  <em class="journal">ESS Open Archive</em> (<span class="year">2025</span>)
+  <div class="publication-links">
+    <a href="https://doi.org/10.22541/essoar.173315547.75973902/v1" class="link-doi">DOI</a>
+  </div>
+</div>
 
 <div class="publication-item featured">
   <strong>Kuroshio Extension and Gulf Stream dominate the Eddy Kinetic Energy intensification observed in the global ocean</strong><br>
@@ -56,24 +73,6 @@ To change a publication's status, simply change the class name.
 </div>
 
 ### accepted
-
-<div class="publication-item accepted">
-  <strong>SWOT enhances small-scale eddy detection in the Mediterranean Sea</strong><br>
-  Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A.<br>
-  <em class="journal">ESS Open Archive</em> (<span class="year">2025</span>)
-  <div class="publication-links">
-    <a href="https://doi.org/10.22541/essoar.173315547.75973902/v1" class="link-doi">DOI</a>
-  </div>
-</div>
-
-<div class="publication-item accepted">
-  <strong>Tracking Marine Heatwaves in the Balearic Sea: Temperature Trends and the Role of Detection Methods</strong><br>
-  Blanca Fernández-Álvarez, Ananda Pascual, Bàrbara Barceló-Llull<br>
-  <em class="journal">EGUsphere</em> (<span class="year">2024</span>)
-  <div class="publication-links">
-    <a href="https://doi.org/10.5194/egusphere-2024-4065" class="link-doi">DOI</a>
-  </div>
-</div>
 
 ## All Publications
 
