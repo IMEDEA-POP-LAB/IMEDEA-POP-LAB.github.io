@@ -118,20 +118,37 @@ nav_order: 1
 
 {% assign grouped_pubs = site.data.publications.all | group_by: 'year' %}
 {% assign sorted_groups = grouped_pubs | sort: 'name' | reverse %}
+{% assign recent_titles = site.data.publications.recent | map: 'title' %}
 
 {% for year_group in sorted_groups %}
 <h3 class="publication-year-header">{{ year_group.name }}</h3>
 
 {% for pub in year_group.items %}
-<div class="publication-item published">
-  <div class="publication-citation">
-    <strong>{{ pub.title }}</strong><br>
-    {{ pub.authors }}<br>
-    <em class="journal">{{ pub.journal }}</em> (<span class="year">{{ pub.year }}</span>)
-    {% if pub.volume or pub.pages %}
-      {% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
-    {% endif %}
+{% assign is_recent = false %}
+{% for recent_title in recent_titles %}
+  {% if pub.title == recent_title %}
+    {% assign is_recent = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<div class="publication-item {% if is_recent %}recent-highlight{% else %}published{% endif %}">
+  <div class="publication-header">
+    <div class="publication-title">{{ pub.title }}</div>
+    <div class="publication-meta">
+      <span class="journal">{{ pub.journal }}</span>
+      <span class="year">{{ pub.year }}</span>
+      {% if is_recent %}<span class="recent-badge">Recent</span>{% endif %}
+    </div>
   </div>
+  
+  <div class="publication-authors">{{ pub.authors }}</div>
+  
+  {% if pub.volume or pub.pages %}
+  <div class="publication-volume">
+    {% if pub.volume %}Volume {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+  </div>
+  {% endif %}
   
   {% if pub.doi or pub.url %}
   <div class="publication-links">

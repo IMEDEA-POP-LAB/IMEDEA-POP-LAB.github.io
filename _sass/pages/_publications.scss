@@ -45,6 +45,17 @@
   font-size: var(--text-sm);
 }
 
+/* Recent publications highlighted in All Publications section */
+.publication-item.recent-highlight {
+  padding: var(--space-3);
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-radius: var(--radius-sm);
+  border-bottom: none;
+  margin-bottom: var(--space-4);
+  border-left: 4px solid var(--ocean-blue);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
 /* Simple citation text */
 .publication-citation {
   font-size: var(--text-sm);
@@ -65,24 +76,22 @@
   color: var(--gray-700);
 }
 
-/* Show complex elements for recent publications, hide for publication-list */
+/* Ensure all publication elements are visible in both sections */
 .recent-publications .publication-header,
 .recent-publications .publication-title,
 .recent-publications .publication-meta,
 .recent-publications .publication-authors,
 .recent-publications .publication-links,
 .recent-publications .abstract-content,
-.recent-publications .bibtex-content {
-  display: block;
-}
-
+.recent-publications .bibtex-content,
 .publication-list .publication-header,
 .publication-list .publication-title,
 .publication-list .publication-meta,
 .publication-list .publication-authors,
+.publication-list .publication-links,
 .publication-list .abstract-content,
 .publication-list .bibtex-content {
-  display: none;
+  display: block;
 }
 
 /* Publication list for regular entries - simple format */
@@ -281,6 +290,19 @@
 
 .status-badge.accepted {
   background: #10b981;
+  color: white;
+}
+
+.recent-badge {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: var(--space-2);
+  background: var(--ocean-blue);
   color: white;
 }
 
