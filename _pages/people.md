@@ -11,7 +11,7 @@ nav_order: 2
 
 <div class="people row">
 
-{% assign all_members = site.data.team.principal_investigators | concat: site.data.team.research_scientists | concat: site.data.team.phd_students | concat: site.data.team.postdocs | concat: site.data.team.master_students | concat: site.data.team.visiting_researchers %}
+{% assign all_members = site.data.team.principal_investigators | default: [] | concat: site.data.team.research_scientists | default: [] | concat: site.data.team.phd_students | default: [] | concat: site.data.team.postdocs | default: [] | concat: site.data.team.master_students | default: [] | concat: site.data.team.visiting_researchers | default: [] %}
 
 {% for person in all_members %}
 <div class="person-card">
