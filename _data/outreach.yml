@@ -1,0 +1,29 @@
+# Featured outreach content (videos, documentaries, etc.)
+# Add new entries maintaining chronological order
+
+- date: 2024-03-15
+  title: "Del espacio al Mediterráneo: Persiguiendo corrientes marinas"
+  type: "documentary"
+  venue: "FaSt-SWOT Documentary"
+  youtube_id: "WQd9LeIdLSk"
+  description: "Documentary about the FaSt-SWOT project and ocean current research using satellite data"
+  language: "es"
+  featured: true
+
+- date: 2022-02-11
+  title: "Mujeres STEM CSIC Balears #11F"
+  type: "interview"
+  venue: "CSIC Illes Balears"
+  youtube_id: "cc4fR1Hubg8"
+  description: "Interview for International Day of Women and Girls in Science"
+  language: "es"
+  featured: true
+
+- date: 2018-03-20
+  title: "Understanding of oceanic processes in the Mediterranean"
+  type: "documentary" 
+  venue: "MedSUB Documentary"
+  youtube_id: "rr9xdHcFwvs"
+  description: "Documentary about Mediterranean oceanographic processes and research"
+  language: "en"
+  featured: true

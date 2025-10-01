@@ -11,6 +11,8 @@ The website now uses **data files** for content management instead of editing HT
 - 👥 **5-minute team member additions** using `_data/team.yml`  
 - 🔬 **5-minute project additions** using `_data/projects.yml`
 - 📚 **3-minute publication updates** using `_data/publications.yml`
+- 🎬 **2-minute media coverage** using `_data/media.yml`
+- 📹 **Outreach content** using `_data/outreach.yml`
 - 🤖 **Automation scripts** for guided content creation
 
 ## 🎯 Quick Start

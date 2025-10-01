@@ -5,8 +5,8 @@ title: publications
 nav: true
 nav_order: 1
 ---
-<!-- Links to external profiles -->
-<!--
+
+<!-- External Profiles Links -->
 <div class="external-profiles">
   <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link google-scholar">
     <span class="profile-icon">🎓</span>
@@ -21,38 +21,85 @@ nav_order: 1
     <span class="profile-text">ResearchGate</span>
   </a>
 </div>
--->
 
-<!--
-PUBLICATION ITEM TEMPLATE (easy to update):
-===========================================
-<div class="publication-item [STATUS]">
-  <strong>TITLE</strong><br>
-  AUTHORS<br>
-  <em class="journal">JOURNAL</em> (<span class="year">YEAR</span>) VOLUME/PAGES
-  <div class="publication-links">
-    <a href="DOI_LINK" class="link-doi">DOI</a>
-  </div>
-</div>
-
-Available STATUS classes:
-- featured (highlighted at top)
-- accepted (for accepted/in press)
-- published (regular publications)
-
-To change a publication's status, simply change the class name.
-
--->
-
+<!-- Recent Publications from YAML data -->
+{% if site.data.publications.recent and site.data.publications.recent.size > 0 %}
 ## Recent Publications
-<div class="publication-item featured">
-  <strong>Tracking Marine Heatwaves in the Balearic Sea: Temperature Trends and the Role of Detection Methods</strong><br>
-  Blanca Fernández-Álvarez, Ananda Pascual, Bàrbara Barceló-Llull<br>
-  <em class="journal">EGUsphere</em> (<span class="year">2024</span>)
+
+{% for pub in site.data.publications.recent %}
+<div class="publication-item {% if pub.featured %}featured{% else %}published{% endif %}">
+  <strong>{{ pub.title }}</strong><br>
+  {{ pub.authors }}<br>
+  <em class="journal">{{ pub.journal }}</em> (<span class="year">{{ pub.year }}</span>)
+  {% if pub.volume or pub.pages %}
+    {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+  {% endif %}
+  
+  {% if pub.doi or pub.url %}
   <div class="publication-links">
-    <a href="https://doi.org/10.5194/egusphere-2024-4065" class="link-doi">DOI</a>
+    {% if pub.doi %}
+    <a href="{{ pub.doi }}" class="link-doi" target="_blank">DOI</a>
+    {% endif %}
+    {% if pub.url %}
+    <a href="{{ pub.url }}" class="link-url" target="_blank">Link</a>
+    {% endif %}
   </div>
+  {% endif %}
+  
+  {% if pub.abstract %}
+  <details class="publication-abstract">
+    <summary>Abstract</summary>
+    <p>{{ pub.abstract }}</p>
+  </details>
+  {% endif %}
+  
+  {% if pub.bibtex %}
+  <details class="publication-bibtex">
+    <summary>BibTeX</summary>
+    <pre><code>{{ pub.bibtex }}</code></pre>
+  </details>
+  {% endif %}
 </div>
+{% endfor %}
+{% endif %}
+
+<!-- Publications by Year -->
+{% if site.data.publications.by_year %}
+## All Publications
+
+{% for year_group in site.data.publications.by_year %}
+### {{ year_group.year }}
+
+{% for pub in year_group.publications %}
+<div class="publication-item published">
+  <strong>{{ pub.title }}</strong><br>
+  {{ pub.authors }}<br>
+  <em class="journal">{{ pub.journal }}</em> (<span class="year">{{ pub.year }}</span>)
+  {% if pub.volume or pub.pages %}
+    {% if pub.volume %}{{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+  {% endif %}
+  
+  {% if pub.doi or pub.url %}
+  <div class="publication-links">
+    {% if pub.doi %}
+    <a href="{{ pub.doi }}" class="link-doi" target="_blank">DOI</a>
+    {% endif %}
+    {% if pub.url %}
+    <a href="{{ pub.url }}" class="link-url" target="_blank">Link</a>
+    {% endif %}
+  </div>
+  {% endif %}
+  
+  {% if pub.abstract %}
+  <details class="publication-abstract">
+    <summary>Abstract</summary>
+    <p>{{ pub.abstract }}</p>
+  </details>
+  {% endif %}
+</div>
+{% endfor %}
+{% endfor %}
+{% endif %}
 
 <div class="publication-item featured">
   <strong>SWOT enhances small-scale eddy detection in the Mediterranean Sea</strong><br>

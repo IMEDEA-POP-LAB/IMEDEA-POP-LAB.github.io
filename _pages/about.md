@@ -19,10 +19,22 @@ social: true
 
 ## News
 
+{% if site.data.news and site.data.news.size > 0 %}
+{% assign featured_news = site.data.news | where: "featured", true %}
+{% for item in featured_news limit: 3 %}
   <div class="news-item">
-    <span class="news-date">July 17, 2025</span>
-    <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
+    <span class="news-date">{{ item.date | date: "%B %d, %Y" }}</span>
+    <span class="news-content">{{ item.title }} - {{ item.description }}</span>
   </div>
+{% endfor %}
+{% endif %}
+
+<div class="news-cta">
+  <a href="/outreach/" class="cta-button">
+    <span class="cta-text">View All News</span>
+    <span class="cta-arrow">→</span>
+  </a>
+</div>
 
 <div class="publications-cta">
   <a href="/publications/" class="cta-button">
