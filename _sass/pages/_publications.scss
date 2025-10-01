@@ -5,6 +5,22 @@
 /* Publications page container */
 .publications-page {
   padding: var(--space-8) 0;
+  max-width: none;
+  margin: 0;
+}
+
+/* Section spacing */
+.publications-page > div {
+  margin-bottom: var(--space-12);
+}
+
+.publications-page h2 {
+  font-size: var(--text-2xl) !important;
+  font-weight: var(--font-bold) !important;
+  color: var(--color-text) !important;
+  margin: var(--space-12) 0 var(--space-6) 0 !important;
+  padding-bottom: var(--space-2);
+  border-bottom: 2px solid var(--color-primary);
 }
 
 /* Recent publications section */
@@ -47,13 +63,15 @@
 
 /* Recent publications highlighted in All Publications section */
 .publication-item.recent-highlight {
-  padding: var(--space-3);
-  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
-  border-radius: var(--radius-sm);
-  border-bottom: none;
-  margin-bottom: var(--space-4);
-  border-left: 4px solid var(--ocean-blue);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+  border: 1px solid var(--color-primary) !important;
+  border-left: 4px solid var(--color-primary) !important;
+  box-shadow: var(--shadow-primary) !important;
+}
+
+.publication-item.recent-highlight:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: var(--shadow-primary-lg) !important;
 }
 
 /* Simple citation text */
@@ -94,18 +112,78 @@
   display: block;
 }
 
-/* Publication list for regular entries - simple format */
+/* Publication list for regular entries - enhanced format */
 .publication-list {
-  margin: var(--space-6) 0;
+  margin: var(--space-8) 0;
 }
 
 .publication-list .publication-item {
-  padding: var(--space-2) 0;
-  border-bottom: 1px solid var(--gray-200);
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-xs);
+}
+
+.publication-list .publication-item:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+  border-color: var(--color-primary);
 }
 
 .publication-list .publication-item:last-child {
-  border-bottom: none;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+/* Enhanced styling for publication list headers and content */
+.publication-list .publication-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-2);
+  gap: var(--space-3);
+}
+
+.publication-list .publication-title {
+  font-size: var(--text-base) !important;
+  font-weight: 600 !important;
+  color: var(--gray-900) !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+  flex: 1;
+}
+
+.publication-list .publication-meta {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+  white-space: nowrap;
+  flex-wrap: wrap;
+}
+
+.publication-list .journal {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-primary);
+  font-style: italic;
+}
+
+.publication-list .year {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--gray-700);
+  background: var(--gray-100);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.publication-list .publication-authors {
+  font-size: var(--text-sm);
+  color: var(--gray-700);
+  margin-bottom: var(--space-2);
+  line-height: 1.4;
 }
 
 /* Year section headers */
@@ -115,7 +193,7 @@
   color: var(--gray-900);
   margin: var(--space-8) 0 var(--space-4) 0;
   padding-bottom: var(--space-2);
-  border-bottom: 2px solid var(--ocean-blue);
+  border-bottom: 2px solid var(--color-primary);
 }
 
 /* External profiles section */
@@ -150,12 +228,12 @@
   color: var(--gray-700);
   font-weight: 500;
   transition: all 0.2s ease;
-  box-shadow: var(--global-shadow);
+  box-shadow: var(--shadow-sm);
 }
 
 .profile-link:hover {
   transform: translateY(-2px);
-  box-shadow: var(--global-shadow-md);
+  box-shadow: var(--shadow-md);
   text-decoration: none;
   color: var(--gray-900);
 }
@@ -191,19 +269,19 @@
   border-radius: var(--radius-md);
   padding: var(--space-4);
   margin-bottom: var(--space-4);
-  transition: all 0.2s ease;
-  box-shadow: var(--global-shadow);
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-sm);
   border-bottom: 1px solid var(--gray-200); /* Override the plain style */
 }
 
 .recent-publications .publication-item:hover {
   transform: translateY(-1px);
-  box-shadow: var(--global-shadow-md);
-  border-color: var(--ocean-blue);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
 }
 
 .recent-publications .publication-item.featured {
-  border-left: 3px solid var(--ocean-blue);
+  border-left: 3px solid var(--color-primary);
   background: linear-gradient(135deg, white 0%, var(--gray-50) 100%);
 }
 
@@ -234,7 +312,7 @@
 .recent-publications .journal {
   font-size: var(--text-xs);
   font-weight: 500;
-  color: var(--ocean-blue);
+  color: var(--color-primary);
   font-style: italic;
 }
 
@@ -309,22 +387,23 @@
 /* Publication links styling - common styles */
 .publication-links {
   display: flex;
-  gap: var(--space-1);
-  margin-top: var(--space-2);
+  gap: var(--space-2);
+  margin-top: var(--space-3);
   flex-wrap: wrap;
 }
 
 .publication-links a {
-  padding: 4px var(--space-3);
-  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-button);
   font-size: var(--text-xs);
-  font-weight: 600;
+  font-weight: var(--font-semibold);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  transition: all 0.2s ease;
+  transition: all var(--transition-fast);
   cursor: pointer;
   display: inline-block;
+  border: 1px solid transparent;
 }
 
 /* DOI link styling */
@@ -355,9 +434,48 @@
   transform: translateY(-1px);
 }
 
+/* BibTeX styling improvements */
+.publication-bibtex {
+  margin-top: var(--space-3);
+}
+
+.publication-bibtex summary {
+  font-size: var(--text-xs);
+  font-weight: var(--font-medium);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.publication-bibtex summary:hover {
+  color: var(--color-primary);
+}
+
+.publication-bibtex[open] summary {
+  margin-bottom: var(--space-2);
+}
+
+.bibtex-content {
+  background: var(--gray-50);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  border-left: 3px solid var(--color-primary);
+}
+
+.bibtex-content pre {
+  background: transparent !important;
+  color: var(--color-text) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: var(--text-xs);
+  line-height: 1.4;
+  overflow-x: auto;
+}
+
 /* Publication list specific overrides */
 .publication-list .publication-links {
-  margin-top: var(--space-2);
+  margin-top: var(--space-3);
 }
 
 .recent-publications .publication-links {
