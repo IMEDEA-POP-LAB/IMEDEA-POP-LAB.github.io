@@ -31,16 +31,6 @@ nav_order: 3
     </div>
     <div class="project-meta">{{ project.period }}</div>
     <div class="project-desc">{{ project.description }}</div>
-    
-    {% if project.keywords and project.keywords.size > 0 %}
-    <div class="project-details">
-      <div class="project-keywords">
-        {% for keyword in project.keywords %}
-          <span class="keyword-tag">{{ keyword }}</span>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
   </div>
 {% endfor %}
 </div>
