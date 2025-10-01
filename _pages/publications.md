@@ -22,8 +22,8 @@ nav_order: 1
   </a>
 </div>
 
-<!-- Recent Publications from YAML data -->
-{% if site.data.publications.recent and site.data.publications.recent.size > 0 %}
+<!-- Recent Publications -->
+{% if site.data.publications.recent %}
 ## Recent Publications
 
 {% for pub in site.data.publications.recent %}
@@ -63,14 +63,49 @@ nav_order: 1
 {% endfor %}
 {% endif %}
 
-<!-- Publications by Year -->
-{% if site.data.publications.by_year %}
+<!-- Preprints -->
+{% if site.data.publications.preprints %}
+## Preprints & Accepted
+
+{% for pub in site.data.publications.preprints %}
+<div class="publication-item {% if pub.status == 'accepted' %}accepted{% else %}preprint{% endif %}">
+  <strong>{{ pub.title }}</strong><br>
+  {{ pub.authors }}<br>
+  <em class="journal">{{ pub.journal }}</em> (<span class="year">{{ pub.year }}</span>)
+  {% if pub.status %}
+    <span class="status-badge {{ pub.status }}">{{ pub.status | capitalize }}</span>
+  {% endif %}
+  
+  {% if pub.doi or pub.url %}
+  <div class="publication-links">
+    {% if pub.doi %}
+    <a href="{{ pub.doi }}" class="link-doi" target="_blank">DOI</a>
+    {% endif %}
+    {% if pub.url %}
+    <a href="{{ pub.url }}" class="link-url" target="_blank">Link</a>
+    {% endif %}
+  </div>
+  {% endif %}
+  
+  {% if pub.abstract %}
+  <details class="publication-abstract">
+    <summary>Abstract</summary>
+    <p>{{ pub.abstract }}</p>
+  </details>
+  {% endif %}
+</div>
+{% endfor %}
+{% endif %}
+
+<!-- All Publications by Year -->
+{% if site.data.publications.all %}
 ## All Publications
 
-{% for year_group in site.data.publications.by_year %}
-### {{ year_group.year }}
+{% assign sorted_years = site.data.publications.all | map: 'first' | sort | reverse %}
+{% for year in sorted_years %}
+### {{ year }}
 
-{% for pub in year_group.publications %}
+{% for pub in site.data.publications.all[year] %}
 <div class="publication-item published">
   <strong>{{ pub.title }}</strong><br>
   {{ pub.authors }}<br>
@@ -96,19 +131,17 @@ nav_order: 1
     <p>{{ pub.abstract }}</p>
   </details>
   {% endif %}
+  
+  {% if pub.bibtex %}
+  <details class="publication-bibtex">
+    <summary>BibTeX</summary>
+    <pre><code>{{ pub.bibtex }}</code></pre>
+  </details>
+  {% endif %}
 </div>
 {% endfor %}
 {% endfor %}
 {% endif %}
-
-<div class="publication-item featured">
-  <strong>SWOT enhances small-scale eddy detection in the Mediterranean Sea</strong><br>
-  Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A.<br>
-  <em class="journal">ESS Open Archive</em> (<span class="year">2025</span>)
-  <div class="publication-links">
-    <a href="https://doi.org/10.22541/essoar.173315547.75973902/v1" class="link-doi">DOI</a>
-  </div>
-</div>
 
 <div class="publication-item featured">
   <strong>Kuroshio Extension and Gulf Stream dominate the Eddy Kinetic Energy intensification observed in the global ocean</strong><br>

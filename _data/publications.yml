@@ -1,130 +1,57 @@
 recent:
-  - title: "Interannual variability of Mediterranean Deep Water formation: A 20-year observational study"
-    authors: "Ananda Pascual, First Coauthor, Second Coauthor"
-    journal: "Journal of Geophysical Research: Oceans"
+
+  - title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
+    authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
+    journal: "ESS Open Archive"
     year: 2025
-    doi: "https://doi.org/10.1029/2024JC021234"
-    abstract: "This study examines the interannual variability of Mediterranean Deep Water formation using 20 years of observational data. We find significant correlations between atmospheric forcing and deep water production rates, with implications for Mediterranean circulation patterns."
-    bibtex: |
-      @article{pascual2025mediterranean,
-        title={Interannual variability of Mediterranean Deep Water formation: A 20-year observational study},
-        author={Pascual, Ananda and Coauthor, First and Coauthor, Second},
-        journal={Journal of Geophysical Research: Oceans},
-        volume={130},
-        number={1},
-        pages={123--145},
-        year={2025},
-        publisher={AGU},
-        doi={10.1029/2024JC021234}
-      }
+    doi: "https://doi.org/10.22541/essoar.173315547.75973902/v1"
+    abstract: "We demonstrate how SWOT's unprecedented high-resolution altimetry data enhances the detection and characterization of small-scale eddies in the Mediterranean Sea."
+    
+  - title: "Kuroshio Extension and Gulf Stream dominate the Eddy Kinetic Energy intensification observed in the global ocean"
+    authors: "Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M.I. and Pascual, A."
+    journal: "Scientific Reports"
+    year: 2025
+    doi: "https://doi.org/10.1038/s41598-025-06149-9"
+    abstract: "Global analysis of eddy kinetic energy trends reveals that the Kuroshio Extension and Gulf Stream regions dominate the observed intensification patterns."
 
-  - title: "Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean"
-    authors: "Ananda Pascual, Another Researcher, PhD Student"
-    journal: "Deep Sea Research Part I"
-    year: 2024
-    doi: "https://doi.org/10.1016/j.dsr.2024.104567"
-    abstract: "We investigate the role of mesoscale eddies in heat transport across the Western Mediterranean using a combination of satellite altimetry, in-situ observations, and numerical modeling."
-    bibtex: |
-      @article{pascual2024mesoscale,
-        title={Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean},
-        author={Pascual, Ananda and Researcher, Another and Student, PhD},
-        journal={Deep Sea Research Part I},
-        volume={198},
-        pages={104567},
-        year={2024},
-        publisher={Elsevier},
-        doi={10.1016/j.dsr.2024.104567}
-      }
-
-  - title: "Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis"
-    authors: "Ananda Pascual, International Collaborator, Research Team"
-    journal: "Remote Sensing of Environment"
-    year: 2024
-    doi: "https://doi.org/10.1016/j.rse.2024.113456"
-    abstract: "Using 42 years of satellite data, we document significant warming trends in Mediterranean Sea surface temperature with regional variations and connections to global climate patterns."
-    bibtex: |
-      @article{pascual2024climate,
-        title={Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis (1982-2024)},
-        author={Pascual, Ananda and Collaborator, International and Team, Research},
-        journal={Remote Sensing of Environment},
-        volume={301},
-        pages={113456},
-        year={2024},
-        publisher={Elsevier},
-        doi={10.1016/j.rse.2024.113456}
-      }
+preprints: []
 
 all:
-  2025:
-    - title: "Interannual variability of Mediterranean Deep Water formation: A 20-year observational study"
-      authors: "Ananda Pascual, First Coauthor, Second Coauthor"
-      journal: "Journal of Geophysical Research: Oceans"
-      year: 2025
-      doi: "https://doi.org/10.1029/2024JC021234"
-      abstract: "This study examines the interannual variability of Mediterranean Deep Water formation using 20 years of observational data. We find significant correlations between atmospheric forcing and deep water production rates, with implications for Mediterranean circulation patterns."
-      bibtex: |
-        @article{pascual2025mediterranean,
-          title={Interannual variability of Mediterranean Deep Water formation: A 20-year observational study},
-          author={Pascual, Ananda and Coauthor, First and Coauthor, Second},
-          journal={Journal of Geophysical Research: Oceans},
-          volume={130},
-          number={1},
-          pages={123--145},
-          year={2025},
-          publisher={AGU},
-          doi={10.1029/2024JC021234}
-        }
 
   2024:
-    - title: "Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean"
-      authors: "Ananda Pascual, Another Researcher, PhD Student"
-      journal: "Deep Sea Research Part I"
+    - title: "Changes in the Gulf Stream path over the last 3 decades"
+      authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
+      journal: "State of the Planet 4-osr8"
       year: 2024
-      doi: "https://doi.org/10.1016/j.dsr.2024.104567"
-      abstract: "We investigate the role of mesoscale eddies in heat transport across the Western Mediterranean using a combination of satellite altimetry, in-situ observations, and numerical modeling."
-      bibtex: |
-        @article{pascual2024mesoscale,
-          title={Mesoscale eddy dynamics and their impact on heat transport in the Western Mediterranean},
-          author={Pascual, Ananda and Researcher, Another and Student, PhD},
-          journal={Deep Sea Research Part I},
-          volume={198},
-          pages={104567},
-          year={2024},
-          publisher={Elsevier},
-          doi={10.1016/j.dsr.2024.104567}
-        }
-
-    - title: "Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis"
-      authors: "Ananda Pascual, International Collaborator, Research Team"
-      journal: "Remote Sensing of Environment"
+      doi: "https://doi.org/10.5194/sp-4-osr8-4-2024"
+      
+    - title: "Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas"
+      authors: "Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L."
+      journal: "Frontiers in Marine Science"
       year: 2024
-      doi: "https://doi.org/10.1016/j.rse.2024.113456"
-      abstract: "Using 42 years of satellite data, we document significant warming trends in Mediterranean Sea surface temperature with regional variations and connections to global climate patterns."
-      bibtex: |
-        @article{pascual2024climate,
-          title={Long-term trends in Mediterranean Sea surface temperature: A satellite-based analysis (1982-2024)},
-          author={Pascual, Ananda and Collaborator, International and Team, Research},
-          journal={Remote Sensing of Environment},
-          volume={301},
-          pages={113456},
-          year={2024},
-          publisher={Elsevier},
-          doi={10.1016/j.rse.2024.113456}
-        }
-
-    - title: "Dense water formation in the Northwestern Mediterranean: Observational evidence from autonomous gliders"
-      authors: "Ananda Pascual, Current Postdoc, Graduate Student"
-      journal: "Progress in Oceanography"
+      doi: "https://doi.org/10.3389/fmars.2024.1458036"
+      
+    - title: "Towards a sustained and fit-for-purpose European Ocean Observing and Forecasting System"
+      authors: "Tanhua, T., Le Traon, P.-Y., Köstner, N., Eparkhina, D., Navarro, G., Bonnet Dunbar, M., Speich, S., Pascual, A., Von Schuckmann, K., Liguori, G., Karstensen, J., Hassoun, A. E. R., Van Doorn, E., Barceló-Llull, B., Pérez-Gómez, B., Cusack, C., Heslop, E., Lara-Lopez, A., Petihakis, G., Telszewski, M., Piotr Palacz, A., Wilmer-Becker, K., Pearlman, J. S., Muñiz Piniella, Á., Heymans, J. J. and Lips, I."
+      journal: "Frontiers in Marine Science"
       year: 2024
-      doi: "https://doi.org/10.1016/j.pocean.2023.103045"
-      abstract: "High-resolution glider observations reveal the spatial and temporal variability of dense water formation in the Gulf of Lion, providing new insights into convection processes."
-
-    - title: "Air-sea heat exchange in the Mediterranean Sea during marine heatwave events"
-      authors: "Ananda Pascual, Climate Expert, Marine Scientist"
-      journal: "Climate Dynamics"
+      doi: "https://doi.org/10.3389/fmars.2024.139454"
+      
+    - title: "3D intrusions transport active surface microbial assemblages to the dark ocean"
+      authors: "Freilich, M. A., Poirier, C., Dever, M., Alou-Font, E., Allen, J., Cabornero, A., ... A. Pascual & Mahadevan, A."
+      journal: "Proceedings of the National Academy of Sciences (PNAS)"
       year: 2024
-      doi: "https://doi.org/10.1007/s00382-023-06789-1"
-      abstract: "We examine air-sea heat exchange processes during marine heatwave events in the Mediterranean Sea, quantifying the role of atmospheric forcing in ocean temperature extremes."
+      volume: "121(19)"
+      pages: "e2319937121"
+      doi: "https://doi.org/10.1073/pnas.2319937121"
+      
+    - title: "CLOINet: Ocean state reconstructions through remote-sensing, in-situ sparse observations and Deep Learning"
+      authors: "Cutolo, E., Pascual, A., Ruiz, S., Zarokanellos, N. D., & Fablet, R."
+      journal: "Frontiers in Marine Science"
+      year: 2024
+      volume: "11"
+      pages: "1151868"
+      doi: "https://doi.org/10.3389/fmars.2024.1151868"
 
   2022:
     - title: "The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate"
@@ -134,12 +61,3 @@ all:
       doi: "https://doi.org/10.1146/annurev-marine-032521-123456"
       abstract: "This review synthesizes our current understanding of Mediterranean Sea oceanography and its role as a natural laboratory for studying ocean-climate interactions."
       type: "review"
-
-conferences:
-  2025:
-    - title: "Climate change signatures in Mediterranean Sea water mass properties"
-      authors: "Ananda Pascual, Research Team"
-      venue: "EGU General Assembly 2025"
-      location: "Vienna, Austria"
-      year: 2025
-      abstract: "We present evidence of climate change impacts on Mediterranean water mass properties using multi-decadal observational records and discuss implications for regional oceanography."
