@@ -8,7 +8,6 @@ nav_order: 4
 ---
 
 <!-- featured content -->
-## Featured Videos
 <div class="featured-content">
   <div class="featured-item">
     <div class="featured-date">March 2024</div>
@@ -43,40 +42,21 @@ nav_order: 4
     </div>
   </div>
 </div> 
-  
-## Education
-
-<div class="education-activities">
-  <ul class="activity-list">
-    <li class="activity-item">
-      <div class="activity-icon">🎓</div>
-      <div class="activity-content">
-        <div class="activity-title">School Visits</div>
-        <div class="activity-description">Regular presentations at local schools about oceanography and climate science</div>
-      </div>
-    </li>
-    
-    <li class="activity-item">
-      <div class="activity-icon">📚</div>
-      <div class="activity-content">
-        <div class="activity-title">University Lectures</div>
-        <div class="activity-description">Guest lectures at UIB and other Mediterranean universities</div>
-      </div>
-    </li>
-    
-    <li class="activity-item">
-      <div class="activity-icon">🔬</div>
-      <div class="activity-content">
-        <div class="activity-title">Science Festivals</div>
-        <div class="activity-description">Participation in Nit de la Recerca and other science outreach events</div>
-      </div>
-    </li>
-  </ul>
-</div>
 
 ## Recent Press Releases
 
 <div class="press-releases">
+
+  <div class="press-item">
+    <div class="press-date">July 2025</div>
+    <div class="press-title">
+      <a href="https://www.ultimahora.es/noticias/local/2025/09/18/2471689/olas-calor-mar-balear-sistemas-medicion-podrian-estar-enganandosos.html#goog_rewarded" target="_blank">
+       Olas de calor en el mar balear: Los sistemas de medición podrían estar engañándonos
+      </a>
+    </div>
+    <div class="press-outlet">El Periódico</div>
+    <div class="press-excerpt">Se ha calentado 0,036 ºC al año desde 1982, con anomalías récord en 2022 y 2023</div>
+  </div>
 
   <div class="press-item">
     <div class="press-date">July 2025</div>

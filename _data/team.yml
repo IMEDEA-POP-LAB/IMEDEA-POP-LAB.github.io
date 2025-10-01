@@ -1,0 +1,94 @@
+# Team members data file
+# This file makes it easy to manage team information
+# To add a new member, copy the template and fill in the details
+
+principal_investigators:
+  - name: "Dra. Ananda Pascual"
+    title: "Senior Scientist, CSIC"
+    period: "2008 - present"
+    image: "PascualAnanda.jpeg"
+    email: "ananda.pascual@imedea.uib-csic.es"
+    orcid: "https://orcid.org/0000-0001-9476-9272"
+    scholar: "https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es"
+    website: ""
+    bio: "Senior scientist at the Spanish National Research Council (CSIC) at IMEDEA in Mallorca, Spain. She obtained her Ph.D. in Physical Oceanography from the University of the Balearic Islands in 2003, followed by positions at the CLS Space Oceanography Division in Toulouse as a Marie Skłodowska-Curie postdoctoral fellow, and at IMEDEA as a Ramon y Cajal tenure-track fellow. Her research primarily focuses on understanding meso and submesoscale processes in the ocean and their impact on climate, using a combination of remote sensing, in-situ data, and numerical simulations."
+    research_interests:
+      - "Mesoscale and submesoscale ocean dynamics"
+      - "Satellite altimetry and remote sensing"
+      - "Mediterranean Sea circulation"
+      - "Marine heatwaves and climate variability"
+
+research_scientists:
+  - name: "Dr. Baptiste Mourre"
+    title: "Research Scientist"
+    period: "2024 - present"
+    image: "baptiste_mourre.jpg"
+    email: "bmourre@imedea.uib-csic.es"
+    orcid: "https://orcid.org/0000-0002-5056-0423"
+    scholar: ""
+    website: ""
+    bio: "Research scientist specializing in ocean modeling, data assimilation, and operational oceanography. His work focuses on improving ocean forecasting systems and understanding coastal ocean processes."
+    research_interests:
+      - "Ocean modeling and data assimilation"
+      - "Operational oceanography"
+      - "Coastal ocean processes"
+
+postdocs:
+  # Add postdoctoral researchers here
+  # Template:
+  # - name: "Dr. [Full Name]"
+  #   title: "Postdoctoral Researcher"
+  #   period: "YYYY - present"
+  #   image: "lastname_firstname.jpg"
+  #   email: "email@imedea.uib-csic.es"
+  #   orcid: "https://orcid.org/0000-0000-0000-0000"
+  #   scholar: ""
+  #   website: ""
+  #   bio: "Brief description of background and research focus."
+  #   research_interests:
+  #     - "Research area 1"
+  #     - "Research area 2"
+
+phd_students:
+  - name: "Vincent Combes"
+    title: "PhD Student"
+    period: "2021 - present"
+    image: "CombesVincent.jpeg"
+    email: "vcombes@imedea.uib-csic.es"
+    orcid: ""
+    scholar: ""
+    website: ""
+    bio: "PhD student working on ocean dynamics and satellite observations."
+    research_interests:
+      - "Ocean satellite observations"
+      - "Mesoscale dynamics"
+
+  - name: "Jen-Ping Peng"
+    title: "PhD Student"
+    period: "2022 - present"
+    image: "PengJenPing.jpg"
+    email: "jpeng@imedea.uib-csic.es"
+    orcid: ""
+    scholar: ""
+    website: ""
+    bio: "PhD student focusing on ocean-atmosphere interactions."
+    research_interests:
+      - "Ocean-atmosphere interactions"
+      - "Climate variability"
+
+master_students:
+  # Add master's students here
+  # Template same as above but with title: "Master's Student"
+
+visiting_researchers:
+  # Add visiting researchers here
+  # Template same as above but with title: "Visiting Researcher"
+
+alumni:
+  # Add former lab members here
+  # Template:
+  # - name: "Dr. [Full Name]"
+  #   title: "Former [Position]"
+  #   period: "YYYY - YYYY"
+  #   current_position: "Current position and institution"
+  #   email: "current.email@institution.edu"
