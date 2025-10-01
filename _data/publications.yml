@@ -2,9 +2,9 @@ recent:
 
   - title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
     authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
-    journal: "ESS Open Archive"
+    journal: "Geophysical Research Letters"
     year: 2025
-    doi: "https://doi.org/10.22541/essoar.173315547.75973902/v1"
+    doi: "https://doi.org/10.1029/2025GL116480"
     
   - title: "Kuroshio Extension and Gulf Stream dominate the Eddy Kinetic Energy intensification observed in the global ocean"
     authors: "Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M.I. and Pascual, A."
@@ -15,47 +15,44 @@ recent:
 preprints: []
 
 all:
+  - title: "Changes in the Gulf Stream path over the last 3 decades"
+    authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
+    journal: "State of the Planet 4-osr8"
+    year: 2024
+    doi: "https://doi.org/10.5194/sp-4-osr8-4-2024"
+    
+  - title: "Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas"
+    authors: "Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L."
+    journal: "Frontiers in Marine Science"
+    year: 2024
+    doi: "https://doi.org/10.3389/fmars.2024.1458036"
+    
+  - title: "Towards a sustained and fit-for-purpose European Ocean Observing and Forecasting System"
+    authors: "Tanhua, T., Le Traon, P.-Y., Köstner, N., Eparkhina, D., Navarro, G., Bonnet Dunbar, M., Speich, S., Pascual, A., Von Schuckmann, K., Liguori, G., Karstensen, J., Hassoun, A. E. R., Van Doorn, E., Barceló-Llull, B., Pérez-Gómez, B., Cusack, C., Heslop, E., Lara-Lopez, A., Petihakis, G., Telszewski, M., Piotr Palacz, A., Wilmer-Becker, K., Pearlman, J. S., Muñiz Piniella, Á., Heymans, J. J. and Lips, I."
+    journal: "Frontiers in Marine Science"
+    year: 2024
+    doi: "https://doi.org/10.3389/fmars.2024.139454"
+    
+  - title: "3D intrusions transport active surface microbial assemblages to the dark ocean"
+    authors: "Freilich, M. A., Poirier, C., Dever, M., Alou-Font, E., Allen, J., Cabornero, A., ... A. Pascual & Mahadevan, A."
+    journal: "Proceedings of the National Academy of Sciences (PNAS)"
+    year: 2024
+    volume: "121(19)"
+    pages: "e2319937121"
+    doi: "https://doi.org/10.1073/pnas.2319937121"
+    
+  - title: "CLOINet: Ocean state reconstructions through remote-sensing, in-situ sparse observations and Deep Learning"
+    authors: "Cutolo, E., Pascual, A., Ruiz, S., Zarokanellos, N. D., & Fablet, R."
+    journal: "Frontiers in Marine Science"
+    year: 2024
+    volume: "11"
+    pages: "1151868"
+    doi: "https://doi.org/10.3389/fmars.2024.1151868"
 
-  2024:
-    - title: "Changes in the Gulf Stream path over the last 3 decades"
-      authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
-      journal: "State of the Planet 4-osr8"
-      year: 2024
-      doi: "https://doi.org/10.5194/sp-4-osr8-4-2024"
-      
-    - title: "Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas"
-      authors: "Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L."
-      journal: "Frontiers in Marine Science"
-      year: 2024
-      doi: "https://doi.org/10.3389/fmars.2024.1458036"
-      
-    - title: "Towards a sustained and fit-for-purpose European Ocean Observing and Forecasting System"
-      authors: "Tanhua, T., Le Traon, P.-Y., Köstner, N., Eparkhina, D., Navarro, G., Bonnet Dunbar, M., Speich, S., Pascual, A., Von Schuckmann, K., Liguori, G., Karstensen, J., Hassoun, A. E. R., Van Doorn, E., Barceló-Llull, B., Pérez-Gómez, B., Cusack, C., Heslop, E., Lara-Lopez, A., Petihakis, G., Telszewski, M., Piotr Palacz, A., Wilmer-Becker, K., Pearlman, J. S., Muñiz Piniella, Á., Heymans, J. J. and Lips, I."
-      journal: "Frontiers in Marine Science"
-      year: 2024
-      doi: "https://doi.org/10.3389/fmars.2024.139454"
-      
-    - title: "3D intrusions transport active surface microbial assemblages to the dark ocean"
-      authors: "Freilich, M. A., Poirier, C., Dever, M., Alou-Font, E., Allen, J., Cabornero, A., ... A. Pascual & Mahadevan, A."
-      journal: "Proceedings of the National Academy of Sciences (PNAS)"
-      year: 2024
-      volume: "121(19)"
-      pages: "e2319937121"
-      doi: "https://doi.org/10.1073/pnas.2319937121"
-      
-    - title: "CLOINet: Ocean state reconstructions through remote-sensing, in-situ sparse observations and Deep Learning"
-      authors: "Cutolo, E., Pascual, A., Ruiz, S., Zarokanellos, N. D., & Fablet, R."
-      journal: "Frontiers in Marine Science"
-      year: 2024
-      volume: "11"
-      pages: "1151868"
-      doi: "https://doi.org/10.3389/fmars.2024.1151868"
-
-  2022:
-    - title: "The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate"
-      authors: "Ananda Pascual, International Consortium"
-      journal: "Annual Review of Marine Science"
-      year: 2022
-      doi: "https://doi.org/10.1146/annurev-marine-032521-123456"
-      abstract: "This review synthesizes our current understanding of Mediterranean Sea oceanography and its role as a natural laboratory for studying ocean-climate interactions."
-      type: "review"
+  - title: "The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate"
+    authors: "Ananda Pascual, International Consortium"
+    journal: "Annual Review of Marine Science"
+    year: 2022
+    doi: "https://doi.org/10.1146/annurev-marine-032521-123456"
+    abstract: "This review synthesizes our current understanding of Mediterranean Sea oceanography and its role as a natural laboratory for studying ocean-climate interactions."
+    type: "review"
