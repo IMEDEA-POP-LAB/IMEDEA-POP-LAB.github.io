@@ -91,9 +91,9 @@ nav_order: 2
   {% endfor %}
 {% endif %}
 
-<!-- PhD Students -->
-{% if site.data.team.phd_students %}
-  {% for person in site.data.team.phd_students %}
+<!-- Postdocs -->
+{% if site.data.team.postdocs %}
+  {% for person in site.data.team.postdocs %}
   <div class="person-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
@@ -131,9 +131,9 @@ nav_order: 2
   {% endfor %}
 {% endif %}
 
-<!-- Postdocs -->
-{% if site.data.team.postdocs %}
-  {% for person in site.data.team.postdocs %}
+<!-- PhD Students -->
+{% if site.data.team.phd_students %}
+  {% for person in site.data.team.phd_students %}
   <div class="person-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
