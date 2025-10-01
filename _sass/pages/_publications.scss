@@ -111,9 +111,20 @@
 
 /* External profiles section */
 .external-profiles {
+  margin: var(--space-8) 0;
+  text-align: center;
+}
+
+.profiles-header h3 {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-bottom: var(--space-4);
+}
+
+.profiles-links {
   display: flex;
   gap: var(--space-4);
-  margin: var(--space-8) 0;
   justify-content: center;
   flex-wrap: wrap;
 }

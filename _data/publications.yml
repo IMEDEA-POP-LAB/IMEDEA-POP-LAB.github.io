@@ -54,5 +54,3 @@ all:
     journal: "Annual Review of Marine Science"
     year: 2022
     doi: "https://doi.org/10.1146/annurev-marine-032521-123456"
-    abstract: "This review synthesizes our current understanding of Mediterranean Sea oceanography and its role as a natural laboratory for studying ocean-climate interactions."
-    type: "review"

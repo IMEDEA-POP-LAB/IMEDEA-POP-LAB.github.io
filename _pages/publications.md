@@ -10,18 +10,23 @@ nav_order: 1
 
 <!-- External Profiles Links -->
 <div class="external-profiles">
-  <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link google-scholar">
-    <span class="profile-icon">🎓</span>
-    <span class="profile-text">Google Scholar</span>
-  </a>
-  <a href="https://orcid.org/0000-0001-9476-9272" target="_blank" class="profile-link orcid">
-    <span class="profile-icon">🔗</span>
-    <span class="profile-text">ORCID Profile</span>
-  </a>
-  <a href="https://www.researchgate.net/profile/Ananda-Pascual" target="_blank" class="profile-link researchgate">
-    <span class="profile-icon">📊</span>
-    <span class="profile-text">ResearchGate</span>
-  </a>
+  <div class="profiles-header">
+    <h3>Research Profiles</h3>
+  </div>
+  <div class="profiles-links">
+    <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link google-scholar">
+      <span class="profile-icon">🎓</span>
+      <span class="profile-text">Google Scholar</span>
+    </a>
+    <a href="https://orcid.org/0000-0001-9476-9272" target="_blank" class="profile-link orcid">
+      <span class="profile-icon">🔗</span>
+      <span class="profile-text">ORCID Profile</span>
+    </a>
+    <a href="https://www.researchgate.net/profile/Ananda-Pascual" target="_blank" class="profile-link researchgate">
+      <span class="profile-icon">📊</span>
+      <span class="profile-text">ResearchGate</span>
+    </a>
+  </div>
 </div>
 
 <!-- Recent Publications -->
@@ -111,11 +116,13 @@ nav_order: 1
 <div class="publication-list">
 ## All Publications
 
-{% assign sorted_years = site.data.publications.all | map: 'first' | sort | reverse %}
-{% for year in sorted_years %}
-<h3 class="publication-year-header">{{ year }}</h3>
+{% assign grouped_pubs = site.data.publications.all | group_by: 'year' %}
+{% assign sorted_groups = grouped_pubs | sort: 'name' | reverse %}
 
-{% for pub in site.data.publications.all[year] %}
+{% for year_group in sorted_groups %}
+<h3 class="publication-year-header">{{ year_group.name }}</h3>
+
+{% for pub in year_group.items %}
 <div class="publication-item published">
   <div class="publication-citation">
     <strong>{{ pub.title }}</strong><br>
