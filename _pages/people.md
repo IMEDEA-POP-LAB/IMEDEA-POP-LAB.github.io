@@ -11,12 +11,12 @@ nav_order: 2
 
 <div class="people row">
 
-{% assign principal_investigators = site.data.team.principal_investigators | default: [] %}
-{% assign research_scientists = site.data.team.research_scientists | default: [] %}
-{% assign phd_students = site.data.team.phd_students | default: [] %}
-{% assign postdocs = site.data.team.postdocs | default: [] %}
-{% assign master_students = site.data.team.master_students | default: [] %}
-{% assign visiting_researchers = site.data.team.visiting_researchers | default: [] %}
+{% assign principal_investigators = site.data.team.principal_investigators | default: [] | where_exp: "item", "item" %}
+{% assign research_scientists = site.data.team.research_scientists | default: [] | where_exp: "item", "item" %}
+{% assign phd_students = site.data.team.phd_students | default: [] | where_exp: "item", "item" %}
+{% assign postdocs = site.data.team.postdocs | default: [] | where_exp: "item", "item" %}
+{% assign master_students = site.data.team.master_students | default: [] | where_exp: "item", "item" %}
+{% assign visiting_researchers = site.data.team.visiting_researchers | default: [] | where_exp: "item", "item" %}
 
 {% assign all_members = principal_investigators | concat: research_scientists | concat: phd_students | concat: postdocs | concat: master_students | concat: visiting_researchers %}
 

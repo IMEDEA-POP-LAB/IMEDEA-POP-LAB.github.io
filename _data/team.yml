@@ -33,7 +33,7 @@ research_scientists:
       - "Operational oceanography"
       - "Coastal ocean processes"
 
-postdocs:
+postdocs: []
   # Add postdoctoral researchers here
   # Template:
   # - name: "Dr. [Full Name]"
@@ -76,15 +76,15 @@ phd_students:
       - "Ocean-atmosphere interactions"
       - "Climate variability"
 
-master_students:
+master_students: []
   # Add master's students here
   # Template same as above but with title: "Master's Student"
 
-visiting_researchers:
+visiting_researchers: []
   # Add visiting researchers here
   # Template same as above but with title: "Visiting Researcher"
 
-alumni:
+alumni: []
   # Add former lab members here
   # Template:
   # - name: "Dr. [Full Name]"
