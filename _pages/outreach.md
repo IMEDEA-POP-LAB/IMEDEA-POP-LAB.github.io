@@ -7,26 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-<!-- Lab News Section -->
-{% if site.data.news and site.data.news.size > 0 %}
-## Lab News
-
-<div class="news-section">
-{% for item in site.data.news limit: 10 %}
-  <div class="news-item">
-    <div class="news-date">{{ item.date | date: "%B %d, %Y" }}</div>
-    <div class="news-content">
-      <h4>{{ item.title }}</h4>
-      <p>{{ item.description }}</p>
-      {% if item.category %}
-      <span class="news-category {{ item.category }}">{{ item.category | capitalize }}</span>
-      {% endif %}
-    </div>
-  </div>
-{% endfor %}
-</div>
-{% endif %}
-
 <!-- Featured Outreach Content -->
 {% if site.data.outreach and site.data.outreach.size > 0 %}
 ## Featured Content
