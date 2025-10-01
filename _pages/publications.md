@@ -11,7 +11,6 @@ nav_order: 1
 <!-- External Profiles Links -->
 <div class="external-profiles">
   <div class="profiles-header">
-    <h3>Research Profiles</h3>
   </div>
   <div class="profiles-links">
     <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link google-scholar">
@@ -32,7 +31,6 @@ nav_order: 1
 <!-- Recent Publications -->
 {% if site.data.publications.recent %}
 <div class="recent-publications">
-## Recent Publications
 
 {% for pub in site.data.publications.recent %}
 <div class="publication-item {% if pub.featured %}featured{% else %}published{% endif %}">
@@ -79,7 +77,6 @@ nav_order: 1
 <!-- Preprints -->
 {% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
 <div class="preprints-section">
-## Preprints & Accepted
 
 {% for pub in site.data.publications.preprints %}
 <div class="publication-item {% if pub.status == 'accepted' %}accepted{% else %}preprint{% endif %}">
@@ -114,7 +111,6 @@ nav_order: 1
 <!-- All Publications by Year -->
 {% if site.data.publications.all %}
 <div class="publication-list">
-## All Publications
 
 {% assign grouped_pubs = site.data.publications.all | group_by: 'year' %}
 {% assign sorted_groups = grouped_pubs | sort: 'name' | reverse %}

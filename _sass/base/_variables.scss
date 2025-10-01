@@ -2,17 +2,17 @@
 // =============================================================================
 
 :root {
-  /* Primary Color Scale - Rich Blue Theme */
-  --primary-50: #eff6ff;
-  --primary-100: #dbeafe;
-  --primary-200: #bfdbfe;
-  --primary-300: #93c5fd;
-  --primary-400: #60a5fa;
-  --primary-500: #3b82f6;
-  --primary-600: #2563eb;
-  --primary-700: #1d4ed8;
-  --primary-800: #1e40af;
-  --primary-900: #1e3a8a;
+  /* Primary Color Scale - Deep Blue-Purple Theme (#2F3070 Base) */
+  --primary-50: #f0f1fc;
+  --primary-100: #e4e6f7;
+  --primary-200: #cdd2f0;
+  --primary-300: #abb3e6;
+  --primary-400: #8891da;
+  --primary-500: #6d76ce;
+  --primary-600: #5c64c1;
+  --primary-700: #4d54a8;
+  --primary-800: #2f3070;
+  --primary-900: #252659;
   
   /* Blue Color Scale - Enhanced Saturation */
   --blue-50: #eff6ff;
@@ -38,11 +38,11 @@
   --gray-800: #1e293b;
   --gray-900: #0f172a;
   
-  /* Ocean Theme Colors - Enhanced Blues */
-  --ocean-light: var(--blue-500);
-  --ocean-primary: var(--blue-600);
-  --ocean-dark: var(--blue-700);
-  --ocean-deeper: var(--blue-800);
+  /* Ocean Theme Colors - Deep Blue-Purple */
+  --ocean-light: var(--primary-600);
+  --ocean-primary: var(--primary-700);
+  --ocean-dark: var(--primary-800);
+  --ocean-deeper: var(--primary-900);
   
   /* Colors - Semantic */
   --color-bg: #ffffff;
@@ -58,11 +58,11 @@
   --color-border: var(--gray-200);
   --color-divider: var(--gray-200);
   
-  /* Gradients - Enhanced Blue Gradients */
-  --gradient-ocean: linear-gradient(135deg, var(--blue-500) 0%, var(--blue-700) 100%);
-  --gradient-light: linear-gradient(135deg, var(--blue-50) 0%, var(--blue-100) 100%);
-  --gradient-card: linear-gradient(135deg, #ffffff 0%, var(--blue-50) 100%);
-  --gradient-dark: linear-gradient(135deg, var(--blue-600) 0%, var(--blue-800) 100%);
+  /* Gradients - Deep Blue-Purple Gradients */
+  --gradient-ocean: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-800) 100%);
+  --gradient-light: linear-gradient(135deg, var(--primary-50) 0%, var(--primary-100) 100%);
+  --gradient-card: linear-gradient(135deg, #ffffff 0%, var(--primary-50) 100%);
+  --gradient-dark: linear-gradient(135deg, var(--primary-700) 0%, var(--primary-900) 100%);
   
   /* Typography Scale */
   --text-xs: 0.75rem;     /* 12px */
@@ -125,9 +125,9 @@
   --shadow-xl: 0 24px 40px -12px rgba(0, 0, 0, 0.12), 0 16px 24px -8px rgba(0, 0, 0, 0.08);
   --shadow-2xl: 0 32px 60px -16px rgba(0, 0, 0, 0.14), 0 24px 40px -12px rgba(0, 0, 0, 0.10);
   
-  /* Colored shadows - Blue Tones */
-  --shadow-primary: 0 8px 25px -8px rgba(37, 99, 235, 0.25);
-  --shadow-primary-lg: 0 16px 40px -12px rgba(37, 99, 235, 0.30);
+  /* Colored shadows - Deep Blue-Purple Tones */
+  --shadow-primary: 0 8px 25px -8px rgba(47, 48, 112, 0.25);
+  --shadow-primary-lg: 0 16px 40px -12px rgba(47, 48, 112, 0.30);
   
   /* Z-Index Scale */
   --z-dropdown: 1000;
