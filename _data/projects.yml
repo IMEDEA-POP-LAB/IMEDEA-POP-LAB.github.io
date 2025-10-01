@@ -8,10 +8,6 @@ current:
     logo: "alianza_observa_logo.avif"
     url: "https://alianzaobserva.com"
     description: "Red Estratégica de Observación de la Tierra por satélite"
-    funding_agency: "Spanish National Research Agency"
-    pi: "Ananda Pascual"
-    team_members: ["Baptiste Mourre", "Vincent Combes"]
-    keywords: ["satellite observations", "Earth observation", "remote sensing"]
     featured: true
 
   - title: "Obsea4Clim"
@@ -19,10 +15,6 @@ current:
     logo: "obsea4clim_logo.png"
     url: ""
     description: "Ocean observations and indicators for climate and assessments"
-    funding_agency: "European Commission"
-    pi: "Ananda Pascual"
-    team_members: ["Baptiste Mourre"]
-    keywords: ["climate", "ocean observations", "indicators"]
     featured: true
 
   - title: "Sea Level TAC"
@@ -30,10 +22,6 @@ current:
     logo: "sltac_logo.png"
     url: ""
     description: "Sea Level Thematic Assembly Center - Copernicus Marine Environment Monitoring Service - 24251L02-COP-TAC SL-2100"
-    funding_agency: "Copernicus"
-    pi: "Ananda Pascual"
-    team_members: []
-    keywords: ["sea level", "altimetry", "Copernicus"]
     featured: false
 
   - title: "SWINT"
