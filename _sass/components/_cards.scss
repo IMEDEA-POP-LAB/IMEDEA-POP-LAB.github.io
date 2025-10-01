@@ -4,18 +4,39 @@
 
 /* Modern card container */
 .modern-card {
-  background: var(--global-card-bg);
-  border: 1px solid var(--global-divider-color);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--global-shadow);
-  transition: all 0.3s ease;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
   overflow: hidden;
+  position: relative;
 }
 
 .modern-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
+}
+
+/* Enhanced card variants */
+.card-elevated {
+  box-shadow: var(--shadow-md);
+}
+
+.card-elevated:hover {
+  box-shadow: var(--shadow-xl);
   transform: translateY(-4px);
-  box-shadow: var(--global-shadow-lg);
-  border-color: var(--ocean-blue);
+}
+
+.card-primary {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-primary);
+}
+
+.card-gradient {
+  background: var(--gradient-card);
+  border: none;
 }
 
 /* Card content */

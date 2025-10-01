@@ -2,28 +2,47 @@
 // About Page Styles
 // =============================================================================
 
-/* Main content with improved spacing */
+/* Modern About Page Layout */
 .about-page {
   min-height: 100vh;
-  padding: var(--space-8) 0;
+  padding: var(--space-12) 0;
+  background: linear-gradient(to bottom, var(--color-bg) 0%, var(--color-bg-secondary) 100%);
 }
 
-/* Intro hero section - matching actual HTML classes */
+/* Enhanced intro hero section */
 .intro-hero {
   text-align: left;
-  margin-bottom: var(--space-16);
-  max-width: 800px;
+  margin-bottom: var(--space-20);
+  max-width: 900px;
+  position: relative;
+}
+
+.intro-hero::before {
+  content: '';
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+  width: 100px;
+  height: 100px;
+  background: var(--gradient-light);
+  border-radius: var(--radius-full);
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .lab-title {
-  font-size: clamp(2.5rem, 6vw, 4rem) !important;
-  font-weight: 100 !important;
-  color: #000 !important;
-  margin-bottom: var(--space-4) !important;
+  font-size: clamp(2.5rem, 6vw, 4.5rem) !important;
+  font-weight: 800 !important;
+  color: var(--color-text) !important;
+  margin-bottom: var(--space-6) !important;
   letter-spacing: -0.04em !important;
   line-height: 1.1 !important;
   text-transform: none !important;
   position: relative !important;
+  background: var(--gradient-ocean);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .lab-title::after {

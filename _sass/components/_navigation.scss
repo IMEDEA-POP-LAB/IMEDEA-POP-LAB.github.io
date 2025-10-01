@@ -2,7 +2,7 @@
 // Navigation Component - Header with blue gradient and responsive nav
 // =============================================================================
 
-/* ULTIMATE NUCLEAR OPTION - Force blue gradient on ALL possible header selectors */
+/* Modern Navigation Header */
 *[class*="site-header"],
 *[class*="header"],
 header,
@@ -10,14 +10,16 @@ header,
 nav.site-header,
 .wrapper > .site-header,
 body > .wrapper > .site-header {
-  background: linear-gradient(135deg, #1b263b 0%, #415a77 100%) !important;
-  background-color: #415a77 !important;
-  background-image: linear-gradient(135deg, #1b263b 0%, #415a77 100%) !important;
-  /* 
-  background: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
-  background-color: #0284c7 !important;
-  background-image: linear-gradient(135deg, #164e63 0%, #0284c7 100%) !important;
-  */
+  background: var(--gradient-ocean) !important;
+  backdrop-filter: blur(10px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: var(--shadow-lg) !important;
+  position: relative !important;
+}
+
+/* Add subtle animation */
+.site-header {
+  transition: all var(--transition-base) !important;
 }
 
 /* Nuclear option - override any possible navbar background conflicts */
