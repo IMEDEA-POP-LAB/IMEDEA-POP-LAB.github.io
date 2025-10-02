@@ -13,11 +13,6 @@ nav_order: 4
 {% if site.data.outreach and site.data.outreach.size > 0 %}
 <div class="outreach-section">
   <div class="section-container">
-    <div class="section-header">
-      <h2 class="section-title">Featured Content</h2>
-      <p class="section-subtitle">Documentaries, interviews, and educational videos</p>
-    </div>
-
     <div class="featured-grid">
       {% assign featured_items = site.data.outreach | where: "featured", true | sort: "date" | reverse %}
       {% for item in featured_items %}
@@ -35,7 +30,7 @@ nav_order: 4
           </div>
         </div>
         {% endif %}
-        
+
         <div class="card-content">
           <div class="card-header">
             <div class="content-type">{{ item.type | capitalize }}</div>
@@ -72,11 +67,6 @@ nav_order: 4
 {% if site.data.media and site.data.media.size > 0 %}
 <div class="outreach-section">
   <div class="section-container">
-    <div class="section-header">
-      <h2 class="section-title">Media Coverage</h2>
-      <p class="section-subtitle">Press coverage and media appearances</p>
-    </div>
-
     <!-- Media Grid -->
     <div class="media-grid">
       {% for item in site.data.media %}
