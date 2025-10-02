@@ -8,47 +8,6 @@ nav_order: 1
 
 <div class="publications-page-modern">
 
-<!-- Academic Profiles Section - At Top -->
-<div class="publications-section" id="profiles-section-top">
-  <div class="section-container">
-    <div class="section-header">
-      <h2 class="section-title">Academic Profiles</h2>
-    </div>
-    
-    <div class="profiles-grid">
-      <div class="profile-card">
-        <div class="profile-icon">🎓</div>
-        <h3 class="profile-title">Google Scholar</h3>
-        <p class="profile-description">Complete publication list with citation metrics and h-index</p>
-        <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link">
-          View Profile
-          <span class="link-arrow">→</span>
-        </a>
-      </div>
-      
-      <div class="profile-card">
-        <div class="profile-icon">🔗</div>
-        <h3 class="profile-title">ORCID</h3>
-        <p class="profile-description">Unique researcher identifier with verified publication record</p>
-        <a href="https://orcid.org/0000-0001-9476-9272" target="_blank" class="profile-link">
-          View Profile
-          <span class="link-arrow">→</span>
-        </a>
-      </div>
-      
-      <div class="profile-card">
-        <div class="profile-icon">📊</div>
-        <h3 class="profile-title">ResearchGate</h3>
-        <p class="profile-description">Academic social network with research discussions and collaborations</p>
-        <a href="https://www.researchgate.net/profile/Ananda-Pascual" target="_blank" class="profile-link">
-          View Profile
-          <span class="link-arrow">→</span>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Navigation Tabs -->
 <div class="publications-nav">
   <div class="nav-tabs">
@@ -201,13 +160,8 @@ document.addEventListener('DOMContentLoaded', function() {
       tabs.forEach(t => t.classList.remove('active'));
       this.classList.add('active');
       
-      // Show/hide sections (only the tabbed sections, not the profiles at top)
+      // Show/hide sections
       sections.forEach(section => {
-        if (section.id === 'profiles-section-top') {
-          // Always keep profiles visible at top
-          return;
-        }
-        
         if (section.id === targetSection + '-section') {
           section.classList.remove('hidden');
         } else {

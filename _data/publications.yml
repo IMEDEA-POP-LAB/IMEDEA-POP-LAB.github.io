@@ -14,36 +14,53 @@ recent:
 
 preprints: 
 
-  - title: "Tracking marine heatwaves in the Balearic Sea: temperature trends and the role of detection methods"
-    authors: "Blanca Fernández-Álvarez, Bàrbara Barceló-Llull, and Ananda Pascual"
-    journal: "EarthArXiv"
-    year: 2025
-    doi: "https://doi.org/10.5194/os-21-1987-2025"
+  - title: "Marine Heatwaves in the Balearic Sea"
+    authors: "Fernández-Álvarez, B., Barceló-Llull, B. and Pascual, A."
+    status: "In prep"
+    year: 2024
+    
+  - title: "SWOT and multi-platform observations enhance small-scale intrathermocline eddy detection"
+    authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
+    journal: "Geophysical Research Letters"
+    status: "Submitted"
+    year: 2024
+    doi: "https://doi.org/10.22541/essoar.173315547.75973902/v1"
+    
+  - title: "Robust intensification of global ocean Eddy Kinetic Energy from three decades of satellite altimetry observations"
+    authors: "Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M. I. and Pascual, A."
+    journal: "Scientific Reports"
+    status: "Submitted"
+    year: 2024
+    doi: "https://doi.org/10.48550/arXiv.2406.08014"
 
 all:
+  # 2024 Publications
   - title: "Changes in the Gulf Stream path over the last 3 decades"
     authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
     journal: "State of the Planet 4-osr8"
     year: 2024
+    volume: "4"
     doi: "https://doi.org/10.5194/sp-4-osr8-4-2024"
     
   - title: "Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas"
     authors: "Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L."
     journal: "Frontiers in Marine Science"
     year: 2024
+    volume: "11"
     doi: "https://doi.org/10.3389/fmars.2024.1458036"
     
   - title: "Towards a sustained and fit-for-purpose European Ocean Observing and Forecasting System"
     authors: "Tanhua, T., Le Traon, P.-Y., Köstner, N., Eparkhina, D., Navarro, G., Bonnet Dunbar, M., Speich, S., Pascual, A., Von Schuckmann, K., Liguori, G., Karstensen, J., Hassoun, A. E. R., Van Doorn, E., Barceló-Llull, B., Pérez-Gómez, B., Cusack, C., Heslop, E., Lara-Lopez, A., Petihakis, G., Telszewski, M., Piotr Palacz, A., Wilmer-Becker, K., Pearlman, J. S., Muñiz Piniella, Á., Heymans, J. J. and Lips, I."
     journal: "Frontiers in Marine Science"
     year: 2024
-    doi: "https://doi.org/10.3389/fmars.2024.139454"
+    volume: "11"
+    doi: "https://doi.org/10.3389/fmars.2024.1394549"
     
   - title: "3D intrusions transport active surface microbial assemblages to the dark ocean"
     authors: "Freilich, M. A., Poirier, C., Dever, M., Alou-Font, E., Allen, J., Cabornero, A., ... A. Pascual & Mahadevan, A."
-    journal: "Proceedings of the National Academy of Sciences (PNAS)"
+    journal: "Proceedings of the National Academy of Sciences"
     year: 2024
-    volume: "121(19)"
+    volume: "121"
     pages: "e2319937121"
     doi: "https://doi.org/10.1073/pnas.2319937121"
     
@@ -55,8 +72,363 @@ all:
     pages: "1151868"
     doi: "https://doi.org/10.3389/fmars.2024.1151868"
 
-  - title: "The Mediterranean Sea: A laboratory for understanding ocean dynamics and climate"
-    authors: "Ananda Pascual, International Consortium"
-    journal: "Annual Review of Marine Science"
+  # 2023 Publications
+  - title: "DUACS DT2021 reprocessed altimetry improves sea level retrieval in the coastal band of the European seas"
+    authors: "Sánchez-Román, A., Pujol, M. I., Faugère, Y., and Pascual, A."
+    journal: "Ocean Science"
+    year: 2023
+    volume: "19"
+    pages: "793–809"
+    doi: "https://doi.org/10.5194/os-19-793-2023"
+    
+  - title: "Recommendations for the design of in situ sampling strategies to reconstruct fine-scale ocean currents in the context of SWOT satellite mission"
+    authors: "Barceló-Llull B and Pascual A"
+    journal: "Frontiers in Marine Science"
+    year: 2023
+    volume: "10"
+    pages: "1082978"
+    doi: "https://doi.org/10.3389/fmars.2023.1082978"
+    
+  - title: "Assessing marine heat waves in the Mediterranean Sea: a comparison of fixed and moving baseline methods"
+    authors: "Rosselló, P., Pascual, A., and Combes, V."
+    journal: "Frontiers in Marine Science"
+    year: 2023
+    volume: "10"
+    doi: "https://doi.org/10.3389/fmars.2023.1168368"
+    
+  - title: "Bounded nonlinear forecasts of partially observed geophysical systems with physics-constrained deep learning"
+    authors: "Ouala, S., Brunton, S. L., Chapron, B., Pascual, A., Collard, F., Gaultier, L., et al."
+    journal: "Physica D: Nonlinear Phenomena"
+    year: 2023
+    volume: "446"
+    pages: "133630"
+    doi: "https://doi.org/10.1016/j.physd.2022.133630"
+    
+  - title: "Inertial oscillations and frontal processes in an Alboran Sea jet: Effects on divergence and vertical transport"
+    authors: "Esposito, G., Donnet, S., Berta, M., Shcherbina, A. Y., Freilich, M., Centurioni, L.,… A. Pascual, S. Ruiz, D.R. Tarry et al."
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2023
+    volume: "128"
+    pages: "e2022JC019004"
+    doi: "https://doi.org/10.1029/2022JC019004"
+    
+  - title: "CALYPSO: Observing Coherent Pathways from the Surface Ocean to the Interior"
+    authors: "Mahadevan, A., Pascual, A., Rudnick, D. L., Ruiz, S., Tintoré, J., and D'Asaro, E."
+    journal: "Bulletin of the American Meteorological Society"
+    year: 2023
+    volume: "102"
+    pages: "532–540"
+    doi: "https://doi.org/10.1175/BAMS-D-19-0305.A"
+
+  # 2022 Publications
+  - title: "Strong Long‐Lived Anticyclonic Mesoscale Eddies in the Balearic Sea: Formation, Intensification, and Thermal Impact"
+    authors: "Aguiar, E., Mourre, B., Alvera‐Azcárate, A., Pascual, A., Mason, E., & Tintoré, J."
+    journal: "Journal of Geophysical Research: Oceans"
     year: 2022
-    doi: "https://doi.org/10.1146/annurev-marine-032521-123456"
+    volume: "127"
+    pages: "e2021JC017589"
+    doi: "https://doi.org/10.1029/2021JC017589"
+    
+  - title: "Copernicus Ocean State Report, issue 6"
+    authors: "Karina von Schuckmann, Pierre-Yves Le Traon, Neville Smith, Ananda Pascual, Samuel Djavidnia, Marilaure Grégoire et al."
+    journal: "Journal of Operational Oceanography"
+    year: 2022
+    volume: "15"
+    pages: "1–220"
+    doi: "https://doi.org/10.1080/1755876X.2022.2095169"
+    
+  - title: "Diagnosing Frontal Dynamics From Observations Using a Variational Approach"
+    authors: "Cutolo, E., Pascual, A., Ruiz, S., Shaun Johnston, T. M., Freilich, M., Mahadevan, A., Shcherbina, A., Poulain, P., Ozgokmen, T., Centurioni, L. R., Rudnick, D. L., & D'Asaro, E."
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2022
+    volume: "127"
+    pages: "e2021JC018336"
+    doi: "https://doi.org/10.1029/2021JC018336"
+    
+  - title: "Drifter Observations Reveal Intense Vertical Velocity in a Surface Ocean Front"
+    authors: "Tarry, D. R., Ruiz, S., Johnston, T. M. S., Poulain, P., Özgökmen, T., Centurioni, L. R., Berta, M., Esposito, G., Farrar, J. T., Mahadevan, A., & Pascual, A."
+    journal: "Geophysical Research Letters"
+    year: 2022
+    volume: "49"
+    pages: "e2022GL098969"
+    doi: "https://doi.org/10.1029/2022GL098969"
+    
+  - title: "Frontal dynamics in the Alboran Sea: 1. Coherent 3D pathways at the Almeria-Oran front using underwater glider observations"
+    authors: "Zarokanellos, N. D., Rudnick, D. L., Garcia-Jove, M., Mourre, B., Ruiz, S., Pascual, A., & Tintoré, J."
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2022
+    volume: "127"
+    pages: "e2021JC017405"
+    doi: "https://doi.org/10.1029/2021JC017405"
+    
+  - title: "Independent Quality Assessment of Essential Climate Variables: Lessons Learned from the Copernicus Climate Change Service"
+    authors: "Yang, C., Cagnazzo, C., Artale, V., Buongiorno Nardelli, B., Buontempo, C., Busatto, J., Caporaso, L., Cesarini, C., Cionni, I., Coll, J., Crezee, B., Cristofanelli, P., de Toma, V., Essa, Y. H., Eyring, V., Fierli, F., Grant, L., Hassler, B., Hirschi, M., Huybrechts, P., Le Merle, E., Leonelli, F. E., Lin, X., Madonna, F., Mason, E., Massonnet, F., Marcos, M., Marullo, S., Müller, B., Obregon, A., Organelli, E., Palacz, A., Pascual, A., Pisano, A., Putero, D., Rana, A., Sánchez-Román, A., Seneviratne, S. I., Serva, F., Storto, A., Thiery, W., Throne, P., Van Tricht, L., Verhaegen, Y., Volpe, G., & Santoleri, R."
+    journal: "Bulletin of the American Meteorological Society"
+    year: 2022
+    volume: "103"
+    pages: "E2032-E2049"
+    doi: "https://doi.org/10.1175/BAMS-D-21-0252.1"
+    
+  - title: "Ocean Integration: The Needs and Challenges of Effective Coordination Within the Ocean Observing System"
+    authors: "Révelard A, Tintoré J, Verron J, Bahurel P, Barth JA, Belbéoch M, Benveniste J, Bonnefond P, Chassignet EP, Cravatte S, Davidson F, deYoung B, Heupel M, Heslop E, Hörstmann C, Karstensen J, Le Traon PY, Marques M, McLean C, Medina R, Paluszkiewicz T, Pascual A, Pearlman J, Petihakis G, Pinardi N, Pouliquen S, Rayner R, Shepherd I, Sprintall J, Tanhua T, Testor P, Seppälä J, Siddorn J, Thomsen S, Valdés L, Visbeck M, Waite AM, Werner F, Wilkin J and Williams B"
+    journal: "Frontiers in Marine Science"
+    year: 2022
+    volume: "8"
+    pages: "737671"
+    doi: "https://doi.org/10.3389/fmars.2021.737671"
+
+  # 2021 Publications
+  - title: "Copernicus Marine Service Ocean State Report, Issue 5"
+    authors: "Karina von Schuckmann ((Editor)), Pierre-Yves Le Traon ((Editor)), Neville Smith (Chair) ((Review Editor)), Ananda Pascual ((Review Editor)), Samuel Djavidnia ((Review Editor)), Jean-Pierre Gattuso ((Review Editor)), Marilaure Grégoire ((Review Editor)), et al."
+    journal: "Journal of Operational Oceanography"
+    year: 2021
+    volume: "14"
+    pages: "1-185"
+    doi: "https://doi.org/10.1080/1755876X.2021.1946240"
+    
+  - title: "Fine-Scale Ocean Currents Derived From in situ Observations in Anticipation of the Upcoming SWOT Altimetric Mission"
+    authors: "Barceló-Llull B, Pascual A, Sánchez-Román A, Cutolo E, d'Ovidio F, Fifani G, Ser-Giacomi E, Ruiz S, Mason E, Cyr F, Doglioli A, Mourre B, Allen JT, Alou-Font E, Casas B, Díaz-Barroso L, Dumas F, Gómez-Navarro L and Muñoz C"
+    journal: "Frontiers in Marine Science"
+    year: 2021
+    volume: "8"
+    pages: "679844"
+    doi: "https://doi.org/10.3389/fmars.2021.679844"
+    
+  - title: "Impact of moderately energetic fine-scale dynamics on the phytoplankton community structure in the western Mediterranean Sea"
+    authors: "Tzortzis, R., Doglioli, A. M., Barrillon, S., Petrenko, A. A., d'Ovidio, F., Izard, L., Thyssen, M., Pascual, A., Barceló-Llull, B., Cyr, F., Tedetti, M., Bhairy, N., Garreau, P., Dumas, F., and Gregori, G."
+    journal: "Biogeosciences"
+    year: 2021
+    volume: "18"
+    pages: "6455–6477"
+    doi: "https://doi.org/10.5194/bg-18-6455-2021"
+    
+  - title: "Altimetry for the Future: Interdisciplinary Recommendations Following the '25 Years of Progress in Radar Altimetry' Anniversary"
+    authors: "International Altimetry Team (including Pascual, A.)"
+    journal: "Advances in Space Research"
+    year: 2021
+    volume: "68"
+    pages: "319–363"
+    doi: "https://doi.org/10.1016/j.asr.2021.01.022"
+    
+  - title: "On the Structure and Kinematics of an Algerian Eddy in the Southwestern Mediterranean Sea"
+    authors: "Poulain, P.-M.; Centurioni, L.; Özgökmen, T.; Tarry, D.; Pascual, A.; Ruiz, S.; Mauri, E.; Menna, M.; Notarstefano, G."
+    journal: "Remote Sensing"
+    year: 2021
+    volume: "13"
+    pages: "3039"
+    doi: "https://doi.org/10.3390/rs13153039"
+    
+  - title: "Frontal convergence and vertical velocity measured by drifters in the Alboran Sea"
+    authors: "Tarry, D.R., Essink, S., Pascual, A., Ruiz, S., Poulain, P.-M., Ozgokmen, T., Centurioni, L.R., Farrar, T., Shcherbina, A., Mahadevan, A., D'Asaro, E."
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2021
+    volume: "126"
+    pages: "e2020JC016614"
+    doi: "https://doi.org/10.1029/2020JC016614"
+
+  # 2020 Publications
+  - title: "Learning latent dynamics for partially observed chaotic systems"
+    authors: "Ouala, S.; Nguyen, D.; Drumetz, L.; Chapron, B.; Pascual, A.; Collard, F.; Gaultier, L.; Fablet, R."
+    journal: "Chaos"
+    year: 2020
+    volume: "30"
+    pages: "103121"
+    doi: "https://doi.org/10.1063/5.0019309"
+    
+  - title: "Assessment of DUACS Sentinel-3A Altimetry Data in the Coastal Band of the European Seas: Comparison with Tide Gauge Measurements"
+    authors: "Sánchez-Román, A., Ananda Pascual, Marie-Isabelle Pujol, Guillaume Taburet, Marta Marcos, and Yannice Faugère"
+    journal: "Remote Sensing"
+    year: 2020
+    volume: "12"
+    pages: "3970"
+    doi: "https://doi.org/10.3390/rs12233970"
+    
+  - title: "Copernicus Marine Service Ocean State Report, Issue 4"
+    authors: "Karina von Schuckmann, Pierre-Yves Le Traon, Neville Smith, Ananda Pascual, Samuel Djavidnia, Jean-Pierre Gattuso, Marilaure Grégoire, Glenn Nolan, et al."
+    journal: "Journal of Operational Oceanography"
+    year: 2020
+    volume: "13"
+    pages: "S1-S172"
+    doi: "https://doi.org/10.1080/1755876X.2020.1785097"
+    
+  - title: "Coherent Pathways for Vertical Transport from the Surface Ocean to Interior"
+    authors: "Mahadevan, A., A. Pascual*, D. L. Rudnick, S. Ruiz, J. Tintoré, and E. D'Asaro"
+    journal: "Bulletin of the American Meteorological Society"
+    year: 2020
+    volume: "101"
+    pages: "E1996-E2004"
+    doi: "https://doi.org/10.1175/BAMS-D-19-0305.1"
+    
+  - title: "Development of an Image De-Noising Method in Preparation for the Surface Water and Ocean Topography Satellite Mission"
+    authors: "Gómez-Navarro, L. Cosme, E., Le Sommer, J., Papadakis, N., Pascual, A."
+    journal: "Remote Sensing"
+    year: 2020
+    volume: "12"
+    pages: "734"
+    doi: "https://doi.org/10.3390/rs12040734"
+
+  # 2019 Publications
+  - title: "Challenges for Sustained Observing and Forecasting Systems in the Mediterranean Sea"
+    authors: "Tintoré, J., N. Pinardi, E. Álvarez-Fanjul, E. Aguiar, D. Álvarez-Berastegui, M. Bajo, R. Balbin, R. Bozzano, B.B. Nardelli, V. Cardin, B. Casas, M. Charcos-Llorens, J. Chiggiato, E. Clementi, G. Coppini, L. Coppola, G. Cossarini, A. Deidun, S. Deudero, F. D'Ortenzio, A. Drago, M. Drudi, G. El Serafy, R. Escudier, P. Farcy, I. Federico, J.G. Fernández, C. Ferrarin, C. Fossi, C. Frangoulis, F. Galgani, S. Gana, J. García Lafuente, M.G. Sotillo, P. Garreau, I. Gertman, L. Gómez-Pujol, A. Grandi, D. Hayes, J. Hernández-Lasheras, B. Herut, E. Heslop, K. Hilmi, M. Juza, G. Kallos, G. Korres, R. Lecci, P. Lazzari, P. Lorente, S. Liubartseva, F. Louanchi, V. Malacic, G. Mannarini, D. March, S. Marullo, E. Mauri, L. Meszaros, B. Mourre, L. Mortier, C. Muñoz-Mas, A. Novellino, D. Obaton, A. Orfila, A. Pascual, S. Pensieri, B. Pérez Gómez, S. Pérez Rubio, L. Perivoliotis, G. Petihakis, L.P. de la Villéon, J. Pistoia, P.M. Poulain, S. Pouliquen, L. Prieto, P. Raimbault, P. Reglero, E. Reyes, P. Rotllan, S. Ruiz, J. Ruiz, I. Ruiz, L.F. Ruiz-Orejón, B. Salihoglu, S. Salon, S. Sammartino, A. Sánchez Arcilla, G. Sannino, G. Sannino, R. Santoleri, R. Sardá, K. Schroeder, S. Simoncelli, S. Sofianos, G. Sylaios, T. Tanhua, A. Teruzzi, P. Testor, D. Tezcan, M. Torner, F. Trotta, G. Umgiesser, K. von Schuckmann, G. Verri, I. Vilibic, M. Yucel, M. Zavatarelli, G. Zodiatis"
+    journal: "Frontiers in Marine Science"
+    year: 2019
+    volume: "6"
+    doi: "https://doi.org/10.3389/fmars.2019.00568"
+    
+  - title: "Editorial: Oceanobs'19: An Ocean of Opportunity"
+    authors: "Speich, S., T. Lee, F. Muller-Karger, L. Lorenzoni, A. Pascual, D. Jin, E. Delory, G. Reverdin, J. Siddorn, M. R. Lewis, N. Marba, P. Luigi Buttigieg, S. Chiba, J. Manley, A. Tiereyangn Kabo-Bah, K. Desai, A. Ackerman"
+    journal: "Frontiers in Marine Science"
+    year: 2019
+    doi: "https://doi.org/10.3389/fmars.2019.00570"
+    
+  - title: "Effects of oceanic meso- and submeso-scale frontal processes on the vertical transport of phytoplankton"
+    authors: "Ruiz, S., M. Claret, A. Pascual, A. Olita, C. Troupin, A. Capet, A. Tovar-Sánchez, J. Allen, P.M. Poulain, J. Tintoré, A. Mahadevan"
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2019
+    doi: "https://doi.org/10.1029/2019JC015034"
+    
+  - title: "New insight into 3-D mesoscale eddy properties from CMEMS operational models in the western Mediterranean"
+    authors: "Mason, E., S. Ruiz, R. Bourdalle-Badie, G. Reffray, M. García-Sotillo, A. Pascual"
+    journal: "Ocean Science"
+    year: 2019
+    volume: "15"
+    pages: "1111-1131"
+    doi: "https://doi.org/10.5194/os-15-1111-2019"
+    
+  - title: "SEASTAR: a mission to study ocean submesoscale dynamics and small-scale atmosphere-ocean processes in coastal, shelf and polar seas"
+    authors: "Gommenginger, C., B. Chapron, A. Hogg, C. Buckingham, B. Fox-Kemper, L. Eriksson, F. Soulat, C. Ubelmann, F. O. Torres, B. Buongiorno Nardelli, D. Griffin, F. Lopez-Dekker, P. Knudsen, O. B. Andersen, L. Stenseng, N. Stapleton, W. Perrie, N. Violante-Carvalho, J. Schulz-Stellenfleth, D. Woolf, J. Isern-Fontanet, F. Ardhuin, P. M. Klein, A. Mouche, A. Pascual, X. Capet, D. Hauser, A Stoffelen, R. A. Morrow, L. Aouf, Ø. Breivik, L. L. Fu, J. A. Johannessen, Y. Aksenov, L. Bricheno, J. Hirschi, A. C. Martin, A. P. Martin, G. Nurser, J. Polton, J. Wolf, H. Johnsen, A. Soloviev, G. Jacobs, F. Collard, S. B. Groom, V. Kudryavstev, J. L. Wilkin, V. Navarro, A. Babanin, M. J. Martin, J. Siddorn, A. Saulter, T. Rippeth, W. Emery, N. Maximenko, R. Romeiser, H. Graber, A. Alvera-Azcárate, C. Hughes, Doug Vandemark, J. da Silva, P. Jan Van Leeuwen, A. Naveira-Gabarato, J. Gemmrich, A. Mahadevan, J. Marquez, Y. Munro, S. Doody, G. Burbidge"
+    journal: "Frontiers in Marine Science"
+    year: 2019
+    doi: "https://doi.org/10.3389/fmars.2019.00457"
+    
+  - title: "Model-Observations Synergy in the Coastal Ocean"
+    authors: "De Mey-Frémaux, P., N. Ayoub, A. Barth, R. Brewin, G. Charria, F. Campuzano, S. Ciavatta, M. Cirano, C. A. Edwards, I. Federico, S. Gao, I. Garcia Hermosa, M. Garcia Sotillo, H. Hewitt, L. Robert Hole, J. Holt, R. King, V. Kourafalou, Y. Lu, B. Mourre, A. Pascual, J. Staneva, E. V. Stanev, H. Wang, X. Zhu"
+    journal: "Frontiers in Marine Science"
+    year: 2019
+    doi: "https://doi.org/10.3389/fmars.2019.00436"
+    
+  - title: "Requirements for a Coastal Hazards Observing System"
+    authors: "Benveniste, J., A. Cazenave, S. Vignudelli, L. Fenoglio-Marc, R. Shah, R. Almar, O. Andersen, F. Birol, P. Bonnefond, J. Bouffard, F. Calafat, E. Cardellach, P. Cipollini, G. Le Cozannet, C. Dufau, M. J. Fernandes, F. Frappart, J. Garrison, C. Gommenginger, G. Han, J. L. Høyer, V. Kourafalou, E. Leuliette, Z. Li, H. Loisel, K. S. Madsen, M. Marcos, A. Melet, B. Meyssignac, A. Pascual, M. Passaro, S. Ribó, R. Scharroo, Y. T. Song, S. Speich, J. Wilkin, P. Woodworth, G. Wöppelmann"
+    journal: "Frontiers in Marine Science"
+    year: 2019
+    doi: "https://doi.org/10.3389/fmars.2019.00348"
+    
+  - title: "Global Observations of Fine-Scale Ocean Surface Topography with the Surface Water and Ocean Topography (SWOT) Mission"
+    authors: "Morrow, R. L-L. Fu, F. Ardhuin, M. Benkiran, B. Chapron, E. Cosme, F. d'Ovidio, J. Thomas Farrar, S.T. Gille, G. Lapeyre, P-Y Le Traon, A. Pascual, A. Ponte, B. Qiu, N. Rascle, C. Ubelmann, J. Wang, E. D. Zaron"
+    journal: "Frontiers in Marine Science"
+    year: 2019
+    doi: "https://doi.org/10.3389/fmars.2019.00232"
+    
+  - title: "Analog Data Assimilation of Along-Track Nadir and Wide-Swath SWOT Altimetry Observations in the Western Mediterranean Sea"
+    authors: "Lopez-Radcenco, M., A. Pascual, L. Gomez-Navarro, A. Aissa-El-Bey, B. Chapron, R. Fablet"
+    journal: "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+    year: 2019
+    doi: "https://doi.org/10.1109/JSTARS.2019.2903941"
+    
+  - title: "Residual Integration Neural Network"
+    authors: "Ouala, S., A. Pascual, R. Fablet"
+    journal: "ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing - Proceedings"
+    year: 2019
+    doi: "https://doi.org/10.13140/RG.2.2.22366.28485"
+    
+  - title: "Temporal and spatial hydrodynamic variability in the Mallorca channel (western Mediterranean Sea) from 8 years of underwater glider data"
+    authors: "Barceló-Llull, B., Pascual, A., Ruiz, S., Escudier, R., Torner, M., & Tintoré, J."
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2019
+    volume: "124"
+    doi: "https://doi.org/10.1029/2018JC014636"
+    
+  - title: "Frontiers in fine scale in-situ studies: opportunities during the SWOT fast sampling phase"
+    authors: "D'Ovidio, F., A. Pascual, J. Wang, A. Doglioli, Z. Jing, S. Moreau, G. Gregori, S. Swart, S. Speich, F. Cyr, B. Legresy, Y.Chao, L. Fu, R. A. Morrow"
+    journal: "Frontiers in Marine Science"
+    year: 2019
+    doi: "https://doi.org/10.3389/fmars.2019.00168"
+    
+  - title: "From observation to information and users: the Copernicus Marine Service perspective"
+    authors: "Le Traon, P-Y, A. Reppucci, E. Fanjul, L. Aouf, A. Behrens, M. Belmonte, A. Bentamy, L. Bertino, V. E. Brando, M. Kreiner, M. Benkiran, B. Buongiorno Nardelli, T. Carval, S.Ciliberti, H. Claustre, E. Clementi, G. Coppini, G. Cossarini, M. De Alfonso Alonso-Muñoyerro, G. Dibarboure, F. Dinessen, M. Drevillon, Y. Drillet, Y. Faugere, V. Fernández, A. Fleming, M. I. García-Hermosa, M. Sotillo, G. Garric, F. Gasparin, M. Gehlen, M. Grégoire, S. Guinehut, M. Hamon, C. Harris, F. Hernandez, J. Buus-Hinkler, J. L. Høyer, J. Karvonen, S. Kay, R. King, T. Lavergne, B. Lemieux-Dudon, L. Lima, C. Mao, M. J. Martin, S. Masina, A. Melet, G. Nolan, A. Pascual, J. Pistoia, A. V. Palazov, J-F. Piolle, M. I. Pujol, A-C. Pequignet, E. Peneva, B. Pérez-Gómez, L. Petit de la Villeon, N. Pinardi, A. Pisano, S. Pouliquen, R. A. Reid, E.REMY, R. Santoleri, J. Siddorn, J. She, J. Staneva, A. Stoffelen, M.Tonani, L. Vandenbulcke, K. von Schuckmann, G. Volpe, C. Wettre, A. Zacharioudaki"
+    journal: "Frontiers in Marine Science"
+    year: 2019
+    doi: "https://doi.org/10.3389/fmars.2019.00234"
+    
+  - title: "Glider data collected during the Algerian Basin Circulation Unmanned Survey"
+    authors: "Cotroneo, Y., G. Aulicino, S. Ruiz, A. Sánchez Román, M. Torner Tomàs, A. Pascual, G. Fusco, E. Heslop, J. Tintoré, G. Budillon"
+    journal: "Earth System Science Data"
+    year: 2019
+    volume: "11"
+    pages: "147-161"
+    doi: "https://doi.org/10.5194/essd-11-147-2019"
+    
+  - title: "The AlborEX dataset: sampling of sub-mesoscale features in the Alboran Sea"
+    authors: "Troupin, C., A. Pascual, S. Ruiz, A. Olita, B. Casas, F. Margirier, P.- M. Poulain, G. Notarstefano, M. Torner, J. G. Fernández, M. A. Rújula, C. Muñoz, E. Alou, I. Ruiz, A. Tovar-Sánchez, J. T. Allen, A. Mahadevan, J. Tintoré"
+    journal: "Earth System Science Data"
+    year: 2019
+    volume: "11"
+    pages: "129-145"
+    doi: "https://doi.org/10.5194/essd-11-129-2019"
+    
+  - title: "Rafting behaviour of seabirds as a proxy to describe surface ocean currents in the Balearic Sea"
+    authors: "Sánchez-Román, A., L. Gómez-Navarro, R. Fablet, D. Oro, E. Mason, J. M. Arcos, S. Ruiz, A. Pascual"
+    journal: "Scientific Reports"
+    year: 2019
+    volume: "9"
+    pages: "17775"
+    doi: "https://doi.org/10.1038/s41598-018-36819-w"
+
+  # 2018 Publications
+  - title: "Neural Network Based Kalman Filters for the Spatio-Temporal Interpolation of Satellite-Derived Sea Surface Temperature"
+    authors: "Ouala, S., R. Fablet, C. Herzet, B. Chapron, A. Pascual, F. Collard, L. Gaultier"
+    journal: "Remote Sensing"
+    year: 2018
+    volume: "10"
+    pages: "1864"
+    doi: "https://doi.org/10.3390/rs10121864"
+    
+  - title: "Copernicus Marine Service Ocean State Report"
+    authors: "Von Schuckmann, K., P. Le Traon, N. Smith, A. Pascual, P. Brasseur, K. Fennel, S."
+    journal: "Journal of Operational Oceanography"
+    year: 2018
+    volume: "11"
+    pages: "S1-S142"
+    doi: "https://doi.org/10.1080/1755876X.2018.1489208"
+    
+  - title: "The 48th Liege colloquium: submesoscale processes: mechanisms, implications, and new frontiers"
+    authors: "Barth, A., A. Mahadevan, A. Pascual, S. Ruiz, C. Troupin"
+    journal: "Ocean Dynamics"
+    year: 2018
+    doi: "https://doi.org/10.1007/s10236-018-1173-5"
+    
+  - title: "SWOT Spatial Scales in the Western Mediterranean Sea Derived from Pseudo-Observations and an Ad Hoc Filtering"
+    authors: "Gómez-Navarro, L.; Fablet, R.; Mason, E.; Pascual, A.; Mourre, B.; Cosme, E.; Le Sommer, J."
+    journal: "Remote Sensing"
+    year: 2018
+    volume: "10"
+    pages: "599"
+    doi: "https://doi.org/10.3390/rs10040599"
+    
+  - title: "Comparing a multivariate global ocean state estimate with high-resolution in situ data: an anticyclonic intrathermocline eddy near the Canary Islands"
+    authors: "Barceló-Llull, B., A. Pascual, E. Mason, S. Mulet"
+    journal: "Frontiers in Marine Science"
+    year: 2018
+    doi: "https://doi.org/10.3389/fmars.2018.00066"
+    
+  - title: "The Benefits of the Ka-Band as Evidenced from the SARAL/AltiKa Altimetric Mission: Scientific Applications"
+    authors: "Verron, J., P. Bonnefond, L. Aouf, F. Birol, S. A. Bhowmick, S. Calmant, T. Conchy, J.-F. Crétaux, G. Dibarboure, A. K. Dubey, Y. Faugère, K. Guerreiro, P. K. Gupta, M. Hamon, F. Jebri, R. Kumar, R. Morrow, A. Pascual, M.-I. Pujol, E. Rémy, F. Rémy, W. H. F. Smith, J. Tournadre, O. Vergara"
+    journal: "Remote Sensing"
+    year: 2018
+    volume: "10"
+    pages: "163"
+    doi: "https://doi.org/10.3390/rs10020163"
+    
+  - title: "Improving mesoscale altimetric data from a multi-tracer convolutional processing of standard satellite-derived products"
+    authors: "Fablet, R., J. Verron, B. Mourre, B. Chapron, A. Pascual"
+    journal: "IEEE Transactions on Geoscience and Remote Sensing"
+    year: 2018
+    doi: "https://doi.org/10.1109/TGRS.2017.2750491"
+    
+  - title: "Monitoring the Algerian Basin through glider observations, satellite altimetry and numerical simulations along a SARAL/AltiKa track"
+    authors: "Aulicino, G., Y. Cotroneo, S. Ruiz, A. J. Sánchez Román, A. Pascual, G. Fusco, J. Tintoré, G. Budillon"
+    journal: "Journal of Marine Systems"
+    year: 2018
+    volume: "179"
+    pages: "55-71"
+    doi: "https://doi.org/10.1016/j.jmarsys.2017.11.006"

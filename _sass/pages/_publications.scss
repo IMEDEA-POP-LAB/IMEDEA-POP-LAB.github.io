@@ -63,10 +63,7 @@
   display: none;
 }
 
-/* Profiles at top are always visible */
-#profiles-section-top {
-  display: block !important;
-}
+
 
 .section-container {
   max-width: 1200px;
@@ -593,60 +590,7 @@
   text-align: center;
 }
 
-.profiles-header h3 {
-  font-size: var(--text-xl);
-  font-weight: 600;
-  color: var(--gray-900);
-  margin-bottom: var(--space-4);
-}
 
-.profiles-links {
-  display: flex;
-  gap: var(--space-4);
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.profile-link {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-3) var(--space-4);
-  background: white;
-  border: 2px solid var(--gray-200);
-  border-radius: var(--radius-lg);
-  text-decoration: none;
-  color: var(--gray-700);
-  font-weight: 500;
-  transition: all 0.2s ease;
-  box-shadow: var(--shadow-sm);
-}
-
-.profile-link:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-  text-decoration: none;
-  color: var(--gray-900);
-}
-
-.profile-link.google-scholar:hover {
-  border-color: #4285f4;
-  background: #f8fbff;
-}
-
-.profile-link.orcid:hover {
-  border-color: #a6ce39;
-  background: #f9fdf4;
-}
-
-.profile-link.researchgate:hover {
-  border-color: #00d4aa;
-  background: #f0fdfa;
-}
-
-.profile-icon {
-  font-size: var(--text-lg);
-}
 
 .profile-text {
   font-size: var(--text-sm);
@@ -1161,137 +1105,7 @@
   font-size: var(--text-sm);
 }
 
-/* Academic Profiles Grid */
-.profiles-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: var(--space-3);
-  margin-bottom: var(--space-6);
-}
 
-.profile-card {
-  background: white;
-  border: 2px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: var(--space-3);
-  text-align: center;
-  transition: all var(--transition-base);
-  box-shadow: var(--shadow-sm);
-  position: relative;
-}
-
-/* Google Scholar - Blue */
-.profile-card:nth-child(1) {
-  border-color: #4285f4;
-  background: linear-gradient(135deg, #4285f4 0%, #ffffff 100%);
-  background-size: 100% 4px;
-  background-repeat: no-repeat;
-  background-position: top;
-  background: white;
-  border-top: 4px solid #4285f4;
-}
-
-.profile-card:nth-child(1):hover {
-  border-color: #4285f4;
-  box-shadow: 0 8px 25px rgba(66, 133, 244, 0.15);
-}
-
-.profile-card:nth-child(1) .profile-link {
-  background: #4285f4;
-}
-
-.profile-card:nth-child(1) .profile-link:hover {
-  background: #3367d6;
-}
-
-/* ORCID - Green */
-.profile-card:nth-child(2) {
-  border-top: 4px solid #a6ce39;
-}
-
-.profile-card:nth-child(2):hover {
-  border-color: #a6ce39;
-  box-shadow: 0 8px 25px rgba(166, 206, 57, 0.15);
-}
-
-.profile-card:nth-child(2) .profile-link {
-  background: #a6ce39;
-}
-
-.profile-card:nth-child(2) .profile-link:hover {
-  background: #94b832;
-}
-
-/* ResearchGate - Cyan */
-.profile-card:nth-child(3) {
-  border-top: 4px solid #00d4aa;
-}
-
-.profile-card:nth-child(3):hover {
-  border-color: #00d4aa;
-  box-shadow: 0 8px 25px rgba(0, 212, 170, 0.15);
-}
-
-.profile-card:nth-child(3) .profile-link {
-  background: #00d4aa;
-}
-
-.profile-card:nth-child(3) .profile-link:hover {
-  background: #00b894;
-}
-
-.profile-card:hover {
-  transform: translateY(-2px);
-}
-
-.profile-icon {
-  font-size: 1.5rem;
-  margin-bottom: var(--space-1);
-  display: block;
-}
-
-.profile-title {
-  font-size: var(--text-base) !important;
-  font-weight: 600 !important;
-  color: var(--color-text) !important;
-  margin: 0 0 var(--space-1) 0 !important;
-}
-
-.profile-description {
-  font-size: var(--text-xs);
-  color: var(--color-text-light);
-  line-height: 1.4;
-  margin-bottom: var(--space-2);
-  display: none; /* Hide for more compact look */
-}
-
-.profile-link {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  color: white;
-  padding: 2px 6px;
-  border-radius: var(--radius-xs);
-  font-weight: 500;
-  font-size: 10px;
-  text-decoration: none;
-  transition: all var(--transition-base);
-}
-
-.profile-link:hover {
-  transform: translateX(1px);
-  text-decoration: none;
-  color: white;
-}
-
-.link-arrow {
-  font-size: 9px;
-  transition: transform var(--transition-base);
-}
-
-.profile-link:hover .link-arrow {
-  transform: translateX(2px);
-}
 
 /* Preprints Section */
 .preprints-section {
