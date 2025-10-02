@@ -255,7 +255,7 @@
 }
 
 .card-title {
-  font-size: var(--text-sm) !important;
+  font-size: var(--text-xs) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   margin: 0 !important;
@@ -1141,16 +1141,16 @@
 /* Academic Profiles Grid */
 .profiles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--space-4);
-  margin-bottom: var(--space-8);
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
 }
 
 .profile-card {
   background: white;
   border: 2px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
   text-align: center;
   transition: all var(--transition-base);
   box-shadow: var(--shadow-sm);
@@ -1222,23 +1222,23 @@
 }
 
 .profile-icon {
-  font-size: 2rem;
-  margin-bottom: var(--space-2);
+  font-size: 1.5rem;
+  margin-bottom: var(--space-1);
   display: block;
 }
 
 .profile-title {
-  font-size: var(--text-lg) !important;
+  font-size: var(--text-base) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
-  margin: 0 0 var(--space-2) 0 !important;
+  margin: 0 0 var(--space-1) 0 !important;
 }
 
 .profile-description {
   font-size: var(--text-xs);
   color: var(--color-text-light);
   line-height: 1.4;
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-2);
   display: none; /* Hide for more compact look */
 }
 

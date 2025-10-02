@@ -22,43 +22,35 @@ social: true
 {% assign latest_pub = site.data.publications.recent | first %}
 <div class="latest-publication">
   <div class="section-header">
-    <div class="section-icon">📄</div>
     <h3>Latest Publication</h3>
-    <div class="publication-badge">{{ latest_pub.year }}</div>
   </div>
   
-  <div class="publication-highlight">
-    <div class="publication-meta">
-      <span class="publication-type">Research Article</span>
-      <span class="publication-journal">{{ latest_pub.journal }}</span>
+  <article class="publication-card">
+    <div class="card-header">
+      <h3 class="card-title">{{ latest_pub.title }}</h3>
+      <div class="card-journal">{{ latest_pub.journal }}</div>
     </div>
     
-    <h4 class="publication-title">
-      {% if latest_pub.doi %}
-      <a href="{{ latest_pub.doi }}" target="_blank">{{ latest_pub.title }}</a>
-      {% else %}
-      {{ latest_pub.title }}
+    <div class="card-content">
+      <div class="card-authors">{{ latest_pub.authors }}</div>
+      <div class="card-year">{{ latest_pub.year }}</div>
+      
+      {% if latest_pub.volume or latest_pub.pages %}
+      <div class="card-details">
+        {% if latest_pub.volume %}Vol. {{ latest_pub.volume }}{% endif %}{% if latest_pub.pages %}, {{ latest_pub.pages }}{% endif %}
+      </div>
       {% endif %}
-    </h4>
-    
-    <div class="publication-authors">
-      <span class="authors-label">Authors:</span>
-      <span class="authors-list">{{ latest_pub.authors }}</span>
     </div>
     
-    <div class="publication-actions">
+    {% if latest_pub.doi or latest_pub.url %}
+    <div class="card-actions">
       {% if latest_pub.doi %}
-      <a href="{{ latest_pub.doi }}" target="_blank" class="read-paper-btn primary">
-        <span class="btn-icon">📖</span>
-        Read Full Paper
-      </a>
+      <a href="{{ latest_pub.doi }}" target="_blank" class="card-link">View Paper</a>
       {% endif %}
-      <a href="/publications/" class="view-all-btn">
-        <span class="btn-icon">📚</span>
-        View All Publications
-      </a>
+      <a href="/publications/" class="view-all-link">View All Publications</a>
     </div>
-  </div>
+    {% endif %}
+  </article>
 </div>
 {% endif %}
 
