@@ -9,10 +9,15 @@ nav_order: 4
 
 <div class="outreach-page-modern">
 
-<!-- Featured Content Section -->
+<!-- Multimedia Section -->
 {% if site.data.outreach and site.data.outreach.size > 0 %}
 <div class="outreach-section">
   <div class="section-container">
+    <div class="section-header">
+      <h2 class="section-title">Multimedia</h2>
+      <p class="section-subtitle">Documentaries, interviews, and educational videos showcasing our research</p>
+    </div>
+    
     <div class="featured-grid">
       {% assign featured_items = site.data.outreach | where: "featured", true | sort: "date" | reverse %}
       {% for item in featured_items %}
@@ -63,10 +68,15 @@ nav_order: 4
 </div>
 {% endif %}
 
-<!-- Media Coverage Section -->
+<!-- Press Coverage Section -->
 {% if site.data.media and site.data.media.size > 0 %}
 <div class="outreach-section">
   <div class="section-container">
+    <div class="section-header">
+      <h2 class="section-title">Press Coverage</h2>
+      <p class="section-subtitle">Media articles, interviews, and news coverage of our research</p>
+    </div>
+    
     <!-- Media Grid -->
     <div class="media-grid">
       {% for item in site.data.media %}
