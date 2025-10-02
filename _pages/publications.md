@@ -17,11 +17,11 @@ nav_order: 1
 </div>
 
 <!-- Recent Publications Section -->
-{% if site.data.publications.recent %}
 <div class="publications-section" id="recent-section">
   <div class="section-container">
     
     <!-- Recent Publications Grid -->
+    {% if site.data.publications.recent %}
     <div class="recent-grid">
       {% for pub in site.data.publications.recent %}
       <article class="publication-card">
@@ -53,9 +53,30 @@ nav_order: 1
       </article>
       {% endfor %}
     </div>
+    {% endif %}
+    
+    <!-- Preprints Section - Part of Recent Work -->
+    {% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
+    <div class="section-header">
+      <h2 class="section-title">Work in Progress</h2>
+      <p class="section-subtitle">Preprints and manuscripts under review</p>
+    </div>
+    
+    <div class="preprints-list">
+      {% for pub in site.data.publications.preprints %}
+      <div class="preprint-item">
+        <div class="preprint-status-badge">{{ pub.status | default: "Preprint" | capitalize }}</div>
+        <h4 class="preprint-title">{{ pub.title }}</h4>
+        <div class="preprint-authors">{{ pub.authors }}</div>
+        {% if pub.doi or pub.url %}
+        <a href="{{ pub.doi | default: pub.url }}" target="_blank" class="preprint-link">View Preprint</a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </div>
-{% endif %}
 
 
 
@@ -121,30 +142,7 @@ nav_order: 1
 </div>
 {% endif %}
 
-<!-- Preprints Section - Standalone -->
-{% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
-<div class="publications-section">
-  <div class="section-container">
-    <div class="section-header">
-      <h2 class="section-title">Work in Progress</h2>
-      <p class="section-subtitle">Preprints and manuscripts under review</p>
-    </div>
-    
-    <div class="preprints-list">
-      {% for pub in site.data.publications.preprints %}
-      <div class="preprint-item">
-        <div class="preprint-status-badge">{{ pub.status | default: "Preprint" | capitalize }}</div>
-        <h4 class="preprint-title">{{ pub.title }}</h4>
-        <div class="preprint-authors">{{ pub.authors }}</div>
-        {% if pub.doi or pub.url %}
-        <a href="{{ pub.doi | default: pub.url }}" target="_blank" class="preprint-link">View Preprint</a>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-{% endif %}
+
 
 <!-- JavaScript for Tab Navigation -->
 <script>
@@ -164,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
       sections.forEach(section => {
         if (section.id === targetSection + '-section') {
           section.classList.remove('hidden');
-        } else {
+        } else if (section.id && section.id.includes('-section')) {
           section.classList.add('hidden');
         }
       });
