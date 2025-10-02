@@ -25,15 +25,17 @@ social: true
     <h3>Latest Publication</h3>
   </div>
   
-  <article class="publication-card">
+    <article class="publication-card">
     <div class="card-header">
       <h3 class="card-title">{{ latest_pub.title }}</h3>
-      <div class="card-journal">{{ latest_pub.journal }}</div>
+      <div class="card-meta">
+        <div class="card-journal">{{ latest_pub.journal }}</div>
+        <div class="card-year">{{ latest_pub.year }}</div>
+      </div>
     </div>
     
     <div class="card-content">
       <div class="card-authors">{{ latest_pub.authors }}</div>
-      <div class="card-year">{{ latest_pub.year }}</div>
       
       {% if latest_pub.volume or latest_pub.pages %}
       <div class="card-details">
@@ -47,10 +49,16 @@ social: true
       {% if latest_pub.doi %}
       <a href="{{ latest_pub.doi }}" target="_blank" class="card-link">View Paper</a>
       {% endif %}
-      <a href="/publications/" class="view-all-link">View All Publications</a>
     </div>
     {% endif %}
   </article>
+  
+  <div class="publication-cta">
+    <a href="/publications/" class="view-all-btn">
+      <span class="btn-icon">📚</span>
+      View All Publications
+    </a>
+  </div>
 </div>
 {% endif %}
 
