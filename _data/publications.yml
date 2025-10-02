@@ -12,7 +12,13 @@ recent:
     year: 2025
     doi: "https://doi.org/10.1038/s41598-025-06149-9"
 
-preprints: []
+preprints: 
+
+  - title: "Tracking marine heatwaves in the Balearic Sea: temperature trends and the role of detection methods"
+    authors: "Blanca Fernández-Álvarez, Bàrbara Barceló-Llull, and Ananda Pascual"
+    journal: "EarthArXiv"
+    year: 2025
+    doi: "https://doi.org/10.5194/os-21-1987-2025"
 
 all:
   - title: "Changes in the Gulf Stream path over the last 3 decades"
