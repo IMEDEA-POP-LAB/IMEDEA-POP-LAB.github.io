@@ -9,30 +9,6 @@ nav_order: 4
 
 <div class="outreach-page-modern">
 
-<!-- Hero Section -->
-<div class="outreach-hero">
-  <div class="hero-content">
-    <h1 class="hero-title">Science Communication</h1>
-    <p class="hero-subtitle">Bridging the gap between cutting-edge oceanographic research and public understanding</p>
-    
-    <!-- Impact Stats -->
-    <div class="outreach-stats">
-      <div class="stat-item">
-        <span class="stat-number">{{ site.data.outreach.size }}</span>
-        <span class="stat-label">Featured Content</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">{{ site.data.media.size }}</span>
-        <span class="stat-label">Media Coverage</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">3</span>
-        <span class="stat-label">Languages</span>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Featured Content Section -->
 {% if site.data.outreach and site.data.outreach.size > 0 %}
 <div class="outreach-section">
@@ -45,7 +21,7 @@ nav_order: 4
     <div class="featured-grid">
       {% assign featured_items = site.data.outreach | where: "featured", true | sort: "date" | reverse %}
       {% for item in featured_items %}
-      <div class="featured-card {% if forloop.first %}highlight{% endif %}">
+      <div class="featured-card">
         {% if item.youtube_id %}
         <div class="video-container">
           <iframe 
@@ -101,31 +77,9 @@ nav_order: 4
       <p class="section-subtitle">Press coverage and media appearances</p>
     </div>
 
-    <!-- Latest Media Highlight -->
-    {% assign latest_media = site.data.media | first %}
-    <div class="media-highlight">
-      <div class="highlight-badge">Latest Coverage</div>
-      <div class="highlight-content">
-        <h3 class="highlight-title">{{ latest_media.title }}</h3>
-        <div class="highlight-meta">
-          <span class="highlight-outlet">{{ latest_media.outlet }}</span>
-          <span class="highlight-date">{{ latest_media.date | date: "%B %d, %Y" }}</span>
-          <span class="highlight-type">{{ latest_media.type | capitalize }}</span>
-        </div>
-        {% if latest_media.excerpt %}
-        <p class="highlight-excerpt">{{ latest_media.excerpt }}</p>
-        {% endif %}
-        <a href="{{ latest_media.url }}" target="_blank" class="highlight-cta">
-          <span class="cta-icon">📰</span>
-          Read Article
-        </a>
-      </div>
-    </div>
-
     <!-- Media Grid -->
     <div class="media-grid">
       {% for item in site.data.media %}
-      {% unless forloop.first %}
       <article class="media-card">
         <div class="media-header">
           <div class="media-type">{{ item.type | capitalize }}</div>
@@ -149,7 +103,6 @@ nav_order: 4
           </a>
         </div>
       </article>
-      {% endunless %}
       {% endfor %}
     </div>
   </div>
