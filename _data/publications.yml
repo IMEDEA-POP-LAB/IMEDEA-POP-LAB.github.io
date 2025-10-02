@@ -14,27 +14,28 @@ recent:
 
 preprints: 
 
-  - title: "Marine Heatwaves in the Balearic Sea"
+  - title: "Tracking Marine Heatwaves in the Balearic Sea: Temperature Trends and the Role of Detection Methods"
     authors: "Fernández-Álvarez, B., Barceló-Llull, B. and Pascual, A."
-    status: "In prep"
-    year: 2024
-    
+    journal: "Ocean Science"
+    year: 2025
+    status: "accepted"
+    doi: "https://doi.org/10.5194/os-21-1987-2025"
+
+
+all:
+  # 2024 Publications
   - title: "SWOT and multi-platform observations enhance small-scale intrathermocline eddy detection"
     authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
     journal: "Geophysical Research Letters"
-    status: "Submitted"
     year: 2024
     doi: "https://doi.org/10.22541/essoar.173315547.75973902/v1"
     
   - title: "Robust intensification of global ocean Eddy Kinetic Energy from three decades of satellite altimetry observations"
     authors: "Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M. I. and Pascual, A."
     journal: "Scientific Reports"
-    status: "Submitted"
     year: 2024
     doi: "https://doi.org/10.48550/arXiv.2406.08014"
 
-all:
-  # 2024 Publications
   - title: "Changes in the Gulf Stream path over the last 3 decades"
     authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
     journal: "State of the Planet 4-osr8"
