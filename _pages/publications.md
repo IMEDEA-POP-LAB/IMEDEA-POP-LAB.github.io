@@ -28,98 +28,99 @@ nav_order: 1
   </div>
 </div>
 
-<!-- Recent Publications -->
+<!-- Recent Publications - Enhanced -->
 {% if site.data.publications.recent %}
-<div class="recent-publications">
+<div class="recent-publications-enhanced">
+  <div class="section-header">
+    <h2 class="section-title">Recent Publications</h2>
+    <p class="section-subtitle">Our latest research contributions and findings</p>
+  </div>
 
 {% for pub in site.data.publications.recent %}
-<div class="publication-item {% if pub.featured %}featured{% else %}published{% endif %}">
-  <div class="publication-header">
+<div class="publication-item-enhanced {% if forloop.first %}featured{% endif %}">
+  <div class="publication-main">
     <div class="publication-title">{{ pub.title }}</div>
-    <div class="publication-meta">
-      <span class="journal">{{ pub.journal }}</span>
-      <span class="year">{{ pub.year }}</span>
-    </div>
-  </div>
-  
-  <div class="publication-authors">{{ pub.authors }}</div>
-  
-  {% if pub.volume or pub.pages %}
-  <div class="publication-volume">
-    {% if pub.volume %}Volume {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
-  </div>
-  {% endif %}
-  
-  {% if pub.doi or pub.url %}
-  <div class="publication-links">
-    {% if pub.doi %}
-    <a href="{{ pub.doi }}" class="link-doi" target="_blank">DOI</a>
-    {% endif %}
-    {% if pub.url %}
-    <a href="{{ pub.url }}" class="link-url" target="_blank">Link</a>
-    {% endif %}
-  </div>
-  {% endif %}
-  
-  {% if pub.bibtex %}
-  <details class="publication-bibtex">
-    <summary>BibTeX</summary>
-    <div class="bibtex-content">
-      <pre><code>{{ pub.bibtex }}</code></pre>
-    </div>
-  </details>
-  {% endif %}
-</div>
-{% endfor %}
-</div>
-{% endif %}
-
-<!-- Preprints -->
-{% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
-<div class="preprints-section">
-
-{% for pub in site.data.publications.preprints %}
-<div class="publication-item {% if pub.status == 'accepted' %}accepted{% else %}preprint{% endif %}">
-  <div class="publication-header">
-    <div class="publication-title">{{ pub.title }}</div>
-    <div class="publication-meta">
-      <span class="journal {% if pub.status == 'preprint' %}preprint-server{% endif %}">{{ pub.journal }}</span>
-      <span class="year">{{ pub.year }}</span>
-      {% if pub.status %}
-        <span class="preprint-badge">{{ pub.status | capitalize }}</span>
+    <div class="publication-authors">{{ pub.authors }}</div>
+    
+    <div class="publication-details">
+      <span class="journal-name">{{ pub.journal }}</span>
+      <span class="publication-year">{{ pub.year }}</span>
+      {% if pub.volume or pub.pages %}
+      <span class="volume-pages">
+        {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+      </span>
       {% endif %}
     </div>
+    
+    {% if pub.doi or pub.url %}
+    <div class="publication-actions">
+      {% if pub.doi %}
+      <a href="{{ pub.doi }}" class="action-link primary" target="_blank">
+        <span class="link-icon">📄</span>
+        View Article
+      </a>
+      {% endif %}
+      {% if pub.url %}
+      <a href="{{ pub.url }}" class="action-link secondary" target="_blank">
+        <span class="link-icon">🔗</span>
+        External Link
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
   </div>
   
-  <div class="publication-authors">{{ pub.authors }}</div>
-  
-  {% if pub.doi or pub.url %}
-  <div class="publication-links">
-    {% if pub.doi %}
-    <a href="{{ pub.doi }}" class="link-doi" target="_blank">DOI</a>
-    {% endif %}
-    {% if pub.url %}
-    <a href="{{ pub.url }}" class="link-url" target="_blank">Link</a>
-    {% endif %}
-  </div>
+  {% if forloop.first %}
+  <div class="featured-badge">Latest</div>
   {% endif %}
 </div>
 {% endfor %}
 </div>
 {% endif %}
 
-<!-- All Publications by Year -->
-{% if site.data.publications.all %}
-<div class="publication-list">
+<!-- Preprints - Minimized -->
+{% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
+<div class="preprints-minimized">
+  <details class="preprints-toggle">
+    <summary class="preprints-summary">
+      <span class="toggle-text">Preprints & In Review ({{ site.data.publications.preprints.size }})</span>
+    </summary>
+    <div class="preprints-content">
+      {% for pub in site.data.publications.preprints %}
+      <div class="preprint-item-minimal">
+        <div class="preprint-title">{{ pub.title }}</div>
+        <div class="preprint-meta">
+          <span class="preprint-authors">{{ pub.authors }}</span>
+          <span class="preprint-status">{{ pub.status | default: "Preprint" | capitalize }}</span>
+        </div>
+        {% if pub.doi or pub.url %}
+        <div class="preprint-link">
+          {% if pub.doi %}
+          <a href="{{ pub.doi }}" target="_blank">View Preprint</a>
+          {% elsif pub.url %}
+          <a href="{{ pub.url }}" target="_blank">View Preprint</a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </details>
+</div>
+{% endif %}
 
-{% assign grouped_pubs = site.data.publications.all | group_by: 'year' %}
-{% assign sorted_groups = grouped_pubs | sort: 'name' | reverse %}
+<!-- All Publications - No Year Headers -->
+{% if site.data.publications.all %}
+<div class="all-publications">
+  <div class="section-header">
+    <h2 class="section-title">All Publications</h2>
+    <p class="section-subtitle">Complete list of research publications</p>
+  </div>
+
+{% assign sorted_pubs = site.data.publications.all | sort: 'year' | reverse %}
 {% assign recent_titles = site.data.publications.recent | map: 'title' %}
 
-{% for year_group in sorted_groups %}
-<h3 class="publication-year-header">{{ year_group.name }}</h3>
-
-{% for pub in year_group.items %}
+{% for pub in sorted_pubs %}
 {% assign is_recent = false %}
 {% for recent_title in recent_titles %}
   {% if pub.title == recent_title %}
@@ -128,45 +129,35 @@ nav_order: 1
   {% endif %}
 {% endfor %}
 
-<div class="publication-item {% if is_recent %}recent-highlight{% else %}published{% endif %}">
-  <div class="publication-header">
+{% unless is_recent %}
+<div class="publication-item-standard">
+  <div class="publication-content">
     <div class="publication-title">{{ pub.title }}</div>
-    <div class="publication-meta">
-      <span class="journal">{{ pub.journal }}</span>
-      <span class="year">{{ pub.year }}</span>
-      {% if is_recent %}<span class="recent-badge">Recent</span>{% endif %}
+    <div class="publication-authors">{{ pub.authors }}</div>
+    
+    <div class="publication-details">
+      <span class="journal-name">{{ pub.journal }}</span>
+      <span class="publication-year">{{ pub.year }}</span>
+      {% if pub.volume or pub.pages %}
+      <span class="volume-pages">
+        {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+      </span>
+      {% endif %}
     </div>
-  </div>
-  
-  <div class="publication-authors">{{ pub.authors }}</div>
-  
-  {% if pub.volume or pub.pages %}
-  <div class="publication-volume">
-    {% if pub.volume %}Volume {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
-  </div>
-  {% endif %}
-  
-  {% if pub.doi or pub.url %}
-  <div class="publication-links">
-    {% if pub.doi %}
-    <a href="{{ pub.doi }}" class="link-doi" target="_blank">DOI</a>
-    {% endif %}
-    {% if pub.url %}
-    <a href="{{ pub.url }}" class="link-url" target="_blank">Link</a>
-    {% endif %}
-  </div>
-  {% endif %}
-  
-  {% if pub.bibtex %}
-  <details class="publication-bibtex">
-    <summary>BibTeX</summary>
-    <div class="bibtex-content">
-      <pre><code>{{ pub.bibtex }}</code></pre>
+    
+    {% if pub.doi or pub.url %}
+    <div class="publication-links">
+      {% if pub.doi %}
+      <a href="{{ pub.doi }}" class="link-doi" target="_blank">DOI</a>
+      {% endif %}
+      {% if pub.url %}
+      <a href="{{ pub.url }}" class="link-url" target="_blank">Link</a>
+      {% endif %}
     </div>
-  </details>
-  {% endif %}
+    {% endif %}
+  </div>
 </div>
-{% endfor %}
+{% endunless %}
 {% endfor %}
 </div>
 {% endif %}
