@@ -68,12 +68,12 @@ nav_order: 1
       <article class="publication-card">
         <div class="card-header">
           <h3 class="card-title">{{ pub.title }}</h3>
-          <div class="card-year">{{ pub.year }}</div>
+          <div class="card-journal">{{ pub.journal }}</div>
         </div>
         
         <div class="card-content">
           <div class="card-authors">{{ pub.authors }}</div>
-          <div class="card-journal">{{ pub.journal }}</div>
+          <div class="card-year">{{ pub.year }}</div>
           
           {% if pub.volume or pub.pages %}
           <div class="card-details">
@@ -127,19 +127,17 @@ nav_order: 1
         <div class="item-content">
           <div class="item-header">
             <h3 class="item-title">{{ pub.title }}</h3>
-            <span class="item-year">{{ pub.year }}</span>
+            <span class="journal-name">{{ pub.journal }}</span>
           </div>
           
           <div class="item-authors">{{ pub.authors }}</div>
+          <div class="item-year">{{ pub.year }}</div>
           
-          <div class="item-journal">
-            <span class="journal-name">{{ pub.journal }}</span>
-            {% if pub.volume or pub.pages %}
-            <span class="item-details">
-              {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
-            </span>
-            {% endif %}
+          {% if pub.volume or pub.pages %}
+          <div class="item-details">
+            {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
           </div>
+          {% endif %}
           
           {% if pub.doi or pub.url %}
           <div class="item-actions">
