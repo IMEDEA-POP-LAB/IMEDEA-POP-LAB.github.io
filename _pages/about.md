@@ -17,6 +17,28 @@ social: true
   <p>The Physical Ocean Processes lab at IMEDEA focuses on physical oceanography, investigating ocean dynamics at meso- and submesoscales to better understand the structure and variability of ocean circulation. By combining satellite altimetry, in situ observations, and numerical modeling, the team contributes to the validation and scientific exploitation of new altimetric products and the reconstruction of ocean state variables using advanced techniques, including artificial intelligence. Part of the research is conducted in the Mediterranean Sea, a region particularly vulnerable to climate change, where the effects of ocean warming and intensified extremes can be observed with increasing clarity. The approaches and scientific questions addressed are, however, relevant to ocean regions worldwide. Applications include improving ocean prediction systems and understanding potential impacts on marine ecosystems. Current investigations include the analysis of data from the SWOT satellite mission, the study of marine heatwaves and storm surges, the influence of small-scale dynamics on large-scale ocean circulation and climate, and the development of AI-based 3D reconstruction methods.</p>
 </div>
 
+<!-- Latest Publication -->
+{% if site.data.publications.recent and site.data.publications.recent.size > 0 %}
+{% assign latest_pub = site.data.publications.recent | first %}
+<div class="latest-publication">
+  <h3>Latest Publication</h3>
+  <div class="publication-highlight">
+    <h4>
+      {% if latest_pub.doi %}
+      <a href="{{ latest_pub.doi }}" target="_blank">{{ latest_pub.title }}</a>
+      {% else %}
+      {{ latest_pub.title }}
+      {% endif %}
+    </h4>
+    <p class="authors">{{ latest_pub.authors }}</p>
+    <p class="journal"><em>{{ latest_pub.journal }}</em>, {{ latest_pub.year }}</p>
+    {% if latest_pub.doi %}
+    <a href="{{ latest_pub.doi }}" target="_blank" class="read-paper-btn">Read Paper →</a>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+
 ---
 
 <!-- Research Gallery -->
