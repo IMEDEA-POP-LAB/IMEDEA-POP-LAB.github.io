@@ -21,35 +21,19 @@ social: true
     <h3>Recent Publications</h3>
   </div>
   
-  {% for publication in site.data.publications.recent limit:3 %}
-    <article class="publication-card">
-    <div class="card-header">
-      <h3 class="card-title">{{ publication.title }}</h3>
-      <div class="card-meta">
-        <div class="card-journal">{{ publication.journal }}</div>
-        <div class="card-year">{{ publication.year }}</div>
-      </div>
-    </div>
-    
-    <div class="card-content">
-      <div class="card-authors">{{ publication.authors }}</div>
-      
-      {% if publication.volume or publication.pages %}
-      <div class="card-details">
-        {% if publication.volume %}Vol. {{ publication.volume }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %}
-      </div>
+  <div class="recent-publications-list">
+    {% for publication in site.data.publications.recent limit:3 %}
+    <div class="recent-publication-item">
+      <div class="recent-publication-status-badge">Published</div>
+      <h4 class="recent-publication-title">{{ publication.title }}</h4>
+      <div class="recent-publication-authors">{{ publication.authors }}</div>
+      <div class="recent-publication-journal">{{ publication.journal }} ({{ publication.year }})</div>
+      {% if publication.doi or publication.url %}
+      <a href="{{ publication.doi | default: publication.url }}" target="_blank" class="recent-publication-link">View Publication</a>
       {% endif %}
     </div>
-    
-    {% if publication.doi or publication.url %}
-    <div class="card-actions">
-      {% if publication.doi %}
-      <a href="{{ publication.doi }}" target="_blank" class="card-link">View Paper</a>
-      {% endif %}
-    </div>
-    {% endif %}
-  </article>
-  {% endfor %}
+    {% endfor %}
+  </div>
   
   <div class="publication-cta">
     <a href="/publications/" class="view-all-btn">

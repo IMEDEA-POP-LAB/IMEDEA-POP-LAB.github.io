@@ -20,37 +20,24 @@ nav_order: 1
 <div class="publications-section" id="recent-section">
   <div class="section-container">
     
-    <!-- Recent Publications Grid -->
+    <!-- Recent Publications Box -->
     {% if site.data.publications.recent %}
-    <div class="recent-grid">
+    <div class="section-header">
+      <h2 class="section-title">Recent Publications</h2>
+      <p class="section-subtitle">Latest published work from our research group</p>
+    </div>
+    
+    <div class="recent-publications-list">
       {% for pub in site.data.publications.recent %}
-      <article class="publication-card">
-        <div class="card-header">
-          <h3 class="card-title">{{ pub.title }}</h3>
-          <div class="card-meta">
-            <div class="card-journal">{{ pub.journal }}</div>
-            <div class="card-year">{{ pub.year }}</div>
-          </div>
-        </div>
-        
-        <div class="card-content">
-          <div class="card-authors">{{ pub.authors }}</div>
-          
-          {% if pub.volume or pub.pages %}
-          <div class="card-details">
-            {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
-          </div>
-          {% endif %}
-        </div>
-        
+      <div class="recent-publication-item">
+        <div class="recent-publication-status-badge">Published</div>
+        <h4 class="recent-publication-title">{{ pub.title }}</h4>
+        <div class="recent-publication-authors">{{ pub.authors }}</div>
+        <div class="recent-publication-journal">{{ pub.journal }} ({{ pub.year }})</div>
         {% if pub.doi or pub.url %}
-        <div class="card-actions">
-          {% if pub.doi %}
-          <a href="{{ pub.doi }}" target="_blank" class="card-link">View Paper</a>
-          {% endif %}
-        </div>
+        <a href="{{ pub.doi | default: pub.url }}" target="_blank" class="recent-publication-link">View Publication</a>
         {% endif %}
-      </article>
+      </div>
       {% endfor %}
     </div>
     {% endif %}
