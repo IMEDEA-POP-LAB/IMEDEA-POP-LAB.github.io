@@ -38,33 +38,7 @@ def get_github_repos(org_name, token):
         print(f"Error fetching repositories: {e}")
         return []
 
-def categorize_repo(repo):
-    """Categorize repository based on name, description, and topics"""
-    name = repo['name'].lower()
-    description = (repo['description'] or '').lower()
-    topics = [topic.lower() for topic in repo.get('topics', [])]
-    
-    # Educational/Tutorial repositories
-    if any(keyword in name + description for keyword in ['tutorial', 'course', 'lesson', 'education', 'teaching', 'workshop']):
-        return 'Educational'
-    
-    # Data processing/Analysis tools
-    if any(keyword in topics + [name] for keyword in ['data-processing', 'analysis', 'jupyter', 'python', 'r']):
-        return 'Data & Analysis'
-    
-    # Ocean modeling and simulation
-    if any(keyword in topics + [name, description] for keyword in ['ocean', 'model', 'simulation', 'altimetry', 'oceanography']):
-        return 'Ocean Science'
-    
-    # Web applications and tools
-    if any(keyword in topics + [name] for keyword in ['web', 'app', 'tool', 'dashboard', 'visualization']):
-        return 'Tools & Applications'
-    
-    # Documentation and websites
-    if any(keyword in name for keyword in ['docs', 'website', '.github.io', 'documentation']):
-        return 'Documentation'
-    
-    return 'General'
+
 
 def is_featured_repo(repo):
     """Determine if a repository should be featured"""
@@ -106,14 +80,13 @@ def format_repo_data(repo):
         'created_at': repo['created_at'],
         'updated_at': repo['updated_at'],
         'archived': repo['archived'],
-        'featured': is_featured_repo(repo),
-        'category': categorize_repo(repo)
+        'featured': is_featured_repo(repo)
     }
 
 def main():
     """Main function to update repositories data"""
     token = os.environ.get('GITHUB_TOKEN')
-    org_name = os.environ.get('GITHUB_ORG', 'IMEDEA-AP-LAB')
+    org_name = os.environ.get('GITHUB_ORG', 'IMEDEA-POP-LAB')
     
     if not token:
         print("GITHUB_TOKEN environment variable is required")
@@ -161,18 +134,14 @@ def main():
     print(f"Updated {output_file} with {len(formatted_repos)} repositories")
     
     # Print summary
-    categories = {}
     featured_count = 0
     for repo in formatted_repos:
-        category = repo['category']
-        categories[category] = categories.get(category, 0) + 1
         if repo['featured']:
             featured_count += 1
     
     print(f"Summary:")
     print(f"  Total repositories: {len(formatted_repos)}")
     print(f"  Featured repositories: {featured_count}")
-    print(f"  Categories: {dict(categories)}")
 
 if __name__ == '__main__':
     main()

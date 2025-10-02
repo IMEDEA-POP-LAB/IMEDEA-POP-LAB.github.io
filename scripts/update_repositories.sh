@@ -17,7 +17,7 @@ elif [ -z "$GITHUB_TOKEN" ]; then
     exit 1
 fi
 
-export GITHUB_ORG="IMEDEA-AP-LAB"
+export GITHUB_ORG="IMEDEA-POP-LAB"
 
 echo "🔄 Updating repositories data..."
 echo "Organization: $GITHUB_ORG"
