@@ -223,28 +223,10 @@
 
 /* Recent Publications Grid */
 .recent-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: var(--space-4);
-  overflow-x: auto;
-  padding-bottom: var(--space-2);
-}
-
-.recent-grid::-webkit-scrollbar {
-  height: 6px;
-}
-
-.recent-grid::-webkit-scrollbar-track {
-  background: var(--color-bg-secondary);
-  border-radius: var(--radius-full);
-}
-
-.recent-grid::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-  border-radius: var(--radius-full);
-}
-
-.recent-grid::-webkit-scrollbar-thumb:hover {
-  background: var(--color-text-muted);
+  margin-bottom: var(--space-4);
 }
 
 .publication-card {
@@ -254,8 +236,6 @@
   padding: var(--space-6);
   transition: all var(--transition-base);
   box-shadow: var(--shadow-sm);
-  flex: 0 0 350px;
-  min-width: 350px;
 }
 
 .publication-card:hover {
@@ -1208,12 +1188,8 @@
   }
   
   .recent-grid {
+    grid-template-columns: 1fr;
     gap: var(--space-3);
-  }
-  
-  .publication-card {
-    flex: 0 0 280px;
-    min-width: 280px;
   }
   
   .simple-search {
