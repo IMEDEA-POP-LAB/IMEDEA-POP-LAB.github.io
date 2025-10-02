@@ -61,15 +61,7 @@
   transform: scaleX(1);
 }
 
-/* Featured project styling */
-.project-card.featured-project {
-  border-color: var(--color-primary);
-  box-shadow: var(--shadow-primary);
-}
-
-.project-card.featured-project::before {
-  transform: scaleX(1);
-}
+/* Removed featured project styling - all projects now have uniform appearance */
 
 .project-logo-container {
   display: flex;

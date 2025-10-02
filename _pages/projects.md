@@ -11,12 +11,8 @@ nav_order: 3
 <div class="projects-container">
 
 <div class="project-cards">
-{% assign featured_projects = site.data.projects | where: "featured", true %}
-{% assign regular_projects = site.data.projects | where: "featured", false %}
-{% assign sorted_projects = featured_projects | concat: regular_projects %}
-
-{% for project in sorted_projects %}
-  <div class="project-card {% if project.featured %}featured-project{% endif %}">
+{% for project in site.data.projects %}
+  <div class="project-card">
     {% if project.logo and project.logo != "" %}
     <div class="project-logo-container">
       <img class="project-logo" src="{{ '/assets/img/projects/' | append: project.logo | relative_url }}" alt="{{ project.title }} Logo">

@@ -6,160 +6,288 @@ nav: true
 nav_order: 1
 ---
 
-<div class="publications-page">
+<div class="publications-page-modern">
 
-<!-- External Profiles Links -->
-<div class="external-profiles">
-  <div class="profiles-header">
-  </div>
-  <div class="profiles-links">
-    <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link google-scholar">
-      <span class="profile-icon">🎓</span>
-      <span class="profile-text">Google Scholar</span>
-    </a>
-    <a href="https://orcid.org/0000-0001-9476-9272" target="_blank" class="profile-link orcid">
-      <span class="profile-icon">🔗</span>
-      <span class="profile-text">ORCID Profile</span>
-    </a>
-    <a href="https://www.researchgate.net/profile/Ananda-Pascual" target="_blank" class="profile-link researchgate">
-      <span class="profile-icon">📊</span>
-      <span class="profile-text">ResearchGate</span>
-    </a>
+<!-- Hero Section -->
+<div class="publications-hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Research Publications</h1>
+    <p class="hero-subtitle">Advancing oceanographic research through collaborative science and innovation</p>
+    
+    <!-- Quick Stats -->
+    <div class="publication-stats">
+      <div class="stat-item">
+        <span class="stat-number">{{ site.data.publications.all.size | plus: site.data.publications.recent.size }}</span>
+        <span class="stat-label">Total Publications</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">{{ site.data.publications.recent.size }}</span>
+        <span class="stat-label">Recent Papers</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">{{ "now" | date: "%Y" | minus: 2019 }}</span>
+        <span class="stat-label">Years Active</span>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- Recent Publications - Enhanced -->
+<!-- Navigation Tabs -->
+<div class="publications-nav">
+  <div class="nav-tabs">
+    <button class="nav-tab active" data-section="recent">Recent Work</button>
+    <button class="nav-tab" data-section="all">Complete List</button>
+    <button class="nav-tab" data-section="profiles">Academic Profiles</button>
+  </div>
+</div>
+
+<!-- Recent Publications Section -->
 {% if site.data.publications.recent %}
-<div class="recent-publications-enhanced">
-  <div class="section-header">
-    <h2 class="section-title">Recent Publications</h2>
-    <p class="section-subtitle">Our latest research contributions and findings</p>
-  </div>
-
-{% for pub in site.data.publications.recent %}
-<div class="publication-item-enhanced {% if forloop.first %}featured{% endif %}">
-  <div class="publication-main">
-    <div class="publication-title">{{ pub.title }}</div>
-    <div class="publication-authors">{{ pub.authors }}</div>
+<div class="publications-section" id="recent-section">
+  <div class="section-container">
     
-    <div class="publication-details">
-      <span class="journal-name">{{ pub.journal }}</span>
-      <span class="publication-year">{{ pub.year }}</span>
-      {% if pub.volume or pub.pages %}
-      <span class="volume-pages">
-        {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
-      </span>
-      {% endif %}
-    </div>
-    
-    {% if pub.doi or pub.url %}
-    <div class="publication-actions">
-      {% if pub.doi %}
-      <a href="{{ pub.doi }}" class="action-link primary" target="_blank">
-        <span class="link-icon">📄</span>
-        View Article
-      </a>
-      {% endif %}
-      {% if pub.url %}
-      <a href="{{ pub.url }}" class="action-link secondary" target="_blank">
-        <span class="link-icon">🔗</span>
-        External Link
-      </a>
-      {% endif %}
-    </div>
-    {% endif %}
-  </div>
-  
-  {% if forloop.first %}
-  <div class="featured-badge">Latest</div>
-  {% endif %}
-</div>
-{% endfor %}
-</div>
-{% endif %}
-
-<!-- Preprints - Minimized -->
-{% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
-<div class="preprints-minimized">
-  <details class="preprints-toggle">
-    <summary class="preprints-summary">
-      <span class="toggle-text">Preprints & In Review ({{ site.data.publications.preprints.size }})</span>
-    </summary>
-    <div class="preprints-content">
-      {% for pub in site.data.publications.preprints %}
-      <div class="preprint-item-minimal">
-        <div class="preprint-title">{{ pub.title }}</div>
-        <div class="preprint-meta">
-          <span class="preprint-authors">{{ pub.authors }}</span>
-          <span class="preprint-status">{{ pub.status | default: "Preprint" | capitalize }}</span>
+    <!-- Highlight Publication -->
+    {% assign latest_pub = site.data.publications.recent | first %}
+    <div class="highlight-publication">
+      <div class="highlight-content">
+        <div class="highlight-badge">Latest Publication</div>
+        <h2 class="highlight-title">{{ latest_pub.title }}</h2>
+        <div class="highlight-authors">{{ latest_pub.authors }}</div>
+        <div class="highlight-journal">
+          <span class="journal">{{ latest_pub.journal }}</span>
+          <span class="year-badge">{{ latest_pub.year }}</span>
         </div>
+        {% if latest_pub.doi %}
+        <a href="{{ latest_pub.doi }}" target="_blank" class="highlight-cta">
+          <span class="cta-icon">📖</span>
+          Read Full Paper
+        </a>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Recent Publications Grid -->
+    <div class="recent-grid">
+      {% for pub in site.data.publications.recent %}
+      {% unless forloop.first %}
+      <article class="publication-card">
+        <div class="card-header">
+          <h3 class="card-title">{{ pub.title }}</h3>
+          <div class="card-year">{{ pub.year }}</div>
+        </div>
+        
+        <div class="card-content">
+          <div class="card-authors">{{ pub.authors }}</div>
+          <div class="card-journal">{{ pub.journal }}</div>
+          
+          {% if pub.volume or pub.pages %}
+          <div class="card-details">
+            {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+          </div>
+          {% endif %}
+        </div>
+        
         {% if pub.doi or pub.url %}
-        <div class="preprint-link">
+        <div class="card-actions">
           {% if pub.doi %}
-          <a href="{{ pub.doi }}" target="_blank">View Preprint</a>
-          {% elsif pub.url %}
-          <a href="{{ pub.url }}" target="_blank">View Preprint</a>
+          <a href="{{ pub.doi }}" target="_blank" class="card-link">View Paper</a>
           {% endif %}
         </div>
         {% endif %}
-      </div>
+      </article>
+      {% endunless %}
       {% endfor %}
     </div>
-  </details>
+  </div>
 </div>
 {% endif %}
 
-<!-- All Publications - No Year Headers -->
+
+
+<!-- All Publications Section -->
 {% if site.data.publications.all %}
-<div class="all-publications">
-  <div class="section-header">
-    <h2 class="section-title">All Publications</h2>
-    <p class="section-subtitle">Complete list of research publications</p>
-  </div>
-
-{% assign sorted_pubs = site.data.publications.all | sort: 'year' | reverse %}
-{% assign recent_titles = site.data.publications.recent | map: 'title' %}
-
-{% for pub in sorted_pubs %}
-{% assign is_recent = false %}
-{% for recent_title in recent_titles %}
-  {% if pub.title == recent_title %}
-    {% assign is_recent = true %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-
-{% unless is_recent %}
-<div class="publication-item-standard">
-  <div class="publication-content">
-    <div class="publication-title">{{ pub.title }}</div>
-    <div class="publication-authors">{{ pub.authors }}</div>
+<div class="publications-section hidden" id="all-section">
+  <div class="section-container">
     
-    <div class="publication-details">
-      <span class="journal-name">{{ pub.journal }}</span>
-      <span class="publication-year">{{ pub.year }}</span>
-      {% if pub.volume or pub.pages %}
-      <span class="volume-pages">
-        {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
-      </span>
-      {% endif %}
+    <!-- Filter Controls -->
+    <div class="publication-filters">
+      <div class="filter-group">
+        <label for="year-filter">Filter by Year:</label>
+        <select id="year-filter" class="filter-select">
+          <option value="">All Years</option>
+          {% assign years = site.data.publications.all | map: 'year' | uniq | sort | reverse %}
+          {% for year in years %}
+          <option value="{{ year }}">{{ year }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <input type="search" id="search-filter" class="filter-search" placeholder="Search publications...">
+      </div>
+    </div>
+
+    <!-- Publications List -->
+    <div class="publications-list">
+      {% assign sorted_pubs = site.data.publications.all | sort: 'year' | reverse %}
+      {% assign recent_titles = site.data.publications.recent | map: 'title' %}
+
+      {% for pub in sorted_pubs %}
+      {% assign is_recent = false %}
+      {% for recent_title in recent_titles %}
+        {% if pub.title == recent_title %}
+          {% assign is_recent = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {% unless is_recent %}
+      <div class="publication-item" data-year="{{ pub.year }}">
+        <div class="item-content">
+          <div class="item-header">
+            <h3 class="item-title">{{ pub.title }}</h3>
+            <span class="item-year">{{ pub.year }}</span>
+          </div>
+          
+          <div class="item-authors">{{ pub.authors }}</div>
+          
+          <div class="item-journal">
+            <span class="journal-name">{{ pub.journal }}</span>
+            {% if pub.volume or pub.pages %}
+            <span class="item-details">
+              {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+            </span>
+            {% endif %}
+          </div>
+          
+          {% if pub.doi or pub.url %}
+          <div class="item-actions">
+            {% if pub.doi %}
+            <a href="{{ pub.doi }}" target="_blank" class="item-link">
+              <span class="link-icon">🔗</span>
+              DOI
+            </a>
+            {% endif %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Academic Profiles Section -->
+<div class="publications-section hidden" id="profiles-section">
+  <div class="section-container">
+    <div class="profiles-grid">
+      <div class="profile-card">
+        <div class="profile-icon">🎓</div>
+        <h3 class="profile-title">Google Scholar</h3>
+        <p class="profile-description">Complete publication list with citation metrics and h-index</p>
+        <a href="https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es" target="_blank" class="profile-link">
+          View Profile
+          <span class="link-arrow">→</span>
+        </a>
+      </div>
+      
+      <div class="profile-card">
+        <div class="profile-icon">🔗</div>
+        <h3 class="profile-title">ORCID</h3>
+        <p class="profile-description">Unique researcher identifier with verified publication record</p>
+        <a href="https://orcid.org/0000-0001-9476-9272" target="_blank" class="profile-link">
+          View Profile
+          <span class="link-arrow">→</span>
+        </a>
+      </div>
+      
+      <div class="profile-card">
+        <div class="profile-icon">📊</div>
+        <h3 class="profile-title">ResearchGate</h3>
+        <p class="profile-description">Academic social network with research discussions and collaborations</p>
+        <a href="https://www.researchgate.net/profile/Ananda-Pascual" target="_blank" class="profile-link">
+          View Profile
+          <span class="link-arrow">→</span>
+        </a>
+      </div>
     </div>
     
-    {% if pub.doi or pub.url %}
-    <div class="publication-links">
-      {% if pub.doi %}
-      <a href="{{ pub.doi }}" class="link-doi" target="_blank">DOI</a>
-      {% endif %}
-      {% if pub.url %}
-      <a href="{{ pub.url }}" class="link-url" target="_blank">Link</a>
-      {% endif %}
+    <!-- Preprints Section -->
+    {% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
+    <div class="preprints-section">
+      <h3 class="preprints-title">Work in Progress</h3>
+      <div class="preprints-list">
+        {% for pub in site.data.publications.preprints %}
+        <div class="preprint-item">
+          <div class="preprint-status-badge">{{ pub.status | default: "Preprint" | capitalize }}</div>
+          <h4 class="preprint-title">{{ pub.title }}</h4>
+          <div class="preprint-authors">{{ pub.authors }}</div>
+          {% if pub.doi or pub.url %}
+          <a href="{{ pub.doi | default: pub.url }}" target="_blank" class="preprint-link">View Preprint</a>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
     </div>
     {% endif %}
   </div>
 </div>
-{% endunless %}
-{% endfor %}
-</div>
-{% endif %}
+
+<!-- JavaScript for Tab Navigation -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const tabs = document.querySelectorAll('.nav-tab');
+  const sections = document.querySelectorAll('.publications-section');
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', function() {
+      const targetSection = this.dataset.section;
+      
+      // Update active tab
+      tabs.forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+      
+      // Show/hide sections
+      sections.forEach(section => {
+        if (section.id === targetSection + '-section') {
+          section.classList.remove('hidden');
+        } else {
+          section.classList.add('hidden');
+        }
+      });
+    });
+  });
+  
+  // Search and filter functionality
+  const searchInput = document.getElementById('search-filter');
+  const yearFilter = document.getElementById('year-filter');
+  const publicationItems = document.querySelectorAll('.publication-item');
+  
+  function filterPublications() {
+    const searchTerm = searchInput?.value.toLowerCase() || '';
+    const selectedYear = yearFilter?.value || '';
+    
+    publicationItems.forEach(item => {
+      const title = item.querySelector('.item-title')?.textContent.toLowerCase() || '';
+      const authors = item.querySelector('.item-authors')?.textContent.toLowerCase() || '';
+      const year = item.dataset.year || '';
+      
+      const matchesSearch = title.includes(searchTerm) || authors.includes(searchTerm);
+      const matchesYear = !selectedYear || year === selectedYear;
+      
+      if (matchesSearch && matchesYear) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+  
+  searchInput?.addEventListener('input', filterPublications);
+  yearFilter?.addEventListener('change', filterPublications);
+});
+</script>
 
 </div>
