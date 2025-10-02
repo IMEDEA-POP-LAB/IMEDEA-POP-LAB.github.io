@@ -55,27 +55,7 @@ nav_order: 1
     </div>
     {% endif %}
     
-    <!-- Recent Publications Box Section -->
-    {% if site.data.publications.recent and site.data.publications.recent.size > 0 %}
-    <div class="section-header">
-      <h2 class="section-title">Recent Publications</h2>
-      <p class="section-subtitle">Latest published work from our research group</p>
-    </div>
-    
-    <div class="recent-publications-list">
-      {% for pub in site.data.publications.recent limit:5 %}
-      <div class="recent-publication-item">
-        <div class="recent-publication-status-badge">Published</div>
-        <h4 class="recent-publication-title">{{ pub.title }}</h4>
-        <div class="recent-publication-authors">{{ pub.authors }}</div>
-        <div class="recent-publication-journal">{{ pub.journal }} ({{ pub.year }})</div>
-        {% if pub.doi or pub.url %}
-        <a href="{{ pub.doi | default: pub.url }}" target="_blank" class="recent-publication-link">View Publication</a>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-    {% endif %}
+
     
     <!-- Preprints Section - Part of Recent Work -->
     {% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
