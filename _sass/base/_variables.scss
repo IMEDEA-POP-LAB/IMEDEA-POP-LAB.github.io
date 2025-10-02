@@ -2,67 +2,67 @@
 // =============================================================================
 
 :root {
-  /* Primary Color Scale - Deep Blue-Purple Theme (#2F3070 Base) */
-  --primary-50: #f0f1fc;
-  --primary-100: #e4e6f7;
-  --primary-200: #cdd2f0;
-  --primary-300: #abb3e6;
-  --primary-400: #8891da;
-  --primary-500: #6d76ce;
-  --primary-600: #5c64c1;
-  --primary-700: #4d54a8;
-  --primary-800: #2f3070;
-  --primary-900: #252659;
+  /* Primary Color Scale - Custom Blue Palette */
+  --primary-50: #F9F7F7;
+  --primary-100: #f5f2f2;
+  --primary-200: #DBE2EF;
+  --primary-300: #c5d0e3;
+  --primary-400: #8fa8d1;
+  --primary-500: #6a8bc4;
+  --primary-600: #3F72AF;
+  --primary-700: #355f94;
+  --primary-800: #2a4d79;
+  --primary-900: #112D4E;
   
-  /* Blue Color Scale - Enhanced Saturation */
-  --blue-50: #eff6ff;
-  --blue-100: #dbeafe;
-  --blue-200: #bfdbfe;
-  --blue-300: #7dd3fc;
-  --blue-400: #38bdf8;
-  --blue-500: #0ea5e9;
-  --blue-600: #0284c7;
-  --blue-700: #0369a1;
-  --blue-800: #075985;
-  --blue-900: #0c4a6e;
+  /* Blue Color Scale - Custom Palette */
+  --blue-50: #F9F7F7;
+  --blue-100: #f5f2f2;
+  --blue-200: #DBE2EF;
+  --blue-300: #c5d0e3;
+  --blue-400: #8fa8d1;
+  --blue-500: #6a8bc4;
+  --blue-600: #3F72AF;
+  --blue-700: #355f94;
+  --blue-800: #2a4d79;
+  --blue-900: #112D4E;
   
-  /* Colors - Neutral Scale (Blue-Gray Complemented) */
-  --gray-50: #f8fafc;
-  --gray-100: #f1f5f9;
-  --gray-200: #e2e8f0;
-  --gray-300: #cbd5e1;
-  --gray-400: #94a3b8;
-  --gray-500: #64748b;
-  --gray-600: #475569;
-  --gray-700: #334155;
-  --gray-800: #1e293b;
-  --gray-900: #0f172a;
+  /* Colors - Neutral Scale (Custom Blue-Gray) */
+  --gray-50: #F9F7F7;
+  --gray-100: #f5f2f2;
+  --gray-200: #eeebeb;
+  --gray-300: #DBE2EF;
+  --gray-400: #a8b2c8;
+  --gray-500: #7a86a1;
+  --gray-600: #5a6580;
+  --gray-700: #3F72AF;
+  --gray-800: #2a4d79;
+  --gray-900: #112D4E;
   
-  /* Ocean Theme Colors - Deep Blue-Purple */
-  --ocean-light: var(--primary-600);
-  --ocean-primary: var(--primary-700);
-  --ocean-dark: var(--primary-800);
-  --ocean-deeper: var(--primary-900);
+  /* Ocean Theme Colors - Pure Dark Blue */
+  --ocean-light: var(--blue-400);
+  --ocean-primary: var(--blue-600);
+  --ocean-dark: var(--blue-800);
+  --ocean-deeper: var(--blue-900);
   
   /* Colors - Semantic */
-  --color-bg: #ffffff;
-  --color-bg-secondary: #f8fafc;
+  --color-bg: #F9F7F7;
+  --color-bg-secondary: #f5f2f2;
   --color-bg-card: #ffffff;
   --color-bg-footer: var(--gray-50);
   --color-text: var(--gray-900);
   --color-text-light: var(--gray-700);
   --color-text-muted: var(--gray-500);
-  --color-primary: var(--primary-700);
-  --color-primary-hover: var(--primary-800);
-  --color-accent: var(--primary-100);
-  --color-border: var(--gray-200);
-  --color-divider: var(--gray-200);
+  --color-primary: var(--blue-600);
+  --color-primary-hover: var(--blue-800);
+  --color-accent: var(--blue-200);
+  --color-border: var(--gray-300);
+  --color-divider: var(--gray-300);
   
-  /* Gradients - Deep Blue-Purple Gradients */
-  --gradient-ocean: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-800) 100%);
-  --gradient-light: linear-gradient(135deg, var(--primary-50) 0%, var(--primary-100) 100%);
-  --gradient-card: linear-gradient(135deg, #ffffff 0%, var(--primary-50) 100%);
-  --gradient-dark: linear-gradient(135deg, var(--primary-700) 0%, var(--primary-900) 100%);
+  /* Gradients - Custom Blue Palette */
+  --gradient-ocean: linear-gradient(135deg, #3F72AF 0%, #112D4E 100%);
+  --gradient-light: linear-gradient(135deg, #F9F7F7 0%, #DBE2EF 100%);
+  --gradient-card: linear-gradient(135deg, #ffffff 0%, #F9F7F7 100%);
+  --gradient-dark: linear-gradient(135deg, #3F72AF 0%, #112D4E 100%);
   
   /* Typography Scale */
   --text-xs: 0.75rem;     /* 12px */
@@ -125,9 +125,9 @@
   --shadow-xl: 0 24px 40px -12px rgba(0, 0, 0, 0.12), 0 16px 24px -8px rgba(0, 0, 0, 0.08);
   --shadow-2xl: 0 32px 60px -16px rgba(0, 0, 0, 0.14), 0 24px 40px -12px rgba(0, 0, 0, 0.10);
   
-  /* Colored shadows - Deep Blue-Purple Tones */
-  --shadow-primary: 0 8px 25px -8px rgba(47, 48, 112, 0.25);
-  --shadow-primary-lg: 0 16px 40px -12px rgba(47, 48, 112, 0.30);
+  /* Colored shadows - Custom Blue Palette */
+  --shadow-primary: 0 8px 25px -8px rgba(63, 114, 175, 0.25);
+  --shadow-primary-lg: 0 16px 40px -12px rgba(17, 45, 78, 0.30);
   
   /* Z-Index Scale */
   --z-dropdown: 1000;
