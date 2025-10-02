@@ -2,9 +2,6 @@
 layout: page
 permalink: /
 
-news: false
-latest_posts: false
-selected_papers: false
 social: true
 ---
 

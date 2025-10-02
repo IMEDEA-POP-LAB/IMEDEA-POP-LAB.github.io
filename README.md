@@ -14,27 +14,28 @@ The website now uses **data files** for content management - no more HTML editin
 
 | Content | File | Time Required |
 |---------|------|---------------|
-| 📰 News | `_data/news.yml` | 2 minutes |
 | 👥 Team members | `_data/team.yml` | 5 minutes |
 | 🔬 Projects | `_data/projects.yml` | 5 minutes |
 | 📚 Publications | `_data/publications.yml` | 3 minutes |
+| 🎬 Outreach | `_data/outreach.yml` | 3 minutes |
+| 📰 Media | `_data/media.yml` | 3 minutes |
 
-### 🎯 Three Ways to Update
+### 🎯 How to Update Content
 
 1. **🌐 GitHub Web Interface** - Edit YAML files directly on GitHub (easiest)
-2. **🤖 Automation Scripts** - Use guided scripts in `scripts/` folder (fastest)
-3. **📖 Templates & Guides** - Follow examples in `templates/` folder (most detailed)
+2. **📖 Data Management Manual** - Follow the comprehensive guide in `DATA_MANAGEMENT_MANUAL.md`
+3. **🤖 Repository Updates** - Use `./scripts/update_repositories.sh` for GitHub repos
 
 ## 📋 Quick Examples
 
-### Add News (2 minutes)
-Edit `_data/news.yml`, add at the top:
+### Add Publication (3 minutes)
+Edit `_data/publications.yml`, add to `recent` section:
 ```yaml
-- date: 2024-10-01
-  title: "Your news title"
-  description: "Brief description"
-  category: "research"
-  featured: true
+- title: "Paper Title"
+  authors: "Author1, Author2, and Author3"
+  journal: "Journal Name"
+  year: 2024
+  doi: "https://doi.org/10.1000/example"
 ```
 
 ### Add Team Member (5 minutes)
@@ -60,29 +61,27 @@ Edit `_data/news.yml`, add at the top:
   featured: true
 ```
 
-## 🛠️ Automation Tools
+## 🛠️ Repository Updates
 
-For technical users, run these scripts for guided updates:
+To update the GitHub repositories data:
 ```bash
-python3 scripts/add_team_member.py    # Interactive team member addition
-python3 scripts/add_news.py           # Quick news updates
-python3 scripts/add_project.py        # Project management
-python3 scripts/validate_data.py      # Check for errors
+./scripts/update_repositories.sh YOUR_GITHUB_TOKEN
 ```
+
+This script automatically fetches and updates repository information from your GitHub organization.
 
 ## 📂 Key Files & Folders
 
 ### Data Files (Easy Updates)
-- `_data/news.yml` - Latest lab news and updates
 - `_data/team.yml` - All team members by category
 - `_data/projects.yml` - Current and completed projects
 - `_data/publications.yml` - Recent publications
+- `_data/outreach.yml` - Videos, documentaries, interviews
+- `_data/media.yml` - Press coverage and media mentions
+- `_data/repositories.yml` - GitHub repositories (auto-updated)
 
-### Templates & Help
-- `templates/COMPREHENSIVE_UPDATE_GUIDE.md` - Complete instructions
-- `templates/team_member_template_new.md` - Team member examples
-- `templates/project_template_new.md` - Project examples
-- `scripts/README.md` - Automation guide
+### Documentation
+- `DATA_MANAGEMENT_MANUAL.md` - Complete guide for managing all content
 
 ### Image Folders
 - `assets/img/team/` - Team member photos (400x400px)
@@ -91,17 +90,15 @@ python3 scripts/validate_data.py      # Check for errors
 
 ## 🆘 Need Help?
 
-- **📖 Complete Guide**: `templates/COMPREHENSIVE_UPDATE_GUIDE.md`
-- **🔧 Technical Issues**: `scripts/README.md`
+- **📖 Complete Guide**: `DATA_MANAGEMENT_MANUAL.md` - Comprehensive manual for all data management
 - **❓ Questions**: Create a GitHub issue
 - **🚨 Broke something?**: Revert changes using GitHub history
 
 ## 🎯 Pro Tips
 
-- Start with news updates (easiest)
-- Copy existing entries as templates
-- Use consistent file naming (lowercase, hyphens)
-- Check syntax with `scripts/validate_data.py`
+- Follow the examples in `DATA_MANAGEMENT_MANUAL.md`
+- Use consistent file naming (lowercase, underscores)
+- Always use proper YAML formatting (check indentation)
 - Changes appear in 2-3 minutes after committing
 
 ## Contributing

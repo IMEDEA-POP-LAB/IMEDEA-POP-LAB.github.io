@@ -131,29 +131,7 @@
   margin: 0;
 }
 
-/* News section */
-.news-item {
-  display: flex;
-  gap: var(--space-4);
-  padding: var(--space-4);
-  background: var(--gray-50);
-  border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  margin-bottom: var(--space-4);
-}
 
-.news-date {
-  font-size: var(--text-sm);
-  font-weight: 600;
-  color: var(--ocean-blue);
-  white-space: nowrap;
-  min-width: 120px;
-}
-
-.news-content {
-  font-size: var(--text-sm);
-  color: var(--gray-700);
-  line-height: 1.6;
-}
 
 /* Minimalist hero section */
 .hero-section {
