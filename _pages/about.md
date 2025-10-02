@@ -21,20 +21,43 @@ social: true
 {% if site.data.publications.recent and site.data.publications.recent.size > 0 %}
 {% assign latest_pub = site.data.publications.recent | first %}
 <div class="latest-publication">
-  <h3>Latest Publication</h3>
+  <div class="section-header">
+    <div class="section-icon">📄</div>
+    <h3>Latest Publication</h3>
+    <div class="publication-badge">{{ latest_pub.year }}</div>
+  </div>
+  
   <div class="publication-highlight">
-    <h4>
+    <div class="publication-meta">
+      <span class="publication-type">Research Article</span>
+      <span class="publication-journal">{{ latest_pub.journal }}</span>
+    </div>
+    
+    <h4 class="publication-title">
       {% if latest_pub.doi %}
       <a href="{{ latest_pub.doi }}" target="_blank">{{ latest_pub.title }}</a>
       {% else %}
       {{ latest_pub.title }}
       {% endif %}
     </h4>
-    <p class="authors">{{ latest_pub.authors }}</p>
-    <p class="journal"><em>{{ latest_pub.journal }}</em>, {{ latest_pub.year }}</p>
-    {% if latest_pub.doi %}
-    <a href="{{ latest_pub.doi }}" target="_blank" class="read-paper-btn">Read Paper →</a>
-    {% endif %}
+    
+    <div class="publication-authors">
+      <span class="authors-label">Authors:</span>
+      <span class="authors-list">{{ latest_pub.authors }}</span>
+    </div>
+    
+    <div class="publication-actions">
+      {% if latest_pub.doi %}
+      <a href="{{ latest_pub.doi }}" target="_blank" class="read-paper-btn primary">
+        <span class="btn-icon">📖</span>
+        Read Full Paper
+      </a>
+      {% endif %}
+      <a href="/publications/" class="view-all-btn">
+        <span class="btn-icon">📚</span>
+        View All Publications
+      </a>
+    </div>
   </div>
 </div>
 {% endif %}
