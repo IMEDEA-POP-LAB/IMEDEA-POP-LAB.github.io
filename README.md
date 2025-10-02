@@ -1,6 +1,6 @@
 # IMEDEA Physical Ocean Processes Lab
 
-Research group website for Dr. Ananda Pascual's lab at IMEDEA (CSIC-UIB).
+Website for Physical Ocean Processes Lab IMEDEA (CSIC-UIB).
 
 🌐 **Live Site**: [https://imedea-pop-lab.github.io](https://imedea-pop-lab.github.io)
 
