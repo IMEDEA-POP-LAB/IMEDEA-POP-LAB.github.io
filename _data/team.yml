@@ -65,6 +65,16 @@ postdocs:
     website: ""
     bio: ""
 
+  - name: "Dr. Yan Barabinot"
+    title: "Postdoctoral Researcher"
+    period: "2025 - present"
+    image: "placeholder.svg"
+    email: ""
+    orcid: ""
+    scholar: ""
+    website: ""
+    bio: ""
+
 phd_students: 
 
   - name: "Elisabet Verger-Miralles"
