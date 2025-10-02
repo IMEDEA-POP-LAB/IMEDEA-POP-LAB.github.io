@@ -12,8 +12,8 @@ nav_order: 2
 <div class="people row">
 
 <!-- Principal Investigators -->
-{% if site.data.team.principal_investigators %}
-  {% for person in site.data.team.principal_investigators %}
+{% if site.data.people.principal_investigators %}
+  {% for person in site.data.people.principal_investigators %}
   <div class="person-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
@@ -52,8 +52,8 @@ nav_order: 2
 {% endif %}
 
 <!-- Research Scientists -->
-{% if site.data.team.research_scientists %}
-  {% for person in site.data.team.research_scientists %}
+{% if site.data.people.research_scientists %}
+  {% for person in site.data.people.research_scientists %}
   <div class="person-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
@@ -92,8 +92,8 @@ nav_order: 2
 {% endif %}
 
 <!-- Postdocs -->
-{% if site.data.team.postdocs %}
-  {% for person in site.data.team.postdocs %}
+{% if site.data.people.postdocs %}
+  {% for person in site.data.people.postdocs %}
   <div class="person-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
@@ -132,8 +132,8 @@ nav_order: 2
 {% endif %}
 
 <!-- PhD Students -->
-{% if site.data.team.phd_students %}
-  {% for person in site.data.team.phd_students %}
+{% if site.data.people.phd_students %}
+  {% for person in site.data.people.phd_students %}
   <div class="person-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
@@ -172,8 +172,8 @@ nav_order: 2
 {% endif %}
 
 <!-- Master's Students -->
-{% if site.data.team.master_students %}
-  {% for person in site.data.team.master_students %}
+{% if site.data.people.master_students %}
+  {% for person in site.data.people.master_students %}
   <div class="person-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
@@ -212,8 +212,8 @@ nav_order: 2
 {% endif %}
 
 <!-- Visiting Researchers -->
-{% if site.data.team.visiting_researchers %}
-  {% for person in site.data.team.visiting_researchers %}
+{% if site.data.people.visiting_researchers %}
+  {% for person in site.data.people.visiting_researchers %}
   <div class="person-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
@@ -254,11 +254,11 @@ nav_order: 2
 </div>
 
 <!-- Alumni Section -->
-{% if site.data.team.alumni %}
+{% if site.data.people.alumni %}
 ## Alumni
 
 <div class="alumni-section">
-{% for person in site.data.team.alumni %}
+{% for person in site.data.people.alumni %}
   <div class="alumni-item">
     <strong>{{ person.name }}</strong> - {{ person.title }} ({{ person.period }})
     {% if person.current_position %}

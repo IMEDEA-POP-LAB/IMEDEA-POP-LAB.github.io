@@ -7,7 +7,7 @@ This manual provides comprehensive instructions for managing the data files that
 ## Table of Contents
 
 1. [Quick Reference](#quick-reference)
-2. [Team Management (`team.yml`)](#team-management-teamyml)
+2. [People Management (`people.yml`)](#people-management-peopleyml)
 3. [Project Management (`projects.yml`)](#project-management-projectsyml)
 4. [Publications Management (`publications.yml`)](#publications-management-publicationsyml)
 5. [Media Coverage (`media.yml`)](#media-coverage-mediayml)
@@ -25,7 +25,7 @@ All data files are located in: `_data/`
 ### File Structure
 ```
 _data/
-├── team.yml           # Team members and their information
+├── people.yml         # Team members and their information
 ├── projects.yml       # Current research projects
 ├── publications.yml   # Academic publications
 ├── media.yml          # Press coverage and media mentions
@@ -41,10 +41,10 @@ _data/
 
 ---
 
-## Team Management (`team.yml`)
+## People Management (`people.yml`)
 
 ### Structure Overview
-The team file is organized into four categories:
+The people file is organized into four categories:
 - `principal_investigators`
 - `research_scientists`
 - `postdocs`
