@@ -2,17 +2,49 @@
 // Layout Components - Header, navigation, containers
 // =============================================================================
 
-/* Container */
+/* Modern Container System */
 .container {
-  max-width: 1280px;
+  width: 100%;
+  max-width: var(--container-xl);
   margin: 0 auto;
   padding: 0 var(--space-6);
 }
 
-@media (max-width: 640px) {
+.container-sm {
+  max-width: var(--container-sm);
+}
+
+.container-md {
+  max-width: var(--container-md);
+}
+
+.container-lg {
+  max-width: var(--container-lg);
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
   .container {
     padding: 0 var(--space-4);
   }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 var(--space-3);
+  }
+}
+
+/* Page wrapper */
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: var(--space-12) 0;
 }
 
 /* Page header - force clean backgrounds */
@@ -44,10 +76,64 @@ header:not(.site-header),
 
 .page-description {
   font-size: var(--text-lg);
-  color: var(--global-text-light);
+  color: var(--color-text-light);
   margin: 0;
-  max-width: 800px;
-  line-height: 1.6;
+  max-width: 900px;
+  line-height: var(--leading-relaxed);
+  font-weight: var(--font-normal);
+}
+
+/* Modern page content wrapper */
+.page-content {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Content wrapper for consistent spacing */
+.content-wrapper {
+  max-width: var(--container-xl);
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+/* Section dividers */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-border), transparent);
+  margin: var(--space-16) 0;
+}
+
+/* Prose content styling */
+.prose {
+  max-width: 65ch;
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text-light);
+}
+
+.prose p {
+  margin-bottom: var(--space-6);
+}
+
+.prose h1, .prose h2, .prose h3 {
+  color: var(--color-text) !important;
+  margin-top: var(--space-12) !important;
+}
+
+.prose a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-primary);
+  transition: all var(--transition-fast);
+}
+
+.prose a:hover {
+  border-bottom-color: transparent;
+  background: var(--color-accent);
+  padding: 0 2px;
+  margin: 0 -2px;
+  border-radius: var(--radius-xs);
 }
 
 /* Page title specific styles */

@@ -1,9 +1,9 @@
-/* Simplified Project Cards */
+/* Modern Project Cards Layout */
 .project-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  margin: 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-8);
+  margin: var(--space-12) 0;
 }
 
 /* Responsive breakpoints */
@@ -16,6 +16,7 @@
 @media (max-width: 900px) {
   .project-cards {
     grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
   }
 }
 
@@ -26,20 +27,41 @@
 }
 
 .project-card {
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  padding: var(--space-6);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s, box-shadow 0.2s;
-  background-color: white;
-  border: 1px solid var(--gray-200);
+  transition: all var(--transition-base);
+  background: var(--gradient-card);
+  border: 1px solid var(--color-border);
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-ocean);
+  transform: scaleX(0);
+  transition: transform var(--transition-fast);
 }
 
 .project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
 }
+
+.project-card:hover::before {
+  transform: scaleX(1);
+}
+
+/* Removed featured project styling - all projects now have uniform appearance */
 
 .project-logo-container {
   display: flex;

@@ -1,0 +1,127 @@
+# Team members data file
+# This file makes it easy to manage team information
+# To add a new member, copy the template and fill in the details
+
+principal_investigators:
+
+  - name: "Dr. Ananda Pascual"
+    title: "Senior Scientist, CSIC"
+    period: "2008 - present"
+    image: "PascualAnanda.jpeg"
+    email: "ananda.pascual@imedea.uib-csic.es"
+    orcid: "https://orcid.org/0000-0001-9476-9272"
+    scholar: "https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es"
+    bio: "Senior scientist at the Spanish National Research Council (CSIC) at IMEDEA in Mallorca, Spain. She obtained her Ph.D. in Physical Oceanography from the University of the Balearic Islands in 2003, followed by positions at the CLS Space Oceanography Division in Toulouse as a Marie Skłodowska-Curie postdoctoral fellow, and at IMEDEA as a Ramon y Cajal tenure-track fellow. Her research primarily focuses on understanding meso and submesoscale processes in the ocean and their impact on climate, using a combination of remote sensing, in-situ data, and numerical simulations."
+
+research_scientists:
+
+  - name: "Dr. Baptiste Mourre"
+    title: "Research Scientist"
+    period: "2024 - present"
+    image: "baptiste_mourre.jpg"
+    email: "bmourre@imedea.uib-csic.es"
+    orcid: "https://orcid.org/0000-0002-5056-0423"
+    bio: "Research scientist specializing in ocean modeling, data assimilation, and operational oceanography. His work focuses on improving ocean forecasting systems and understanding coastal ocean processes."
+
+  - name: "Dr. Vincent Combes"
+    title: "Ramón y Cajal Fellow"
+    period: "2022 - present"
+    image: "CombesVincent.jpeg"
+    email: "vcombes@imedea.uib-csic.es"
+    orcid: ""
+    scholar: ""
+    website: "www.vincentcombes.com"
+    bio: "Has been a Senior Research Associate at Oregon State University, in the CEOAS department since 2010. He got his Phd from Georgia Tech (Atlanta) in 2010 and an engineering degree in Hydraulics from the ENSEEIHT (France) in 2005. He is specialized in modeling realistic ocean flows in regional and coastal seas including the Gulf of Alaska, California Current, Peru Chile Current system, Patagonian shelf and Southeast Atlantic. He is particularly interested in the low frequency ocean variability, coastal and shelfbreak upwellings, eddy dynamics, transport of nutrient rich shelf water to the deep ocean and remote sensing."
+
+postdocs: 
+
+  - name: "Dr. Diego Cortés Morales"
+    title: "Postdoctoral Researcher"
+    period: "2024 - present"
+    image: "placeholder.svg"
+    email: ""
+    orcid: ""
+    scholar: ""
+    website: ""
+    bio: ""
+
+  - name: "Dr. Jen-Ping Peng"
+    title: "Postdoctoral Researcher"
+    period: "2025 - present"
+    image: "PengJenPing.jpg"
+    email: "jpeng@imedea.uib-csic.es"
+    orcid: ""
+    scholar: ""
+    website: ""
+    bio: "Senior Postdoc at IMEDEA (CSIC-UIB), working with Baptiste Mourre in the SWINT project. He earned his PhD in Physical Oceanography from the University of Rostock and the Leibniz Institute for Baltic Sea Research (IOW) and was a Research Associate at the University of Western Australia (2022–2025). His research focuses on finescale ocean dynamics and turbulence, including surface-layer fronts, diurnal warm layers, internal waves, and eddy variability."
+
+  - name: "Dr. Marta Veny López"
+    title: "Postdoctoral Researcher"
+    period: "2025 - present"
+    image: "placeholder.svg"
+    email: ""
+    orcid: ""
+    scholar: ""
+    website: ""
+    bio: ""
+
+phd_students: 
+
+  - name: "Elisabet Verger-Miralles"
+    title: "PhD Student"
+    period: "2023 - present"
+    image: "placeholder.svg"
+    email: "elisabet.verger@imedea.uib-csic.es"
+    bio: ""
+
+  - name: "Diego Vega-Giménez"
+    title: "PhD Student"
+    period: "2023 - present"
+    image: "placeholder.jpg"
+    email: ""
+
+  - name: "Paul Hargous"
+    title: "PhD Student"
+    period: "2024 - present"
+    image: "placeholder.svg"
+    email: ""
+    bio: "His research focuses on mesoscale ocean variability in the Mediterranean Sea, particularly on eddy kinetic energy (EKE) and geostrophic currents derived from satellite altimetry as well as ocean transport using in-situ observations and remote sensing data."
+
+  - name: "Blanca Álvarez-Fernández"
+    title: "PhD Student"
+    period: "2024 - present"
+    image: "placeholder.svg"
+    email: ""
+
+  - name: "Cristina Martí-Solana"
+    title: "PhD Student"
+    period: "2024 - present"
+    image: "placeholder.svg"
+    email: "cristina.marti@imedea.uib-csic.es"
+    bio: ""
+
+  - name: "Joan Armajach-Riera"
+    title: "Research Support Staff"
+    period: "2025 - present"
+    image: "placeholder.svg"
+    email: ""
+    bio: ""
+
+master_students: []
+  # Add master's students here
+  # Template same as above but with title: "Master's Student"
+
+visiting_researchers: []
+  # Add visiting researchers here
+  # Template same as above but with title: "Visiting Researcher"
+
+alumni: 
+
+  - name: "Dr. Laura Gómez-Navarro"
+    title: "Former Postdoctoral Researcher"
+    period: "YYYY - YYYY"
+    current_position: "Current position and institution"
+  
+  - name: "Paula Alós"
+    title: "Master Thesis"
+    period: "2025"

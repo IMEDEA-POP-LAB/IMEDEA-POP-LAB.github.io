@@ -178,3 +178,69 @@ select:focus {
     page-break-before: always;
   }
 }
+
+/* ========================================================================== */
+/* MODERN ENHANCEMENT UTILITIES */
+/* ========================================================================== */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Modern selection styles */
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+::-moz-selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+/* Enhanced focus styles */
+*:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-hover);
+}
+
+/* Animation utilities */
+.transition { transition: all var(--transition-base) !important; }
+.hover-lift:hover { transform: translateY(-2px) !important; }
+
+/* Modern content sections */
+.content-section {
+  padding: var(--space-16) 0;
+}
+
+.hero-section {
+  padding: var(--space-24) 0;
+  background: var(--gradient-light);
+}
+
+/* Glass effect utility */
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

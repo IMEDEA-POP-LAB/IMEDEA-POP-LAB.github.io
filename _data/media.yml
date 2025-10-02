@@ -1,0 +1,34 @@
+# Media coverage and press releases
+# Add new entries at the top for chronological order
+
+- date: 2025-09-18
+  title: "Olas de calor en el mar balear: Los sistemas de medición podrían estar engañándonos"
+  outlet: "Última Hora"
+  url: "https://www.ultimahora.es/noticias/local/2025/09/18/2471689/olas-calor-mar-balear-sistemas-medicion-podrian-estar-enganandosos.html"
+  excerpt: "Se ha calentado 0,036 ºC al año desde 1982, con anomalías récord en 2022 y 2023"
+  language: "es"
+  type: "press"
+
+- date: 2025-07-07  
+  title: "Así se ha disparado la temperatura del agua en el Mediterráneo español desde hace 40 años"
+  outlet: "El Periódico"
+  url: "https://www.elperiodico.com/es/medio-ambiente/20250707/disparado-temperatura-agua-mediterraneo-espanol-119356965"
+  excerpt: "El mar Mediterráneo, cuya temperatura media era de 22,6 °C en 1986, ha registrado picos hasta cinco grados por encima de lo normal para estas fechas, lo que lo convierte en un factor de riesgo para la formación de tormentas severas."
+  language: "es"
+  type: "press"
+
+- date: 2025-07-12
+  title: "La única mallorquina en la expedición en el océano de la Agencia Espacial Europea: 'Hay mucho por explorar'"
+  outlet: "Diario de Mallorca" 
+  url: "https://www.diariodemallorca.es/mallorca/2025/07/12/unica-mallorquina-expedicion-oceano-agencia-119603634.html"
+  excerpt: "La algaidina Elisabet Verger-Miralles, estudiante de doctorado de Oceanografía Física y Clima, ha sido la única mallorquina entre los seis españolas seleccionados como embajadores de la Década de las Naciones Unidas para las Ciencias Oceánicas."
+  language: "es"
+  type: "press"
+
+- date: 2024-08-15
+  title: "Ananda Pascual: 'Los océanos son un espejo de lo que ocurre en el mundo'"
+  outlet: "Innovaspain"
+  url: "https://www.innovaspain.com/ananda-pascual-oceanos-libro-blanco-csic-imedea/"
+  excerpt: "La oceanógrafa física coordina el Libro Blanco del CSIC sobre los océanos, que reúne los grandes retos de la investigación oceánica de la década."
+  language: "es"
+  type: "interview"

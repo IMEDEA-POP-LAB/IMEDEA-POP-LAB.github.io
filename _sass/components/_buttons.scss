@@ -2,33 +2,48 @@
 // Button Components - Consistent button styles
 // =============================================================================
 
-/* Base button styles */
+/* Modern Button System */
 .btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: var(--space-2);
-  padding: var(--space-2) var(--space-4);
-  border: none;
-  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-6);
+  border: 1px solid transparent;
+  border-radius: var(--radius-button);
   font-family: inherit;
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: var(--font-semibold);
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.025em;
   cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: var(--global-shadow);
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
 }
 
 .btn:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--global-shadow-md);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
   text-decoration: none;
 }
 
 .btn:active {
   transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Button sizes */
+.btn-sm {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-xs);
+}
+
+.btn-lg {
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--text-base);
 }
 
 /* Button variants */

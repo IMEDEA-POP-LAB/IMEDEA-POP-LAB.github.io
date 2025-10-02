@@ -13,23 +13,55 @@ social: true
   <p class="lab-subtitle"><a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a></p>
 </div>
 
-<div class="lab-overview" style="text-align: justify;">
+<div class="lab-overview" style="text-align: left;">
   <p>The Physical Ocean Processes lab at IMEDEA focuses on physical oceanography, investigating ocean dynamics at meso- and submesoscales to better understand the structure and variability of ocean circulation. By combining satellite altimetry, in situ observations, and numerical modeling, the team contributes to the validation and scientific exploitation of new altimetric products and the reconstruction of ocean state variables using advanced techniques, including artificial intelligence. Part of the research is conducted in the Mediterranean Sea, a region particularly vulnerable to climate change, where the effects of ocean warming and intensified extremes can be observed with increasing clarity. The approaches and scientific questions addressed are, however, relevant to ocean regions worldwide. Applications include improving ocean prediction systems and understanding potential impacts on marine ecosystems. Current investigations include the analysis of data from the SWOT satellite mission, the study of marine heatwaves and storm surges, the influence of small-scale dynamics on large-scale ocean circulation and climate, and the development of AI-based 3D reconstruction methods.</p>
 </div>
 
-## News
-
-  <div class="news-item">
-    <span class="news-date">July 17, 2025</span>
-    <span class="news-content">Welcome to our new website! Explore our research, team, and latest findings.</span>
+<!-- Latest Publication -->
+{% if site.data.publications.recent and site.data.publications.recent.size > 0 %}
+{% assign latest_pub = site.data.publications.recent | first %}
+<div class="latest-publication">
+  <div class="section-header">
+    <h3>Latest Publication</h3>
   </div>
-
-<div class="publications-cta">
-  <a href="/publications/" class="cta-button">
-    <span class="cta-text">View All Publications</span>
-    <span class="cta-arrow">→</span>
-  </a>
+  
+    <article class="publication-card">
+    <div class="card-header">
+      <h3 class="card-title">{{ latest_pub.title }}</h3>
+      <div class="card-meta">
+        <div class="card-journal">{{ latest_pub.journal }}</div>
+        <div class="card-year">{{ latest_pub.year }}</div>
+      </div>
+    </div>
+    
+    <div class="card-content">
+      <div class="card-authors">{{ latest_pub.authors }}</div>
+      
+      {% if latest_pub.volume or latest_pub.pages %}
+      <div class="card-details">
+        {% if latest_pub.volume %}Vol. {{ latest_pub.volume }}{% endif %}{% if latest_pub.pages %}, {{ latest_pub.pages }}{% endif %}
+      </div>
+      {% endif %}
+    </div>
+    
+    {% if latest_pub.doi or latest_pub.url %}
+    <div class="card-actions">
+      {% if latest_pub.doi %}
+      <a href="{{ latest_pub.doi }}" target="_blank" class="card-link">View Paper</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </article>
+  
+  <div class="publication-cta">
+    <a href="/publications/" class="view-all-btn">
+      <span class="btn-icon">📚</span>
+      View All Publications
+    </a>
+  </div>
 </div>
+{% endif %}
+
 ---
 
 <!-- Research Gallery -->
@@ -60,9 +92,4 @@ social: true
       <div class="gallery-caption">Presenting at international conference</div>
     </div>
   </div>
-</div>
-
-<div class="contact-footer">
-  <p><strong>Principal Investigator:</strong> Dr. Ananda Pascual | <a href="mailto:ananda.pascual@imedea.uib-csic.es">ananda.pascual@imedea.uib-csic.es</a></p>
-  <p><strong>Location:</strong> IMEDEA (CSIC-UIB), C/ Miquel Marquès 21, 07190 Esporles, Illes Balears, Spain</p>
 </div>

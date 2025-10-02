@@ -7,108 +7,131 @@ nav: true
 nav_order: 4
 ---
 
-<!-- featured content -->
-## Featured Videos
-<div class="featured-content">
-  <div class="featured-item">
-    <div class="featured-date">March 2024</div>
-    <div class="featured-details">
-      <div class="featured-title">Del espacio al Mediterráneo: Persiguiendo corrientes marinas</div>
-      <div class="featured-venue">FaSt-SWOT Documentary</div>
-      <div class="featured-video">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/WQd9LeIdLSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
+<div class="outreach-page-modern">
 
-  <div class="featured-item">
-    <div class="featured-date">February 2022</div>
-    <div class="featured-details">
-      <div class="featured-title">Mujeres STEM CSIC Balears #11F</div>
-      <div class="featured-venue">CSIC Illes Balears</div>
-      <div class="featured-video">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/cc4fR1Hubg8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+<!-- Multimedia Section -->
+{% if site.data.outreach and site.data.outreach.size > 0 %}
+<div class="outreach-section">
+  <div class="section-container">
+    <div class="section-header">
+      <h2 class="section-title">Multimedia</h2>
+      <p class="section-subtitle">Documentaries, interviews, and educational videos showcasing our research</p>
     </div>
-  </div>
-
-  <div class="featured-item">
-    <div class="featured-date">March 2018</div>
-    <div class="featured-details">
-      <div class="featured-title">Understanding of oceanic processes in the Mediterranean</div>
-      <div class="featured-venue">MedSUB Documentary</div>
-      <div class="featured-video">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/rr9xdHcFwvs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div> 
-  
-## Education
-
-<div class="education-activities">
-  <ul class="activity-list">
-    <li class="activity-item">
-      <div class="activity-icon">🎓</div>
-      <div class="activity-content">
-        <div class="activity-title">School Visits</div>
-        <div class="activity-description">Regular presentations at local schools about oceanography and climate science</div>
-      </div>
-    </li>
     
-    <li class="activity-item">
-      <div class="activity-icon">📚</div>
-      <div class="activity-content">
-        <div class="activity-title">University Lectures</div>
-        <div class="activity-description">Guest lectures at UIB and other Mediterranean universities</div>
+    <div class="featured-grid">
+      {% assign featured_items = site.data.outreach | where: "featured", true | sort: "date" | reverse %}
+      {% for item in featured_items %}
+      <div class="featured-card">
+        {% if item.youtube_id %}
+        <div class="video-container">
+          <iframe 
+            src="https://www.youtube.com/embed/{{ item.youtube_id }}" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+          <div class="video-overlay">
+            <div class="play-button">▶</div>
+          </div>
+        </div>
+        {% endif %}
+
+        <div class="card-content">
+          <div class="card-header">
+            <div class="content-type">{{ item.type | capitalize }}</div>
+            <div class="content-date">{{ item.date | date: "%B %Y" }}</div>
+          </div>
+          
+          <h3 class="content-title">{{ item.title }}</h3>
+          <div class="content-venue">{{ item.venue }}</div>
+          
+          {% if item.description %}
+          <p class="content-description">{{ item.description }}</p>
+          {% endif %}
+          
+          <div class="content-actions">
+            {% if item.youtube_id %}
+            <a href="https://www.youtube.com/watch?v={{ item.youtube_id }}" target="_blank" class="action-btn primary">
+              <span class="btn-icon">🎥</span>
+              Watch Video
+            </a>
+            {% endif %}
+            {% if item.language %}
+            <span class="language-tag">{{ item.language | upcase }}</span>
+            {% endif %}
+          </div>
+        </div>
       </div>
-    </li>
-    
-    <li class="activity-item">
-      <div class="activity-icon">🔬</div>
-      <div class="activity-content">
-        <div class="activity-title">Science Festivals</div>
-        <div class="activity-description">Participation in Nit de la Recerca and other science outreach events</div>
-      </div>
-    </li>
-  </ul>
+      {% endfor %}
+    </div>
+  </div>
 </div>
+{% endif %}
 
-## Recent Press Releases
-
-<div class="press-releases">
-
-  <div class="press-item">
-    <div class="press-date">July 2025</div>
-    <div class="press-title">
-      <a href="https://www.elperiodico.com/es/medio-ambiente/20250707/disparado-temperatura-agua-mediterraneo-espanol-119356965" target="_blank">
-       Así se ha disparado la temperatura del agua en el Mediterráneo español desde hace 40 años
-      </a>
+<!-- Press Coverage Section -->
+{% if site.data.media and site.data.media.size > 0 %}
+<div class="outreach-section">
+  <div class="section-container">
+    <div class="section-header">
+      <h2 class="section-title">Press Coverage</h2>
+      <p class="section-subtitle">Media articles, interviews, and news coverage of our research</p>
     </div>
-    <div class="press-outlet">El Periódico</div>
-    <div class="press-excerpt">El mar Mediterráneo, cuya temperatura media era de 22,6 °C en 1986, ha registrado picos hasta cinco grados por encima de lo normal para estas fechas, lo que lo convierte en un factor de riesgo para la formación de tormentas severas.</div>
-  </div>
-
-  <div class="press-item">
-    <div class="press-date">July 2025</div>
-    <div class="press-title">
-      <a href="https://www.diariodemallorca.es/mallorca/2025/07/12/unica-mallorquina-expedicion-oceano-agencia-119603634.html" target="_blank">
-       La única mallorquina en la expedición en el océano de la Agencia Espacial Europea: "Hay mucho por explorar"
-      </a>
+    
+    <!-- Media Grid -->
+    <div class="media-grid">
+      {% for item in site.data.media %}
+      <article class="media-card">
+        <div class="media-header">
+          <div class="media-type">{{ item.type | capitalize }}</div>
+          <div class="media-date">{{ item.date | date: "%b %Y" }}</div>
+        </div>
+        
+        <h3 class="media-title">
+          <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+        </h3>
+        
+        <div class="media-outlet">{{ item.outlet }}</div>
+        
+        {% if item.excerpt %}
+        <p class="media-excerpt">{{ item.excerpt }}</p>
+        {% endif %}
+        
+        <div class="media-actions">
+          <a href="{{ item.url }}" target="_blank" class="media-link">
+            Read More
+            <span class="link-arrow">→</span>
+          </a>
+        </div>
+      </article>
+      {% endfor %}
     </div>
-    <div class="press-outlet">Diario de Mallorca</div>
-    <div class="press-excerpt">La algaidina Elisabet Verger-Miralles, estudiante de doctorado de Oceanografía Física y Clima, ha sido la única mallorquina entre los seis españolas seleccionados como embajadores de la Década de las Naciones Unidas para las Ciencias Oceánicas.</div>
   </div>
+</div>
+{% endif %}
 
-  <div class="press-item">
-    <div class="press-date">August 2024</div>
-    <div class="press-title">
-      <a href=" https://www.innovaspain.com/ananda-pascual-oceanos-libro-blanco-csic-imedea/" target="_blank">
-       Ananda Pascual: "Los océanos son un espejo de lo que ocurre en el mundo"
-      </a>
+<!-- Science Communication Info -->
+<div class="outreach-section">
+  <div class="section-container">
+    <div class="communication-cta">
+      <div class="cta-content">
+        <h3 class="cta-title">Interested in Science Communication?</h3>
+        <p class="cta-description">
+          We're always open to collaborating with media outlets, educational institutions, and science communicators 
+          to share our oceanographic research and its implications for understanding our changing planet.
+        </p>
+        <div class="cta-actions">
+          <a href="mailto:ananda.pascual@imedea.uib-csic.es" class="cta-btn primary">
+            <span class="btn-icon">✉️</span>
+            Contact for Media Inquiries
+          </a>
+          <a href="/about/" class="cta-btn secondary">
+            <span class="btn-icon">👥</span>
+            Learn About Our Research
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="press-outlet">Innovaspain</div>
-    <div class="press-excerpt">La oceanógrafa física coordina el Libro Blanco del CSIC sobre los océanos, que reúne los grandes retos de la investigación oceánica de la década.</div>
   </div>
+</div>
 
 </div>
