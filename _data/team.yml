@@ -87,7 +87,7 @@ phd_students:
   - name: "Diego Vega-Giménez"
     title: "PhD Student"
     period: "2023 - present"
-    image: "placeholder.jpg"
+    image: "placeholder.svg"
     email: ""
 
   - name: "Paul Hargous"
@@ -97,7 +97,7 @@ phd_students:
     email: ""
     bio: "His research focuses on mesoscale ocean variability in the Mediterranean Sea, particularly on eddy kinetic energy (EKE) and geostrophic currents derived from satellite altimetry as well as ocean transport using in-situ observations and remote sensing data."
 
-  - name: "Blanca Álvarez-Fernández"
+  - name: "Blanca Fernández-Álvarez"
     title: "PhD Student"
     period: "2024 - present"
     image: "placeholder.svg"
@@ -129,9 +129,8 @@ alumni:
 
   - name: "Dr. Laura Gómez-Navarro"
     title: "Former Postdoctoral Researcher"
-    period: "YYYY - YYYY"
-    current_position: "Current position and institution"
+    period: "YYYY - 2025"
   
-  - name: "Paula Alós"
+  - name: "Paula Alós Lluesma"
     title: "Master Thesis"
     period: "2025"
