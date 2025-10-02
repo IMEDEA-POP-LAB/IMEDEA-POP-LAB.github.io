@@ -13,7 +13,6 @@ nav_order: 1
   <div class="section-container">
     <div class="section-header">
       <h2 class="section-title">Academic Profiles</h2>
-      <p class="section-subtitle">Complete publication records and academic metrics</p>
     </div>
     
     <div class="profiles-grid">
