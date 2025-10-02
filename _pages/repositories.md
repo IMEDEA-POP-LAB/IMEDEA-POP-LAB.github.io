@@ -9,56 +9,12 @@ nav_order: 5
 
 <div class="repositories">
 
-<!-- Repository Stats Overview -->
-<div class="repository-stats-overview">
-  <div class="stats-card">
-    <span class="stats-number">{{ site.data.repositories.repositories | size }}</span>
-    <span class="stats-label">Public Repositories</span>
-  </div>
-  <div class="stats-card">
-    <span class="stats-number">{{ site.data.repositories.repositories | where: "featured", true | size }}</span>
-    <span class="stats-label">Featured Projects</span>
-  </div>
-  <div class="stats-card">
-    <span class="stats-number">{{ site.data.repositories.repositories | map: "language" | uniq | size }}</span>
-    <span class="stats-label">Languages</span>
-  </div>
-  <div class="stats-card">
-    <span class="stats-number">{{ site.data.repositories.repositories | where: "archived", false | size }}</span>
-    <span class="stats-label">Active Projects</span>
-  </div>
-</div>
 
-<!-- Featured Repository Section -->
-{% assign featured_repos = site.data.repositories.repositories | where: "featured", true %}
-{% if featured_repos.size > 0 %}
-{% assign featured = featured_repos.first %}
-<div class="featured-repository">
-  <h2><i class="fas fa-star"></i> Featured Repository</h2>
-  <h3>{{ featured.name }}</h3>
-  <p>{{ featured.description }}</p>
-  <a href="{{ featured.html_url }}" target="_blank" class="featured-repository-button">
-    <i class="fab fa-github"></i>
-    View on GitHub
-  </a>
-</div>
-{% endif %}
-
-<!-- Category Filters -->
-{% assign categories = site.data.repositories.repositories | map: "category" | uniq | compact %}
-{% if categories.size > 1 %}
-<div class="repository-categories">
-  <button class="category-filter active" data-category="all">All Repositories</button>
-  {% for category in categories %}
-  <button class="category-filter" data-category="{{ category | downcase | replace: ' ', '-' }}">{{ category }}</button>
-  {% endfor %}
-</div>
-{% endif %}
 
 <!-- Repository Grid -->
 <div class="repositories-grid">
   {% for repo in site.data.repositories.repositories %}
-  <div class="repository-card" data-category="{{ repo.category | default: 'general' | downcase | replace: ' ', '-' }}">
+  <div class="repository-card">
     <div class="repository-header">
       <div class="repository-icon">
         <i class="fab fa-github"></i>
@@ -139,29 +95,4 @@ nav_order: 5
 
 </div>
 
-<script>
-// Category filtering functionality
-document.addEventListener('DOMContentLoaded', function() {
-  const categoryButtons = document.querySelectorAll('.category-filter');
-  const repositoryCards = document.querySelectorAll('.repository-card');
-  
-  categoryButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      const category = this.getAttribute('data-category');
-      
-      // Update active button
-      categoryButtons.forEach(btn => btn.classList.remove('active'));
-      this.classList.add('active');
-      
-      // Filter repositories
-      repositoryCards.forEach(card => {
-        if (category === 'all' || card.getAttribute('data-category') === category) {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    });
-  });
-});
-</script>
+
