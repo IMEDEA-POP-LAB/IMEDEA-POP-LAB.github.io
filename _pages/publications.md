@@ -8,30 +8,6 @@ nav_order: 1
 
 <div class="publications-page-modern">
 
-<!-- Hero Section -->
-<div class="publications-hero">
-  <div class="hero-content">
-    <h1 class="hero-title">Research Publications</h1>
-    <p class="hero-subtitle">Advancing oceanographic research through collaborative science and innovation</p>
-    
-    <!-- Quick Stats -->
-    <div class="publication-stats">
-      <div class="stat-item">
-        <span class="stat-number">{{ site.data.publications.all.size | plus: site.data.publications.recent.size }}</span>
-        <span class="stat-label">Total Publications</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">{{ site.data.publications.recent.size }}</span>
-        <span class="stat-label">Recent Papers</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">{{ "now" | date: "%Y" | minus: 2019 }}</span>
-        <span class="stat-label">Years Active</span>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Academic Profiles Section - At Top -->
 <div class="publications-section" id="profiles-section-top">
   <div class="section-container">
@@ -87,30 +63,9 @@ nav_order: 1
 <div class="publications-section" id="recent-section">
   <div class="section-container">
     
-    <!-- Highlight Publication -->
-    {% assign latest_pub = site.data.publications.recent | first %}
-    <div class="highlight-publication">
-      <div class="highlight-content">
-        <div class="highlight-badge">Latest Publication</div>
-        <h2 class="highlight-title">{{ latest_pub.title }}</h2>
-        <div class="highlight-authors">{{ latest_pub.authors }}</div>
-        <div class="highlight-journal">
-          <span class="journal">{{ latest_pub.journal }}</span>
-          <span class="year-badge">{{ latest_pub.year }}</span>
-        </div>
-        {% if latest_pub.doi %}
-        <a href="{{ latest_pub.doi }}" target="_blank" class="highlight-cta">
-          <span class="cta-icon">📖</span>
-          Read Full Paper
-        </a>
-        {% endif %}
-      </div>
-    </div>
-
     <!-- Recent Publications Grid -->
     <div class="recent-grid">
       {% for pub in site.data.publications.recent %}
-      {% unless forloop.first %}
       <article class="publication-card">
         <div class="card-header">
           <h3 class="card-title">{{ pub.title }}</h3>
@@ -136,7 +91,6 @@ nav_order: 1
         </div>
         {% endif %}
       </article>
-      {% endunless %}
       {% endfor %}
     </div>
   </div>
