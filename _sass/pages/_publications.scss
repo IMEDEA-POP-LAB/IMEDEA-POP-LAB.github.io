@@ -263,6 +263,23 @@
   flex: 1;
 }
 
+.card-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-1);
+  flex-shrink: 0;
+  max-width: 40%;
+}
+
+.card-journal {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--color-primary);
+  font-style: italic;
+  text-align: right;
+}
+
 .card-year {
   background: var(--color-bg-secondary);
   color: var(--color-text-muted);
@@ -271,8 +288,6 @@
   padding: var(--space-1) var(--space-2);
   border-radius: var(--radius-sm);
   white-space: nowrap;
-  display: inline-block;
-  margin-bottom: var(--space-2);
 }
 
 .card-content {
@@ -284,16 +299,6 @@
   color: var(--color-text-light);
   margin-bottom: var(--space-2);
   line-height: 1.4;
-}
-
-.card-journal {
-  font-size: var(--text-xs);
-  font-weight: 500;
-  color: var(--color-primary);
-  font-style: italic;
-  text-align: right;
-  flex-shrink: 0;
-  max-width: 40%;
 }
 
 .card-details {
@@ -1065,31 +1070,13 @@
   flex: 1;
 }
 
-.item-year {
-  background: var(--color-bg-secondary);
-  color: var(--color-text-muted);
-  font-size: var(--text-xs);
-  font-weight: 600;
-  padding: var(--space-1) var(--space-2);
-  border-radius: var(--radius-sm);
-  white-space: nowrap;
-  display: inline-block;
-  margin-bottom: var(--space-2);
-}
-
-.item-authors {
-  font-size: var(--text-xs);
-  color: var(--color-text-light);
-  margin-bottom: var(--space-2);
-  line-height: 1.4;
-}
-
-.item-journal {
+.item-meta {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
   gap: var(--space-1);
-  margin-bottom: var(--space-2);
-  flex-wrap: wrap;
+  flex-shrink: 0;
+  max-width: 40%;
 }
 
 .journal-name {
@@ -1098,8 +1085,23 @@
   color: var(--color-primary);
   font-style: italic;
   text-align: right;
-  flex-shrink: 0;
-  max-width: 40%;
+}
+
+.item-year {
+  background: var(--color-bg-secondary);
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.item-authors {
+  font-size: var(--text-xs);
+  color: var(--color-text-light);
+  margin-bottom: var(--space-2);
+  line-height: 1.4;
 }
 
 .item-details {
