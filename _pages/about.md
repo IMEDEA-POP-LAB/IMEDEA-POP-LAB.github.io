@@ -22,16 +22,16 @@ social: true
       <div class="gallery-caption">Lab Members at Ciència per Tothom 2025</div>
     </div>
     <div class="gallery-item">
-      <img src="/assets/img/gallery/research-2.jpg" alt="Laboratory work">
-      <div class="gallery-caption">Data analysis and modeling</div>
+      <img src="/assets/img/gallery/research-2.jpg" alt="SWOT Satellite">
+      <div class="gallery-caption">SWOT Satellite</div>
     </div>
     <div class="gallery-item">
       <img src="/assets/img/gallery/research-3.jpg" alt="Field instruments">
       <div class="gallery-caption">Deploying oceanographic instruments</div>
     </div>
     <div class="gallery-item">
-      <img src="/assets/img/gallery/research-4.jpg" alt="Team collaboration">
-      <div class="gallery-caption">International collaboration meeting</div>
+      <img src="/assets/img/gallery/research-4.jpg" alt="Field instruments">
+      <div class="gallery-caption">Deploying oceanographic instruments</div>
     </div>
     <div class="gallery-item">
       <img src="/assets/img/gallery/research-5.jpg" alt="Satellite data">
