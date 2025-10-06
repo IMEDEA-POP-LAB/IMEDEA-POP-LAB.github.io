@@ -18,8 +18,8 @@ social: true
 <div class="photo-gallery">
   <div class="gallery-grid">
     <div class="gallery-item">
-      <img src="/assets/img/gallery/research-1.jpg" alt="Research expedition">
-      <div class="gallery-caption">Research expedition in Mediterranean Sea</div>
+      <img src="/assets/img/gallery/research-1.jpg" alt="Ciència per Tothom 2025">
+      <div class="gallery-caption">Lab Members at Ciència per Tothom 2025</div>
     </div>
     <div class="gallery-item">
       <img src="/assets/img/gallery/research-2.jpg" alt="Laboratory work">

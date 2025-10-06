@@ -487,23 +487,25 @@
 }
 
 .publication-list .publication-item {
-  background: white;
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-md);
-  padding: var(--space-4);
-  margin-bottom: var(--space-4);
-  transition: all var(--transition-base);
-  box-shadow: var(--shadow-xs);
+  background: transparent; /* no boxed card */
+  border: none;
+  border-radius: 0;
+  padding: var(--space-3) 0; /* match recent spacing */
+  margin-bottom: var(--space-3);
+  transition: background var(--transition-base), color var(--transition-base);
+  box-shadow: none;
+  border-bottom: 1px solid var(--gray-200); /* subtle separator */
 }
 
 .publication-list .publication-item:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-sm);
-  border-color: var(--color-primary);
+  background: rgba(0,0,0,0.02); /* slight hover highlight */
+  transform: none;
+  box-shadow: none;
+  border-color: var(--gray-200);
 }
 
 .publication-list .publication-item:last-child {
-  border-bottom: 1px solid var(--gray-200);
+  border-bottom: none;
 }
 
 /* Enhanced styling for publication list headers and content */
