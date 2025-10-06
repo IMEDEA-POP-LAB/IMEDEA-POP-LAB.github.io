@@ -414,6 +414,43 @@
   display: block;
 }
 
+/*
+  Make the full publications list use the same typography as the
+  recent publications (titles, authors, citations).
+*/
+.publication-list .publication-title,
+.publication-content .publication-title,
+.publication-main .publication-title,
+.publication-item-standard .publication-title,
+.recent-publications .publication-title {
+  font-size: var(--text-sm) !important;
+  font-weight: 600 !important;
+  color: var(--gray-900) !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+}
+
+.publication-list .publication-authors,
+.publication-content .publication-authors,
+.publication-main .publication-authors,
+.publication-item-standard .publication-authors,
+.recent-publications .publication-authors {
+  font-size: var(--text-xs) !important;
+  color: var(--gray-700) !important;
+  margin-bottom: var(--space-2) !important;
+  line-height: 1.4 !important;
+}
+
+.publication-citation,
+.publication-list .publication-citation,
+.publication-content .publication-citation,
+.recent-publications .publication-citation {
+  font-size: var(--text-sm) !important;
+  color: var(--gray-800) !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
 /* All Publications Section */
 .all-publications {
   margin: var(--space-8) 0;
