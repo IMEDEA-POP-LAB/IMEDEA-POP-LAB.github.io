@@ -56,7 +56,6 @@ social: true
   <div class="recent-publications-list">
     {% for publication in site.data.publications.recent limit:3 %}
     <div class="recent-publication-item">
-      <div class="recent-publication-status-badge">Published</div>
       <h4 class="recent-publication-title">{{ publication.title }}</h4>
       <div class="recent-publication-authors">{{ publication.authors }}</div>
       <div class="recent-publication-journal">{{ publication.journal }} ({{ publication.year }})</div>

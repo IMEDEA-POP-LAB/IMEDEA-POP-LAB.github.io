@@ -30,7 +30,6 @@ nav_order: 1
     <div class="recent-publications-list">
       {% for pub in site.data.publications.recent %}
       <div class="recent-publication-item">
-        <div class="recent-publication-status-badge">Published</div>
         <h4 class="recent-publication-title">{{ pub.title }}</h4>
         <div class="recent-publication-authors">{{ pub.authors }}</div>
         <div class="recent-publication-journal">{{ pub.journal }} ({{ pub.year }})</div>

@@ -15,11 +15,10 @@
   margin-bottom: var(--space-12);
   max-width: 1100px;
   position: relative;
-  padding: var(--space-8) var(--space-6);
-  background: linear-gradient(180deg, rgba(63,114,175,0.06) 0%, rgba(17,45,78,0.03) 100%);
-  border-radius: var(--radius-lg);
-  box-shadow: 0 8px 30px rgba(17,45,78,0.06);
-  overflow: hidden;
+  padding: var(--space-6) var(--space-4);
+  background: transparent; /* removed card background */
+  border-radius: 0;
+  box-shadow: none;
 }
 .lab-title {
 
@@ -28,9 +27,9 @@
   font-weight: 700 !important;
   color: var(--color-primary) !important;
   margin-bottom: var(--space-4) !important;
-  letter-spacing: -0.03em !important;
+  letter-spacing: 0.06em !important; /* more breathing for uppercase */
   line-height: 1.05 !important;
-  text-transform: none !important;
+  text-transform: uppercase !important;
   position: relative !important;
   display: block !important;
   visibility: visible !important;
