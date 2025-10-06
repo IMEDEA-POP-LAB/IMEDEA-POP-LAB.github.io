@@ -21,8 +21,6 @@
   box-shadow: none;
 }
 .lab-title {
-
-.lab-title {
   font-size: clamp(2.25rem, 5.5vw, 4rem) !important;
   font-weight: 700 !important;
   color: var(--color-primary) !important;
@@ -39,7 +37,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-}
+
 
 .lab-title::after {
   content: '';
@@ -88,9 +86,21 @@
   padding: var(--space-6);
   border-radius: var(--radius-md);
   box-shadow: 0 10px 30px rgba(17,45,78,0.05);
-  border-left: 4px solid linear-gradient(135deg, var(--color-primary), var(--ocean-teal));
+  /* left gradient accent implemented via pseudo-element for valid CSS */
   position: relative;
   margin-top: calc(var(--space-6) * -1);
+}
+
+.lab-overview::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(135deg, var(--color-primary), var(--ocean-teal));
+  border-top-left-radius: var(--radius-md);
+  border-bottom-left-radius: var(--radius-md);
 }
 
 .lab-overview strong {
@@ -491,166 +501,5 @@
   text-decoration: underline;
 }
 
-/* Recent publications preview on about page */
-.recent-publications-preview {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--space-4);
-  margin: var(--space-6) 0;
-}
-
-.publication-preview {
-  background: white;
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-lg);
-  padding: var(--space-4);
-  transition: all 0.2s ease;
-  box-shadow: var(--global-shadow);
-  border-left: 4px solid var(--ocean-blue);
-}
-
-.publication-preview:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--global-shadow-md);
-  border-left-color: var(--ocean-deep);
-}
-
-.pub-title {
-  font-size: var(--text-base) !important;
-  font-weight: 600 !important;
-  color: var(--gray-900) !important;
-  margin: 0 0 var(--space-2) 0 !important;
-  line-height: 1.4 !important;
-}
-
-.pub-meta {
-  display: flex;
-  gap: var(--space-2);
-  align-items: center;
-  margin-bottom: var(--space-2);
-}
-
-.pub-journal {
-  font-size: var(--text-sm);
-  color: var(--ocean-blue);
-  font-style: italic;
-  font-weight: 500;
-}
-
-.pub-year {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  color: var(--gray-700);
-  background: var(--gray-100);
-  padding: 2px 6px;
-  border-radius: var(--radius-sm);
-}
-
-.pub-authors {
-  font-size: var(--text-sm);
-  color: var(--gray-600);
-  margin-bottom: var(--space-3);
-}
-
-.pub-link {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  color: var(--ocean-blue);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease;
-}
-
-.pub-link:hover {
-  color: var(--ocean-deep);
-  border-bottom-color: var(--ocean-deep);
-  text-decoration: none;
-}
-
-/* Publications call-to-action button */
-.publications-cta {
-  text-align: center;
-  margin: var(--space-8) 0;
-}
-
-@media (max-width: 768px) {
-  .hero-stats {
-    gap: var(--space-4);
-  }
-  
-  .research-grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-4);
-  }
-  
-  .research-areas-minimal {
-    grid-template-columns: 1fr;
-    gap: var(--space-4);
-  }
-  
-  .contact-info {
-    grid-template-columns: 1fr;
-    gap: var(--space-6);
-    text-align: center;
-  }
-  
-  .pub-meta {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-1);
-  }
-}
-
-/* Recent Publications Section */
-.recent-publications {
-  margin: var(--space-8) 0;
-  text-align: left;
-}
-
-.recent-publications .section-header {
-  margin-bottom: var(--space-4);
-}
-
-.recent-publications h3 {
-  font-size: var(--text-xl);
-  font-weight: 600;
-  color: var(--color-text);
-  margin: 0 0 var(--space-2) 0;
-  border-bottom: 2px solid var(--color-primary);
-  padding-bottom: var(--space-2);
-  display: inline-block;
-}
-
-.publication-cta {
-  margin-top: var(--space-4);
-  text-align: center;
-}
-
-.view-all-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
-  color: white;
-  padding: var(--space-3) var(--space-6);
-  border-radius: var(--radius-lg);
-  font-size: var(--text-sm);
-  font-weight: 600;
-  text-decoration: none;
-  transition: all var(--transition-base);
-  box-shadow: var(--shadow-sm);
-  border: none;
-}
-
-.view-all-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-  text-decoration: none;
-  color: white;
-}
-
-.btn-icon {
-  font-size: var(--text-base);
-}
+/* Publication styles are centralized in `_sass/pages/_publications.scss`.
+   The about page uses the classes there for previews — keep styling DRY. */
