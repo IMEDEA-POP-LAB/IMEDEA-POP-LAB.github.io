@@ -60,6 +60,11 @@
 .repository-name a {
   color: inherit;
   text-decoration: none;
+  display: inline-block;
+  max-width: calc(100% - 48px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .repository-name a:hover {
@@ -72,6 +77,11 @@
   color: var(--color-text-light);
   line-height: var(--leading-normal);
   margin-bottom: var(--space-3);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
 }
 
 .repository-meta {

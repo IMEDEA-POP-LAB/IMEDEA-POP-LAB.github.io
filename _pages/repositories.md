@@ -14,6 +14,7 @@ nav_order: 5
 <!-- Repository Grid -->
 <div class="repositories-grid">
   {% for repo in site.data.repositories.repositories %}
+  {% unless repo.name == ".github" %}
   <div class="repository-card">
     <div class="repository-header">
       <div class="repository-icon">
@@ -86,6 +87,7 @@ nav_order: 5
       {% endif %}
     </div>
   </div>
+  {% endunless %}
   {% endfor %}
 </div>
 
