@@ -61,6 +61,28 @@
   --green-600: #15803d;
   --color-success: var(--green-500);
   --color-border: var(--gray-300);
+
+  /* Social link semantic colors */
+  --color-email: #ea4335; /* Gmail / mail red */
+  --color-email-hover: #c23a2b;
+
+  --color-scholar: #f59e0b; /* Google Scholar / gold */
+  --color-scholar-hover: #b45309;
+
+  --color-website: var(--color-primary);
+  --color-website-hover: var(--color-primary-hover);
+
+  --color-github: #111827; /* neutral black */
+  --color-github-hover: #374151;
+
+  --color-linkedin: #0A66C2;
+  --color-linkedin-hover: #054a8b;
+
+  --color-twitter: #1DA1F2;
+  --color-twitter-hover: #0d95e8;
+
+  --color-researchgate: #00CCBB;
+  --color-researchgate-hover: #00a69a;
   --color-divider: var(--gray-300);
   
   /* Gradients - Custom Blue Palette */

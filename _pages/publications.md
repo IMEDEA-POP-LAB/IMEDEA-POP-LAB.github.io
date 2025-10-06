@@ -47,7 +47,6 @@ nav_order: 1
     <!-- Preprints Section - Part of Recent Work -->
     {% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
     <div class="section-header">
-      <h2 class="section-title">Work in Progress</h2>
       <p class="section-subtitle">Preprints and manuscripts under review</p>
     </div>
     

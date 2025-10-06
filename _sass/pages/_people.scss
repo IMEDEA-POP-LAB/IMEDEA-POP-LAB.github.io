@@ -125,6 +125,49 @@
   text-decoration: none;
 }
 
+/* Per-social-link hover colors */
+.person-card .social-link.email:hover {
+  background: var(--color-email);
+  color: white;
+  border-color: var(--color-email-hover);
+}
+
+.person-card .social-link.google-scholar:hover {
+  background: var(--color-scholar);
+  color: white;
+  border-color: var(--color-scholar-hover);
+}
+
+.person-card .social-link.website:hover {
+  background: var(--color-website);
+  color: white;
+  border-color: var(--color-website-hover);
+}
+
+.person-card .social-link.github:hover {
+  background: var(--color-github);
+  color: white;
+  border-color: var(--color-github-hover);
+}
+
+.person-card .social-link.linkedin:hover {
+  background: var(--color-linkedin);
+  color: white;
+  border-color: var(--color-linkedin-hover);
+}
+
+.person-card .social-link.twitter:hover {
+  background: var(--color-twitter);
+  color: white;
+  border-color: var(--color-twitter-hover);
+}
+
+.person-card .social-link.researchgate:hover {
+  background: var(--color-researchgate);
+  color: white;
+  border-color: var(--color-researchgate-hover);
+}
+
 .person-card .card-text {
   font-size: var(--text-sm);
   color: var(--gray-600);
