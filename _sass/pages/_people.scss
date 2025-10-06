@@ -117,6 +117,14 @@
   text-decoration: none;
 }
 
+/* ORCID specific color on hover (uses semantic success green) */
+.person-card .social-link.orcid:hover {
+  background: var(--color-success);
+  color: white;
+  border-color: var(--color-success);
+  text-decoration: none;
+}
+
 .person-card .card-text {
   font-size: var(--text-sm);
   color: var(--gray-600);

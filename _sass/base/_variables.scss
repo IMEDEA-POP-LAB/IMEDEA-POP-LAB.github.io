@@ -55,6 +55,11 @@
   --color-primary: var(--blue-600);
   --color-primary-hover: var(--blue-800);
   --color-accent: var(--blue-200);
+  /* Greens (used for success states and ORCID links) */
+  --green-50: #f0fdf4;
+  --green-500: #16a34a;
+  --green-600: #15803d;
+  --color-success: var(--green-500);
   --color-border: var(--gray-300);
   --color-divider: var(--gray-300);
   

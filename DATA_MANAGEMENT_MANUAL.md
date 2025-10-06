@@ -441,9 +441,9 @@ doi: "https://doi.org/10.1000/xyz"  # Good
 - **GitHub Markdown Guide**: [GitHub Guides](https://guides.github.com)
 
 ### Contact
-For technical issues or questions about data management, contact the repository administrators or create an issue in the GitHub repository.
+For technical issues or questions about data management, contact [Cristina](mailto:cmarti@imedea.uib-csic.es) or [Joan](mailto:joanarmajach@imedea.uib-csic.es) or create an issue in the GitHub repository.
 
 ---
 
-*Last updated: October 2024*
+*Last updated: October 2025*
 *Version: 1.0*

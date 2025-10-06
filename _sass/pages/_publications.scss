@@ -130,7 +130,7 @@
 }
 
 .publication-main .publication-title {
-  font-size: var(--text-xl) !important;
+  font-size: var(--text-lg) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   margin: 0 0 var(--space-3) 0 !important;
@@ -436,7 +436,7 @@
 }
 
 .publication-content .publication-title {
-  font-size: var(--text-lg) !important;
+  font-size: var(--text-base) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   margin: 0 0 var(--space-2) 0 !important;
@@ -516,7 +516,7 @@
 }
 
 .publication-list .publication-title {
-  font-size: var(--text-base) !important;
+  font-size: var(--text-sm) !important;
   font-weight: 600 !important;
   color: var(--gray-900) !important;
   margin: 0 !important;
@@ -610,7 +610,7 @@
 }
 
 .recent-publications .publication-title {
-  font-size: var(--text-base) !important;
+  font-size: var(--text-sm) !important;
   font-weight: 600 !important;
   color: var(--gray-900) !important;
   margin: 0 !important;
