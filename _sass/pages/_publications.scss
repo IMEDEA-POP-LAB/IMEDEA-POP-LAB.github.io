@@ -130,7 +130,7 @@
 }
 
 .publication-main .publication-title {
-  font-size: var(--text-lg) !important;
+  font-size: var(--text-base) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   margin: 0 0 var(--space-3) 0 !important;
@@ -423,7 +423,7 @@
 .publication-main .publication-title,
 .publication-item-standard .publication-title,
 .recent-publications .publication-title {
-  font-size: var(--text-sm) !important;
+  font-size: var(--text-base) !important;
   font-weight: 600 !important;
   color: var(--gray-900) !important;
   margin: 0 !important;
@@ -435,7 +435,7 @@
 .publication-main .publication-authors,
 .publication-item-standard .publication-authors,
 .recent-publications .publication-authors {
-  font-size: var(--text-xs) !important;
+  font-size: var(--text-sm) !important;
   color: var(--gray-700) !important;
   margin-bottom: var(--space-2) !important;
   line-height: 1.4 !important;
@@ -1048,7 +1048,7 @@
 }
 
 .item-title {
-  font-size: 9px !important;
+  font-size: var(--text-base) !important;
   font-weight: 500 !important;
   color: var(--color-text) !important;
   margin: 0 !important;
@@ -1170,7 +1170,7 @@
 /* status badge removed - no extra badge in recent publications */
 
 .recent-publication-title {
-  font-size: var(--text-lg) !important;
+  font-size: var(--text-base) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   margin: 0 0 var(--space-2) 0 !important;
@@ -1179,7 +1179,7 @@
 }
 
 .recent-publication-authors {
-  font-size: var(--text-sm);
+  font-size: var(--text-base);
   color: var(--color-text-light);
   margin-bottom: var(--space-2);
   line-height: 1.4;
