@@ -430,7 +430,7 @@
 .publication-item-standard .publication-title,
 .recent-publications .publication-title {
   /* compact titles for lists and previews */
-  font-size: var(--text-xxs) !important;
+  font-size: var(--text-lg) !important;
   font-weight: 600 !important;
   color: var(--gray-900) !important;
   margin: 0 !important;
@@ -1283,6 +1283,50 @@ publication-content .publication-title {
   background: #d97706;
   text-decoration: none;
   color: white;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Publication typography override - single source for title / authors / journal */
+/* ------------------------------------------------------------------------- */
+/*
+  This block centralizes publication typography so you can change sizes by
+  editing the tokens in `_sass/base/_variables.scss`:
+    --pub-title-size
+    --pub-author-size
+    --pub-journal-size
+*/
+.publication-title,
+.recent-publication-title,
+.publication-list .publication-title,
+.publication-content .publication-title,
+.publication-main .publication-title,
+.publication-item-standard .publication-title,
+.item-title,
+.card-title,
+.recent-publication-title,
+.preprint-title {
+  font-size: var(--pub-title-size) !important;
+}
+
+.publication-authors,
+.recent-publication-authors,
+.publication-list .publication-authors,
+.publication-content .publication-authors,
+.publication-main .publication-authors,
+.publication-item-standard .publication-authors,
+.item-authors,
+.card-authors,
+.preprint-authors {
+  font-size: var(--pub-author-size) !important;
+}
+
+.journal-name,
+.publication-list .journal,
+.recent-publication-journal,
+.card-journal,
+.publication-citation .journal,
+.preprint-journal {
+  font-size: var(--pub-journal-size) !important;
 }
 
 /* Responsive Design */
