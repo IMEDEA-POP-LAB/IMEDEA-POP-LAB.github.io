@@ -736,36 +736,38 @@
   letter-spacing: 0.05em;
   margin-left: var(--space-2);
   background: var(--ocean-blue);
-  color: white;
+
+/* Publication CTA/Button used on About previews and Publications page */
+.publication-cta {
+  margin-top: var(--space-4);
+  text-align: center;
 }
 
-/* Publication links styling - common styles */
-.publication-links {
-  display: flex;
+.view-all-btn {
+  display: inline-flex;
+  align-items: center;
   gap: var(--space-2);
-  margin-top: var(--space-3);
-  flex-wrap: wrap;
-}
-
-.publication-links a {
-  padding: var(--space-2) var(--space-4);
-  border-radius: var(--radius-button);
-  font-size: var(--text-xs);
-  font-weight: var(--font-semibold);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  transition: all var(--transition-fast);
-  cursor: pointer;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-/* DOI link styling */
-.link-doi {
-  background: #1e3a8a;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
   color: white;
-  border: 1px solid #1e3a8a;
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-lg);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-sm);
+  border: none;
+}
+
+.view-all-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+  color: white;
+}
+
+.btn-icon {
+  font-size: var(--text-base);
 }
 
 .link-doi:hover {

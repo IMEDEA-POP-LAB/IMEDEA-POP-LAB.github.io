@@ -238,6 +238,65 @@ html {
   background: var(--gradient-light);
 }
 
+/* ------------------------------------------------------------------------- */
+/* Small exceptions: restore lab title and publication CTA styles that are
+   intentionally used across the site but get removed by the 'nuclear' reset
+   above. These restore rules live here so they override the earlier global
+   removals in this same file. */
+/* ------------------------------------------------------------------------- */
+
+/* Restore lab title (About page) */
+.lab-title {
+  display: block !important;
+  font-size: clamp(2.25rem, 5.5vw, 4rem) !important;
+  font-weight: 700 !important;
+  margin-bottom: var(--space-4) !important;
+  letter-spacing: 0.06em !important;
+  line-height: 1.05 !important;
+  text-transform: none !important;
+  position: relative !important;
+  /* gradient text */
+  background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal)) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: var(--color-primary) !important;
+}
+
+.lab-title::after {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  bottom: -6px !important;
+  left: 0 !important;
+  width: 0.6ch !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal)) !important;
+  transition: width var(--transition-fast) ease, transform var(--transition-fast) ease !important;
+  transform-origin: left center !important;
+  border-radius: var(--radius-xs) !important;
+}
+
+/* Restore publications CTA/button used on About previews */
+.publication-cta { text-align: center !important; margin-top: var(--space-4) !important; }
+.view-all-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: var(--space-2) !important;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%) !important;
+  color: white !important;
+  padding: var(--space-3) var(--space-6) !important;
+  border-radius: var(--radius-lg) !important;
+  font-size: var(--text-sm) !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: all var(--transition-base) !important;
+  box-shadow: var(--shadow-sm) !important;
+  border: none !important;
+}
+.view-all-btn:hover { transform: translateY(-2px) !important; box-shadow: var(--shadow-md) !important; color: white !important; text-decoration: none !important; }
+.btn-icon { font-size: var(--text-base) !important; }
+
 /* Glass effect utility */
 .glass-effect {
   backdrop-filter: blur(10px);
