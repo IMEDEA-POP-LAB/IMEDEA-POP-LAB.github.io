@@ -52,16 +52,16 @@ postdocs:
     image: "PengJenPing.jpg"
     email: "jpeng@imedea.uib-csic.es"
     orcid: "https://orcid.org/0000-0003-1575-0165"
-    imedea: ""
+    imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=3159"
     bio: "Jen-Ping Peng is a Senior Postdoc at IMEDEA (CSIC-UIB), working with Baptiste Mourre in the SWINT project. He earned his PhD in Physical Oceanography from the University of Rostock and the Leibniz Institute for Baltic Sea Research (IOW) On November 2020 in Germany and was a Research Associate at the University of Western Australia (2022–2025). His research focuses on finescale ocean dynamics and turbulence, including surface-layer fronts, diurnal warm layers, internal waves, and eddy variability. He performs his research using fast-sampling in-situ observations and turbulence-closure modelling for small-scale turbulence, and SWOT satellite altimetry, multiplatform observations, and high-resolution regional ocean models for submesoscale dynamics."
 
   - name: "Dr. Marta Veny López"
     title: "Postdoctoral Researcher"
     period: "2025 - present"
     image: "VenyMarta.jpg"
-    email: ""
+    email: "mveny@imedea.uib-csic.es"
     orcid: "https://orcid.org/0000-0001-9086-3528"
-    imedea: 
+    imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=2981"
     bio: "Marta Veny is a Postdoctoral Researcher at IMEDEA (CSIC-UIB), where she focuses on mitigating the impacts of lost or abandoned fishing gear (“ghost fishing”) on endangered marine species in the Western Mediterranean Sea as part of the LIFE-OASIS project. She earned her Ph.D. in Oceanography and Climate Change from the University of Las Palmas de Gran Canaria, where her research explored shelf circulation, hydrography, and chlorophyll-a variability northwest of the Antarctic Peninsula."
 
   - name: "Dr. Yan Barabinot"
