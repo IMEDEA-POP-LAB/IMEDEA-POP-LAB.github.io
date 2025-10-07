@@ -109,29 +109,4 @@ nav_order: 4
 </div>
 {% endif %}
 
-<!-- Science Communication Info -->
-<div class="outreach-section">
-  <div class="section-container">
-    <div class="communication-cta">
-      <div class="cta-content">
-        <h3 class="cta-title">Interested in Science Communication?</h3>
-        <p class="cta-description">
-          We're always open to collaborating with media outlets, educational institutions, and science communicators 
-          to share our oceanographic research and its implications for understanding our changing planet.
-        </p>
-        <div class="cta-actions">
-          <a href="mailto:ananda.pascual@imedea.uib-csic.es" class="cta-btn primary">
-            <span class="btn-icon">✉️</span>
-            Contact for Media Inquiries
-          </a>
-          <a href="/about/" class="cta-btn secondary">
-            <span class="btn-icon">👥</span>
-            Learn About Our Research
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 </div>
