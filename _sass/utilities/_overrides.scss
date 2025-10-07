@@ -308,3 +308,19 @@ html {
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+/* Defensive visibility override for the About page title.
+   This ensures the lab title is visible even if some browser or
+   other stylesheet attempts to clip/fill the text. It resets
+   text-fill and enforces a visible color and stacking context. */
+.intro-hero .lab-title,
+.lab-title {
+  color: var(--color-primary) !important;
+  /* Reset any transparent text-fill applied elsewhere */
+  -webkit-text-fill-color: initial !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  visibility: visible !important;
+  display: block !important;
+  z-index: 2 !important;
+}

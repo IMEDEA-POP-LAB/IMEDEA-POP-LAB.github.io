@@ -14,8 +14,6 @@ principal_investigators:
     imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=370"
     bio: "Senior scientist at the Spanish National Research Council (CSIC) at IMEDEA in Mallorca, Spain. She obtained her Ph.D. in Physical Oceanography from the University of the Balearic Islands in 2003, followed by positions at the CLS Space Oceanography Division in Toulouse as a Marie Skłodowska-Curie postdoctoral fellow, and at IMEDEA as a Ramon y Cajal tenure-track fellow. Her research primarily focuses on understanding meso and submesoscale processes in the ocean and their impact on climate, using a combination of remote sensing, in-situ data, and numerical simulations."
 
-research_scientists:
-
   - name: "Dr. Baptiste Mourre"
     title: "Research Scientist"
     period: "2024 - present"
@@ -24,6 +22,8 @@ research_scientists:
     orcid: "https://orcid.org/0000-0002-5056-0423"
     imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=2409"
     bio: "Research scientist specializing in ocean modeling, data assimilation, and operational oceanography. His work focuses on improving ocean forecasting systems and understanding coastal ocean processes."
+
+research_scientists:
 
   - name: "Dr. Vincent Combes"
     title: "Ramón y Cajal Fellow"

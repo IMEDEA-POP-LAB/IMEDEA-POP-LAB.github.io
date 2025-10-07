@@ -58,11 +58,6 @@ nav_order: 2
           <span>🎓</span>
           <span>Google Scholar</span>
         </a>
-        {% else %}
-        <a class="social-link google-scholar disabled" aria-disabled="true" tabindex="-1">
-          <span>🎓</span>
-          <span>Google Scholar</span>
-        </a>
         {% endif %}
         {% if person.website and person.website != "" %}
         <a href="{{ person.website }}" class="social-link website" target="_blank">
@@ -121,11 +116,6 @@ nav_order: 2
         {% endif %}
         {% if person.scholar and person.scholar != "" %}
         <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
-          <span>🎓</span>
-          <span>Google Scholar</span>
-        </a>
-        {% else %}
-        <a class="social-link google-scholar disabled" aria-disabled="true" tabindex="-1">
           <span>🎓</span>
           <span>Google Scholar</span>
         </a>
