@@ -60,7 +60,7 @@ social: true
         </div>
         <div class="gallery-item">
           <img src="/assets/img/gallery/oral_diego.jpg" alt="Oral Presentation">
-          <div class="gallery-caption">At the Living Planet Symposium</div>
+          <div class="gallery-caption">Diego V. at the Living Planet Symposium</div>
         </div>
         <div class="gallery-item">
           <img src="/assets/img/gallery/lab_lunch.jpg" alt="Lab Lunch">
