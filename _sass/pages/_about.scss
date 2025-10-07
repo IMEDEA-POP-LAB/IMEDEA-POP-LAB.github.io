@@ -398,6 +398,40 @@
   transition: transform 0.3s ease;
 }
 
+/* Two-column layout for about page: main content + right-side gallery */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: var(--space-8);
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-main {
+  min-width: 0;
+}
+
+.about-side {
+  position: relative;
+}
+
+@media (max-width: 980px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    padding: 0 var(--space-4);
+  }
+  .about-side {
+    order: 2;
+  }
+  .about-main {
+    order: 1;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
 .gallery-item:hover img {
   transform: scale(1.05);
 }
