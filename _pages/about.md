@@ -51,24 +51,24 @@ social: true
     <div class="photo-gallery">
       <div class="gallery-grid">
         <div class="gallery-item">
-          <img src="/assets/img/gallery/research-1.jpg" alt="Ciència per Tothom 2025">
-          <div class="gallery-caption">Lab Members at Ciència per Tothom 2025</div>
+          <img src="/assets/img/gallery/experiments.jpg" alt="Experiments Stall">
+          <div class="gallery-caption">Explaining thermohaline circulation</div>
         </div>
         <div class="gallery-item">
-          <img src="/assets/img/gallery/research-2.jpg" alt="SWOT Satellite">
-          <div class="gallery-caption">SWOT Satellite</div>
-        </div>
-        <div class="gallery-item">
-          <img src="/assets/img/gallery/research-3.jpg" alt="Field instruments">
+          <img src="/assets/img/gallery/ctd_fast_swot.jpg" alt="CTD deployment">
           <div class="gallery-caption">Deploying oceanographic instruments</div>
         </div>
         <div class="gallery-item">
-          <img src="/assets/img/gallery/research-4.jpg" alt="Field instruments">
-          <div class="gallery-caption">Deploying oceanographic instruments</div>
+          <img src="/assets/img/gallery/oral_diego.jpg" alt="Oral Presentation">
+          <div class="gallery-caption">At the Living Planet Symposium</div>
         </div>
         <div class="gallery-item">
-          <img src="/assets/img/gallery/research-5.jpg" alt="Satellite data">
-          <div class="gallery-caption">Satellite oceanography analysis</div>
+          <img src="/assets/img/gallery/lab_lunch.jpg" alt="Lab Lunch">
+          <div class="gallery-caption">Bye Bye Laura!</div>
+        </div>
+        <div class="gallery-item">
+          <img src="/assets/img/gallery/ciencia_per_tothom_2025.jpg" alt="Ciència per Tothom 2025">
+          <div class="gallery-caption">Lab Members at Ciència per Tothom</div>
         </div>
       </div>
     </div>

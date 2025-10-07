@@ -256,7 +256,7 @@ html {
   text-transform: none !important;
   position: relative !important;
   /* fallback color (visible on all browsers) */
-  color: var(--color-primary) !important;
+  color: var(--ocean-deeper) !important;
   /* gradient text only when background-clip is supported */
   @supports (-webkit-background-clip: text) {
     background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal)) !important;
