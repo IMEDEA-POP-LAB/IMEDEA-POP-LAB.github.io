@@ -24,11 +24,11 @@
   /* Use the same font styling as the site navigation title but scaled up */
   font-size: clamp(2.75rem, 6vw, 5rem) !important; /* larger than nav */
   font-weight: 700 !important;
-  /* visible fallback color */
-  color: var(--ocean-deeper) !important;
+  /* visible fallback color - use deeper blue for stronger contrast */
+  color: var(--blue-900) !important;
   margin-bottom: var(--space-4) !important;
-  /* match navigation letter-spacing for brand consistency */
-  letter-spacing: -0.01em !important;
+  /* slightly tighter letter-spacing for better visual weight */
+  letter-spacing: -0.02em !important;
   line-height: 1.05 !important;
   text-transform: none !important;
   position: relative !important;
@@ -98,7 +98,8 @@
   box-shadow: none;
   /* left gradient accent implemented via pseudo-element for valid CSS */
   position: relative;
-  margin-top: calc(var(--space-6) * -1);
+  /* remove negative offset so main description aligns with the right-side gallery */
+  margin-top: 0;
 }
 
 .lab-overview::before {
@@ -413,6 +414,7 @@
 
 .about-side {
   position: relative;
+  align-self: start;
 }
 
 @media (max-width: 980px) {
