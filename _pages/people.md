@@ -32,6 +32,18 @@ nav_order: 2
           <span>ORCID</span>
         </a>
         {% endif %}
+        {% if person.imedea and person.imedea != "" %}
+        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+          <span>🏛️</span>
+          <span>IMEDEA</span>
+        </a>
+        {% endif %}
+        {% if person.imedea and person.imedea != "" %}
+        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+          <span>🏛️</span>
+          <span>IMEDEA</span>
+        </a>
+        {% endif %}
         {% if person.scholar and person.scholar != "" %}
         <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
           <span>🎓</span>

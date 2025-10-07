@@ -64,6 +64,7 @@ The people file is organized into four categories:
   orcid: "[ORCID URL]" # Optional
   scholar: "[Google Scholar URL]" # Optional
   website: "[Personal website URL]" # Optional
+  imedea: "[IMEDEA profile URL]" # Optional - link to IMEDEA institutional profile
   bio: "[Brief biography paragraph]"
 ```
 

@@ -11,6 +11,7 @@ principal_investigators:
     email: "ananda.pascual@imedea.uib-csic.es"
     orcid: "https://orcid.org/0000-0001-9476-9272"
     scholar: "https://scholar.google.es/citations?user=JSX_hG8AAAAJ&hl=es"
+    imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=370"
     bio: "Senior scientist at the Spanish National Research Council (CSIC) at IMEDEA in Mallorca, Spain. She obtained her Ph.D. in Physical Oceanography from the University of the Balearic Islands in 2003, followed by positions at the CLS Space Oceanography Division in Toulouse as a Marie Skłodowska-Curie postdoctoral fellow, and at IMEDEA as a Ramon y Cajal tenure-track fellow. Her research primarily focuses on understanding meso and submesoscale processes in the ocean and their impact on climate, using a combination of remote sensing, in-situ data, and numerical simulations."
 
 research_scientists:
@@ -29,7 +30,7 @@ research_scientists:
     image: "CombesVincent.jpeg"
     email: "vcombes@imedea.uib-csic.es"
     orcid: "https://orcid.org/0000-0002-0416-1827"
-    scholar: ""
+    imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=2841"
     website: "https://vincentcombes.com"
     bio: "Has been a Senior Research Associate at Oregon State University, in the CEOAS department since 2010. He got his Phd from Georgia Tech (Atlanta) in 2010 and an engineering degree in Hydraulics from the ENSEEIHT (France) in 2005. He is specialized in modeling realistic ocean flows in regional and coastal seas including the Gulf of Alaska, California Current, Peru Chile Current system, Patagonian shelf and Southeast Atlantic. He is particularly interested in the low frequency ocean variability, coastal and shelfbreak upwellings, eddy dynamics, transport of nutrient rich shelf water to the deep ocean and remote sensing."
 

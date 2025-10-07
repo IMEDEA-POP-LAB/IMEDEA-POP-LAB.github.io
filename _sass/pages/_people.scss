@@ -168,6 +168,13 @@
   border-color: var(--color-researchgate-hover);
 }
 
+/* IMEDEA profile link */
+.person-card .social-link.imedea:hover {
+  background: var(--color-imedea);
+  color: white;
+  border-color: var(--color-imedea-hover);
+}
+
 .person-card .card-text {
   font-size: var(--text-sm);
   color: var(--gray-600);
