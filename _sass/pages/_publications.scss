@@ -1373,3 +1373,66 @@ publication-content .publication-title {
     align-self: flex-start;
   }
 }
+
+
+/* ------------------------------------------------------------------------- */
+/* Final authoritative publication typography (highest specificity for pages) */
+/* This block enforces sizes using the --pub-* tokens so the whole Publications
+   page renders consistently regardless of scattered rules elsewhere. */
+/* ------------------------------------------------------------------------- */
+.publications-page-modern .publication-item .item-title,
+.publications-page-modern .publication-item .publication-title,
+.publications-page-modern .publication-card .card-title,
+.publications-page-modern .recent-publication-item .recent-publication-title,
+.publications-page-modern .publication-list .item-title,
+.publications-page-modern .item-title,
+.publications-page-modern .publication-title,
+.publication-item .item-title,
+.publication-item .publication-title,
+.publication-card .card-title,
+.recent-publication-item .recent-publication-title,
+.publication-list .item-title,
+.item-title,
+.publication-title,
+.card-title,
+.recent-publication-title {
+  font-size: var(--pub-title-size) !important;
+  font-weight: 600 !important;
+  line-height: 1.25 !important;
+  margin: 0 !important;
+}
+
+.publications-page-modern .publication-item .item-authors,
+.publications-page-modern .publication-item .publication-authors,
+.publications-page-modern .publication-card .card-authors,
+.publications-page-modern .recent-publication-item .recent-publication-authors,
+.publications-page-modern .publication-list .item-authors,
+.publication-item .item-authors,
+.publication-item .publication-authors,
+.publication-card .card-authors,
+.recent-publication-item .recent-publication-authors,
+.publication-list .item-authors,
+.item-authors,
+.publication-authors,
+.card-authors,
+.recent-publication-authors {
+  font-size: var(--pub-author-size) !important;
+  color: var(--color-text-light) !important;
+  margin-bottom: var(--space-2) !important;
+  line-height: 1.4 !important;
+}
+
+.publications-page-modern .journal-name,
+.publications-page-modern .publication-list .journal,
+.publications-page-modern .recent-publication-journal,
+.publications-page-modern .card-journal,
+.publication-item .journal-name,
+.publication-list .journal,
+.recent-publication-journal,
+.card-journal,
+.publication-citation .journal {
+  font-size: var(--pub-journal-size) !important;
+  font-weight: 500 !important;
+  font-style: italic !important;
+  color: var(--color-primary) !important;
+}
