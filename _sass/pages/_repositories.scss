@@ -10,7 +10,8 @@
 /* Repository grid layout */
 .repositories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  /* force two columns on wider screens for a denser, more readable layout */
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-4);
   margin: var(--space-8) 0;
 }
