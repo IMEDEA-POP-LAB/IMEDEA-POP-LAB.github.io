@@ -59,6 +59,12 @@ nav_order: 2
           <span>Google Scholar</span>
         </a>
         {% endif %}
+        {% if person.linkedin and person.linkedin != "" %}
+        <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
+          <span>💼</span>
+          <span>LinkedIn</span>
+        </a>
+        {% endif %}
         {% if person.website and person.website != "" %}
         <a href="{{ person.website }}" class="social-link website" target="_blank">
           <span>🌐</span>
@@ -120,6 +126,12 @@ nav_order: 2
           <span>Google Scholar</span>
         </a>
         {% endif %}
+        {% if person.linkedin and person.linkedin != "" %}
+        <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
+          <span>💼</span>
+          <span>LinkedIn</span>
+        </a>
+        {% endif %}
         {% if person.website and person.website != "" %}
         <a href="{{ person.website }}" class="social-link website" target="_blank">
           <span>🌐</span>
@@ -164,6 +176,12 @@ nav_order: 2
         <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
           <span>🎓</span>
           <span>Google Scholar</span>
+        </a>
+        {% endif %}
+        {% if person.linkedin and person.linkedin != "" %}
+        <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
+          <span>💼</span>
+          <span>LinkedIn</span>
         </a>
         {% endif %}
         {% if person.website and person.website != "" %}
@@ -212,6 +230,12 @@ nav_order: 2
           <span>Google Scholar</span>
         </a>
         {% endif %}
+        {% if person.linkedin and person.linkedin != "" %}
+        <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
+          <span>💼</span>
+          <span>LinkedIn</span>
+        </a>
+        {% endif %}
         {% if person.website and person.website != "" %}
         <a href="{{ person.website }}" class="social-link website" target="_blank">
           <span>🌐</span>
@@ -258,6 +282,12 @@ nav_order: 2
           <span>Google Scholar</span>
         </a>
         {% endif %}
+        {% if person.linkedin and person.linkedin != "" %}
+        <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
+          <span>💼</span>
+          <span>LinkedIn</span>
+        </a>
+        {% endif %}
         {% if person.website and person.website != "" %}
         <a href="{{ person.website }}" class="social-link website" target="_blank">
           <span>🌐</span>
@@ -302,6 +332,12 @@ nav_order: 2
         <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
           <span>🎓</span>
           <span>Google Scholar</span>
+        </a>
+        {% endif %}
+        {% if person.linkedin and person.linkedin != "" %}
+        <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
+          <span>💼</span>
+          <span>LinkedIn</span>
         </a>
         {% endif %}
         {% if person.website and person.website != "" %}
