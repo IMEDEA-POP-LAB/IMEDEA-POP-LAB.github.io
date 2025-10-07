@@ -130,7 +130,6 @@
 }
 
 .publication-main .publication-title {
-  font-size: var(--text-lg) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   margin: 0 0 var(--space-3) 0 !important;
@@ -181,7 +180,7 @@
 .publication-title,
 .recent-publication-title,
 .item-title {
-  font-size: var(--text-lg) !important;
+  font-size: var(--pub-title-size) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   line-height: 1.25 !important;
@@ -194,7 +193,7 @@
 .publication-authors,
 .recent-publication-authors,
 .item-authors {
-  font-size: var(--text-base) !important;
+  font-size: var(--pub-author-size) !important;
   color: var(--color-text-light) !important;
   margin-bottom: var(--space-2) !important;
   line-height: 1.4 !important;
@@ -260,7 +259,6 @@
 }
 
 .card-title {
-  font-size: var(--text-lg) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   margin: 0 !important;
@@ -563,7 +561,6 @@ publication-content .publication-title {
 }
 
 .publication-list .publication-title {
-  font-size: var(--text-lg) !important;
   font-weight: 600 !important;
   color: var(--gray-900) !important;
   margin: 0 !important;
@@ -657,7 +654,6 @@ publication-content .publication-title {
 }
 
 .recent-publications .publication-title {
-  font-size: var(--text-lg) !important;
   font-weight: 600 !important;
   color: var(--gray-900) !important;
   margin: 0 !important;
