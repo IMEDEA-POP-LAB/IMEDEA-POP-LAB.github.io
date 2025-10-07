@@ -130,10 +130,10 @@
 }
 
 .publication-main .publication-title {
-  font-weight: 600 !important;
-  color: var(--color-text) !important;
-  margin: 0 0 var(--space-3) 0 !important;
-  line-height: 1.3 !important;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 var(--space-3) 0;
+  line-height: 1.3;
   padding-right: var(--space-12);
 }
 
@@ -235,10 +235,10 @@
 }
 
 .card-title {
-  font-weight: 600 !important;
-  color: var(--color-text) !important;
-  margin: 0 !important;
-  line-height: 1.3 !important;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1.3;
   flex: 1;
 }
 
@@ -420,11 +420,11 @@
 }
 
 publication-content .publication-title {
-  font-size: var(--text-lg) !important;
-  font-weight: 600 !important;
-  color: var(--color-text) !important;
-  margin: 0 0 var(--space-2) 0 !important;
-  line-height: 1.3 !important;
+  font-size: var(--text-lg) ;
+  font-weight: 600 ;
+  color: var(--color-text) ;
+  margin: 0 0 var(--space-2) 0 ;
+  line-height: 1.3 ;
 }
 
 .publication-content .publication-authors {
@@ -502,10 +502,10 @@ publication-content .publication-title {
 }
 
 .publication-list .publication-title {
-  font-weight: 600 !important;
-  color: var(--gray-900) !important;
-  margin: 0 !important;
-  line-height: 1.3 !important;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin: 0;
+  line-height: 1.3;
   flex: 1;
 }
 
@@ -595,10 +595,10 @@ publication-content .publication-title {
 }
 
 .recent-publications .publication-title {
-  font-weight: 600 !important;
-  color: var(--gray-900) !important;
-  margin: 0 !important;
-  line-height: 1.3 !important;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin: 0;
+  line-height: 1.3;
   flex: 1;
 }
 
@@ -865,11 +865,11 @@ publication-content .publication-title {
 }
 
 .preprint-title {
-  font-size: var(--pub-title-size) !important;
-  font-weight: 600 !important;
-  color: var(--color-text) !important;
-  margin-bottom: var(--space-2) !important;
-  line-height: 1.4 !important;
+  font-size: var(--pub-title-size);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+  line-height: 1.4;
 }
 
 .preprint-meta {
@@ -881,8 +881,8 @@ publication-content .publication-title {
 }
 
 .preprint-authors {
-  font-size: var(--pub-author-size) !important;
-  color: var(--color-text-light) !important;
+  font-size: var(--pub-author-size);
+  color: var(--color-text-light);
   flex: 1;
 }
 
@@ -1326,35 +1326,35 @@ publication-content .publication-title {
 .preprints-list .preprint-item,
 .preprints-section .preprint-item {
   /* body/secondary copy inside preprint blocks should match publication authors */
-  font-size: var(--pub-author-size) !important;
-  color: var(--color-text) !important;
-  font-family: inherit !important;
-  line-height: 1.4 !important;
+  font-size: var(--pub-author-size);
+  color: var(--color-text);
+  font-family: inherit;
+  line-height: 1.4;
 }
 
 .preprint-title,
 .preprints-section .preprint-title,
 .preprint-item-minimal .preprint-title,
 .publication-citation.preprint .preprint-title {
-  font-size: var(--pub-title-size) !important;
-  font-weight: 600 !important;
-  color: var(--color-text) !important;
-  line-height: 1.25 !important;
+  font-size: var(--pub-title-size);
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.25;
 }
 
 .preprint-authors,
 .preprints-section .preprint-authors,
 .preprint-item-minimal .preprint-authors,
 .publication-citation.preprint .preprint-authors {
-  font-size: var(--pub-author-size) !important;
-  color: var(--color-text-light) !important;
+  font-size: var(--pub-author-size);
+  color: var(--color-text-light);
 }
 
 .preprint-journal,
 .publication-citation.preprint .journal {
-  font-size: var(--pub-journal-size) !important;
-  font-style: italic !important;
-  color: var(--color-primary) !important;
+  font-size: var(--pub-journal-size);
+  font-style: italic;
+  color: var(--color-primary);
 }
 
 
