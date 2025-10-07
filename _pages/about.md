@@ -78,34 +78,3 @@ social: true
     </div>
   </aside>
 </div>
-
----
-
-<!-- Recent Publications -->
-{% if site.data.publications.recent and site.data.publications.recent.size > 0 %}
-<div class="recent-publications">
-  <div class="section-header">
-    <h3>Recent Publications</h3>
-  </div>
-  
-  <div class="recent-publications-list">
-    {% for publication in site.data.publications.recent limit:3 %}
-    <div class="recent-publication-item">
-      <h4 class="recent-publication-title">{{ publication.title }}</h4>
-      <div class="recent-publication-authors">{{ publication.authors }}</div>
-      <div class="recent-publication-journal">{{ publication.journal }} ({{ publication.year }})</div>
-      {% if publication.doi or publication.url %}
-      <a href="{{ publication.doi | default: publication.url }}" target="_blank" class="recent-publication-link">View Publication</a>
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-  
-  <div class="publication-cta">
-    <a href="/publications/" class="view-all-btn">
-      <span class="btn-icon">📚</span>
-      View All Publications
-    </a>
-  </div>
-</div>
-{% endif %}

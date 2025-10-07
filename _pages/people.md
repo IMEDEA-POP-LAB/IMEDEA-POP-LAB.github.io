@@ -18,10 +18,15 @@ nav_order: 2
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
       <h5 class="card-title">{{ person.name }}</h5>
-      <h6 class="card-subtitle">{{ person.title }} ({{ person.period }})</h6>
+  <h6 class="card-subtitle">{{ person.title }}</h6>
       <div class="social-links">
         {% if person.email and person.email != "" %}
         <a href="mailto:{{ person.email }}" class="social-link email">
+          <span>📧</span>
+          <span>Email</span>
+        </a>
+        {% else %}
+        <a class="social-link email disabled" aria-disabled="true" tabindex="-1">
           <span>📧</span>
           <span>Email</span>
         </a>
@@ -31,15 +36,19 @@ nav_order: 2
           <span>🔗</span>
           <span>ORCID</span>
         </a>
+        {% else %}
+        <a class="social-link orcid disabled" aria-disabled="true" tabindex="-1">
+          <span>🔗</span>
+          <span>ORCID</span>
+        </a>
         {% endif %}
         {% if person.imedea and person.imedea != "" %}
         <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
           <span>🏛️</span>
           <span>IMEDEA</span>
         </a>
-        {% endif %}
-        {% if person.imedea and person.imedea != "" %}
-        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+        {% else %}
+        <a class="social-link imedea disabled" aria-disabled="true" tabindex="-1">
           <span>🏛️</span>
           <span>IMEDEA</span>
         </a>
@@ -49,9 +58,19 @@ nav_order: 2
           <span>🎓</span>
           <span>Google Scholar</span>
         </a>
+        {% else %}
+        <a class="social-link google-scholar disabled" aria-disabled="true" tabindex="-1">
+          <span>🎓</span>
+          <span>Google Scholar</span>
+        </a>
         {% endif %}
         {% if person.website and person.website != "" %}
         <a href="{{ person.website }}" class="social-link website" target="_blank">
+          <span>🌐</span>
+          <span>Website</span>
+        </a>
+        {% else %}
+        <a class="social-link website disabled" aria-disabled="true" tabindex="-1">
           <span>🌐</span>
           <span>Website</span>
         </a>
@@ -70,7 +89,7 @@ nav_order: 2
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
       <h5 class="card-title">{{ person.name }}</h5>
-      <h6 class="card-subtitle">{{ person.title }} ({{ person.period }})</h6>
+  <h6 class="card-subtitle">{{ person.title }}</h6>
       <div class="social-links">
         {% if person.email and person.email != "" %}
         <a href="mailto:{{ person.email }}" class="social-link email">
@@ -110,7 +129,7 @@ nav_order: 2
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
       <h5 class="card-title">{{ person.name }}</h5>
-      <h6 class="card-subtitle">{{ person.title }} ({{ person.period }})</h6>
+  <h6 class="card-subtitle">{{ person.title }}</h6>
       <div class="social-links">
         {% if person.email and person.email != "" %}
         <a href="mailto:{{ person.email }}" class="social-link email">
@@ -150,7 +169,7 @@ nav_order: 2
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
       <h5 class="card-title">{{ person.name }}</h5>
-      <h6 class="card-subtitle">{{ person.title }} ({{ person.period }})</h6>
+  <h6 class="card-subtitle">{{ person.title }}</h6>
       <div class="social-links">
         {% if person.email and person.email != "" %}
         <a href="mailto:{{ person.email }}" class="social-link email">
@@ -190,7 +209,7 @@ nav_order: 2
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
       <h5 class="card-title">{{ person.name }}</h5>
-      <h6 class="card-subtitle">{{ person.title }} ({{ person.period }})</h6>
+  <h6 class="card-subtitle">{{ person.title }}</h6>
       <div class="social-links">
         {% if person.email and person.email != "" %}
         <a href="mailto:{{ person.email }}" class="social-link email">
@@ -230,7 +249,7 @@ nav_order: 2
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
       <h5 class="card-title">{{ person.name }}</h5>
-      <h6 class="card-subtitle">{{ person.title }} ({{ person.period }})</h6>
+  <h6 class="card-subtitle">{{ person.title }}</h6>
       <div class="social-links">
         {% if person.email and person.email != "" %}
         <a href="mailto:{{ person.email }}" class="social-link email">

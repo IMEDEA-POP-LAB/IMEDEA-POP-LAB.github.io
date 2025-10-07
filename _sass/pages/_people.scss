@@ -110,6 +110,13 @@
   transition: all 0.2s ease;
 }
 
+.person-card .social-link.disabled {
+  opacity: 0.45;
+  cursor: default;
+  pointer-events: none;
+  filter: grayscale(40%);
+}
+
 .person-card .social-link:hover {
   background: var(--ocean-blue);
   color: white;

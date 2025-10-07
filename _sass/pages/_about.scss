@@ -23,6 +23,7 @@
 .lab-title {
   font-size: clamp(2.25rem, 5.5vw, 4rem) !important;
   font-weight: 700 !important;
+  /* visible fallback color */
   color: var(--color-primary) !important;
   margin-bottom: var(--space-4) !important;
   letter-spacing: 0.06em !important; /* more breathing for uppercase */
@@ -31,11 +32,13 @@
   position: relative !important;
   display: block !important;
   visibility: visible !important;
-  /* subtle gradient text */
-  background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  /* subtle gradient text only when supported */
+  @supports (-webkit-background-clip: text) {
+    background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
 
