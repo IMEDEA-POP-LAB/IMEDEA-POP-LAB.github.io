@@ -1332,7 +1332,8 @@ publication-content .publication-title {
 .publication-citation.preprint .preprint-title {
   font-size: var(--pub-title-size);
   font-weight: 600;
-  color: var(--color-text);
+  color: var(--color-primary);
+  font-style: italic;
   line-height: 1.25;
   margin-bottom: var(--space-2);
 }
