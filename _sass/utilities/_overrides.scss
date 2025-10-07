@@ -261,7 +261,9 @@ html {
   @supports (-webkit-background-clip: text) {
     background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal)) !important;
     -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+    /* avoid forcing transparent fill with !important so the color fallback can show
+       if gradient clipping fails in some browsers */
+    -webkit-text-fill-color: transparent;
     background-clip: text !important;
   }
 }

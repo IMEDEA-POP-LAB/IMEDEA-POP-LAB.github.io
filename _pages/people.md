@@ -69,11 +69,6 @@ nav_order: 2
           <span>🌐</span>
           <span>Website</span>
         </a>
-        {% else %}
-        <a class="social-link website disabled" aria-disabled="true" tabindex="-1">
-          <span>🌐</span>
-          <span>Website</span>
-        </a>
         {% endif %}
       </div>
       <p class="card-text">{{ person.bio }}</p>
@@ -96,15 +91,41 @@ nav_order: 2
           <span>📧</span>
           <span>Email</span>
         </a>
+        {% else %}
+        <a class="social-link email disabled" aria-disabled="true" tabindex="-1">
+          <span>📧</span>
+          <span>Email</span>
+        </a>
         {% endif %}
         {% if person.orcid and person.orcid != "" %}
         <a href="{{ person.orcid }}" class="social-link orcid" target="_blank">
           <span>🔗</span>
           <span>ORCID</span>
         </a>
+        {% else %}
+        <a class="social-link orcid disabled" aria-disabled="true" tabindex="-1">
+          <span>🔗</span>
+          <span>ORCID</span>
+        </a>
+        {% endif %}
+        {% if person.imedea and person.imedea != "" %}
+        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+          <span>🏛️</span>
+          <span>IMEDEA</span>
+        </a>
+        {% else %}
+        <a class="social-link imedea disabled" aria-disabled="true" tabindex="-1">
+          <span>🏛️</span>
+          <span>IMEDEA</span>
+        </a>
         {% endif %}
         {% if person.scholar and person.scholar != "" %}
         <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
+          <span>🎓</span>
+          <span>Google Scholar</span>
+        </a>
+        {% else %}
+        <a class="social-link google-scholar disabled" aria-disabled="true" tabindex="-1">
           <span>🎓</span>
           <span>Google Scholar</span>
         </a>
@@ -141,6 +162,12 @@ nav_order: 2
         <a href="{{ person.orcid }}" class="social-link orcid" target="_blank">
           <span>🔗</span>
           <span>ORCID</span>
+        </a>
+        {% endif %}
+        {% if person.imedea and person.imedea != "" %}
+        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+          <span>🏛️</span>
+          <span>IMEDEA</span>
         </a>
         {% endif %}
         {% if person.scholar and person.scholar != "" %}
@@ -183,6 +210,12 @@ nav_order: 2
           <span>ORCID</span>
         </a>
         {% endif %}
+        {% if person.imedea and person.imedea != "" %}
+        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+          <span>🏛️</span>
+          <span>IMEDEA</span>
+        </a>
+        {% endif %}
         {% if person.scholar and person.scholar != "" %}
         <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
           <span>🎓</span>
@@ -223,6 +256,12 @@ nav_order: 2
           <span>ORCID</span>
         </a>
         {% endif %}
+        {% if person.imedea and person.imedea != "" %}
+        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+          <span>🏛️</span>
+          <span>IMEDEA</span>
+        </a>
+        {% endif %}
         {% if person.scholar and person.scholar != "" %}
         <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
           <span>🎓</span>
@@ -261,6 +300,12 @@ nav_order: 2
         <a href="{{ person.orcid }}" class="social-link orcid" target="_blank">
           <span>🔗</span>
           <span>ORCID</span>
+        </a>
+        {% endif %}
+        {% if person.imedea and person.imedea != "" %}
+        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+          <span>🏛️</span>
+          <span>IMEDEA</span>
         </a>
         {% endif %}
         {% if person.scholar and person.scholar != "" %}
