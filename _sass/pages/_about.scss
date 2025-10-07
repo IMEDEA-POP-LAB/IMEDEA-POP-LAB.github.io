@@ -21,17 +21,22 @@
   box-shadow: none;
 }
 .lab-title {
-  font-size: clamp(2.25rem, 5.5vw, 4rem) !important;
+  /* Use the same font styling as the site navigation title but scaled up */
+  font-size: clamp(2.75rem, 6vw, 5rem) !important; /* larger than nav */
   font-weight: 700 !important;
   /* visible fallback color */
   color: var(--color-primary) !important;
   margin-bottom: var(--space-4) !important;
-  letter-spacing: 0.06em !important; /* more breathing for uppercase */
+  /* match navigation letter-spacing for brand consistency */
+  letter-spacing: -0.025em !important;
   line-height: 1.05 !important;
   text-transform: none !important;
   position: relative !important;
   display: block !important;
   visibility: visible !important;
+  /* subtle text-shadow like the nav title for consistent visual weight */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  transition: all 0.3s ease !important;
   /* subtle gradient text only when supported */
   @supports (-webkit-background-clip: text) {
     background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal));
