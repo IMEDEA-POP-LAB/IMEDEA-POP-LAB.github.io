@@ -70,10 +70,6 @@ social: true
           <img src="/assets/img/gallery/research-5.jpg" alt="Satellite data">
           <div class="gallery-caption">Satellite oceanography analysis</div>
         </div>
-        <div class="gallery-item">
-          <img src="/assets/img/gallery/research-6.jpg" alt="Conference presentation">
-          <div class="gallery-caption">Presenting at international conference</div>
-        </div>
       </div>
     </div>
   </aside>
