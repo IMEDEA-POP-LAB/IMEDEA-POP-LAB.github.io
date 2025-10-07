@@ -8,68 +8,10 @@ nav_order: 1
 
 <div class="publications-page-modern">
 
-<!-- Navigation Tabs -->
-<div class="publications-nav">
-  <div class="nav-tabs">
-    <button class="nav-tab active" data-section="recent">Recent Work</button>
-    <button class="nav-tab" data-section="all">Complete List</button>
-  </div>
-</div>
-
-<!-- Recent Publications Section -->
-<div class="publications-section" id="recent-section">
-  <div class="section-container">
-    
-    <!-- Recent Publications Box -->
-    {% if site.data.publications.recent %}
-    <div class="section-header">
-      <h2 class="section-title">Recent Publications</h2>
-      <p class="section-subtitle">Latest published work from our research group</p>
-    </div>
-    
-    <div class="recent-publications-list">
-      {% for pub in site.data.publications.recent %}
-      <div class="recent-publication-item">
-        <h4 class="recent-publication-title">{{ pub.title }}</h4>
-        <div class="recent-publication-authors">{{ pub.authors }}</div>
-        <div class="recent-publication-journal">{{ pub.journal }} ({{ pub.year }})</div>
-        {% if pub.doi or pub.url %}
-        <a href="{{ pub.doi | default: pub.url }}" target="_blank" class="recent-publication-link">View Publication</a>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-    {% endif %}
-    
-
-    
-    <!-- Preprints Section - Part of Recent Work -->
-    {% if site.data.publications.preprints and site.data.publications.preprints.size > 0 %}
-    <div class="section-header">
-      <p class="section-subtitle">Preprints and manuscripts under review</p>
-    </div>
-    
-    <div class="preprints-list">
-      {% for pub in site.data.publications.preprints %}
-      <div class="preprint-item">
-        <div class="preprint-status-badge">{{ pub.status | default: "Preprint" | capitalize }}</div>
-        <h4 class="preprint-title">{{ pub.title }}</h4>
-        <div class="preprint-authors">{{ pub.authors }}</div>
-        {% if pub.doi or pub.url %}
-        <a href="{{ pub.doi | default: pub.url }}" target="_blank" class="preprint-link">View Preprint</a>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-
-
-
+<!-- Single publications list (all items from `_data/publications.yml`) -->
 <!-- All Publications Section -->
 {% if site.data.publications.all %}
-<div class="publications-section hidden" id="all-section">
+<div class="publications-section" id="all-section">
   <div class="section-container">
     
     <!-- Simple Filter -->
@@ -79,19 +21,12 @@ nav_order: 1
 
     <!-- Publications List -->
     <div class="publications-list">
+  {# NOTE: The "Complete List" below renders publications in the exact order
+    they appear in `_data/publications.yml`. To change display order,
+    reorder the entries in that YAML file. #}
   {% assign sorted_pubs = site.data.publications.all %}
-      {% assign recent_titles = site.data.publications.recent | map: 'title' %}
 
-      {% for pub in sorted_pubs %}
-      {% assign is_recent = false %}
-      {% for recent_title in recent_titles %}
-        {% if pub.title == recent_title %}
-          {% assign is_recent = true %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
-
-      {% unless is_recent %}
+    {% for pub in sorted_pubs %}
       <div class="publication-item" data-year="{{ pub.year }}">
         <div class="item-content">
           <div class="item-header">
@@ -122,7 +57,6 @@ nav_order: 1
           {% endif %}
         </div>
       </div>
-      {% endunless %}
       {% endfor %}
     </div>
   </div>
@@ -131,47 +65,18 @@ nav_order: 1
 
 
 
-<!-- JavaScript for Tab Navigation -->
+<!-- Simple search script (filters the visible publication items) -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const tabs = document.querySelectorAll('.nav-tab');
-  const sections = document.querySelectorAll('.publications-section');
-  
-  tabs.forEach(tab => {
-    tab.addEventListener('click', function() {
-      const targetSection = this.dataset.section;
-      
-      // Update active tab
-      tabs.forEach(t => t.classList.remove('active'));
-      this.classList.add('active');
-      
-      // Show/hide sections
-      sections.forEach(section => {
-        if (section.id === targetSection + '-section') {
-          section.classList.remove('hidden');
-        } else if (section.id && section.id.includes('-section')) {
-          section.classList.add('hidden');
-        }
-      });
-    });
-  });
-  
-  // Simple search functionality
   const searchInput = document.getElementById('search-publications');
-  const publicationItems = document.querySelectorAll('.publication-item');
-  
+  const publicationItems = Array.from(document.querySelectorAll('.publication-item'));
+
   searchInput?.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
-    
     publicationItems.forEach(item => {
       const title = item.querySelector('.item-title')?.textContent.toLowerCase() || '';
       const authors = item.querySelector('.item-authors')?.textContent.toLowerCase() || '';
-      
-      if (title.includes(searchTerm) || authors.includes(searchTerm)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
+      item.style.display = (title.includes(searchTerm) || authors.includes(searchTerm)) ? 'block' : 'none';
     });
   });
 });

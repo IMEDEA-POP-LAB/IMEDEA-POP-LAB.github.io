@@ -1,28 +1,17 @@
-recent:
-
+all:
+  # 2025 Publications
   - title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
     authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
     journal: "Geophysical Research Letters"
     year: 2025
     doi: "https://doi.org/10.1029/2025GL116480"
-    
+
   - title: "Kuroshio Extension and Gulf Stream dominate the Eddy Kinetic Energy intensification observed in the global ocean"
     authors: "Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M.I. and Pascual, A."
     journal: "Scientific Reports"
     year: 2025
     doi: "https://doi.org/10.1038/s41598-025-06149-9"
-
-preprints: 
-
-  - title: "Tracking Marine Heatwaves in the Balearic Sea: Temperature Trends and the Role of Detection Methods"
-    authors: "Fernández-Álvarez, B., Barceló-Llull, B. and Pascual, A."
-    journal: "Ocean Science"
-    year: 2025
-    status: "accepted"
-    doi: "https://doi.org/10.5194/os-21-1987-2025"
-
-
-all:
+ 
   # 2024 Publications
   - title: "Changes in the Gulf Stream path over the last 3 decades"
     authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
