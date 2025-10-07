@@ -5,60 +5,45 @@
   logo: "alianza_observa_logo.avif"
   url: "https://alianzaobserva.com"
   description: "Red Estratégica de Observación de la Tierra por satélite"
-  featured: true
 
 - title: "Obsea4Clim"
   period: "2024-2028"
   logo: "obsea4clim_logo.png"
   url: ""
   description: "Ocean observations and indicators for climate and assessments"
-  featured: true
 
 - title: "Sea Level TAC"
   period: "2024-2028"
   logo: "sltac_logo.png"
   url: ""
   description: "Sea Level Thematic Assembly Center - Copernicus Marine Environment Monitoring Service - 24251L02-COP-TAC SL-2100"
-  featured: false
 
 - title: "SWINT"
   period: "2024-2026"
   logo: "SWINT_logo.png"
   url: ""
   description: "SWOT satellite ocean data integration into regional high-resolution data-assimilative numerical models"
-  featured: true
 
 - title: "Unidad de Excelencia María de Maeztu"
   period: "2023-2026"
   logo: "mariademaeztu_logo.png"
   url: ""
   description: "Prestigious accreditation recognizing scientific excellence and leadership at the frontier of knowledge"
-  featured: false
 
 - title: "ESA 4DMED-SEA"
   period: "2023-2025"
   logo: "4DMED_logo.png"
   url: ""
   description: "Sustaining the Mediterranean Sea: Fostering Science, Preserving Ocean Life"
-  featured: true
 
 - title: "FaSt-SWOT"
   period: "2022-2026"
   logo: "fast_swot_logo.jpg"
   url: ""
   description: "Fine-Scale ocean currents from integrated multi-platform experiments and numerical simulations: contribution to the new SWOT satellite mission (PID2021-122417NB-I00)"
-  featured: true
 
 - title: "Framework Agreement C3S2_520_CNR (ECMWF/Copernicus)"
   period: "2022-2026"
   logo: "ECMWF_logo.png"
   url: ""
   description: "Analysis of the quality of products available in the Climate Data Store database"
-  featured: false
-
-- title: "INTERACTION: Sea-Level Change and Coastal Impacts"
-  period: "2019-2024"
-  logo: "interaction_logo.svg"
-  url: ""
-  description: "Studying the interaction between sea-level change and coastal impacts in the Mediterranean region (RTI2018-100844-B-C33)"
-  featured: false

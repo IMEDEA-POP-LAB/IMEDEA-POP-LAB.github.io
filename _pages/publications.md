@@ -79,7 +79,7 @@ nav_order: 1
 
     <!-- Publications List -->
     <div class="publications-list">
-      {% assign sorted_pubs = site.data.publications.all | sort: 'year' | reverse %}
+  {% assign sorted_pubs = site.data.publications.all %}
       {% assign recent_titles = site.data.publications.recent | map: 'title' %}
 
       {% for pub in sorted_pubs %}

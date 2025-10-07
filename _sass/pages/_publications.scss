@@ -864,13 +864,7 @@ publication-content .publication-title {
   border-bottom: none;
 }
 
-.preprint-title {
-  font-size: var(--pub-title-size);
-  font-weight: 600;
-  color: var(--color-text);
-  margin-bottom: var(--space-2);
-  line-height: 1.4;
-}
+/* preprint titles are styled from the consolidated block later to keep a single source of truth */
 
 .preprint-meta {
   display: flex;
@@ -1340,6 +1334,7 @@ publication-content .publication-title {
   font-weight: 600;
   color: var(--color-text);
   line-height: 1.25;
+  margin-bottom: var(--space-2);
 }
 
 .preprint-authors,
