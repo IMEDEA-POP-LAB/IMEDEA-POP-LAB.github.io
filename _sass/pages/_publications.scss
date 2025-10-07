@@ -173,31 +173,7 @@
   color: var(--color-text-muted);
 }
 
-/* Consolidated publication typography rules */
-.publications-page-modern .publication-title,
-.publications-page-modern .recent-publication-title,
-.publications-page-modern .publication-list .item-title,
-.publication-title,
-.recent-publication-title,
-.item-title {
-  font-size: var(--pub-title-size) !important;
-  font-weight: 600 !important;
-  color: var(--color-text) !important;
-  line-height: 1.25 !important;
-  margin: 0 !important;
-}
-
-.publications-page-modern .publication-authors,
-.publications-page-modern .recent-publication-authors,
-.publications-page-modern .publication-list .item-authors,
-.publication-authors,
-.recent-publication-authors,
-.item-authors {
-  font-size: var(--pub-author-size) !important;
-  color: var(--color-text-light) !important;
-  margin-bottom: var(--space-2) !important;
-  line-height: 1.4 !important;
-}
+/* Consolidated publication typography moved to the final authoritative block at the end of this file */
 
 .action-link.primary {
   background: var(--color-primary);
@@ -418,44 +394,9 @@
   display: block;
 }
 
-/*
-  Make the full publications list use the same typography as the
-  recent publications (titles, authors, citations).
-*/
-.publication-list .publication-title,
-.publication-content .publication-title,
-.publication-main .publication-title,
-.publication-item-standard .publication-title,
-.recent-publications .publication-title {
-  /* compact titles for lists and previews */
-  font-size: var(--text-lg) !important;
-  font-weight: 600 !important;
-  color: var(--gray-900) !important;
-  margin: 0 !important;
-  line-height: 1.3 !important;
-}
-
-.publication-list .publication-authors,
-.publication-content .publication-authors,
-.publication-main .publication-authors,
-.publication-item-standard .publication-authors,
-.recent-publications .publication-authors {
-  /* make authors more legible and slightly more prominent */
-  font-size: var(--text-base) !important;
-  color: var(--gray-700) !important;
-  margin-bottom: var(--space-2) !important;
-  line-height: 1.4 !important;
-}
-
-.publication-citation,
-.publication-list .publication-citation,
-.publication-content .publication-citation,
-.recent-publications .publication-citation {
-  font-size: var(--text-sm) !important;
-  color: var(--gray-800) !important;
-  line-height: 1.6 !important;
-  margin: 0 !important;
-}
+/* Publication typography is centralized in the final authoritative block at
+   the end of this file. Change sizes there (via the --pub-* tokens) to
+   update publication, recent, card, and preprint typography consistently. */
 
 /* All Publications Section */
 .all-publications {
@@ -1372,6 +1313,48 @@ publication-content .publication-title {
   .item-year {
     align-self: flex-start;
   }
+}
+
+/* ------------------------------------------------------------------------- */
+/* Strong preprint typography normalization (ensure parity with publications) */
+/* This ensures any preprint-specific rules are overridden and all preprint
+   elements use the same publication tokens (title/author/journal). */
+/* ------------------------------------------------------------------------- */
+.publication-citation.preprint,
+.preprint-item,
+.preprint-item-minimal,
+.preprints-list .preprint-item,
+.preprints-section .preprint-item {
+  /* body/secondary copy inside preprint blocks should match publication authors */
+  font-size: var(--pub-author-size) !important;
+  color: var(--color-text) !important;
+  font-family: inherit !important;
+  line-height: 1.4 !important;
+}
+
+.preprint-title,
+.preprints-section .preprint-title,
+.preprint-item-minimal .preprint-title,
+.publication-citation.preprint .preprint-title {
+  font-size: var(--pub-title-size) !important;
+  font-weight: 600 !important;
+  color: var(--color-text) !important;
+  line-height: 1.25 !important;
+}
+
+.preprint-authors,
+.preprints-section .preprint-authors,
+.preprint-item-minimal .preprint-authors,
+.publication-citation.preprint .preprint-authors {
+  font-size: var(--pub-author-size) !important;
+  color: var(--color-text-light) !important;
+}
+
+.preprint-journal,
+.publication-citation.preprint .journal {
+  font-size: var(--pub-journal-size) !important;
+  font-style: italic !important;
+  color: var(--color-primary) !important;
 }
 
 

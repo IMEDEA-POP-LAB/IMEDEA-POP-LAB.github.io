@@ -147,6 +147,8 @@
   margin-bottom: var(--space-12);
 }
 
+/* Base research item - used in both minimal and grid layouts. Keep base
+   styles here and apply layout-specific tweaks with a modifier. */
 .research-item {
   padding: var(--space-6);
   background: white;
@@ -155,6 +157,7 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  box-shadow: var(--global-shadow-xs);
 }
 
 .research-item::before {
@@ -173,8 +176,21 @@
   border-color: var(--ocean-blue);
 }
 
+/* Layout-specific adjustments applied when research items live in the
+   `.research-grid` container. This keeps shared styles DRY. */
+.research-grid .research-item {
+  box-shadow: var(--global-shadow);
+  border-left: 4px solid var(--ocean-blue);
+}
+
+.research-grid .research-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--global-shadow-lg);
+  border-left-color: var(--ocean-deep);
+}
+
 .research-item h3 {
-  font-size: var(--text-xl) !important;
+  font-size: var(--text-lg) !important;
   font-weight: 600 !important;
   color: var(--gray-900) !important;
   margin: 0 0 var(--space-3) 0 !important;
@@ -317,35 +333,7 @@
   margin-top: var(--space-8);
 }
 
-.research-item {
-  background: white;
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-lg);
-  padding: var(--space-6);
-  transition: all 0.3s ease;
-  box-shadow: var(--global-shadow);
-  border-left: 4px solid var(--ocean-blue);
-}
-
-.research-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--global-shadow-lg);
-  border-left-color: var(--ocean-deep);
-}
-
-.research-item h3 {
-  color: var(--gray-900) !important;
-  font-size: var(--text-lg) !important;
-  font-weight: 600 !important;
-  margin: 0 0 var(--space-3) 0 !important;
-}
-
-.research-item p {
-  color: var(--gray-600);
-  font-size: var(--text-sm);
-  line-height: 1.6;
-  margin: 0;
-}
+/* grid-specific research item styling moved earlier as `.research-grid .research-item` */
 
 /* Photo gallery styling for about page */
 .photo-gallery {
@@ -367,6 +355,7 @@
   gap: var(--space-6);
   margin-top: var(--space-8);
 }
+
 
 .gallery-item {
   position: relative;
