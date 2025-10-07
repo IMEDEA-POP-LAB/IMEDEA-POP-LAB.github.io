@@ -22,6 +22,7 @@ research_scientists:
     image: "baptiste_mourre.jpg"
     email: "bmourre@imedea.uib-csic.es"
     orcid: "https://orcid.org/0000-0002-5056-0423"
+    imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=2409"
     bio: "Research scientist specializing in ocean modeling, data assimilation, and operational oceanography. His work focuses on improving ocean forecasting systems and understanding coastal ocean processes."
 
   - name: "Dr. Vincent Combes"
@@ -40,10 +41,9 @@ postdocs:
     title: "Postdoctoral Researcher"
     period: "2024 - present"
     image: "placeholder.svg"
-    email: ""
+    email: "dcortes@imedea.uib-csic.es"
     orcid: "https://orcid.org/0009-0004-7159-2645"
-    scholar: ""
-    website: ""
+    imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=3009"
     bio: ""
 
   - name: "Dr. Jen-Ping Peng"
@@ -52,8 +52,7 @@ postdocs:
     image: "PengJenPing.jpg"
     email: "jpeng@imedea.uib-csic.es"
     orcid: ""
-    scholar: ""
-    website: ""
+    imedea:
     bio: "Senior Postdoc at IMEDEA (CSIC-UIB), working with Baptiste Mourre in the SWINT project. He earned his PhD in Physical Oceanography from the University of Rostock and the Leibniz Institute for Baltic Sea Research (IOW) and was a Research Associate at the University of Western Australia (2022–2025). His research focuses on finescale ocean dynamics and turbulence, including surface-layer fronts, diurnal warm layers, internal waves, and eddy variability."
 
   - name: "Dr. Marta Veny López"
@@ -62,8 +61,7 @@ postdocs:
     image: "placeholder.svg"
     email: ""
     orcid: "https://orcid.org/0000-0001-9086-3528"
-    scholar: ""
-    website: ""
+    imedea: 
     bio: ""
 
   - name: "Dr. Yan Barabinot"
@@ -72,8 +70,7 @@ postdocs:
     image: "placeholder.svg"
     email: ""
     orcid: "https://orcid.org/0009-0003-0628-5334"
-    scholar: ""
-    website: ""
+    imedea: 
     bio: ""
 
 phd_students: 
@@ -84,6 +81,7 @@ phd_students:
     image: "placeholder.svg"
     email: "elisabet.verger@imedea.uib-csic.es"
     orcid: "https://orcid.org/0009-0008-4222-7242"
+    imedea: 
     bio: ""
 
   - name: "Diego Vega-Giménez"
@@ -91,6 +89,9 @@ phd_students:
     period: "2023 - present"
     image: "placeholder.svg"
     email: "https://orcid.org/0000-0002-4018-8795"
+    orcid:
+    imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=2999"
+    bio: ""
 
   - name: "Paul Hargous"
     title: "PhD Student"
@@ -98,6 +99,7 @@ phd_students:
     image: "placeholder.svg"
     email: ""
     orcid: "https://orcid.org/0009-0008-0964-6920"
+    imedea: 
     bio: "His research focuses on mesoscale ocean variability in the Mediterranean Sea, particularly on eddy kinetic energy (EKE) and geostrophic currents derived from satellite altimetry as well as ocean transport using in-situ observations and remote sensing data."
 
   - name: "Blanca Fernández-Álvarez"
