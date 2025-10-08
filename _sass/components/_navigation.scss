@@ -52,6 +52,8 @@
   display: flex;
   gap: var(--space-6);
   align-items: center;
+  /* ensure the nav area matches header height so children can center reliably */
+  height: 64px;
   z-index: 1001;
 }
 
@@ -67,6 +69,8 @@
   /* ensure text doesn't add extra height and centers properly */
   line-height: 1;
   height: 40px; /* consistent clickable area */
+  align-self: center;
+  margin: 0; /* ensure no stray margins shift positioning */
   padding: 0 var(--space-4);
   border-radius: var(--radius-md);
   transition: all 0.2s ease;
