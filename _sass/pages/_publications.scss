@@ -684,6 +684,63 @@ publication-content .publication-title {
 
 }
 
+/* Recent Publications in About Page with Images */
+.recent-publication-item {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all var(--transition-base);
+  margin-bottom: var(--space-4);
+}
+
+.recent-publication-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.recent-publication-image {
+  flex-shrink: 0;
+  width: 100px;
+  height: 70px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-secondary);
+}
+
+.recent-publication-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-base);
+}
+
+.recent-publication-image:hover img {
+  transform: scale(1.05);
+}
+
+.recent-publication-content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Fallback for publications without images */
+.recent-publication-item:not(:has(.recent-publication-image)) {
+  display: block;
+}
+
+/* Alternative for better browser support */
+.recent-publication-item .recent-publication-content:only-child {
+  width: 100%;
+}
+
 /* Publication CTA/Button used on About previews and Publications page */
 .publication-cta {
   margin-top: var(--space-4);
@@ -1378,6 +1435,19 @@ publication-content .publication-title {
     height: 120px;
     align-self: center;
     max-width: 300px;
+  }
+  
+  /* Mobile responsive adjustments for recent publications in about page */
+  .recent-publication-item {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  
+  .recent-publication-image {
+    width: 100%;
+    height: 100px;
+    align-self: center;
+    max-width: 250px;
   }
 }
 

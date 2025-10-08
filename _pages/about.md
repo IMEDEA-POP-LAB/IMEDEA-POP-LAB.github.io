@@ -26,12 +26,20 @@ social: true
       <div class="recent-publications-list">
         {% for publication in site.data.publications.all limit:4 %}
         <div class="recent-publication-item">
-          <h4 class="recent-publication-title">{{ publication.title }}</h4>
-          <div class="recent-publication-authors">{{ publication.authors }}</div>
-          <div class="recent-publication-journal">{{ publication.journal }} ({{ publication.year }})</div>
-          {% if publication.doi or publication.url %}
-          <a href="{{ publication.doi | default: publication.url }}" target="_blank" class="recent-publication-link">View Publication</a>
+          {% if publication.image %}
+          <div class="recent-publication-image">
+            <img src="{{ publication.image }}" alt="{{ publication.title }}" loading="lazy">
+          </div>
           {% endif %}
+          
+          <div class="recent-publication-content">
+            <h4 class="recent-publication-title">{{ publication.title }}</h4>
+            <div class="recent-publication-authors">{{ publication.authors }}</div>
+            <div class="recent-publication-journal">{{ publication.journal }} ({{ publication.year }})</div>
+            {% if publication.doi or publication.url %}
+            <a href="{{ publication.doi | default: publication.url }}" target="_blank" class="recent-publication-link">View Publication</a>
+            {% endif %}
+          </div>
         </div>
         {% endfor %}
       </div>

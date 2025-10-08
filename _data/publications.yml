@@ -12,7 +12,7 @@ all:
     journal: "Scientific Reports"
     year: 2025
     doi: "https://doi.org/10.1038/s41598-025-06149-9"
-    image: "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-025-06149-9/MediaObjects/41598_2025_6149_Fig1_HTML.png"
+    image: "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-025-06149-9/MediaObjects/41598_2025_6149_Fig2_HTML.png?as=webp"
  
   # 2024 Publications
   - title: "Changes in the Gulf Stream path over the last 3 decades"
@@ -21,7 +21,7 @@ all:
     year: 2024
     volume: "4"
     doi: "https://doi.org/10.5194/sp-4-osr8-4-2024"
-    image: "https://sp.copernicus.org/articles/4/osr8-4/2024/sp-4-osr8-4-2024-f01-web.png"
+    image: "https://sp.copernicus.org/articles/4-osr8/4/2024/sp-4-osr8-4-2024-f01-thumb.png"
     
   - title: "Assessing impacts of observations on ocean circulation models with examples from coastal, shelf, and marginal seas"
     authors: "Edwards, C. A., De Mey-Frémaux, P., Barceló-Llull, B., Charria, G., Choi, B.-J., Halliwell, G. R., Hole, L. R., Kerry, C., Kourafalou, V. H., Kurapov, A. L., Moore, A. M., Mourre, B., Oddo, P., Pascual, A., Roughan, M., Skandrani, C., Storto, A., Vervatis, V. and Wilkin, J. L."
@@ -29,7 +29,7 @@ all:
     year: 2024
     volume: "11"
     doi: "https://doi.org/10.3389/fmars.2024.1458036"
-    image: "https://www.frontiersin.org/files/Articles/1458036/fmars-11-1458036-HTML/image_m/fmars-11-1458036-g001.jpg"
+    image: "https://www.frontiersin.org/files/Articles/1458036/fmars-11-1458036-HTML-r1/image_m/fmars-11-1458036-g002.jpg"
     
   - title: "Towards a sustained and fit-for-purpose European Ocean Observing and Forecasting System"
     authors: "Tanhua, T., Le Traon, P.-Y., Köstner, N., Eparkhina, D., Navarro, G., Bonnet Dunbar, M., Speich, S., Pascual, A., Von Schuckmann, K., Liguori, G., Karstensen, J., Hassoun, A. E. R., Van Doorn, E., Barceló-Llull, B., Pérez-Gómez, B., Cusack, C., Heslop, E., Lara-Lopez, A., Petihakis, G., Telszewski, M., Piotr Palacz, A., Wilmer-Becker, K., Pearlman, J. S., Muñiz Piniella, Á., Heymans, J. J. and Lips, I."
