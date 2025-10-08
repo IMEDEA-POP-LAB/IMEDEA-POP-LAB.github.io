@@ -38,17 +38,21 @@ _data/
 - Team photos: `assets/img/team/`
 - Project logos: `assets/img/projects/`
 - Gallery images: `assets/img/gallery/`
+- Publication images: External URLs (no local storage)
 
 ---
 
 ## People Management (`people.yml`)
 
 ### Structure Overview
-The people file is organized into four categories:
+The people file is organized into these categories:
 - `principal_investigators`
 - `research_scientists`
 - `postdocs`
-- `students`
+- `phd_students`
+- `master_students`
+- `visiting_researchers`
+- `alumni`
 
 ### Adding a New Team Member
 
@@ -80,6 +84,8 @@ The people file is organized into four categories:
 - `orcid`: ORCID identifier URL
 - `scholar`: Google Scholar profile URL
 - `website`: Personal or academic website
+- `imedea`: IMEDEA institutional profile URL
+- `linkedin`: LinkedIn profile URL
 
 ### Example Entry
 ```yaml
@@ -123,16 +129,16 @@ Use this template for new projects:
 - `logo`: Logo filename in `assets/img/projects/`
 - `url`: Project website (use empty quotes "" if none)
 - `description`: Brief description of the project
-- `featured`: Boolean (true/false) - determines if shown prominently
+
+Note: The `featured` field has been removed from projects.
 
 ### Example Entry
 ```yaml
-- title: "Mediterranean Ocean Dynamics"
+- title: "SWINT"
   period: "2024-2026"
-  logo: "med_dynamics_logo.png"
-  url: "https://example-project.com"
-  description: "Investigating mesoscale processes in the Mediterranean Sea using satellite altimetry"
-  featured: true
+  logo: "SWINT_logo.png"
+  url: ""
+  description: "SWOT satellite ocean data integration into regional high-resolution data-assimilative numerical models"
 ```
 
 ### Logo Guidelines
@@ -146,40 +152,20 @@ Use this template for new projects:
 ## Publications Management (`publications.yml`)
 
 ### Structure Overview
-The publications file has three sections:
-- `recent`: Latest publications (displayed prominently)
-- `preprints`: Accepted papers not yet published
-- `all`: Complete publication list
+The publications file contains a complete list of all publications.
 
 ### Adding a New Publication
 
-#### For Recent Publications
-Add to the `recent` section:
+Use this template for new publications:
 
 ```yaml
-recent:
-  - title: "[Paper Title]"
-    authors: "[Author1], [Author2], and [LastAuthor]"
-    journal: "[Journal Name]"
-    year: [YYYY]
-    doi: "[DOI URL]"
+- title: "[Paper Title]"
+  authors: "[Author1], [Author2], and [LastAuthor]"
+  journal: "[Journal Name]"
+  year: [YYYY]
+  doi: "[DOI URL]"
+  image: "[External image URL]" # Optional - use journal/publisher hosted images
 ```
-
-#### For Preprints/Accepted Papers
-Add to the `preprints` section:
-
-```yaml
-preprints:
-  - title: "[Paper Title]"
-    authors: "[Author List]"
-    journal: "[Target Journal]"
-    year: [YYYY]
-    status: "accepted" # or "under review", "in press"
-    doi: "[DOI URL if available]"
-```
-
-#### For Complete List
-Add to the `all` section with same format as recent publications.
 
 ### Required Fields
 - `title`: Full paper title
@@ -187,6 +173,11 @@ Add to the `all` section with same format as recent publications.
 - `journal`: Journal or publication venue
 - `year`: Publication year
 - `doi`: DOI link (full URL)
+
+### Optional Fields
+- `image`: External URL to publication image (from journal website or publisher)
+- `volume`: Journal volume number
+- `pages`: Page numbers or article number
 
 ### Author Formatting Guidelines
 - Use full names as they appear in publication
@@ -196,12 +187,20 @@ Add to the `all` section with same format as recent publications.
 
 ### Example Entry
 ```yaml
-- title: "Mesoscale Eddies in the Western Mediterranean: A Satellite Altimetry Study"
-  authors: "Pascual, A., Barceló-Llull, B., Mourre, B., and Combes, V."
-  journal: "Journal of Geophysical Research: Oceans"
-  year: 2024
-  doi: "https://doi.org/10.1029/2024JC020123"
+- title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
+  authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
+  journal: "Geophysical Research Letters"
+  year: 2025
+  doi: "https://doi.org/10.1029/2025GL116480"
+  image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/16377812-acfa-4755-b940-223a7d521eeb/grl70896-fig-0002-m.png"
 ```
+
+### Publication Images Guidelines
+- **Source**: Use external URLs from journal websites or publishers
+- **Format**: Direct links to image files (PNG, JPG, GIF)
+- **Location**: No local storage - images are hosted externally
+- **Recommended**: Use figures or graphical abstracts from the publication
+- **Fallback**: If no suitable image is available, leave the `image` field empty
 
 ---
 
@@ -297,8 +296,8 @@ Extract ID: `WQd9LeIdLSk`
 ### Important Note
 ⚠️ **This file is automatically updated by GitHub Actions**. Do not edit manually unless absolutely necessary.
 
-### Manual Updates (if needed)
-If you must manually add a repository:
+### Auto-Generated Fields
+The repositories file contains these fields (automatically populated):
 
 ```yaml
 repositories:
@@ -316,9 +315,8 @@ repositories:
     topics: ["topic1", "topic2", "topic3"]
     created_at: "[ISO date]"
     updated_at: "[ISO date]"
-    archived: false
-    featured: true # or false
-    category: "[Educational/Research/Tool]"
+    archived: [boolean]
+    featured: [boolean] # Set manually if needed
 ```
 
 ---
@@ -446,5 +444,5 @@ For technical issues or questions about data management, contact [Cristina](mail
 
 ---
 
-*Last updated: October 2025*
-*Version: 1.0*
+*Last updated: October 8, 2025*
+*Version: 1.1*
