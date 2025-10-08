@@ -39,10 +39,14 @@
   --gray-900: #112D4E;
   
   /* Ocean Theme Colors - Pure Dark Blue */
+  /* Ocean Theme Colors - mapped to blue palette for visual consistency */
   --ocean-light: var(--blue-400);
+  --ocean-blue: var(--blue-600);
   --ocean-primary: var(--blue-600);
   --ocean-dark: var(--blue-800);
   --ocean-deeper: var(--blue-900);
+  /* legacy token (some files used ocean-teal); map it to a lighter blue accent */
+  --ocean-teal: var(--blue-400);
   
   /* Colors - Semantic */
   --color-bg: #F9F7F7;
@@ -83,12 +87,13 @@
 
   --color-researchgate: #00CCBB;
   --color-researchgate-hover: #00a69a;
-  --color-imedea: #0b7285; /* IMEDEA institutional teal */
-  --color-imedea-hover: #095b6f;
+  /* IMEDEA institutional color mapped into blue palette for site-wide consistency */
+  --color-imedea: var(--blue-600);
+  --color-imedea-hover: var(--blue-800);
   --color-divider: var(--gray-300);
   
   /* Gradients - Custom Blue Palette */
-  --gradient-ocean: linear-gradient(135deg, #3F72AF 0%, #112D4E 100%);
+  --gradient-ocean: linear-gradient(135deg, var(--blue-600) 0%, var(--blue-900) 100%);
   --gradient-light: linear-gradient(135deg, #F9F7F7 0%, #DBE2EF 100%);
   --gradient-card: linear-gradient(135deg, #ffffff 0%, #F9F7F7 100%);
   --gradient-dark: linear-gradient(135deg, #3F72AF 0%, #112D4E 100%);
