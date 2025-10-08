@@ -10,23 +10,10 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background: var(--gradient-ocean);
-  background-attachment: fixed;
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 50%, #1e1b4b 100%);
   padding: var(--space-4) 0;
-  box-shadow: 0 2px 20px rgba(0, 74, 128, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  
-  /* Enhanced gradient overlay for more vibrant effect */
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(63, 114, 175, 0.8) 0%, rgba(17, 45, 78, 0.9) 100%);
-    z-index: -1;
-  }
+  box-shadow: 0 4px 25px rgba(30, 64, 175, 0.4);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
 
 .site-header .container {
