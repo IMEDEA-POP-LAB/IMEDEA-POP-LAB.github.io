@@ -98,16 +98,13 @@ header:not(.site-header),
 
 /* Ensure the main content sits below the floating header */
 main.page-content,
-.page-content,
-body {
-  padding-top: calc(80px + var(--space-4)) !important; /* Fixed header height + spacing */
+.page-content {
+  padding-top: calc(80px + var(--space-6));
 }
 
-/* Force all page content to start below the fixed header */
-main,
-.main-content,
+/* Add top spacing for page wrapper */
 .page-wrapper {
-  margin-top: 80px !important;
+  padding-top: 80px;
 }
 
 /* Modern page content wrapper */
@@ -218,13 +215,17 @@ main > header,
   z-index: auto !important;
   border-bottom: none !important;
   padding-bottom: 0 !important;
+  margin-top: 0 !important;
 }
 
 /* Ensure titles are not sticky or fixed */
 h1, .page-title,
 .page h1, .page .page-title,
-.page-header h1, .page-header .page-title {
+.page-header h1, .page-header .page-title,
+.section-header, .section-header h3 {
   position: static !important;
   top: auto !important;
   z-index: auto !important;
+  margin-top: 0 !important;
+  transform: none !important;
 }
