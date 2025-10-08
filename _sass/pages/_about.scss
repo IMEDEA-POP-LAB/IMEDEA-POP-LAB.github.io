@@ -2,46 +2,33 @@
 // About Page Styles
 // =============================================================================
 
-/* Modern About Page Layout */
-.about-page {
-  min-height: 100vh;
-  padding: var(--space-12) 0;
-  background: linear-gradient(to bottom, var(--color-bg) 0%, var(--color-bg-secondary) 100%);
-}
-
-/* Enhanced intro hero section */
+/* Intro Hero Section */
 .intro-hero {
   text-align: left;
   margin-bottom: var(--space-12);
   max-width: 1100px;
   position: relative;
   padding: var(--space-6) var(--space-4);
-  background: transparent; /* removed card background */
+  background: transparent;
   border-radius: 0;
   box-shadow: none;
 }
+
 .lab-title {
-  /* Use the same font styling as the site navigation title but scaled up */
-  font-size: clamp(2.75rem, 6vw, 5rem) !important; /* larger than nav */
+  font-size: clamp(2.75rem, 6vw, 5rem) !important;
   font-weight: 700 !important;
-  /* visible fallback color - use deeper blue for stronger contrast */
   color: var(--blue-900) !important;
   margin-bottom: var(--space-4) !important;
-  /* slightly tighter letter-spacing for better visual weight */
   letter-spacing: -0.02em !important;
   line-height: 1.05 !important;
   text-transform: none !important;
   position: relative !important;
-  display: block !important;
-  visibility: visible !important;
-  /* subtle text-shadow like the nav title for consistent visual weight */
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
   transition: all 0.3s ease !important;
-  /* subtle gradient text only when supported */
+  
   @supports (-webkit-background-clip: text) {
-    background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal));
+    background: linear-gradient(90deg, var(--blue-800), var(--blue-900));
     -webkit-background-clip: text;
-    /* allow the browser to fall back to the visible `color` if clipping isn't applied */
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
@@ -55,8 +42,8 @@
   left: 0;
   width: 0.6ch;
   height: 3px;
-  background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal));
-  transition: width var(--transition-fast) ease, transform var(--transition-fast) ease;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-primary-hover));
+  transition: width var(--transition-fast) ease;
   transform-origin: left center;
   border-radius: var(--radius-xs);
 }
@@ -67,17 +54,14 @@
 
 .lab-subtitle {
   font-size: var(--text-lg);
-  color: var(--global-text-light);
+  color: var(--color-text-light);
   line-height: 1.6;
   margin: 0 0 var(--space-6) 0;
   max-width: 720px;
-  opacity: 0.95;
-  transform: translateY(0);
-  transition: opacity var(--transition-fast) ease, transform var(--transition-fast) ease;
 }
 
 .lab-subtitle a {
-  color: var(--ocean-blue);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -87,18 +71,13 @@
 
 .lab-overview {
   font-size: var(--text-lg);
-  color: var(--global-text-color);
+  color: var(--color-text);
   line-height: 1.7;
   margin: var(--space-6) 0 var(--space-12) 0;
   max-width: 900px;
-  /* remove boxed card appearance so description blends with page */
   background: transparent;
   padding: 0;
-  border-radius: 0;
-  box-shadow: none;
-  /* left gradient accent implemented via pseudo-element for valid CSS */
   position: relative;
-  /* remove negative offset so main description aligns with the right-side gallery */
   margin-top: 0;
 }
 
@@ -109,293 +88,13 @@
   left: 0;
   bottom: 0;
   width: 4px;
-  background: linear-gradient(135deg, var(--color-primary), var(--ocean-teal));
-  border-top-left-radius: var(--radius-md);
-  border-bottom-left-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));
+  border-radius: var(--radius-xs);
 }
 
 .lab-overview strong {
-  color: var(--ocean-blue);
+  color: var(--color-primary);
   font-weight: 600;
-}
-
-/* Ensure subtitle becomes more prominent when hero is visible */
-.intro-hero .lab-subtitle {
-  opacity: 1;
-}
-
-/* Responsive adjustments: keep hero compact on small screens */
-@media (max-width: 768px) {
-  .intro-hero {
-    padding: var(--space-6) var(--space-4);
-    border-radius: var(--radius-md);
-  }
-
-  .lab-overview {
-    margin-top: var(--space-6);
-    padding: var(--space-4);
-  }
-  .lab-title {
-    font-size: clamp(1.75rem, 8vw, 2.25rem) !important;
-  }
-}
-
-/* Research areas */
-.research-areas-minimal {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-6);
-  margin-bottom: var(--space-12);
-}
-
-/* Base research item - used in both minimal and grid layouts. Keep base
-   styles here and apply layout-specific tweaks with a modifier. */
-.research-item {
-  padding: var(--space-6);
-  background: white;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-  box-shadow: var(--global-shadow-xs);
-}
-
-.research-item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(135deg, var(--ocean-blue), var(--ocean-teal));
-}
-
-.research-item:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--global-shadow-md);
-  border-color: var(--ocean-blue);
-}
-
-/* Layout-specific adjustments applied when research items live in the
-   `.research-grid` container. This keeps shared styles DRY. */
-.research-grid .research-item {
-  box-shadow: var(--global-shadow);
-  border-left: 4px solid var(--ocean-blue);
-}
-
-.research-grid .research-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--global-shadow-lg);
-  border-left-color: var(--ocean-deep);
-}
-
-.research-item h3 {
-  font-size: var(--text-lg) !important;
-  font-weight: 600 !important;
-  color: var(--gray-900) !important;
-  margin: 0 0 var(--space-3) 0 !important;
-}
-
-.research-item p {
-  font-size: var(--text-sm);
-  color: var(--gray-600);
-  line-height: 1.6;
-  margin: 0;
-}
-
-
-
-/* Minimalist hero section */
-.hero-section {
-  text-align: left;
-  margin-bottom: var(--space-16);
-  max-width: 800px;
-}
-
-.hero-title {
-  font-size: clamp(2.5rem, 6vw, 4rem) !important;
-  font-weight: 100 !important;
-  color: #000 !important;
-  margin-bottom: var(--space-8) !important;
-  letter-spacing: -0.04em !important;
-  line-height: 1.1 !important;
-  text-transform: lowercase !important;
-  position: relative !important;
-}
-
-.hero-title::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 1ch;
-  height: 2px;
-  background: #000;
-}
-
-.hero-description {
-  font-size: var(--text-xl);
-  color: var(--global-text-light);
-  line-height: 1.7;
-  margin: 0;
-  max-width: 700px;
-}
-
-.hero-stats {
-  display: flex;
-  gap: var(--space-8);
-  margin-top: var(--space-8);
-  flex-wrap: wrap;
-}
-
-.stat-item {
-  text-align: left;
-}
-
-.stat-number {
-  font-size: var(--text-4xl);
-  font-weight: 100;
-  color: var(--ocean-blue);
-  line-height: 1;
-  display: block;
-}
-
-.stat-label {
-  font-size: var(--text-sm);
-  color: var(--global-text-light);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-weight: 600;
-  margin-top: var(--space-1);
-}
-
-/* About page modern styling */
-.about-content {
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.8;
-  font-size: var(--text-lg);
-  color: var(--global-text-color);
-}
-
-.about-content p {
-  margin-bottom: var(--space-6);
-}
-
-.about-content h2 {
-  font-size: var(--text-3xl) !important;
-  font-weight: 300 !important;
-  color: #000 !important;
-  margin: var(--space-12) 0 var(--space-6) 0 !important;
-  text-transform: none !important;
-}
-
-.about-content h3 {
-  font-size: var(--text-xl) !important;
-  font-weight: 400 !important;
-  color: #000 !important;
-  margin: var(--space-8) 0 var(--space-4) 0 !important;
-}
-
-.about-content ul,
-.about-content ol {
-  margin: var(--space-4) 0;
-  padding-left: var(--space-6);
-}
-
-.about-content li {
-  margin-bottom: var(--space-2);
-  line-height: 1.7;
-}
-
-.about-content a {
-  color: var(--ocean-blue);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease;
-}
-
-.about-content a:hover {
-  color: var(--ocean-deep);
-  border-bottom-color: var(--ocean-deep);
-  text-decoration: none;
-}
-
-/* Research areas minimal styling for about page */
-.research-areas {
-  margin: var(--space-16) 0;
-}
-
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: var(--space-6);
-  margin-top: var(--space-8);
-}
-
-/* grid-specific research item styling moved earlier as `.research-grid .research-item` */
-
-/* Photo gallery styling for about page */
-.photo-gallery {
-  margin: var(--space-16) 0;
-}
-
-.photo-gallery h2 {
-  font-size: var(--text-3xl) !important;
-  font-weight: 300 !important;
-  color: #000 !important;
-  margin-bottom: var(--space-8) !important;
-  text-transform: none !important;
-  text-align: center;
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: var(--space-6);
-  margin-top: var(--space-8);
-}
-
-
-.gallery-item {
-  position: relative;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  aspect-ratio: 4 / 3;
-  box-shadow: var(--global-shadow);
-  transition: all 0.3s ease;
-  background: var(--gray-100);
-  cursor: pointer;
-}
-
-.gallery-item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(22, 78, 99, 0.1) 0%, rgba(2, 132, 199, 0.1) 100%);
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.gallery-item:hover::before {
-  opacity: 1;
-}
-
-.gallery-item:hover {
-  transform: translateY(-4px) scale(1.02);
-  box-shadow: var(--global-shadow-lg);
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
 }
 
 /* Two-column layout for about page: main content + right-side gallery */
@@ -417,20 +116,56 @@
   align-self: start;
 }
 
-@media (max-width: 980px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-    padding: 0 var(--space-4);
-  }
-  .about-side {
-    order: 2;
-  }
-  .about-main {
-    order: 1;
-  }
-  .gallery-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
+
+/* Photo Gallery */
+.photo-gallery {
+  margin: 0;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-6);
+}
+
+.gallery-item {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  background: var(--color-bg-secondary);
+  cursor: pointer;
+}
+
+.gallery-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(63, 114, 175, 0.1) 0%, rgba(63, 114, 175, 0.2) 100%);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover::before {
+  opacity: 1;
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: var(--shadow-lg);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
 .gallery-item:hover img {
@@ -457,13 +192,40 @@
   transform: translateY(0);
 }
 
-/* Lightbox effect on click (optional enhancement) */
-.gallery-item:active {
-  transform: translateY(-2px) scale(1.01);
+/* Responsive Design */
+@media (max-width: 980px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    padding: 0 var(--space-4);
+  }
+  
+  .about-side {
+    order: 2;
+  }
+  
+  .about-main {
+    order: 1;
+  }
+  
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
 
-/* Grid responsive adjustments */
 @media (max-width: 768px) {
+  .intro-hero {
+    padding: var(--space-4);
+  }
+  
+  .lab-title {
+    font-size: clamp(1.75rem, 8vw, 2.25rem) !important;
+  }
+  
+  .lab-overview {
+    margin-top: var(--space-6);
+    padding: var(--space-4);
+  }
+  
   .gallery-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--space-4);
@@ -489,52 +251,3 @@
     padding: var(--space-4) var(--space-3) var(--space-3);
   }
 }
-
-/* Contact footer styling for about page */
-.contact-footer {
-  margin-top: var(--space-20);
-  padding: var(--space-12) 0;
-  background: linear-gradient(135deg, var(--gray-50), var(--primary-50));
-  border-radius: var(--radius-2xl);
-  text-align: center;
-}
-
-.contact-footer h2 {
-  color: var(--gray-900) !important;
-  margin-bottom: var(--space-6) !important;
-}
-
-.contact-info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-8);
-  margin-top: var(--space-8);
-  text-align: left;
-}
-
-.contact-item h3 {
-  color: var(--ocean-blue) !important;
-  font-size: var(--text-lg) !important;
-  font-weight: 600 !important;
-  margin-bottom: var(--space-3) !important;
-}
-
-.contact-item p {
-  color: var(--gray-600);
-  font-size: var(--text-sm);
-  line-height: 1.6;
-  margin: 0;
-}
-
-.contact-item a {
-  color: var(--ocean-blue);
-  text-decoration: none;
-}
-
-.contact-item a:hover {
-  color: var(--ocean-deep);
-  text-decoration: underline;
-}
-
-/* Publication styles are centralized in `_sass/pages/_publications.scss`.
-   The about page uses the classes there for previews — keep styling DRY. */
