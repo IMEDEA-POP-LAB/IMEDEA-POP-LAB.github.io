@@ -14,6 +14,15 @@ all:
     doi: "https://doi.org/10.1029/2025GL116480"
     image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/16377812-acfa-4755-b940-223a7d521eeb/grl70896-fig-0002-m.png"
 
+  - title: "Coastal Eddy Detection in the Balearic Sea: SWOT Capabilities"
+    authors: "Fortunato, L., Gómez-Navarro, L., Combes, V., Cotroneo, Y., Aulicino, G., Pascual, A."
+    journal: "Remote Sensing"
+    year: 2025
+    volume: "17"
+    pages: "2552"
+    doi: "https://doi.org/10.3390/rs17152552"
+    image: "https://pub.mdpi-res.com/remotesensing/remotesensing-17-02552/article_deploy/html/images/remotesensing-17-02552-ag-550.jpg?1754359041"
+
   - title: "Kuroshio Extension and Gulf Stream dominate the Eddy Kinetic Energy intensification observed in the global ocean"
     authors: "Barceló-Llull, B., Rosselló, P., Combes, V., Sánchez-Román, A., Pujol, M.I. and Pascual, A."
     journal: "Scientific Reports"
