@@ -335,19 +335,13 @@ header.site-header,
 .wrapper .site-header,
 body .site-header,
 html .site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  /* Keep a safe appearance override (no positioning) so component controls layout */
   width: 100%;
   z-index: 9999;
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #1e3a8a 100%);
-  background-color: #2563eb;
-  background-image: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #1e3a8a 100%);
-  padding: 1rem 0;
-  box-shadow: 0 4px 25px rgba(37, 99, 235, 0.4);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
-  min-height: 80px;
+  background: linear-gradient(135deg, var(--blue-600) 0%, var(--blue-700) 50%, var(--blue-900) 100%);
+  background-color: var(--blue-600);
+  box-shadow: 0 4px 18px rgba(37, 99, 235, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   display: block;
   visibility: visible;
 }
@@ -361,7 +355,7 @@ html .site-header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
-  height: 100%;
+  height: auto;
   background: transparent;
 }
 
@@ -394,10 +388,13 @@ html .site-header {
   font-weight: 600;
   font-size: 0.875rem;
   text-transform: uppercase;
-  padding: 0.5rem 1rem;
+  /* align with component: inline-flex with centered content */
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 1rem;
   border-radius: 0.75rem;
   transition: all 0.3s ease;
-  display: block;
   visibility: visible;
 }
 

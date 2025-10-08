@@ -11,12 +11,15 @@
   right: 0;
   width: 100%;
   z-index: 1000;
-  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 50%, #1e1b4b 100%);
-  background-color: #1e40af;
-  padding: var(--space-4) 0;
-  box-shadow: 0 4px 25px rgba(30, 64, 175, 0.4);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
-  min-height: 80px;
+  /* use the design tokens so gradient matches overall site */
+  background: linear-gradient(135deg, var(--blue-600) 0%, var(--blue-700) 50%, var(--blue-900) 100%);
+  background-color: var(--blue-600);
+  padding: 0; /* vertical spacing is handled by the container for perfect centering */
+  box-shadow: 0 4px 25px rgba(30, 64, 175, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  min-height: 64px;
+  display: flex;
+  align-items: center; /* vertically center container */
 }
 
 .site-header .container {
@@ -25,8 +28,8 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--space-6);
-  height: 100%;
+  padding: var(--space-2) var(--space-6); /* small vertical padding for breathing room */
+  height: 64px; /* match header min-height for predictable centering */
 }
 
 .site-title {
@@ -56,14 +59,18 @@
   font-weight: 600;
   font-size: var(--text-sm);
   text-transform: uppercase;
-  padding: var(--space-2) var(--space-4);
+  /* use inline-flex so we can vertically center content inside the link */
+  display: inline-flex;
+  align-items: center;
+  height: 40px; /* consistent clickable area */
+  padding: 0 var(--space-4);
   border-radius: var(--radius-md);
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .site-nav .page-link:hover {
   color: var(--ocean-light);
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.12);
   text-decoration: none;
 }
 
