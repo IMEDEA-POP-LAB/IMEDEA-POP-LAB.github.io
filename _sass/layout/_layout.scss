@@ -97,8 +97,17 @@ header:not(.site-header),
 }
 
 /* Ensure the main content sits below the floating header */
-main.page-content {
-  padding-top: calc(80px + var(--space-4)); /* Fixed header height + spacing */
+main.page-content,
+.page-content,
+body {
+  padding-top: calc(80px + var(--space-4)) !important; /* Fixed header height + spacing */
+}
+
+/* Force all page content to start below the fixed header */
+main,
+.main-content,
+.page-wrapper {
+  margin-top: 80px !important;
 }
 
 /* Modern page content wrapper */
