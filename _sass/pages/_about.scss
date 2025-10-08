@@ -8,16 +8,17 @@
   margin-bottom: var(--space-12);
   max-width: 1100px;
   position: relative;
-  padding: var(--space-6) var(--space-4);
+  padding: var(--space-8) var(--space-4) var(--space-6);
   background: transparent;
   border-radius: 0;
   box-shadow: none;
+  margin-top: var(--space-4);
 }
 
 .lab-title {
   font-size: clamp(2.75rem, 6vw, 5rem);
   font-weight: 700;
-  color: var(--blue-900);
+  color: #0a1a2a;
   margin-bottom: var(--space-4);
   letter-spacing: -0.02em;
   line-height: 1.05;
@@ -27,7 +28,7 @@
   transition: all 0.3s ease;
   
   @supports (-webkit-background-clip: text) {
-    background: linear-gradient(90deg, var(--blue-800), var(--blue-900));
+    background: linear-gradient(90deg, #112D4E, #0a1a2a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -42,7 +43,7 @@
   left: 0;
   width: 0.6ch;
   height: 3px;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-primary-hover));
+  background: linear-gradient(90deg, #112D4E, #0a1a2a);
   transition: width var(--transition-fast) ease;
   transform-origin: left center;
   border-radius: var(--radius-xs);
@@ -77,19 +78,7 @@
   max-width: 900px;
   background: transparent;
   padding: 0;
-  position: relative;
   margin-top: 0;
-}
-
-.lab-overview::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 4px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));
-  border-radius: var(--radius-xs);
 }
 
 .lab-overview strong {
