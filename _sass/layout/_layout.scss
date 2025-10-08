@@ -97,14 +97,13 @@ header:not(.site-header),
 }
 
 /* Ensure the main content sits below the floating header */
-main.page-content,
-.page-content {
-  padding-top: calc(80px + var(--space-6));
+body {
+  padding-top: 80px;
 }
 
-/* Add top spacing for page wrapper */
-.page-wrapper {
-  padding-top: 80px;
+main.page-content,
+.page-content {
+  padding-top: var(--space-4);
 }
 
 /* Modern page content wrapper */
@@ -203,29 +202,26 @@ main.page-content,
   text-transform: none !important;
 }
 
-/* Ensure page headers and titles scroll with content */
+/* Reset all positioning for page content */
 .page-header,
 .post-header,
 .page-content > header,
 main > header,
 .projects-header,
-.page .page-header {
+.page .page-header,
+h1, h2, h3, h4, h5, h6,
+.page-title,
+.section-header,
+.section-header h3,
+.lab-title,
+.intro-hero,
+.about-grid {
   position: static !important;
   top: auto !important;
+  left: auto !important;
+  right: auto !important;
   z-index: auto !important;
-  border-bottom: none !important;
-  padding-bottom: 0 !important;
-  margin-top: 0 !important;
-}
-
-/* Ensure titles are not sticky or fixed */
-h1, .page-title,
-.page h1, .page .page-title,
-.page-header h1, .page-header .page-title,
-.section-header, .section-header h3 {
-  position: static !important;
-  top: auto !important;
-  z-index: auto !important;
-  margin-top: 0 !important;
   transform: none !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
