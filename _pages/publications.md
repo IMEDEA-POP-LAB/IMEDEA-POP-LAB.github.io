@@ -21,40 +21,45 @@ nav_order: 1
 
     <!-- Publications List -->
     <div class="publications-list">
-  {# NOTE: The "Complete List" below renders publications in the exact order
-    they appear in `_data/publications.yml`. To change display order,
-    reorder the entries in that YAML file. #}
   {% assign sorted_pubs = site.data.publications.all %}
 
     {% for pub in sorted_pubs %}
       <div class="publication-item" data-year="{{ pub.year }}">
         <div class="item-content">
-          <div class="item-header">
-            <h3 class="item-title">{{ pub.title }}</h3>
-            <div class="item-meta">
-              <span class="journal-name">{{ pub.journal }}</span>
-              <span class="item-year">{{ pub.year }}</span>
-            </div>
-          </div>
-          
-          <div class="item-authors">{{ pub.authors }}</div>
-          
-          {% if pub.volume or pub.pages %}
-          <div class="item-details">
-            {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+          {% if pub.image %}
+          <div class="item-image">
+            <img src="{{ pub.image }}" alt="{{ pub.title }}" loading="lazy">
           </div>
           {% endif %}
           
-          {% if pub.doi or pub.url %}
-          <div class="item-actions">
-            {% if pub.doi %}
-            <a href="{{ pub.doi }}" target="_blank" class="item-link">
-              <span class="link-icon">🔗</span>
-              DOI
-            </a>
+          <div class="item-text">
+            <div class="item-header">
+              <h3 class="item-title">{{ pub.title }}</h3>
+              <div class="item-meta">
+                <span class="journal-name">{{ pub.journal }}</span>
+                <span class="item-year">{{ pub.year }}</span>
+              </div>
+            </div>
+            
+            <div class="item-authors">{{ pub.authors }}</div>
+            
+            {% if pub.volume or pub.pages %}
+            <div class="item-details">
+              {% if pub.volume %}Vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}
+            </div>
+            {% endif %}
+            
+            {% if pub.doi or pub.url %}
+            <div class="item-actions">
+              {% if pub.doi %}
+              <a href="{{ pub.doi }}" target="_blank" class="item-link">
+                <span class="link-icon">🔗</span>
+                DOI
+              </a>
+              {% endif %}
+            </div>
             {% endif %}
           </div>
-          {% endif %}
         </div>
       </div>
       {% endfor %}

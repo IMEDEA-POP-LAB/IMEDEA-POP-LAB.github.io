@@ -982,6 +982,65 @@ publication-content .publication-title {
   border-bottom-color: var(--color-primary);
 }
 
+/* Publication item content layout */
+.item-content {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+/* Publication image styling */
+.item-image {
+  flex-shrink: 0;
+  width: 120px;
+  height: 80px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-secondary);
+  position: relative;
+}
+
+.item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-base);
+}
+
+.item-image:hover img {
+  transform: scale(1.05);
+}
+
+/* Fallback for publications without images */
+.item-text {
+  flex: 1;
+  min-width: 0; /* Allow text to shrink */
+}
+
+/* When no image is present, ensure proper spacing */
+.publication-item:not(:has(.item-image)) .item-content {
+  display: block;
+}
+
+/* Alternative for better browser support */
+.publication-item .item-content:not(:has(.item-image)) {
+  display: block;
+}
+
+/* Image loading states */
+.item-image img[loading="lazy"] {
+  background: linear-gradient(90deg, var(--color-bg-secondary) 0%, var(--color-bg) 50%, var(--color-bg-secondary) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
 .item-header {
   display: flex;
   justify-content: space-between;
@@ -1306,6 +1365,19 @@ publication-content .publication-title {
   .card-year,
   .item-year {
     align-self: flex-start;
+  }
+  
+  /* Mobile responsive adjustments for publication images */
+  .item-content {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  
+  .item-image {
+    width: 100%;
+    height: 120px;
+    align-self: center;
+    max-width: 300px;
   }
 }
 
