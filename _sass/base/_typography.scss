@@ -37,6 +37,12 @@ h1, h2, h3, h4, h5, h6,
   font-weight: var(--font-bold);
   line-height: var(--leading-tight);
   letter-spacing: -0.025em;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
 }
 
 /* Heading sizes */
@@ -117,18 +123,17 @@ h1, .page-title {
   letter-spacing: -0.04em;
   margin: 0 0 var(--space-8) 0;
   text-transform: lowercase;
-  position: relative;
 }
 
 /* Add underline to h1 only */
 h1::after, .page-title::after {
   content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
+  position: relative;
+  display: block;
   width: 0.8ch;
   height: 1px;
   background: #000;
+  margin-top: var(--space-1);
 }
 
 /* Unified heading system - consistent across all pages */
