@@ -28,8 +28,10 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: var(--space-2) var(--space-6); /* small vertical padding for breathing room */
+  /* keep vertical spacing minimal to rely on explicit heights for centering */
+  padding: 0 var(--space-6);
   height: 64px; /* match header min-height for predictable centering */
+  box-sizing: border-box;
 }
 
 .site-title {
@@ -62,6 +64,8 @@
   /* use inline-flex so we can vertically center content inside the link */
   display: inline-flex;
   align-items: center;
+  /* ensure text doesn't add extra height and centers properly */
+  line-height: 1;
   height: 40px; /* consistent clickable area */
   padding: 0 var(--space-4);
   border-radius: var(--radius-md);
