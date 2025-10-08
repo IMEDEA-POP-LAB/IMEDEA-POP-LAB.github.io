@@ -98,7 +98,7 @@ header:not(.site-header),
 
 /* Ensure the main content sits below the floating header */
 main.page-content {
-  padding-top: calc(4rem + var(--space-6)); /* adjust if header height changes */
+  padding-top: calc(80px + var(--space-4)); /* Fixed header height + spacing */
 }
 
 /* Modern page content wrapper */
