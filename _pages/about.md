@@ -16,7 +16,7 @@ social: true
       <p>The Physical Ocean Processes lab at IMEDEA focuses on physical oceanography, investigating ocean dynamics at meso- and submesoscales to better understand the structure and variability of ocean circulation. By combining satellite altimetry, in situ observations, and numerical modeling, the team contributes to the validation and scientific exploitation of new altimetric products and the reconstruction of ocean state variables using advanced techniques, including artificial intelligence. Part of the research is conducted in the Mediterranean Sea, a region particularly vulnerable to climate change, where the effects of ocean warming and intensified extremes can be observed with increasing clarity. The approaches and scientific questions addressed are, however, relevant to ocean regions worldwide. Applications include improving ocean prediction systems and understanding potential impacts on marine ecosystems. Current investigations include the analysis of data from the SWOT satellite mission, the study of marine heatwaves and storm surges, the influence of small-scale dynamics on large-scale ocean circulation and climate, and the development of AI-based 3D reconstruction methods.</p>
     </div>
 
-    <!-- Recent Publications (kept in the main column): show first 4 items from `all` -->
+    <!-- Recent Publications (kept in the main column): show first 5 items from `all` -->
     {% if site.data.publications.all and site.data.publications.all.size > 0 %}
     <div class="recent-publications">
       <div class="section-header">
@@ -24,7 +24,7 @@ social: true
       </div>
       
       <div class="recent-publications-list">
-        {% for publication in site.data.publications.all limit:4 %}
+        {% for publication in site.data.publications.all limit:5 %}
         <div class="recent-publication-item">
           {% if publication.image %}
           <div class="recent-publication-image">

@@ -1,5 +1,12 @@
 all:
   # 2025 Publications
+  # - title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
+  #   authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
+  #   journal: "Geophysical Research Letters"
+  #   year: 2025
+  #   doi: "https://doi.org/10.1029/2025GL116480"
+  #   image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/16377812-acfa-4755-b940-223a7d521eeb/grl70896-fig-0002-m.png"
+
   - title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
     authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
     journal: "Geophysical Research Letters"
@@ -37,6 +44,7 @@ all:
     year: 2024
     volume: "11"
     doi: "https://doi.org/10.3389/fmars.2024.1394549"
+    image: "https://images-provider.frontiersin.org/api/ipx/w=410&f=webp/https://www.frontiersin.org/files/Articles/1394549/fmars-11-1394549-HTML-r2/image_m/fmars-11-1394549-g002.jpg"
     
   - title: "3D intrusions transport active surface microbial assemblages to the dark ocean"
     authors: "Freilich, M. A., Poirier, C., Dever, M., Alou-Font, E., Allen, J., Cabornero, A., ... A. Pascual & Mahadevan, A."
@@ -45,6 +53,7 @@ all:
     volume: "121"
     pages: "e2319937121"
     doi: "https://doi.org/10.1073/pnas.2319937121"
+    image: "https://www.pnas.org/cms/10.1073/pnas.2319937121/asset/c0720466-6a4c-49a9-baa1-3cf7947ed632/assets/images/large/pnas.2319937121fig01.jpg"
     
   - title: "CLOINet: Ocean state reconstructions through remote-sensing, in-situ sparse observations and Deep Learning"
     authors: "Cutolo, E., Pascual, A., Ruiz, S., Zarokanellos, N. D., & Fablet, R."
