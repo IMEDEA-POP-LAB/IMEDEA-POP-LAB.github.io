@@ -7,7 +7,7 @@ social: true
 
 <div class="intro-hero">
   <h1 class="lab-title">Physical Ocean Processes</h1>
-  <p class="lab-subtitle"><a href='https://imedea.uib-csic.es/'>Mediterranean Institute for Advanced Studies (IMEDEA)</a></p>
+  <p class="lab-subtitle"><a href='https://imedea.uib-csic.es/' target="_blank">Mediterranean Institute for Advanced Studies (UIB-CSIC)</a></p>
 </div>
 
 <div class="about-grid">
