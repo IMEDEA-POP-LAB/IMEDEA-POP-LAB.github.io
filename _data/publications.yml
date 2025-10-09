@@ -1,14 +1,14 @@
 all:
   # 2025 Publications
   
-  # - title: "Tracking marine heatwaves in the Balearic Sea: temperature trends and the role of detection methods"
-  #   authors: "Fernández-Álvarez, B., Barceló-Llull, B. and Pascual, A."
-  #   journal: "Ocean Science"
-  #   volume: "21"
-  #   pages: "1987–1999"
-  #   year: 2025
-  #   doi: "https://doi.org/10.5194/os-21-1987-2025, 2025"
-  #   image: "https://os.copernicus.org/articles/21/1987/2025/os-21-1987-2025-f05-thumb.png"
+  - title: "Tracking marine heatwaves in the Balearic Sea: temperature trends and the role of detection methods"
+    authors: "Fernández-Álvarez, B., Barceló-Llull, B. and Pascual, A."
+    journal: "Ocean Science"
+    volume: "21"
+    pages: "1987–1999"
+    year: 2025
+    doi: "https://doi.org/10.5194/os-21-1987-2025, 2025"
+    image: "https://os.copernicus.org/articles/21/1987/2025/os-21-1987-2025-f05-thumb.png"
 
   - title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
     authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
