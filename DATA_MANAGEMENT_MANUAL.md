@@ -406,21 +406,6 @@ doi: "https://doi.org/10.1000/xyz"  # Good
 
 ---
 
-## Best Practices
-
-### File Organization
-- **Consistent naming**: Use clear, descriptive filenames
-- **Regular updates**: Keep information current
-- **Backup**: Commit changes regularly to version control
-
-### Content Guidelines
-- **Accuracy**: Verify all information before adding
-- **Completeness**: Fill all required fields
-- **Consistency**: Use consistent formatting across entries
-- **Professional tone**: Maintain academic/professional language
-
----
-
 ## Getting Help
 
 ### Resources
