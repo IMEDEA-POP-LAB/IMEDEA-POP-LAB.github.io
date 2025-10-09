@@ -1,11 +1,14 @@
 all:
   # 2025 Publications
-  # - title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
-  #   authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
-  #   journal: "Geophysical Research Letters"
+  
+  # - title: "Tracking marine heatwaves in the Balearic Sea: temperature trends and the role of detection methods"
+  #   authors: "Fernández-Álvarez, B., Barceló-Llull, B. and Pascual, A."
+  #   journal: "Ocean Science"
+  #   volume: "21"
+  #   pages: "1987–1999"
   #   year: 2025
-  #   doi: "https://doi.org/10.1029/2025GL116480"
-  #   image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/16377812-acfa-4755-b940-223a7d521eeb/grl70896-fig-0002-m.png"
+  #   doi: "https://doi.org/10.5194/os-21-1987-2025, 2025"
+  #   image: "https://os.copernicus.org/articles/21/1987/2025/os-21-1987-2025-f05-thumb.png"
 
   - title: "SWOT enhances small-scale eddy detection in the Mediterranean Sea"
     authors: "Verger-Miralles, E., Mourre, B., Gómez-Navarro, L., Barceló-Llull, B., Casas, B., Cutolo, E., Díaz-Barroso, L., d'Ovidio, F., Tarry, D. R., Zarokanellos, N. D. and Pascual, A."
@@ -31,6 +34,7 @@ all:
     image: "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-025-06149-9/MediaObjects/41598_2025_6149_Fig2_HTML.png?as=webp"
  
   # 2024 Publications
+  
   - title: "Changes in the Gulf Stream path over the last 3 decades"
     authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
     journal: "State of the Planet 4-osr8"
@@ -73,6 +77,7 @@ all:
     doi: "https://doi.org/10.3389/fmars.2024.1151868"
 
   # 2023 Publications
+  
   - title: "DUACS DT2021 reprocessed altimetry improves sea level retrieval in the coastal band of the European seas"
     authors: "Sánchez-Román, A., Pujol, M. I., Faugère, Y., and Pascual, A."
     journal: "Ocean Science"
@@ -121,6 +126,7 @@ all:
     doi: "https://doi.org/10.1175/BAMS-D-19-0305.A"
 
   # 2022 Publications
+  
   - title: "Strong Long‐Lived Anticyclonic Mesoscale Eddies in the Balearic Sea: Formation, Intensification, and Thermal Impact"
     authors: "Aguiar, E., Mourre, B., Alvera‐Azcárate, A., Pascual, A., Mason, E., & Tintoré, J."
     journal: "Journal of Geophysical Research: Oceans"
@@ -178,6 +184,7 @@ all:
     doi: "https://doi.org/10.3389/fmars.2021.737671"
 
   # 2021 Publications
+  
   - title: "Copernicus Marine Service Ocean State Report, Issue 5"
     authors: "Karina von Schuckmann ((Editor)), Pierre-Yves Le Traon ((Editor)), Neville Smith (Chair) ((Review Editor)), Ananda Pascual ((Review Editor)), Samuel Djavidnia ((Review Editor)), Jean-Pierre Gattuso ((Review Editor)), Marilaure Grégoire ((Review Editor)), et al."
     journal: "Journal of Operational Oceanography"
@@ -227,6 +234,7 @@ all:
     doi: "https://doi.org/10.1029/2020JC016614"
 
   # 2020 Publications
+  
   - title: "Learning latent dynamics for partially observed chaotic systems"
     authors: "Ouala, S.; Nguyen, D.; Drumetz, L.; Chapron, B.; Pascual, A.; Collard, F.; Gaultier, L.; Fablet, R."
     journal: "Chaos"
@@ -268,6 +276,7 @@ all:
     doi: "https://doi.org/10.3390/rs12040734"
 
   # 2019 Publications
+  
   - title: "Challenges for Sustained Observing and Forecasting Systems in the Mediterranean Sea"
     authors: "Tintoré, J., N. Pinardi, E. Álvarez-Fanjul, E. Aguiar, D. Álvarez-Berastegui, M. Bajo, R. Balbin, R. Bozzano, B.B. Nardelli, V. Cardin, B. Casas, M. Charcos-Llorens, J. Chiggiato, E. Clementi, G. Coppini, L. Coppola, G. Cossarini, A. Deidun, S. Deudero, F. D'Ortenzio, A. Drago, M. Drudi, G. El Serafy, R. Escudier, P. Farcy, I. Federico, J.G. Fernández, C. Ferrarin, C. Fossi, C. Frangoulis, F. Galgani, S. Gana, J. García Lafuente, M.G. Sotillo, P. Garreau, I. Gertman, L. Gómez-Pujol, A. Grandi, D. Hayes, J. Hernández-Lasheras, B. Herut, E. Heslop, K. Hilmi, M. Juza, G. Kallos, G. Korres, R. Lecci, P. Lazzari, P. Lorente, S. Liubartseva, F. Louanchi, V. Malacic, G. Mannarini, D. March, S. Marullo, E. Mauri, L. Meszaros, B. Mourre, L. Mortier, C. Muñoz-Mas, A. Novellino, D. Obaton, A. Orfila, A. Pascual, S. Pensieri, B. Pérez Gómez, S. Pérez Rubio, L. Perivoliotis, G. Petihakis, L.P. de la Villéon, J. Pistoia, P.M. Poulain, S. Pouliquen, L. Prieto, P. Raimbault, P. Reglero, E. Reyes, P. Rotllan, S. Ruiz, J. Ruiz, I. Ruiz, L.F. Ruiz-Orejón, B. Salihoglu, S. Salon, S. Sammartino, A. Sánchez Arcilla, G. Sannino, G. Sannino, R. Santoleri, R. Sardá, K. Schroeder, S. Simoncelli, S. Sofianos, G. Sylaios, T. Tanhua, A. Teruzzi, P. Testor, D. Tezcan, M. Torner, F. Trotta, G. Umgiesser, K. von Schuckmann, G. Verri, I. Vilibic, M. Yucel, M. Zavatarelli, G. Zodiatis"
     journal: "Frontiers in Marine Science"
@@ -375,6 +384,7 @@ all:
     doi: "https://doi.org/10.1038/s41598-018-36819-w"
 
   # 2018 Publications
+  
   - title: "Neural Network Based Kalman Filters for the Spatio-Temporal Interpolation of Satellite-Derived Sea Surface Temperature"
     authors: "Ouala, S., R. Fablet, C. Herzet, B. Chapron, A. Pascual, F. Collard, L. Gaultier"
     journal: "Remote Sensing"
