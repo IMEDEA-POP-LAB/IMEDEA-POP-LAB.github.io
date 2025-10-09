@@ -120,7 +120,6 @@ Use this template for new projects:
   logo: "[logo_filename.png]"
   url: "[project_website_url]" # Leave empty "" if no website
   description: "[Brief project description]"
-  featured: true # or false
 ```
 
 ### Required Fields
@@ -129,8 +128,6 @@ Use this template for new projects:
 - `logo`: Logo filename in `assets/img/projects/`
 - `url`: Project website (use empty quotes "" if none)
 - `description`: Brief description of the project
-
-Note: The `featured` field has been removed from projects.
 
 ### Example Entry
 ```yaml
@@ -180,10 +177,8 @@ Use this template for new publications:
 - `pages`: Page numbers or article number
 
 ### Author Formatting Guidelines
-- Use full names as they appear in publication
 - Separate multiple authors with commas
 - Use "and" before the last author
-- For many authors, consider truncating with "et al." after 3-5 names
 
 ### Example Entry
 ```yaml
@@ -406,9 +401,8 @@ doi: "https://doi.org/10.1000/xyz"  # Good
 - For non-English text, always use quotes
 
 ### Testing Changes
-1. **Local testing**: Use Jekyll locally to test changes
-2. **GitHub Actions**: Check build status in repository
-3. **Staging**: Use a separate branch for testing major changes
+1. **GitHub Actions**: Check build status in repository
+2. **Staging**: Use a separate branch for testing major changes
 
 ---
 
@@ -424,11 +418,6 @@ doi: "https://doi.org/10.1000/xyz"  # Good
 - **Completeness**: Fill all required fields
 - **Consistency**: Use consistent formatting across entries
 - **Professional tone**: Maintain academic/professional language
-
-### Maintenance Schedule
-- **Monthly**: Review and update team information
-- **Quarterly**: Update project statuses and publications
-- **Annually**: Archive completed projects and update photos
 
 ---
 
