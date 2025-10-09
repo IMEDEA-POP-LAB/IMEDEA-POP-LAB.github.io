@@ -92,7 +92,7 @@ nav_order: 5
 </div>
 
 <div class="repo-footer">
-  <p><em>Last updated: {{ "now" | date: "%B %Y" }} | For current repositories, visit our <a href="https://github.com/IMEDEA-AP-LAB" target="_blank">GitHub organization</a> | Part of the <a href="https://imedea.uib-csic.es/en/research/marine-technologies-operational-and-coastal-oceanography/" target="_blank">TMOOC Research Group</a> at IMEDEA</em></p>
+  <p><em>Last updated: {{ "now" | date: "%B %Y" }} | For current repositories, visit our <a href="https://github.com/IMEDEA-POP-LAB" target="_blank">GitHub organization</a> | Part of the <a href="https://imedea.uib-csic.es/en/research/marine-technologies-operational-and-coastal-oceanography/" target="_blank">Physical Oceanography and Climate Research Group</a> at IMEDEA</em></p>
 </div>
 
 </div>
