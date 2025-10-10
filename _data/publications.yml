@@ -442,3 +442,105 @@ all:
     volume: "179"
     pages: "55-71"
     doi: "https://doi.org/10.1016/j.jmarsys.2017.11.006"
+
+  # 2017 Publications
+  
+  - title: ""
+    authors: ""
+    journal: ""
+    year: 201
+    volume: ""
+    pages: ""
+    doi: ""
+
+  # 2016 Publications
+  
+  - title: ""
+    authors: ""
+    journal: ""
+    year: 201
+    volume: ""
+    pages: ""
+    doi: ""
+
+  # 2015 Publications
+  
+  - title: ""
+    authors: ""
+    journal: ""
+    year: 201
+    volume: ""
+    pages: ""
+    doi: ""
+
+  # 2014 Publications
+  
+  - title: ""
+    authors: ""
+    journal: ""
+    year: 201
+    volume: ""
+    pages: ""
+    doi: ""
+
+  # 2013 Publications
+  
+  - title: ""
+    authors: ""
+    journal: ""
+    year: 201
+    volume: ""
+    pages: ""
+    doi: ""
+
+  # 2012 Publications
+  
+  - title: ""
+    authors: ""
+    journal: ""
+    year: 201
+    volume: ""
+    pages: ""
+    doi: ""
+
+  # 2011 Publications
+  
+  - title: ""
+    authors: ""
+    journal: ""
+    year: 201
+    volume: ""
+    pages: ""
+    doi: ""
+
+  # 2010 Publications
+
+  # 2009 Publications
+  
+  - title: "Interannual and Decadal Variations in Cross‐Shelf Transport in the Gulf of Alaska"
+    authors: "Combes, V., E. Di Lorenzo and Curchitser, E"
+    journal: "Journal of Physical Oceanography"
+    year: 2009
+    volume: "39"
+    pages: "1050‐1059"
+    doi: "https://doi.org/10.1175/2008JPO4014.1"
+
+  - title: " Low‐frequency variability in the Gulf of Alaska from coarse and eddy‐permitting ocean models"
+    authors: "Capotondi, A., Combes, V., Alexander, M. A., Di Lorenzo, E. and Miller, A. J."
+    journal: "Journal of Geophysical Research‐Oceans"
+    year: 2009
+    volume: "114"
+    pages: ""
+    doi: "https://doi.org/10.1029/2008JC004983"
+
+  # 2008 Publications
+  
+  # 2007 Publications
+  
+  - title: "Intrinsic and forced interannual variability of the Gulf of Alaska mesoscale circulation"
+    authors: "Combes, V., E. Di Lorenzo"
+    journal: "Progress In Oceanography"
+    year: 2007
+    volume: "75"
+    pages: "266‐286"
+    doi: "https://doi.org/10.1016/j.pocean.2007.08.011"
