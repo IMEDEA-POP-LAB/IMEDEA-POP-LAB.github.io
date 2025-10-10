@@ -801,7 +801,7 @@ all:
     volume: "39"
     pages: "1050‐1059"
     doi: "https://doi.org/10.1175/2008JPO4014.1"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_03.png"
 
   - title: " Low‐frequency variability in the Gulf of Alaska from coarse and eddy‐permitting ocean models"
     authors: "Capotondi, A., Combes, V., Alexander, M. A., Di Lorenzo, E. and Miller, A. J."
@@ -810,7 +810,7 @@ all:
     volume: "114"
     pages: ""
     doi: "https://doi.org/10.1029/2008JC004983"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_02.png"
 
   # 2008 Publications
   
@@ -823,5 +823,5 @@ all:
     volume: "75"
     pages: "266‐286"
     doi: "https://doi.org/10.1016/j.pocean.2007.08.011"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_01.png"
     
