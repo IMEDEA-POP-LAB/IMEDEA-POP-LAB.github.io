@@ -257,21 +257,21 @@ all:
 
   # 2021 Publications
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Circulation and Cross-Shelf Exchanges in the Malvinas Islands Shelf Region"
+    authors: "Palma,E., R.P. Matano, and V. Combes"
+    journal: "Progress in Oceanography."
+    year: 2021
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1016/j.pocean.2021.102666"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
+  - title: "Circulation and cross-shelf exchanges in the northern shelf region of the southwestern Atlantic: Kinematics"
+    authors: "Combes, V., Matano, R. P., & Palma, E."
+    journal: "Geophysical Research: Oceans"
+    year: 2021
+    volume: "126"
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1029/2020JC016959"
   
   - title: "Copernicus Marine Service Ocean State Report, Issue 5"
     authors: "Karina von Schuckmann ((Editor)), Pierre-Yves Le Traon ((Editor)), Neville Smith (Chair) ((Review Editor)), Ananda Pascual ((Review Editor)), Samuel Djavidnia ((Review Editor)), Jean-Pierre Gattuso ((Review Editor)), Marilaure Grégoire ((Review Editor)), et al."
