@@ -8,6 +8,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1093/acrefore/9780190228620.013.969"
+    image: ""
 
   - title: "Effects of regional oceanography and climate variability on larval connectivity of the wedge clam Donax hanleyanus in South American beaches"
     authors: "Meerhoff, E., Combes, V., Matano, R., Barrier, N., Franco, B.C., Piola, A.R., Hernández-Vaca, F., Defeo, O."
@@ -15,7 +16,8 @@ all:
     year: 2025
     volume: ""
     pages: ""
-    doi: "https://doi.org/10.1016/j.ecss.2025.109346."
+    doi: "https://doi.org/10.1016/j.ecss.2025.109346"
+    image: ""
 
   - title: "Circulation and cross‐shelf exchanges in the Agulhas Bank Region."
     authors: "Matano, R. P., Combes, V., Palma, E. D., & Strub, P. T. "
@@ -24,6 +26,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2023JC020234"
+    image: ""
  
   - title: "Tracking marine heatwaves in the Balearic Sea: temperature trends and the role of detection methods"
     authors: "Fernández-Álvarez, B., Barceló-Llull, B. and Pascual, A."
@@ -66,6 +69,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1007/978-3-031-71190-9_2"
+    image: ""
 
   - title: " Altimeter-derived poleward lagrangian pathways in the California current system: Part 1"
     authors: "Ted Strub, P., James, C., Fisher, J.L., Fewings, M.R., Zeman, S.M., Combes, V., Garwood, J.C., Bolm, A., Scherer, A"
@@ -74,6 +78,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.pocean.2024.103353"
+    image: ""
 
   - title: "Changes in the Gulf Stream path over the last 3 decades"
     authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
@@ -125,6 +130,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2023JC019865"
+    image: ""
 
   - title: "Circulation and Cross-Shelf Exchanges in the Northern Shelf of the Southwestern Atlantic: Dynamics"
     authors: "Combes, V., Matano, R. P., & Palma, E."
@@ -133,6 +139,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2023JC019887"
+    image: ""
 
   - title: "Variability of the shelf circulation around South Georgia, Southern Ocean"
     authors: "Combes, V., Matano, R. P., Meredith, M. P., & Young, E. F."
@@ -141,6 +148,7 @@ all:
     volume: "128"
     pages: ""
     doi: "https://doi.org/10.1029/2022JC019257"
+    image: ""
 
   - title: "DUACS DT2021 reprocessed altimetry improves sea level retrieval in the coastal band of the European seas"
     authors: "Sánchez-Román, A., Pujol, M. I., Faugère, Y., and Pascual, A."
@@ -198,6 +206,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.marenvres.2022.105591"
+    image: ""
  
   - title: "Strong Long‐Lived Anticyclonic Mesoscale Eddies in the Balearic Sea: Formation, Intensification, and Thermal Impact"
     authors: "Aguiar, E., Mourre, B., Alvera‐Azcárate, A., Pascual, A., Mason, E., & Tintoré, J."
@@ -264,6 +273,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.pocean.2021.102666"
+    image: ""
 
   - title: "Circulation and cross-shelf exchanges in the northern shelf region of the southwestern Atlantic: Kinematics"
     authors: "Combes, V., Matano, R. P., & Palma, E."
@@ -272,6 +282,7 @@ all:
     volume: "126"
     pages: ""
     doi: "https://doi.org/10.1029/2020JC016959"
+    image: ""
   
   - title: "Copernicus Marine Service Ocean State Report, Issue 5"
     authors: "Karina von Schuckmann ((Editor)), Pierre-Yves Le Traon ((Editor)), Neville Smith (Chair) ((Review Editor)), Ananda Pascual ((Review Editor)), Samuel Djavidnia ((Review Editor)), Jean-Pierre Gattuso ((Review Editor)), Marilaure Grégoire ((Review Editor)), et al."
@@ -330,6 +341,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1111/geb.13217"
+    image: ""
 
   - title: "Assessment of larval connectivity in a sandy beach mole crab through a coupled bio-oceanographic model"
     authors: "Meerhoff E., O. Defeo, V. Combes, B.C. Franco, R.P. Matano, A.R. Piola, F. Hernández Vaca, E. Celentano"
@@ -338,6 +350,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.ecss.2020.107035"
+    image: ""
 
   - title: "Subsurface Ocean Warming Hotspots and Potential Impacts on Marine Species: The Southwest South Atlantic Ocean Case Study"
     authors: "Franco B.C., V. Combes and V. González Carman"
@@ -346,6 +359,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.3389/fmars.2020.563394"
+    image: ""
 
   - title: "Modeling the Impact of Ocean Circulation on Chlorophyll Blooms Around South Georgia, Southern Ocean"
     authors: "Matano, R.P., V. Combes, E.F. Young and M. Meredith"
@@ -354,6 +368,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2020JC016391"
+    image: ""
 
   - title: "Dynamical Analysis of the Oceanic Circulation in the Gulf of San Jorge, Argentina"
     authors: "Palma,E. , R.P. Matano, M. Tonini, P. Martos and V. Combes"
@@ -362,6 +377,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.jmarsys.2019.103261"
+    image: ""
  
   - title: "Learning latent dynamics for partially observed chaotic systems"
     authors: "Ouala, S.; Nguyen, D.; Drumetz, L.; Chapron, B.; Pascual, A.; Collard, F.; Gaultier, L.; Fablet, R."
@@ -412,6 +428,7 @@ all:
     volume: "142"
     pages: ""
     doi: "https://doi.org/10.1016/j.ocemod.2019.101454"
+    image: ""
 
   - title: "The Burdwood Bank Circulation."
     authors: "Matano, R.P., E. Palma and V. Combes"
@@ -420,6 +437,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2019JC015001"
+    image: ""
   
   - title: "Challenges for Sustained Observing and Forecasting Systems in the Mediterranean Sea"
     authors: "Tintoré, J., N. Pinardi, E. Álvarez-Fanjul, E. Aguiar, D. Álvarez-Berastegui, M. Bajo, R. Balbin, R. Bozzano, B.B. Nardelli, V. Cardin, B. Casas, M. Charcos-Llorens, J. Chiggiato, E. Clementi, G. Coppini, L. Coppola, G. Cossarini, A. Deidun, S. Deudero, F. D'Ortenzio, A. Drago, M. Drudi, G. El Serafy, R. Escudier, P. Farcy, I. Federico, J.G. Fernández, C. Ferrarin, C. Fossi, C. Frangoulis, F. Galgani, S. Gana, J. García Lafuente, M.G. Sotillo, P. Garreau, I. Gertman, L. Gómez-Pujol, A. Grandi, D. Hayes, J. Hernández-Lasheras, B. Herut, E. Heslop, K. Hilmi, M. Juza, G. Kallos, G. Korres, R. Lecci, P. Lazzari, P. Lorente, S. Liubartseva, F. Louanchi, V. Malacic, G. Mannarini, D. March, S. Marullo, E. Mauri, L. Meszaros, B. Mourre, L. Mortier, C. Muñoz-Mas, A. Novellino, D. Obaton, A. Orfila, A. Pascual, S. Pensieri, B. Pérez Gómez, S. Pérez Rubio, L. Perivoliotis, G. Petihakis, L.P. de la Villéon, J. Pistoia, P.M. Poulain, S. Pouliquen, L. Prieto, P. Raimbault, P. Reglero, E. Reyes, P. Rotllan, S. Ruiz, J. Ruiz, I. Ruiz, L.F. Ruiz-Orejón, B. Salihoglu, S. Salon, S. Sammartino, A. Sánchez Arcilla, G. Sannino, G. Sannino, R. Santoleri, R. Sardá, K. Schroeder, S. Simoncelli, S. Sofianos, G. Sylaios, T. Tanhua, A. Teruzzi, P. Testor, D. Tezcan, M. Torner, F. Trotta, G. Umgiesser, K. von Schuckmann, G. Verri, I. Vilibic, M. Yucel, M. Zavatarelli, G. Zodiatis"
@@ -536,6 +554,7 @@ all:
     volume: "167"
     pages: "24-43"
     doi: "https://doi.org/10.1016/j.pocean.2018.07.003"
+    image: ""
 
   - title: "Modeling the offshore export of Subantarctic Shelf Waters from the Patagonian shelf"
     authors: "Franco, B.C., E.D. Palma, V. Combes, E.M. Acha and M. Saraceno"
@@ -544,6 +563,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2018JC013824"
+    image: ""
     
   - title: "Eddy properties in the Southern California Current System"
     authors: "Chenillat, F., P.J.S. Franks, X. Capet, P. Rivière, N. Grima, B. Blanke and V. Combes"
@@ -552,6 +572,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1007/s10236-018-1158-4"
+    image: ""
     
   - title: "Neural Network Based Kalman Filters for the Spatio-Temporal Interpolation of Satellite-Derived Sea Surface Temperature"
     authors: "Ouala, S., R. Fablet, C. Herzet, B. Chapron, A. Pascual, F. Collard, L. Gaultier"
@@ -620,6 +641,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1093/icesjms/fsx065"
+    image: ""
 
   - title: "Physical processes controlling passive larval transport at the Patagonian Shelf Break Front"
     authors: "Franco, B.C., E.D. Palma, V. Combes, M.L. Lasta"
@@ -628,6 +650,7 @@ all:
     volume: "124"
     pages: "17-25"
     doi: "https://doi.org/10.1016/j.seares.2017.04.012"
+    image: ""
 
   # 2016 Publications
   
@@ -638,6 +661,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1002/2016GL068945"
+    image: ""
 
   # 2015 Publications
   
@@ -648,6 +672,7 @@ all:
     volume: "120"
     pages: ""
     doi: "https://doi.org/10.1002/2015JC010769"
+    image: ""
 
   - title: "Interannual variability of the subsurface eddy field in the Southeast Pacific"
     authors: "Combes, V., S. Hormazabal, and E. Di Lorenzo"
@@ -656,6 +681,7 @@ all:
     volume: "120"
     pages: ""
     doi: "https://doi.org/10.1002/2014JC010265"
+    image: ""
 
   # 2014 Publications
   
@@ -666,6 +692,7 @@ all:
     volume: "119"
     pages: "7794–7810"
     doi: "https://doi.org/10.1002/2014JC010113"
+    image: ""
 
   - title: "The salinity signature of the cross-shelf exchanges in the Southwestern Atlantic Ocean: Numerical simulations."
     authors: "Matano, R. P., V. Combes, A. R. Piola, R. Guerrero, E. D. Palma, P. Ted Strub, C. James, H. Fenco, Y. Chao, M. Saraceno"
@@ -674,6 +701,7 @@ all:
     volume: "119"
     pages: ""
     doi: "https://doi.org/10.1002/2014JC010116"
+    image: ""
 
   - title: "Trends in the Brazil/Malvinas Confluence region"
     authors: "Combes, V. and R.P. Matano"
@@ -682,6 +710,7 @@ all:
     volume: "41"
     pages: ""
     doi: "https://doi.org/10.1002/2014GL062523"
+    image: ""
 
   - title: "A two-way nested simulation of the oceanic circulation in the Southwestern Atlantic"
     authors: "Combes, V. and R.P. Matano"
@@ -690,6 +719,7 @@ all:
     volume: "119"
     pages: ""
     doi: "https://doi.org/10.1002/2013JC009498"
+    image: ""
 
   - title: "Intrathermocline eddies at the Juan Fernández Archipelago, southeastern Pacific Ocean"
     authors: "Andrade, I., S. Hormazábal, V. Combes"
@@ -697,7 +727,8 @@ all:
     year: 2014
     volume: "42"
     pages: "888-906"
-    doi: "http://dx.doi.org/10.3856/vol42-issue4-fulltext-14 "
+    doi: "http://dx.doi.org/10.3856/vol42-issue4-fulltext-14"
+    image: ""
 
   # 2013 Publications
   
@@ -708,6 +739,7 @@ all:
     volume: "103"
     pages: "339-384"
     doi: "https://doi.org/10.1016/B978-0-12-391851-2.00014-3"
+    image: ""
   
   - title: "Synthesis of Pacific Ocean climate and ecosystem dynamics"
     authors: "Di Lorenzo, E., V. Combes, J.E. Keister, T.P. Strub, A.C. Thomas, P.J.S. Franks, M.D. Ohman, J. Furtado, A. Bracco, S.J. Bograd, W.T. Peterson, F.B. Schwing, S. Chiba, B. Taguchi, S. Hormazabal, C. Parada"
@@ -716,6 +748,7 @@ all:
     volume: "26"
     pages: "68-81"
     doi: "https://doi.org/10.5670/oceanog.2013.76"
+    image: ""
   
   - title: "Intrathermocline eddies in the Coastal Transition Zone off central Chile (31-41°S)"
     authors: "Hormazabal, S., V. Combes, C.E. Morales, M.A. Correa-Ramirez, E. Di Lorenzo, S. Nuñez"
@@ -724,6 +757,7 @@ all:
     volume: "118"
     pages: "1-11"
     doi: "https://doi.org/10.1002/jgrc.20337"
+    image: ""
   
   - title: "Cross-shore transport variability in the California Current: Ekman upwelling vs. eddy dynamics"
     authors: "Combes, V., F. Chenillat, E. Di Lorenzo, P. Rivière, M. D. Ohman and S. J. Bograd"
@@ -732,6 +766,7 @@ all:
     volume: "109"
     pages: "78-89"
     doi: "https://doi.org/10.1016/j.pocean.2012.10.001"
+    image: ""
 
   # 2012 Publications
   
@@ -742,6 +777,7 @@ all:
     volume: "40"
     pages: "613-632"
     doi: "https://doi.org/10.3856/vol40-issue3-fulltext-11"
+    image: ""
 
   # 2011 Publications
   
@@ -752,6 +788,7 @@ all:
     volume: "17"
     pages: ""
     doi: "https://doi.org/10.1111/j.1365-2486.2010.02383.x"
+    image: ""
 
   # 2010 Publications
 
@@ -764,6 +801,7 @@ all:
     volume: "39"
     pages: "1050‐1059"
     doi: "https://doi.org/10.1175/2008JPO4014.1"
+    image: ""
 
   - title: " Low‐frequency variability in the Gulf of Alaska from coarse and eddy‐permitting ocean models"
     authors: "Capotondi, A., Combes, V., Alexander, M. A., Di Lorenzo, E. and Miller, A. J."
@@ -772,6 +810,7 @@ all:
     volume: "114"
     pages: ""
     doi: "https://doi.org/10.1029/2008JC004983"
+    image: ""
 
   # 2008 Publications
   
