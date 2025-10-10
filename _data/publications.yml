@@ -475,13 +475,45 @@ all:
 
   # 2014 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
+  - title: "The salinity signature of the cross-shelf exchanges in the Southwestern Atlantic Ocean: Satellite observations"
+    authors: "Guerrero, R. A., A. R. Piola, H. Fenco, R. P. Matano, V. Combes, Y. Chao, C. James, E. D. Palma, M. Saraceno, P. Ted Strub"
+    journal: "J. Geophys. Res. Oceans"
+    year: 2014
+    volume: "119"
+    pages: "7794–7810"
+    doi: "https://doi.org/10.1002/2014JC010113"
+
+  - title: "The salinity signature of the cross-shelf exchanges in the Southwestern Atlantic Ocean: Numerical simulations."
+    authors: "Matano, R. P., V. Combes, A. R. Piola, R. Guerrero, E. D. Palma, P. Ted Strub, C. James, H. Fenco, Y. Chao, M. Saraceno"
+    journal: "J. Geophys. Res. Oceans"
+    year: 2014
+    volume: "119"
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1002/2014JC010116"
+
+  - title: "Trends in the Brazil/Malvinas Confluence region"
+    authors: "Combes, V. and R.P. Matano"
+    journal: "Geophys. Res. Lett."
+    year: 2014
+    volume: "41"
+    pages: ""
+    doi: "https://doi.org/10.1002/2014GL062523"
+
+  - title: "A two-way nested simulation of the oceanic circulation in the Southwestern Atlantic"
+    authors: "Combes, V. and R.P. Matano"
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2014
+    volume: "119"
+    pages: ""
+    doi: "https://doi.org/10.1002/2013JC009498"
+
+  - title: "Intrathermocline eddies at the Juan Fernández Archipelago, southeastern Pacific Ocean"
+    authors: "Andrade, I., S. Hormazábal, V. Combes"
+    journal: "Lat. Am. J. Aquat. Res."
+    year: 2014
+    volume: "42"
+    pages: "888-906"
+    doi: "http://dx.doi.org/10.3856/vol42-issue4-fulltext-14 "
 
   # 2013 Publications
   
