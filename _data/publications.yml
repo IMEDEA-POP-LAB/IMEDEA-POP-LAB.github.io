@@ -118,29 +118,29 @@ all:
 
   # 2023 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Patterns and Trends in Chlorophyll-a Concentration and Phytoplankton Phenology in the Biogeographical Regions of Southwestern Atlantic"
+    authors: "Delgado, A.L., I. Hernández-Carrasco, V. Combes, J. Font-Muñoz, P. D. Pratolongo, and G. Basterretxea"
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2023
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1029/2023JC019865"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Circulation and Cross-Shelf Exchanges in the Northern Shelf of the Southwestern Atlantic: Dynamics"
+    authors: "Combes, V., Matano, R. P., & Palma, E."
+    journal: "J.G.R.: Oceans"
+    year: 2023
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1029/2023JC019887"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
+  - title: "Variability of the shelf circulation around South Georgia, Southern Ocean"
+    authors: "Combes, V., Matano, R. P., Meredith, M. P., & Young, E. F."
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2023
+    volume: "128"
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1029/2022JC019257"
 
   - title: "DUACS DT2021 reprocessed altimetry improves sea level retrieval in the coastal band of the European seas"
     authors: "Sánchez-Román, A., Pujol, M. I., Faugère, Y., and Pascual, A."
@@ -191,13 +191,13 @@ all:
 
   # 2022 Publications
  
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Large-scale connectivity of the sandy beach clam Mesodesma mactroides along the Atlantic coast of South America, and climate change implications"
+    authors: "Meerhoff, E., V. Combes, R.P. Matano, N. Barrier, B. Franco, A. Piola, F. Hernández-Vaca, and O. Defeo"
+    journal: "Marine Environmental Research"
+    year: 2022
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1016/j.marenvres.2022.105591"
  
   - title: "Strong Long‐Lived Anticyclonic Mesoscale Eddies in the Balearic Sea: Formation, Intensification, and Thermal Impact"
     authors: "Aguiar, E., Mourre, B., Alvera‐Azcárate, A., Pascual, A., Mason, E., & Tintoré, J."
