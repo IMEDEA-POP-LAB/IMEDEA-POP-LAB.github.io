@@ -445,33 +445,49 @@ all:
 
   # 2017 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Expanding the conceptual framework of the spatial population structure and life history of jack mackerel in the eastern South Pacific: an oceanic seamount region as potential spawning/nursery habitat"
+    authors: "Parada, C., A. Gretchina, S. Vásquez, A. Belmadani, V. Combes, B. Ernst, E. Di Lorenzo, J. Porobic, A. Sepúlveda"
+    journal: "ICES Journal of Marine Science"
+    year: 2017
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1093/icesjms/fsx065"
+
+  - title: "Physical processes controlling passive larval transport at the Patagonian Shelf Break Front"
+    authors: "Franco, B.C., E.D. Palma, V. Combes, M.L. Lasta"
+    journal: "Journal of Sea Research"
+    year: 2017
+    volume: "124"
+    pages: "17-25"
+    doi: "https://doi.org/10.1016/j.seares.2017.04.012"
 
   # 2016 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Biogeochemical Properties of Eddies in the California Current System"
+    authors: "Chenillat, F., P.J.S. Franks, V. Combes"
+    journal: "Geophys. Res. Letters"
+    year: 2016
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1002/2016GL068945"
 
   # 2015 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
+  - title: " Altimeter-derived seasonal circulation on the southwest Atlantic shelf: 27– 43S"
+    authors: "Strub, P. T., C. James, V. Combes, R. P. Matano, A. R. Piola, E. D. Palma, M. Saraceno, R. A. Guerrero, H. Fenco, and L. A. Ruiz-Etcheverry"
+    journal: "J. Geophys. Res. Oceans"
+    year: 2015
+    volume: "120"
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1002/2015JC010769"
+
+  - title: "Interannual variability of the subsurface eddy field in the Southeast Pacific"
+    authors: "Combes, V., S. Hormazabal, and E. Di Lorenzo"
+    journal: "J. Geophys. Res. Oceans"
+    year: 2015
+    volume: "120"
+    pages: ""
+    doi: "https://doi.org/10.1002/2014JC010265"
 
   # 2014 Publications
   
