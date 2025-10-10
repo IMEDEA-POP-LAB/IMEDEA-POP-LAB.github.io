@@ -341,7 +341,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1111/geb.13217"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_29.png"
 
   - title: "Assessment of larval connectivity in a sandy beach mole crab through a coupled bio-oceanographic model"
     authors: "Meerhoff E., O. Defeo, V. Combes, B.C. Franco, R.P. Matano, A.R. Piola, F. Hernández Vaca, E. Celentano"
@@ -350,7 +350,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.ecss.2020.107035"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_28.png"
 
   - title: "Subsurface Ocean Warming Hotspots and Potential Impacts on Marine Species: The Southwest South Atlantic Ocean Case Study"
     authors: "Franco B.C., V. Combes and V. González Carman"
@@ -359,7 +359,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.3389/fmars.2020.563394"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_27.png"
 
   - title: "Modeling the Impact of Ocean Circulation on Chlorophyll Blooms Around South Georgia, Southern Ocean"
     authors: "Matano, R.P., V. Combes, E.F. Young and M. Meredith"
@@ -368,7 +368,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2020JC016391"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_26.png"
 
   - title: "Dynamical Analysis of the Oceanic Circulation in the Gulf of San Jorge, Argentina"
     authors: "Palma,E. , R.P. Matano, M. Tonini, P. Martos and V. Combes"
@@ -377,7 +377,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.jmarsys.2019.103261"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_25.png"
  
   - title: "Learning latent dynamics for partially observed chaotic systems"
     authors: "Ouala, S.; Nguyen, D.; Drumetz, L.; Chapron, B.; Pascual, A.; Collard, F.; Gaultier, L.; Fablet, R."
@@ -428,7 +428,7 @@ all:
     volume: "142"
     pages: ""
     doi: "https://doi.org/10.1016/j.ocemod.2019.101454"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_24.png"
 
   - title: "The Burdwood Bank Circulation."
     authors: "Matano, R.P., E. Palma and V. Combes"
@@ -437,7 +437,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2019JC015001"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_23.png"
   
   - title: "Challenges for Sustained Observing and Forecasting Systems in the Mediterranean Sea"
     authors: "Tintoré, J., N. Pinardi, E. Álvarez-Fanjul, E. Aguiar, D. Álvarez-Berastegui, M. Bajo, R. Balbin, R. Bozzano, B.B. Nardelli, V. Cardin, B. Casas, M. Charcos-Llorens, J. Chiggiato, E. Clementi, G. Coppini, L. Coppola, G. Cossarini, A. Deidun, S. Deudero, F. D'Ortenzio, A. Drago, M. Drudi, G. El Serafy, R. Escudier, P. Farcy, I. Federico, J.G. Fernández, C. Ferrarin, C. Fossi, C. Frangoulis, F. Galgani, S. Gana, J. García Lafuente, M.G. Sotillo, P. Garreau, I. Gertman, L. Gómez-Pujol, A. Grandi, D. Hayes, J. Hernández-Lasheras, B. Herut, E. Heslop, K. Hilmi, M. Juza, G. Kallos, G. Korres, R. Lecci, P. Lazzari, P. Lorente, S. Liubartseva, F. Louanchi, V. Malacic, G. Mannarini, D. March, S. Marullo, E. Mauri, L. Meszaros, B. Mourre, L. Mortier, C. Muñoz-Mas, A. Novellino, D. Obaton, A. Orfila, A. Pascual, S. Pensieri, B. Pérez Gómez, S. Pérez Rubio, L. Perivoliotis, G. Petihakis, L.P. de la Villéon, J. Pistoia, P.M. Poulain, S. Pouliquen, L. Prieto, P. Raimbault, P. Reglero, E. Reyes, P. Rotllan, S. Ruiz, J. Ruiz, I. Ruiz, L.F. Ruiz-Orejón, B. Salihoglu, S. Salon, S. Sammartino, A. Sánchez Arcilla, G. Sannino, G. Sannino, R. Santoleri, R. Sardá, K. Schroeder, S. Simoncelli, S. Sofianos, G. Sylaios, T. Tanhua, A. Teruzzi, P. Testor, D. Tezcan, M. Torner, F. Trotta, G. Umgiesser, K. von Schuckmann, G. Verri, I. Vilibic, M. Yucel, M. Zavatarelli, G. Zodiatis"
@@ -554,7 +554,7 @@ all:
     volume: "167"
     pages: "24-43"
     doi: "https://doi.org/10.1016/j.pocean.2018.07.003"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_22.png"
 
   - title: "Modeling the offshore export of Subantarctic Shelf Waters from the Patagonian shelf"
     authors: "Franco, B.C., E.D. Palma, V. Combes, E.M. Acha and M. Saraceno"
@@ -563,7 +563,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2018JC013824"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_21.png"
     
   - title: "Eddy properties in the Southern California Current System"
     authors: "Chenillat, F., P.J.S. Franks, X. Capet, P. Rivière, N. Grima, B. Blanke and V. Combes"
@@ -572,7 +572,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1007/s10236-018-1158-4"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_20.png"
     
   - title: "Neural Network Based Kalman Filters for the Spatio-Temporal Interpolation of Satellite-Derived Sea Surface Temperature"
     authors: "Ouala, S., R. Fablet, C. Herzet, B. Chapron, A. Pascual, F. Collard, L. Gaultier"
