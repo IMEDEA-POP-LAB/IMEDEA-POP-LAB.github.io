@@ -529,29 +529,29 @@ all:
 
   # 2018 Publications
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
-    pages: ""
-    doi: ""
+  - title: "The Patagonian shelf circulation: Drivers and variability"
+    authors: "Combes, V. and R.P. Matano"
+    journal: "Progress in Oceanography"
+    year: 2018
+    volume: "167"
+    pages: "24-43"
+    doi: "https://doi.org/10.1016/j.pocean.2018.07.003"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Modeling the offshore export of Subantarctic Shelf Waters from the Patagonian shelf"
+    authors: "Franco, B.C., E.D. Palma, V. Combes, E.M. Acha and M. Saraceno"
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2018
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1029/2018JC013824"
     
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Eddy properties in the Southern California Current System"
+    authors: "Chenillat, F., P.J.S. Franks, X. Capet, P. Rivière, N. Grima, B. Blanke and V. Combes"
+    journal: "Ocean Dynamics"
+    year: 2018
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1007/s10236-018-1158-4"
     
   - title: "Neural Network Based Kalman Filters for the Spatio-Temporal Interpolation of Satellite-Derived Sea Surface Temperature"
     authors: "Ouala, S., R. Fablet, C. Herzet, B. Chapron, A. Pascual, F. Collard, L. Gaultier"
