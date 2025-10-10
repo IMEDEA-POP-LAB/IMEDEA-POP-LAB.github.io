@@ -59,21 +59,21 @@ all:
  
   # 2024 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Anatomy and Dynamics of the Patagonia Shelf-Break Front."
+    authors: "A.R. Piola, N. Bodnariuk, V. Combes, B.C. Franco, R.P. Matano, E.D. Palma, S.I. Romero, M. Saraceno, and M.M. Urricariet"
+    journal: "Acha, E.M., Iribarne, O.O., Piola, A. (eds) The Patagonian Shelfbreak Front. Aquatic Ecology Series, vol 13. Springer, Cham."
+    year: 2024
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1007/978-3-031-71190-9_2"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: " Altimeter-derived poleward lagrangian pathways in the California current system: Part 1"
+    authors: "Ted Strub, P., James, C., Fisher, J.L., Fewings, M.R., Zeman, S.M., Combes, V., Garwood, J.C., Bolm, A., Scherer, A"
+    journal: "Progress in Oceanography"
+    year: 2024
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1016/j.pocean.2024.103353"
 
   - title: "Changes in the Gulf Stream path over the last 3 decades"
     authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
