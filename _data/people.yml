@@ -109,9 +109,9 @@ phd_students:
     period: "2024 - present"
     image: "placeholder.svg"
     email: "bfernandez@imedea.uib-csic.es"
-    orcid: ""
+    orcid: "https://orcid.org/0009-0007-2467-9053"
     imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=2993"
-    bio: ""
+    bio: "Blanca Fernández-Álvarez is an FPU fellow and Ph.D. student at IMEDEA (CSIC-UIB). She obtained a Master’s degree in Oceanography from the University of Las Palmas de Gran Canaria, where, thanks to a CSIC JAE Intro scholarship, she began her research on marine heatwaves, line of work she continues to develop. Her interests include the different definitions used to describe marine heatwaves and the physical drivers behind them in the Mediterranean Sea, both at the surface (her starting focus) and at depth (her current focus). She also aims to expand this research to explore the ecological and biological impacts of these phenomena in the region."
 
   - name: "Cristina Martí-Solana"
     title: "PhD Student"
