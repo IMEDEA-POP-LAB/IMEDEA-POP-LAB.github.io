@@ -641,7 +641,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1093/icesjms/fsx065"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_19.png"
 
   - title: "Physical processes controlling passive larval transport at the Patagonian Shelf Break Front"
     authors: "Franco, B.C., E.D. Palma, V. Combes, M.L. Lasta"
@@ -650,7 +650,7 @@ all:
     volume: "124"
     pages: "17-25"
     doi: "https://doi.org/10.1016/j.seares.2017.04.012"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_18.png"
 
   # 2016 Publications
   
@@ -661,7 +661,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1002/2016GL068945"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_17.png"
 
   # 2015 Publications
   
@@ -672,7 +672,7 @@ all:
     volume: "120"
     pages: ""
     doi: "https://doi.org/10.1002/2015JC010769"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_16.png"
 
   - title: "Interannual variability of the subsurface eddy field in the Southeast Pacific"
     authors: "Combes, V., S. Hormazabal, and E. Di Lorenzo"
@@ -681,7 +681,7 @@ all:
     volume: "120"
     pages: ""
     doi: "https://doi.org/10.1002/2014JC010265"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_15.png"
 
   # 2014 Publications
   
@@ -692,7 +692,7 @@ all:
     volume: "119"
     pages: "7794–7810"
     doi: "https://doi.org/10.1002/2014JC010113"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_14.png"
 
   - title: "The salinity signature of the cross-shelf exchanges in the Southwestern Atlantic Ocean: Numerical simulations."
     authors: "Matano, R. P., V. Combes, A. R. Piola, R. Guerrero, E. D. Palma, P. Ted Strub, C. James, H. Fenco, Y. Chao, M. Saraceno"
@@ -701,7 +701,7 @@ all:
     volume: "119"
     pages: ""
     doi: "https://doi.org/10.1002/2014JC010116"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_13.png"
 
   - title: "Trends in the Brazil/Malvinas Confluence region"
     authors: "Combes, V. and R.P. Matano"
@@ -710,7 +710,7 @@ all:
     volume: "41"
     pages: ""
     doi: "https://doi.org/10.1002/2014GL062523"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_12.png"
 
   - title: "A two-way nested simulation of the oceanic circulation in the Southwestern Atlantic"
     authors: "Combes, V. and R.P. Matano"
@@ -719,7 +719,7 @@ all:
     volume: "119"
     pages: ""
     doi: "https://doi.org/10.1002/2013JC009498"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_11.png"
 
   - title: "Intrathermocline eddies at the Juan Fernández Archipelago, southeastern Pacific Ocean"
     authors: "Andrade, I., S. Hormazábal, V. Combes"
@@ -728,7 +728,7 @@ all:
     volume: "42"
     pages: "888-906"
     doi: "http://dx.doi.org/10.3856/vol42-issue4-fulltext-14"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_10.png"
 
   # 2013 Publications
   
@@ -739,7 +739,7 @@ all:
     volume: "103"
     pages: "339-384"
     doi: "https://doi.org/10.1016/B978-0-12-391851-2.00014-3"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_09.png"
   
   - title: "Synthesis of Pacific Ocean climate and ecosystem dynamics"
     authors: "Di Lorenzo, E., V. Combes, J.E. Keister, T.P. Strub, A.C. Thomas, P.J.S. Franks, M.D. Ohman, J. Furtado, A. Bracco, S.J. Bograd, W.T. Peterson, F.B. Schwing, S. Chiba, B. Taguchi, S. Hormazabal, C. Parada"
@@ -748,7 +748,7 @@ all:
     volume: "26"
     pages: "68-81"
     doi: "https://doi.org/10.5670/oceanog.2013.76"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_08.png"
   
   - title: "Intrathermocline eddies in the Coastal Transition Zone off central Chile (31-41°S)"
     authors: "Hormazabal, S., V. Combes, C.E. Morales, M.A. Correa-Ramirez, E. Di Lorenzo, S. Nuñez"
@@ -757,7 +757,7 @@ all:
     volume: "118"
     pages: "1-11"
     doi: "https://doi.org/10.1002/jgrc.20337"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_07.png"
   
   - title: "Cross-shore transport variability in the California Current: Ekman upwelling vs. eddy dynamics"
     authors: "Combes, V., F. Chenillat, E. Di Lorenzo, P. Rivière, M. D. Ohman and S. J. Bograd"
@@ -766,7 +766,7 @@ all:
     volume: "109"
     pages: "78-89"
     doi: "https://doi.org/10.1016/j.pocean.2012.10.001"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_06.png"
 
   # 2012 Publications
   
@@ -777,7 +777,7 @@ all:
     volume: "40"
     pages: "613-632"
     doi: "https://doi.org/10.3856/vol40-issue3-fulltext-11"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_05.png"
 
   # 2011 Publications
   
@@ -788,7 +788,7 @@ all:
     volume: "17"
     pages: ""
     doi: "https://doi.org/10.1111/j.1365-2486.2010.02383.x"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_04.png"
 
   # 2010 Publications
 
