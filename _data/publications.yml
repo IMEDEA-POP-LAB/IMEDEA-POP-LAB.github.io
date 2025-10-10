@@ -8,7 +8,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1093/acrefore/9780190228620.013.969"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_43.png"
 
   - title: "Effects of regional oceanography and climate variability on larval connectivity of the wedge clam Donax hanleyanus in South American beaches"
     authors: "Meerhoff, E., Combes, V., Matano, R., Barrier, N., Franco, B.C., Piola, A.R., Hernández-Vaca, F., Defeo, O."
@@ -17,7 +17,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.ecss.2025.109346"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_40.png"
 
   - title: "Circulation and cross‐shelf exchanges in the Agulhas Bank Region."
     authors: "Matano, R. P., Combes, V., Palma, E. D., & Strub, P. T. "
@@ -26,7 +26,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2023JC020234"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_39.png"
  
   - title: "Tracking marine heatwaves in the Balearic Sea: temperature trends and the role of detection methods"
     authors: "Fernández-Álvarez, B., Barceló-Llull, B. and Pascual, A."
@@ -69,7 +69,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1007/978-3-031-71190-9_2"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_38.png"
 
   - title: " Altimeter-derived poleward lagrangian pathways in the California current system: Part 1"
     authors: "Ted Strub, P., James, C., Fisher, J.L., Fewings, M.R., Zeman, S.M., Combes, V., Garwood, J.C., Bolm, A., Scherer, A"
@@ -78,7 +78,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.pocean.2024.103353"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_37.png"
 
   - title: "Changes in the Gulf Stream path over the last 3 decades"
     authors: "Sánchez-Román, A., Gues, F., Bourdalle-Badie, R., Pujol, M.-I., Pascual, A., and Drévillon, M."
@@ -130,7 +130,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2023JC019865"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_36.png"
 
   - title: "Circulation and Cross-Shelf Exchanges in the Northern Shelf of the Southwestern Atlantic: Dynamics"
     authors: "Combes, V., Matano, R. P., & Palma, E."
@@ -139,7 +139,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1029/2023JC019887"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_35.png"
 
   - title: "Variability of the shelf circulation around South Georgia, Southern Ocean"
     authors: "Combes, V., Matano, R. P., Meredith, M. P., & Young, E. F."
@@ -148,7 +148,7 @@ all:
     volume: "128"
     pages: ""
     doi: "https://doi.org/10.1029/2022JC019257"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_33.png"
 
   - title: "DUACS DT2021 reprocessed altimetry improves sea level retrieval in the coastal band of the European seas"
     authors: "Sánchez-Román, A., Pujol, M. I., Faugère, Y., and Pascual, A."
@@ -206,7 +206,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.marenvres.2022.105591"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_32.png"
  
   - title: "Strong Long‐Lived Anticyclonic Mesoscale Eddies in the Balearic Sea: Formation, Intensification, and Thermal Impact"
     authors: "Aguiar, E., Mourre, B., Alvera‐Azcárate, A., Pascual, A., Mason, E., & Tintoré, J."
@@ -273,7 +273,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1016/j.pocean.2021.102666"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_31.png"
 
   - title: "Circulation and cross-shelf exchanges in the northern shelf region of the southwestern Atlantic: Kinematics"
     authors: "Combes, V., Matano, R. P., & Palma, E."
@@ -282,7 +282,7 @@ all:
     volume: "126"
     pages: ""
     doi: "https://doi.org/10.1029/2020JC016959"
-    image: ""
+    image: "https://vincentcombes.com/images/Figure_30.png"
   
   - title: "Copernicus Marine Service Ocean State Report, Issue 5"
     authors: "Karina von Schuckmann ((Editor)), Pierre-Yves Le Traon ((Editor)), Neville Smith (Chair) ((Review Editor)), Ananda Pascual ((Review Editor)), Samuel Djavidnia ((Review Editor)), Jean-Pierre Gattuso ((Review Editor)), Marilaure Grégoire ((Review Editor)), et al."
