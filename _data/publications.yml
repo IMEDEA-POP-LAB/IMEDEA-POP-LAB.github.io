@@ -172,6 +172,7 @@ all:
     year: 2023
     volume: "10"
     doi: "https://doi.org/10.3389/fmars.2023.1168368"
+    image: "https://vincentcombes.com/images/Figure_34.png"
     
   - title: "Bounded nonlinear forecasts of partially observed geophysical systems with physics-constrained deep learning"
     authors: "Ouala, S., Brunton, S. L., Chapron, B., Pascual, A., Collard, F., Gaultier, L., et al."
@@ -739,7 +740,6 @@ all:
     volume: "103"
     pages: "339-384"
     doi: "https://doi.org/10.1016/B978-0-12-391851-2.00014-3"
-    image: "https://vincentcombes.com/images/Figure_09.png"
   
   - title: "Synthesis of Pacific Ocean climate and ecosystem dynamics"
     authors: "Di Lorenzo, E., V. Combes, J.E. Keister, T.P. Strub, A.C. Thomas, P.J.S. Franks, M.D. Ohman, J. Furtado, A. Bracco, S.J. Bograd, W.T. Peterson, F.B. Schwing, S. Chiba, B. Taguchi, S. Hormazabal, C. Parada"
