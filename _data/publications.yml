@@ -405,21 +405,21 @@ all:
 
   # 2019 Publications
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
+  - title: "On the origins of the low-frequency sea surface height variability of the Patagonia shelf region"
+    authors: "Combes, V. and R.P. Matano"
+    journal: "Ocean Modelling"
+    year: 2019
+    volume: "142"
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1016/j.ocemod.2019.101454"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "The Burdwood Bank Circulation."
+    authors: "Matano, R.P., E. Palma and V. Combes"
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2019
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1029/2019JC015001"
   
   - title: "Challenges for Sustained Observing and Forecasting Systems in the Mediterranean Sea"
     authors: "Tintoré, J., N. Pinardi, E. Álvarez-Fanjul, E. Aguiar, D. Álvarez-Berastegui, M. Bajo, R. Balbin, R. Bozzano, B.B. Nardelli, V. Cardin, B. Casas, M. Charcos-Llorens, J. Chiggiato, E. Clementi, G. Coppini, L. Coppola, G. Cossarini, A. Deidun, S. Deudero, F. D'Ortenzio, A. Drago, M. Drudi, G. El Serafy, R. Escudier, P. Farcy, I. Federico, J.G. Fernández, C. Ferrarin, C. Fossi, C. Frangoulis, F. Galgani, S. Gana, J. García Lafuente, M.G. Sotillo, P. Garreau, I. Gertman, L. Gómez-Pujol, A. Grandi, D. Hayes, J. Hernández-Lasheras, B. Herut, E. Heslop, K. Hilmi, M. Juza, G. Kallos, G. Korres, R. Lecci, P. Lazzari, P. Lorente, S. Liubartseva, F. Louanchi, V. Malacic, G. Mannarini, D. March, S. Marullo, E. Mauri, L. Meszaros, B. Mourre, L. Mortier, C. Muñoz-Mas, A. Novellino, D. Obaton, A. Orfila, A. Pascual, S. Pensieri, B. Pérez Gómez, S. Pérez Rubio, L. Perivoliotis, G. Petihakis, L.P. de la Villéon, J. Pistoia, P.M. Poulain, S. Pouliquen, L. Prieto, P. Raimbault, P. Reglero, E. Reyes, P. Rotllan, S. Ruiz, J. Ruiz, I. Ruiz, L.F. Ruiz-Orejón, B. Salihoglu, S. Salon, S. Sammartino, A. Sánchez Arcilla, G. Sannino, G. Sannino, R. Santoleri, R. Sardá, K. Schroeder, S. Simoncelli, S. Sofianos, G. Sylaios, T. Tanhua, A. Teruzzi, P. Testor, D. Tezcan, M. Torner, F. Trotta, G. Umgiesser, K. von Schuckmann, G. Verri, I. Vilibic, M. Yucel, M. Zavatarelli, G. Zodiatis"
