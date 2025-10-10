@@ -323,45 +323,45 @@ all:
 
   # 2020 Publications
  
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Latitudinal variation in plant defence against herbivory in a marine foundation species does not follow a linear pattern: The importance of resource availability"
+    authors: "Hernán G., M.J. Ortega, J. Henderson, J. Alós, K. Boyer, S. Cimon, V. Combes, M. Cusson, C.M. Hereu, M. Hessing-Lewis, K. Hovel, P. Jorgensen, S. Kiriakopolos, N. Kollars, M.I. O ́Connor, J. Olsen, P.L. Reynolds, J. Ruesink, E. Voigt, F. Tomas"
+    journal: "Global Ecol Biogeogr"
+    year: 2020
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1111/geb.13217"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Assessment of larval connectivity in a sandy beach mole crab through a coupled bio-oceanographic model"
+    authors: "Meerhoff E., O. Defeo, V. Combes, B.C. Franco, R.P. Matano, A.R. Piola, F. Hernández Vaca, E. Celentano"
+    journal: "Estuarine, Coastal and Shelf Science"
+    year: 2020
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1016/j.ecss.2020.107035"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Subsurface Ocean Warming Hotspots and Potential Impacts on Marine Species: The Southwest South Atlantic Ocean Case Study"
+    authors: "Franco B.C., V. Combes and V. González Carman"
+    journal: "Front. Mar. Sci."
+    year: 2020
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.3389/fmars.2020.563394"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Modeling the Impact of Ocean Circulation on Chlorophyll Blooms Around South Georgia, Southern Ocean"
+    authors: "Matano, R.P., V. Combes, E.F. Young and M. Meredith"
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2020
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1029/2020JC016391"
 
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
+  - title: "Dynamical Analysis of the Oceanic Circulation in the Gulf of San Jorge, Argentina"
+    authors: "Palma,E. , R.P. Matano, M. Tonini, P. Martos and V. Combes"
+    journal: "Journal of Marine Systems"
+    year: 2020
     volume: ""
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1016/j.jmarsys.2019.103261"
  
   - title: "Learning latent dynamics for partially observed chaotic systems"
     authors: "Ouala, S.; Nguyen, D.; Drumetz, L.; Chapron, B.; Pascual, A.; Collard, F.; Gaultier, L.; Fablet, R."
