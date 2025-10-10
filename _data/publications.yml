@@ -485,33 +485,57 @@ all:
 
   # 2013 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
-    pages: ""
-    doi: ""
+  - title: "Currents and Processes along the Eastern Boundaries. Chapter 14 of Ocean Circulation and Climate: A 21st Century Perspective"
+    authors: "Strub, P.T., V. Combes, F. Shillington and O. Pizarro"
+    journal: "G. Siedler, S.M. Griffies, J. Gould & J.A. Church (Eds.). Academic Press, International Geophysics"
+    year: 2013
+    volume: "103"
+    pages: "339-384"
+    doi: "https://doi.org/10.1016/B978-0-12-391851-2.00014-3"
+  
+  - title: "Synthesis of Pacific Ocean climate and ecosystem dynamics"
+    authors: "Di Lorenzo, E., V. Combes, J.E. Keister, T.P. Strub, A.C. Thomas, P.J.S. Franks, M.D. Ohman, J. Furtado, A. Bracco, S.J. Bograd, W.T. Peterson, F.B. Schwing, S. Chiba, B. Taguchi, S. Hormazabal, C. Parada"
+    journal: "Oceanography"
+    year: 2013
+    volume: "26"
+    pages: "68-81"
+    doi: "https://doi.org/10.5670/oceanog.2013.76"
+  
+  - title: "Intrathermocline eddies in the Coastal Transition Zone off central Chile (31-41°S)"
+    authors: "Hormazabal, S., V. Combes, C.E. Morales, M.A. Correa-Ramirez, E. Di Lorenzo, S. Nuñez"
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2013
+    volume: "118"
+    pages: "1-11"
+    doi: "https://doi.org/10.1002/jgrc.20337"
+  
+  - title: "Cross-shore transport variability in the California Current: Ekman upwelling vs. eddy dynamics"
+    authors: "Combes, V., F. Chenillat, E. Di Lorenzo, P. Rivière, M. D. Ohman and S. J. Bograd"
+    journal: " Progress in Oceanography"
+    year: 2013
+    volume: "109"
+    pages: "78-89"
+    doi: "https://doi.org/10.1016/j.pocean.2012.10.001"
 
   # 2012 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
-    pages: ""
-    doi: ""
+  - title: "Modeling the connectivity of Juan Fernández rock lobster (Jasus frontalis), subpopulations through a biophysical model"
+    authors: "Porobić, J., C. Parada, B. Ernst, S. Hormazábal, V. Combes"
+    journal: "Lat. Am. J. Aquat. Res."
+    year: 2012
+    volume: "40"
+    pages: "613-632"
+    doi: "https://doi.org/10.3856/vol40-issue3-fulltext-11"
 
   # 2011 Publications
   
-  - title: ""
-    authors: ""
-    journal: ""
-    year: 201
-    volume: ""
+  - title: "Zooplankton species composition is linked to ocean transport in the Northern California Current"
+    authors: "Keister, J.E., E. Di Lorenzo, C. Morgan, V. Combes, W. Peterson"
+    journal: "Global Change Biology"
+    year: 2011
+    volume: "17"
     pages: ""
-    doi: ""
+    doi: "https://doi.org/10.1111/j.1365-2486.2010.02383.x"
 
   # 2010 Publications
 
