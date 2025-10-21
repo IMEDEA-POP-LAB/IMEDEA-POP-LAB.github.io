@@ -6,6 +6,12 @@
   url: "https://alianzaobserva.com"
   description: "Red Estratégica de Observación de la Tierra por satélite"
 
+- title: "LIFEOASIS"
+  period: "2024-2029"
+  logo: "logo_EU_LIFEOASIS.png"
+  url: "https://lifeoasis.eu/"
+  description: "Mitigating the negative interactions of protected species with marine litter and pelagic fisheries of the Mediterranean"
+  
 - title: "Obsea4Clim"
   period: "2024-2028"
   logo: "obsea4clim_logo.png"
@@ -21,7 +27,7 @@
 - title: "SWINT"
   period: "2024-2026"
   logo: "SWINT_logo.png"
-  url: ""
+  url: "https://imedea.uib-csic.es/investigacion/proyectos/?project_id=10642"
   description: "SWOT satellite ocean data integration into regional high-resolution data-assimilative numerical models"
 
 - title: "Unidad de Excelencia María de Maeztu"
