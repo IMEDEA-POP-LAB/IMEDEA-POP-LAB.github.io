@@ -68,11 +68,12 @@ postdocs:
   - name: "Dr. Yan Barabinot"
     title: "Postdoctoral Researcher"
     period: "2025 - present"
-    image: "placeholder.svg"
-    email: ""
+    image: "YanBarabinot.jpg"
+    email: "yan.barabinot@ens-paris-saclay.fr"
     orcid: "https://orcid.org/0009-0003-0628-5334"
     imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=3178"
-    bio: ""
+    website: "https://www.researchgate.net/profile/Yan-Barabinot-2?ev=hdr_xprf"
+    bio: "Yan Barabinot is a Postdoctoral Researcher at IMEDEA (CSIC-UIB). He earned his PhD in Physical Oceanography from the Ecole Normale Supérieure at University Paris Sciences et Lettres in Paris, France. His research focuses on mesoscale and submesoscale ocean dynamics using theoretical aspects and SWOT data."
 
 phd_students: 
 
