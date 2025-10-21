@@ -15,13 +15,14 @@ principal_investigators:
     bio: "Senior scientist at the Spanish National Research Council (CSIC) at IMEDEA in Mallorca, Spain. She obtained her Ph.D. in Physical Oceanography from the University of the Balearic Islands in 2003, followed by positions at the CLS Space Oceanography Division in Toulouse as a Marie Skłodowska-Curie postdoctoral fellow, and at IMEDEA as a Ramon y Cajal tenure-track fellow. Her research primarily focuses on understanding meso and submesoscale processes in the ocean and their impact on climate, using a combination of remote sensing, in-situ data, and numerical simulations."
 
   - name: "Dr. Baptiste Mourre"
-    title: "Research Scientist"
+    title: "Senior Scientist"
     period: "2024 - present"
     image: "MourreBaptiste.jpg"
     email: "bmourre@imedea.uib-csic.es"
     orcid: "https://orcid.org/0000-0002-5056-0423"
+    scholar: "https://scholar.google.com/citations?user=F6Nf0CoAAAAJ&hl=en"
     imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=2409"
-    bio: "Research scientist specializing in ocean modeling, data assimilation, and operational oceanography. His work focuses on improving ocean forecasting systems and understanding coastal ocean processes."
+    bio: "Baptiste Mourre is a senior scientist at IMEDEA. He joined the Lab in 2024, following previous positions at LEGOS (CNRS), ICM (CSIC), CMRE (STO-NATO) and SOCIB. His research interests include understanding ocean dynamics – ranging from mesoscale and submesoscale to coastal processes – as well as the implementation, analysis and applications of regional ocean modelling and forecasting systems based on the integration of satellite and in-situ observations with high-resolution hydrodynamic models. He is particularly interested in the impact of ocean processes on three-dimensional transport, dispersion and mixing, and their implications for climate and ecosystems."
 
 research_scientists:
 
