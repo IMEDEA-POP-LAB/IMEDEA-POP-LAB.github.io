@@ -59,6 +59,21 @@ all:
     year: 2025
     doi: "https://doi.org/10.1038/s41598-025-06149-9"
     image: "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-025-06149-9/MediaObjects/41598_2025_6149_Fig2_HTML.png?as=webp"
+
+  - title: "Glider observations in the Western Mediterranean Sea: their assimilation and impact assessment using four analysis and forecasting systems"
+    authors: "Aydogdu, A. , Escudier, R., Hernandez-Lasheras, J., Amadio, C.; Pistoia, J., Zarokanellos, N. D., Cossarini, G., Remy, E., and Mourre, B."
+    journal: "Frontiers in Marine Science"
+    year: 2025
+    doi: "https://doi.org/10.3389/fmars.2025.1456463"
+    image: "https://www.frontiersin.org/files/Articles/1456463/fmars-12-1456463-HTML/image_m/fmars-12-1456463-g006.jpg"
+
+  - title: "High frequency radar observing system simulation experiment in the Western Mediterranean Sea. A Lagrangian assessment approach"
+    authors: "Hernández-Lasheras, J., Orfila, A., Santana, A., Hernández-Carrasco, I., and Mourre, B."
+    journal: "Ocean Modelling"
+    year: 2025
+    doi: "https://doi.org/10.1016/j.ocemod.2025.102553"
+    image: "https://ars.els-cdn.com/content/image/1-s2.0-S1463500325000563-gr12.jpg"
+
  
   # 2024 Publications
   
