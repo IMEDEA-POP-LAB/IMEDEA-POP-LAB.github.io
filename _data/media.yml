@@ -1,5 +1,12 @@
 # Media coverage and press releases
 # Add new entries at the top for chronological order
+- date: 2025-10-23
+  title: "Corrientes marinas: ¿se está acelerando el pulso de los océanos?"
+  outlet: "The Conversation"
+  url: "https://theconversation.com/corrientes-marinas-se-esta-acelerando-el-pulso-de-los-oceanos-265929?utm_medium=article_clipboard_share&utm_source=theconversation.com"
+  excerpt: "En un análisis de tres décadas de datos satelitales hemos mostrado que la energía de los remolinos –responsables de cerca del 90 % del movimiento del océano– está creciendo de forma global, con un pulso especialmente fuerte en regiones como la corriente del Golfo o de Kuroshio."
+  language: "es"
+  type: "Science Communication"
 
 - date: 2025-09-18
   title: "Olas de calor en el mar balear: Los sistemas de medición podrían estar engañándonos"
