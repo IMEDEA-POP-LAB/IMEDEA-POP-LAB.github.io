@@ -46,6 +46,8 @@ _data/
 
 ### Structure Overview
 The people file is organized into these categories:
+- `csic_senior_scientist`
+- `senior_scientist`
 - `principal_investigators`
 - `research_scientists`
 - `postdocs`
