@@ -59,7 +59,7 @@ social: true
     <div class="photo-gallery">
       <div class="gallery-grid">
         <div class="gallery-item">
-          <img src="/assets/img/gallery/SWOT-ST-Meeting_2025.jpg" alt="SWOT meeting">
+          <img src="/assets/img/gallery/SWOT-ST-Meeting_2025.jpg" alt="SWOT-ST meeting">
           <div class="gallery-caption">SWOT meeting 2025 </div>
         </div>
         <div class="gallery-item">
