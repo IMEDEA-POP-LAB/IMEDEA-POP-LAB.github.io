@@ -59,6 +59,10 @@ social: true
     <div class="photo-gallery">
       <div class="gallery-grid">
         <div class="gallery-item">
+          <img src="/assets/img/gallery/SWOT-ST-Meeting_2025.jpg" alt="SWOT meeting">
+          <div class="gallery-caption">SWOT meeting 2025 </div>
+        </div>
+        <div class="gallery-item">
           <img src="/assets/img/gallery/experiments.jpg" alt="Experiments Stall">
           <div class="gallery-caption">Explaining thermohaline circulation</div>
         </div>
