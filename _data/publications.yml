@@ -8,7 +8,7 @@ all:
     volume: ""
     pages: ""
     doi: "https://doi.org/10.1126/sciadv.adu3221"
-    image: ""
+    image: "https://www.science.org/cms/10.1126/sciadv.adu3221/asset/10e07c88-9f2b-499f-94bf-066630c059b4/assets/images/large/sciadv.adu3221-f1.jpg"
     
   - title: "Climate Change Impacts on the Southwestern Atlantic Shelf Circulation. "
     authors: "Matano, R., Combes, V., Palma, E., and Beals, E. "
