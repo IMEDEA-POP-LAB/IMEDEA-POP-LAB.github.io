@@ -302,6 +302,7 @@ nav_order: 2
 {% endif %}
 
 <!-- Visiting Researchers -->
+## Collaborating Researchers
 {% if site.data.people.visiting_researchers %}
   {% for person in site.data.people.visiting_researchers %}
   <div class="person-card">
