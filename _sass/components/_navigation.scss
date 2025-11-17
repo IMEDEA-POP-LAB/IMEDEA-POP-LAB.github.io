@@ -88,6 +88,11 @@
   background: rgba(255, 255, 255, 0.25);
   font-weight: 700;
 }
+.header-logo {
+  height: 32px;
+  margin-left: var(--space-6);
+  align-self: center;
+}
 
 /* Mobile responsive navigation */
 @media (max-width: 768px) {
