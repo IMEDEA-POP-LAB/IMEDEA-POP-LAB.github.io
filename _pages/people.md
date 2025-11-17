@@ -303,6 +303,7 @@ nav_order: 2
 
 <!-- Collaborating Researchers -->
 <h2>Collaborating Researchers</h2>
+<div class="people row">
 {% if site.data.people.visiting_researchers %}
   {% for person in site.data.people.visiting_researchers %}
     <div class="person-card">
@@ -320,7 +321,6 @@ nav_order: 2
               <span>📧</span><span>Email</span>
             </a>
           {% endif %}
-
           {% if person.orcid and person.orcid != "" %}
             <a href="{{ person.orcid }}" class="social-link orcid" target="_blank">
               <span>🔗</span><span>ORCID</span>
@@ -330,7 +330,6 @@ nav_order: 2
               <span>🔗</span><span>ORCID</span>
             </a>
           {% endif %}
-
           {% if person.imedea and person.imedea != "" %}
             <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
               <span>🏛️</span><span>IMEDEA</span>
@@ -340,19 +339,16 @@ nav_order: 2
               <span>🏛️</span><span>IMEDEA</span>
             </a>
           {% endif %}
-
           {% if person.scholar and person.scholar != "" %}
             <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
               <span>🎓</span><span>Google Scholar</span>
             </a>
           {% endif %}
-
           {% if person.linkedin and person.linkedin != "" %}
             <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
               <span>💼</span><span>LinkedIn</span>
             </a>
           {% endif %}
-
           {% if person.website and person.website != "" %}
             <a href="{{ person.website }}" class="social-link website" target="_blank">
               <span>🌐</span><span>Website</span>
