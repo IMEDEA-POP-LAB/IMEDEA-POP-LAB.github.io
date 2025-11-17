@@ -90,9 +90,9 @@
 }
 .header-logo {
   height: 44px;
-  margin-left: var(--space-6);
+  /* margin-left: var(--space-6); */
   /* If we want the logo to override the container: */
-  /* margin-right: calc(-1 * var(--space-6)); /* cancel container padding */
+  margin-right: calc(-1 * var(--space-6)); /* cancel container padding */
   align-self: center;
 }
 
