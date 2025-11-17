@@ -135,10 +135,15 @@ phd_students:
 master_students: []
   # Add master's students here
   # Template same as above but with title: "Master's Student"
-
-visiting_researchers: []
-  # Add visiting researchers here
-  # Template same as above but with title: "Visiting Researcher"
+  
+  visiting_researchers:
+  
+  - title: "Collaborator Researcher"
+    period: "2023 - present"
+    image: "BarcelóBàrbara.jpg"
+    email: "bbarcelo@imedea.uib-csic.es"
+    imedea: "https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=2340"
+    bio: "Bàrbara Barceló-Llull is a senior postdoctoral researcher at IMEDEA (CSIC-UIB), Spain. She obtained her PhD in Physical Oceanography in 2017 at the University of Las Palmas de Gran Canaria (Spain), followed by postdoctoral positions at IMEDEA and at the University of Washington (USA). Her research focuses on understanding fine-scale ocean dynamics and their role in shaping climate and marine ecosystems, using an integrated approach that combines satellite observations, in-situ measurements, and Lagrangian methods. She has played a key role in the NASA/CNES SWOT satellite validation, leading international efforts within the H2020 EuroSea project and contributing methodologies now adopted by the SWOT Science Team."
 
 alumni: 
 
