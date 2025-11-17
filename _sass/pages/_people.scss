@@ -349,15 +349,18 @@
 
 /* Compact card */
 .compact-profile-card {
-  background: white;
+  background: var(--gradient-card);
   border: 1px solid var(--gray-200);
   border-radius: var(--radius-lg);
   padding: var(--space-4);
   display: flex;
+  flex-direction: row;
   gap: var(--space-4);
   align-items: flex-start;
   box-shadow: var(--global-shadow);
   transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
 }
 
 .compact-profile-card:hover {
@@ -373,6 +376,7 @@
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--color-primary);
+  transition: border 0.2s ease;
 }
 
 /* Right content */
@@ -380,14 +384,14 @@
   flex: 1;
 }
 
-.profile-name {
+.compact-profile-card .profile-name {
   font-size: var(--text-base);
   font-weight: 600;
   color: var(--gray-900);
   margin: 0 0 var(--space-1) 0;
 }
 
-.profile-title {
+.compact-profile-card .profile-title {
   font-size: var(--text-xs);
   color: var(--ocean-blue);
   font-weight: 500;
@@ -395,14 +399,14 @@
   margin-bottom: var(--space-2);
 }
 
-.profile-links {
+.compact-profile-card .profile-links {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
   margin-bottom: var(--space-2);
 }
 
-.profile-links .social-link {
+.compact-profile-card .social-link {
   background: var(--gray-100);
   padding: 4px 8px;
   border-radius: var(--radius-sm);
@@ -411,13 +415,13 @@
   transition: all var(--transition-fast);
 }
 
-.profile-links .social-link:hover {
+.compact-profile-card .social-link:hover {
   background: var(--ocean-blue);
   color: white;
   text-decoration: none;
 }
 
-.profile-bio {
+.compact-profile-card .profile-bio {
   font-size: var(--text-sm);
   color: var(--gray-600);
   line-height: 1.5;
