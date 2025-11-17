@@ -310,7 +310,7 @@ nav_order: 2
 {% if site.data.people.collaborating_researchers %}
   {% for person in site.data.people.collaborating_researchers %}
     <div class="compact-profile-card">
-      <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-imag">
+      <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-img">
       <div class="profile-content">
         <h4 class="profile-name">{{ person.name }}</h4>
         <p class="profile-title">{{ person.title }}</p>
@@ -320,7 +320,7 @@ nav_order: 2
             <a href="mailto:{{ person.email }}" class="social-link email"> Email</a>
           {% endif %}
           {% if person.orcid and person.orcid != "" %}
-            <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">🎓 Google Scholar</a>
+            <a href="{{ person.orcid }}" class="social-link orcid" target="_blank">🔗 ORCID</a>
           {% endif %}
           {% if person.imedea and person.imedea != "" %}
           <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
