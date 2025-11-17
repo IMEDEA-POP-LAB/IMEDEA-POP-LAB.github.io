@@ -304,63 +304,59 @@ nav_order: 2
 
 
 ## Visiting & Collaborating Researchers
+
+<div class="compact-profile-grid">
 <!-- Collaborating and Visiting Researchers -->
-<div class="people row collaborators">
 {% if site.data.people.collaborating_researchers %}
   {% for person in site.data.people.collaborating_researchers %}
-  <div class="person-card">
-    <div class="card-body">
-      <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
-      <h5 class="card-title">{{ person.name }}</h5>
-  <h6 class="card-subtitle">{{ person.title }}</h6>
-      <div class="social-links">
-        {% if person.email and person.email != "" %}
-        <a href="mailto:{{ person.email }}" class="social-link email">
-          <span>📧</span>
-          <span>Email</span>
-        </a>
-        {% endif %}
-        {% if person.orcid and person.orcid != "" %}
-        <a href="{{ person.orcid }}" class="social-link orcid" target="_blank">
-          <span>🔗</span>
-          <span>ORCID</span>
-        </a>
-        {% endif %}
-        {% if person.imedea and person.imedea != "" %}
-        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
-          <span>🏛️</span>
-          <span>IMEDEA</span>
-        </a>
-        {% endif %}
-        {% if person.scholar and person.scholar != "" %}
-        <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
-          <span>🎓</span>
-          <span>Google Scholar</span>
-        </a>
-        {% endif %}
-        {% if person.linkedin and person.linkedin != "" %}
-        <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
-          <span>💼</span>
-          <span>LinkedIn</span>
-        </a>
-        {% endif %}
-        {% if person.website and person.website != "" %}
-        <a href="{{ person.website }}" class="social-link website" target="_blank">
-          <span>🌐</span>
-          <span>Website</span>
-        </a>
-        {% endif %}
+    <div class="compact-profile-card">
+      <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-imag">
+      <div class="profile-content">
+        <h4 class="profile-name">{{ person.name }}</h4>
+        <p class="profile-title">{{ person.title }}</p>
+      
+        <div class="profile-links">
+          {% if person.email and person.email != "" %}
+            <a href="mailto:{{ person.email }}" class="social-link email"> Email</a>
+          {% endif %}
+          {% if person.orcid and person.orcid != "" %}
+            <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">🎓 Google Scholar</a>
+          {% endif %}
+          {% if person.imedea and person.imedea != "" %}
+          <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+            <span>🏛️</span>
+            <span>IMEDEA</span>
+          </a>
+          {% endif %}
+          {% if person.scholar and person.scholar != "" %}
+          <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
+            <span>🎓</span>
+            <span>Google Scholar</span>
+          </a>
+          {% endif %}
+          {% if person.linkedin and person.linkedin != "" %}
+          <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
+            <span>💼</span>
+            <span>LinkedIn</span>
+          </a>
+          {% endif %}
+          {% if person.website and person.website != "" %}
+          <a href="{{ person.website }}" class="social-link website" target="_blank">
+            <span>🌐</span>
+            <span>Website</span>
+          </a>
+          {% endif %}
+        </div>
+        <p class="profile-bio">{{ person.bio }}</p>
       </div>
-      <p class="card-text">{{ person.bio }}</p>
     </div>
-  </div>
   {% endfor %}
 {% endif %}
 
 <!-- Visiting Researchers -->
 {% if site.data.people.visiting_researchers %}
   {% for person in site.data.people.visiting_researchers %}
-  <div class="person-card">
+  <div class="compact-profile-card">
     <div class="card-body">
       <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
       <h5 class="card-title">{{ person.name }}</h5>
