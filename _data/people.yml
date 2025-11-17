@@ -133,10 +133,10 @@ phd_students:
     bio: "Joan Armajach-Riera is a technician at IMEDEA (CSIC-UIB) in Mallorca, Spain. He holds a Bachelor’s degree in Marine Sciences and Technologies from the Universitat Politècnica de Catalunya (UPC) and a Master’s degree in Oceanography from the University of Las Palmas de Gran Canaria (ULPGC). He earned a CSIC JAE Intro scholarship at the Institut de Ciències del Mar (ICM), where he focused on detecting and tracking autonomous drifting buoys. He is currently working on the Framework Agreement C3S2_520_CNR (ECMWF/Copernicus) project, analysing the quality of products available in the Climate Data Store database."
 
 master_students: []
-  # Add master's students here
-  # Template same as above but with title: "Master's Student"
+# Add master's students here
+# Template same as above but with title: "Master's Student"
   
-  visiting_researchers:
+visiting_researchers:
   
   - name: "Dr. Bàrbara Barceló-Llull" 
     title: "Collaborator Researcher"
