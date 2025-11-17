@@ -50,7 +50,7 @@
 
 .site-nav {
   display: flex;
-  margin-left: 40px;
+  margin-left: 32px;
   gap: var(--space-1);
   align-items: center;
   /* ensure the nav area matches header height so children can center reliably */
@@ -91,7 +91,7 @@
 }
 .header-logo {
   height: 36px;
-  margin-left: 20px;
+  margin-left: 16px;
   margin-right: 0;
   align-self: center;
 }
