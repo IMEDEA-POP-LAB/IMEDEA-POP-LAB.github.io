@@ -339,12 +339,12 @@
   color: white;
   text-decoration: none;
 }
-/* Compact profile grid for 4-column layout */
+/* Compact profile grid */
 .compact-profile-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--space-6);
-  margin-top: var(--space-8);
+  margin: var(--space-8) 0;
 }
 
 /* Compact card */
