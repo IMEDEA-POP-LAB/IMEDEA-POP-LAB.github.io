@@ -300,8 +300,12 @@ nav_order: 2
   </div>
   {% endfor %}
 {% endif %}
+</div>
 
-<!-- Collaborating Researchers -->
+
+## Visiting & Collaborating Researchers
+<!-- Collaborating and Visiting Researchers -->
+<div class="people row collaborators">
 {% if site.data.people.collaborating_researchers %}
   {% for person in site.data.people.collaborating_researchers %}
   <div class="person-card">
@@ -352,6 +356,7 @@ nav_order: 2
   </div>
   {% endfor %}
 {% endif %}
+
 <!-- Visiting Researchers -->
 {% if site.data.people.visiting_researchers %}
   {% for person in site.data.people.visiting_researchers %}
