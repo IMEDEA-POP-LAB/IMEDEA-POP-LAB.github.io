@@ -1,6 +1,15 @@
 # Featured outreach content (videos, documentaries, etc.)
 # Add new entries maintaining chronological order
 
+- date: 2025-10-03
+  title: "Informe Mar Balear: 5 anys de ciència compartida"
+  type: "institutional"
+  venue: "Fundació Marilles"
+  youtube_id: "z1nxqroElmM"
+  description: "Institutional video celebrating the 5th anniversary of its creation, aimed at generating knowledge to protect the Balearic Sea"
+  language: "ca"
+  featured: true
+  
 - date: 2024-03-15
   title: "Del espacio al Mediterráneo: Persiguiendo corrientes marinas"
   type: "documentary"
