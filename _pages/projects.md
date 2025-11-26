@@ -12,22 +12,26 @@ nav_order: 3
 
 <div class="project-cards">
 {% for project in site.data.projects %}
+  {% if project.url and project.url != "" %}
+  <a class="project-card" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
+  {% else %}
   <div class="project-card">
+  {% endif %}
     {% if project.logo and project.logo != "" %}
     <div class="project-logo-container">
       <img class="project-logo" src="{{ '/assets/img/projects/' | append: project.logo | relative_url }}" alt="{{ project.title }} Logo">
     </div>
     {% endif %}
     <div class="project-title">
-      {% if project.url and project.url != "" %}
-        <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>
-      {% else %}
-        {{ project.title }}
-      {% endif %}
+      {{ project.title }}
     </div>
     <div class="project-meta">{{ project.period }}</div>
     <div class="project-desc">{{ project.description }}</div>
+  {% if project.url and project.url != "" %}
+  </a>
+  {% else %}
   </div>
+  {% endif %}
 {% endfor %}
 </div>
 </div>
