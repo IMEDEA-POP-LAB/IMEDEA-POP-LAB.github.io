@@ -2,6 +2,7 @@
    - Larger default item size for better visibility
    - Responsive: show 3 items on small screens */
 .photo-gallery {
+  position: relative;
   /* tweak these variables to change visible item gap and fixed item height
      - If you prefer the previous behavior where the carousel filled the
        sidebar height, remove --gallery-item-fixed-height and the layout
@@ -46,6 +47,38 @@
     color: #0b2540;
     text-align: left;
   }
+
+  /* Vertical controls placed to the right, centered vertically */
+  .gallery-controls {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 20;
+    pointer-events: auto;
+  }
+
+  .carousel-btn {
+    background: rgba(11,37,64,0.85);
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: background 0.15s ease, transform 0.08s ease;
+  }
+
+  .carousel-btn:hover { background: rgba(11,37,64,0.95); transform: translateY(-1px); }
+  .carousel-btn:active { transform: translateY(0); }
 
   /* Responsive: on small screens show 3 items and reduce item height */
   @media (max-width: 640px) {

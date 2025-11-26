@@ -45,6 +45,48 @@
       });
     }
 
+    // Prev button: animate downward by prepending last child then transitioning
+    const prevButton = document.getElementById('research-carousel-prev');
+    function slideDown() {
+      if (isAnimating) return;
+      const last = track.children[track.children.length - 1];
+      if (!last) return;
+      const itemH = getItemFullHeight(last);
+      isAnimating = true;
+      // move last to front and set initial offset
+      track.style.transition = 'none';
+      track.insertBefore(last, track.firstChild);
+      track.style.transform = `translateY(-${itemH}px)`;
+      // animate to 0
+      requestAnimationFrame(()=>{
+        track.style.transition = 'transform 600ms ease';
+        track.style.transform = 'translateY(0)';
+      });
+      setTimeout(()=>{
+        track.style.transition = 'none';
+        // reset transform ensures consistent state
+        track.style.transform = 'translateY(0)';
+        setTimeout(()=>{ isAnimating = false; }, 50);
+      }, 610);
+    }
+
+    if (prevButton) {
+      prevButton.addEventListener('click', function(e){
+        stop();
+        slideDown();
+        setTimeout(start, 1200);
+      });
+    }
+
+    // Keyboard support: ArrowUp => prev, ArrowDown => next
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'ArrowUp') {
+        e.preventDefault(); stop(); slideDown(); setTimeout(start, 1200);
+      } else if (e.key === 'ArrowDown') {
+        e.preventDefault(); stop(); slideUp(); setTimeout(start, 1200);
+      }
+    });
+
     function start() {
       if (timer) return;
       timer = setInterval(slideUp, intervalMs);

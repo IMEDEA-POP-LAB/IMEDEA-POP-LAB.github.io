@@ -85,8 +85,9 @@ social: true
           </div>
             </div>
           </div>
-          <div class="gallery-controls" style="margin-top:8px;text-align:center;">
-            <button id="research-carousel-next" class="view-all-btn" aria-label="Next gallery items">Next ▸</button>
+          <div class="gallery-controls" aria-hidden="false">
+            <button id="research-carousel-prev" class="carousel-btn" aria-label="Previous gallery items">▴</button>
+            <button id="research-carousel-next" class="carousel-btn" aria-label="Next gallery items">▾</button>
           </div>
         </div>
     </div>
