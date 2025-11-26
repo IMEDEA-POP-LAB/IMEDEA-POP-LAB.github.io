@@ -2,15 +2,16 @@
    - Larger default item size for better visibility
    - Responsive: show 3 items on small screens */
 .photo-gallery {
-  /* tweak these variables to change visible item gap; item height is computed
-     so the carousel fills the entire sidebar (4 visible items) */
+  /* tweak these variables to change visible item gap and fixed item height
+     - If you prefer the previous behavior where the carousel filled the
+       sidebar height, remove --gallery-item-fixed-height and the layout
+       will recompute heights proportionally. */
   --gallery-item-gap: 14px;
+  --gallery-item-fixed-height: 140px; /* default fixed item height; change as needed */
 
-  /* make the gallery fill the full height of the sidebar */
-  height: 100%;
-
+  /* make the gallery viewport sized to display exactly 4 fixed-size items */
   .carousel-viewport {
-    height: 100%;
+    height: calc((var(--gallery-item-fixed-height) + var(--gallery-item-gap)) * 4 - var(--gallery-item-gap));
     overflow: hidden;
   }
 
@@ -22,8 +23,8 @@
   }
 
   .gallery-item {
-    /* each item height is 1/4 of the viewport minus gaps between items */
-    height: calc((100% - (var(--gallery-item-gap) * 3)) / 4);
+    /* fixed-height variant: use the fixed height so images keep same size */
+    height: var(--gallery-item-fixed-height);
     margin-bottom: var(--gallery-item-gap);
     background: #f6f8fa;
     border-radius: 4px;
@@ -49,13 +50,10 @@
   /* Responsive: on small screens show 3 items and reduce item height */
   @media (max-width: 640px) {
     --gallery-item-gap: 10px;
-    /* on small screens make viewport tall enough for 3 items */
+    --gallery-item-fixed-height: 120px;
+    /* viewport tall enough for 3 items at the reduced fixed height */
     .carousel-viewport {
-      height: calc((100% * 0.8));
-    }
-    /* compute item height as 1/3 of the viewport (minus gaps) */
-    .gallery-item {
-      height: calc((100% - (var(--gallery-item-gap) * 2)) / 3);
+      height: calc((var(--gallery-item-fixed-height) + var(--gallery-item-gap)) * 3 - var(--gallery-item-gap));
     }
     .gallery-caption { font-size: 0.85rem; padding: 6px 8px; }
   }

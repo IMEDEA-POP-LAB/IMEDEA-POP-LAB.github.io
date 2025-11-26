@@ -83,8 +83,12 @@ social: true
             <img src="/assets/img/gallery/ciencia_per_tothom_2025.jpg" alt="Ciència per Tothom 2025">
             <div class="gallery-caption">Lab Members at Ciència per Tothom</div>
           </div>
+            </div>
+          </div>
+          <div class="gallery-controls" style="margin-top:8px;text-align:center;">
+            <button id="research-carousel-next" class="view-all-btn" aria-label="Next gallery items">Next ▸</button>
+          </div>
         </div>
-      </div>
     </div>
   </aside>
 </div>

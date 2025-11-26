@@ -33,6 +33,18 @@
       }, 610);
     }
 
+    // expose a programmatic next action for buttons
+    const nextButton = document.getElementById('research-carousel-next');
+    if (nextButton) {
+      nextButton.addEventListener('click', function(e){
+        // manual advance should pause the auto-scroll briefly
+        stop();
+        slideUp();
+        // restart after a short delay
+        setTimeout(start, 1200);
+      });
+    }
+
     function start() {
       if (timer) return;
       timer = setInterval(slideUp, intervalMs);
