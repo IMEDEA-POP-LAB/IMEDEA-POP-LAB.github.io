@@ -280,18 +280,24 @@ html {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
-  color: white;
-  padding: var(--space-3) var(--space-6);
-  border-radius: var(--radius-lg);
-  font-size: var(--text-sm);
-  font-weight: 600;
-  text-decoration: none;
-  transition: all var(--transition-base);
-  box-shadow: var(--shadow-sm);
-  border: none;
+  background: transparent !important;
+  color: var(--color-primary) !important;
+  padding: var(--space-2) var(--space-3) !important;
+  border-radius: var(--radius-sm) !important;
+  font-size: var(--text-sm) !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: color var(--transition-fast), transform var(--transition-fast) !important;
+  box-shadow: none !important;
+  border: 1px solid var(--color-border) !important;
 }
-.view-all-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); color: white; text-decoration: none; }
+.view-all-btn:hover {
+  transform: translateY(-1px) !important;
+  background: rgba(0,0,0,0.03) !important;
+  color: var(--color-primary) !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
 .btn-icon { font-size: var(--text-base); }
 
 /* Glass effect utility */
