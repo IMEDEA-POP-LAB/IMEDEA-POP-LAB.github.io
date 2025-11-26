@@ -61,7 +61,7 @@ social: true
         <div class="gallery-grid" id="research-carousel">
           <div class="gallery-item">
             <img src="/assets/img/gallery/SWOT-ST-Meeting_2025.jpg" alt="SWOT-ST meeting">
-            <div class="gallery-caption">SWOT-ST meeting 2025 </div>
+            <div class="gallery-caption">SWOT-ST meeting 2025</div>
           </div>
           <div class="gallery-item">
             <img src="/assets/img/gallery/experiments.jpg" alt="Experiments Stall">
@@ -83,13 +83,12 @@ social: true
             <img src="/assets/img/gallery/ciencia_per_tothom_2025.jpg" alt="Ciència per Tothom 2025">
             <div class="gallery-caption">Lab Members at Ciència per Tothom</div>
           </div>
-            </div>
-          </div>
-          <div class="gallery-controls" aria-hidden="false">
-            <button id="research-carousel-prev" class="carousel-btn" aria-label="Previous gallery items">▴</button>
-            <button id="research-carousel-next" class="carousel-btn" aria-label="Next gallery items">▾</button>
-          </div>
         </div>
+      </div>
+      <div class="gallery-controls" aria-hidden="false">
+        <button id="research-carousel-prev" class="carousel-btn" aria-label="Previous gallery items">▴</button>
+        <button id="research-carousel-next" class="carousel-btn" aria-label="Next gallery items">▾</button>
+      </div>
     </div>
   </aside>
 </div>
