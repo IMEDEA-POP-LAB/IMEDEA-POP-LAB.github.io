@@ -128,6 +128,39 @@
       }
     });
 
+    // Improve accessibility: make items focusable and toggle caption visibility
+    try {
+      const items = track.querySelectorAll('.gallery-item');
+      items.forEach(item => {
+        // ensure focusable for keyboard users
+        if (!item.hasAttribute('tabindex')) item.setAttribute('tabindex', '0');
+        const caption = item.querySelector('.gallery-caption');
+        if (caption) caption.setAttribute('aria-hidden', 'true');
+
+        // mouse interactions
+        item.addEventListener('mouseenter', () => {
+          if (caption) caption.setAttribute('aria-hidden', 'false');
+          item.classList.add('caption-visible');
+        });
+        item.addEventListener('mouseleave', () => {
+          if (caption) caption.setAttribute('aria-hidden', 'true');
+          item.classList.remove('caption-visible');
+        });
+
+        // keyboard interactions (focus/blur)
+        item.addEventListener('focus', () => {
+          if (caption) caption.setAttribute('aria-hidden', 'false');
+          item.classList.add('caption-visible');
+        });
+        item.addEventListener('blur', () => {
+          if (caption) caption.setAttribute('aria-hidden', 'true');
+          item.classList.remove('caption-visible');
+        });
+      });
+    } catch (e) {
+      // ignore
+    }
+
     // Auto-advance disabled: navigation happens only via buttons/keyboard.
     function start() { /* intentionally left empty */ }
     function stop() { /* intentionally left empty */ }

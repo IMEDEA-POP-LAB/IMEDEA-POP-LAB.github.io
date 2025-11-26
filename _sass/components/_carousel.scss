@@ -42,6 +42,7 @@
     box-shadow: none;
     border: none;
     display: block;
+    position: relative; /* enable caption overlay */
   }
 
   .gallery-item img {
@@ -53,15 +54,33 @@
   }
 
   .gallery-caption {
-    /* Minimalist caption: smaller, muted, transparent background */
-    font-size: var(--text-sm);
-    padding: 6px 8px;
-    background: transparent;
-    color: var(--color-text-muted);
+    /* Overlay caption: hidden by default, appears on hover/focus */
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    font-size: 0.9rem;
+    padding: 8px 10px;
+    background: rgba(0,0,0,0.56);
+    color: white;
     text-align: center;
     display: block;
-    line-height: 1.2;
-    box-shadow: none;
+    line-height: 1.25;
+    border-radius: 6px;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 180ms ease, transform 180ms ease;
+    pointer-events: none;
+  }
+
+  /* show overlay on hover/focus/keyboard-visible state */
+  .gallery-item:hover .gallery-caption,
+  .gallery-item.caption-visible .gallery-caption,
+  .gallery-item:focus .gallery-caption,
+  .gallery-item:focus-within .gallery-caption {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
   }
 
   /* Controls placed below the viewport to avoid overlapping images */
