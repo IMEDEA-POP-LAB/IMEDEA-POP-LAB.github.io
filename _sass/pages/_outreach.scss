@@ -220,16 +220,12 @@
 /* Media Grid */
 .media-grid {
   display: grid;
-  /* Use a 4-column layout for press/media items on wide screens */
-  grid-template-columns: repeat(4, 1fr);
+  /* Keep press/media items at 3 columns on wide screens */
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--space-6);
 }
 
 /* Responsive fallbacks for media-grid */
-@media (max-width: 1200px) {
-  .media-grid { grid-template-columns: repeat(3, 1fr); }
-}
-
 @media (max-width: 900px) {
   .media-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
 }
@@ -286,7 +282,9 @@
   font-weight: 600 !important;
   color: var(--color-text) !important;
   text-decoration: none !important;
-  line-height: 1.3 !important;
+  /* Reduce vertical space: tighter line-height and smaller bottom margin */
+  line-height: 1.15 !important;
+  margin: 0 0 var(--space-2) 0 !important;
   transition: color var(--transition-base);
 }
 
