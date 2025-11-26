@@ -1,0 +1,40 @@
+/* Carousel for research gallery (vertical, shows 4 items, auto-scroll) */
+.photo-gallery {
+  .carousel-viewport {
+    --gallery-item-height: 80px;
+    --gallery-item-gap: 12px;
+    height: calc((var(--gallery-item-height) + var(--gallery-item-gap)) * 4 - var(--gallery-item-gap));
+    overflow: hidden;
+  }
+
+  .gallery-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    will-change: transform;
+  }
+
+  .gallery-item {
+    height: var(--gallery-item-height);
+    margin-bottom: var(--gallery-item-gap);
+    background: #f6f8fa;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .gallery-caption {
+    font-size: 0.85rem;
+    padding: 6px 8px;
+    background: rgba(255,255,255,0.9);
+    color: #0b2540;
+    text-align: left;
+  }
+}

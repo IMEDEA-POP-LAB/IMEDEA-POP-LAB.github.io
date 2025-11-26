@@ -57,30 +57,32 @@ social: true
   <aside class="about-side">
     <!-- Research Gallery -->
     <div class="photo-gallery">
-      <div class="gallery-grid">
-        <div class="gallery-item">
-          <img src="/assets/img/gallery/SWOT-ST-Meeting_2025.jpg" alt="SWOT-ST meeting">
-          <div class="gallery-caption">SWOT-ST meeting 2025 </div>
-        </div>
-        <div class="gallery-item">
-          <img src="/assets/img/gallery/experiments.jpg" alt="Experiments Stall">
-          <div class="gallery-caption">Explaining thermohaline circulation</div>
-        </div>
-        <div class="gallery-item">
-          <img src="/assets/img/gallery/ctd_fast_swot.jpg" alt="CTD deployment">
-          <div class="gallery-caption">Deploying oceanographic instruments</div>
-        </div>
-        <div class="gallery-item">
-          <img src="/assets/img/gallery/oral_diego.jpg" alt="Oral Presentation">
-          <div class="gallery-caption">Diego V. at the Living Planet Symposium</div>
-        </div>
-        <div class="gallery-item">
-          <img src="/assets/img/gallery/lab_lunch.jpg" alt="Lab Lunch">
-          <div class="gallery-caption">Bye Bye Laura!</div>
-        </div>
-        <div class="gallery-item">
-          <img src="/assets/img/gallery/ciencia_per_tothom_2025.jpg" alt="Ciència per Tothom 2025">
-          <div class="gallery-caption">Lab Members at Ciència per Tothom</div>
+      <div class="carousel-viewport">
+        <div class="gallery-grid" id="research-carousel">
+          <div class="gallery-item">
+            <img src="/assets/img/gallery/SWOT-ST-Meeting_2025.jpg" alt="SWOT-ST meeting">
+            <div class="gallery-caption">SWOT-ST meeting 2025 </div>
+          </div>
+          <div class="gallery-item">
+            <img src="/assets/img/gallery/experiments.jpg" alt="Experiments Stall">
+            <div class="gallery-caption">Explaining thermohaline circulation</div>
+          </div>
+          <div class="gallery-item">
+            <img src="/assets/img/gallery/ctd_fast_swot.jpg" alt="CTD deployment">
+            <div class="gallery-caption">Deploying oceanographic instruments</div>
+          </div>
+          <div class="gallery-item">
+            <img src="/assets/img/gallery/oral_diego.jpg" alt="Oral Presentation">
+            <div class="gallery-caption">Diego V. at the Living Planet Symposium</div>
+          </div>
+          <div class="gallery-item">
+            <img src="/assets/img/gallery/lab_lunch.jpg" alt="Lab Lunch">
+            <div class="gallery-caption">Bye Bye Laura!</div>
+          </div>
+          <div class="gallery-item">
+            <img src="/assets/img/gallery/ciencia_per_tothom_2025.jpg" alt="Ciència per Tothom 2025">
+            <div class="gallery-caption">Lab Members at Ciència per Tothom</div>
+          </div>
         </div>
       </div>
     </div>
