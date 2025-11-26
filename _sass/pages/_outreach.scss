@@ -330,6 +330,16 @@
   margin: 0 0 var(--space-2) 0 !important;
 }
 
+/* Ensure featured multimedia titles use the exact same typographic rules
+   as press titles (the user requested the multimedia title match the press one) */
+.featured-card .outreach-item-title {
+  font-size: var(--text-lg) !important;
+  font-weight: 600 !important;
+  color: var(--color-text) !important;
+  line-height: 1.15 !important;
+  margin: 0 0 var(--space-2) 0 !important;
+}
+
 /* Align metadata styles */
 .content-date, .media-date {
   font-size: var(--text-sm);
