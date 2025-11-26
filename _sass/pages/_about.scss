@@ -91,7 +91,8 @@
   display: grid;
   grid-template-columns: 1fr 360px;
   gap: var(--space-8);
-  align-items: start;
+  /* Stretch columns so the sidebar can match main column height */
+  align-items: stretch;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -102,7 +103,8 @@
 
 .about-side {
   position: relative;
-  align-self: start;
+  /* ensure the side column stretches to the grid row height */
+  align-self: stretch;
 }
 
 
