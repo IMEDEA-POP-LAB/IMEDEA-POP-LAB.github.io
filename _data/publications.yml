@@ -5,8 +5,6 @@ all:
     authors: "Middleton, L., Wu, W., Johnston, T. M. S., Tarry, D. R., Farrar, J. T., Poulain, P.‑M., Özgökmen, T. M., Shcherbina, A. Y., Pascual, A., McNeill, C. L., Belgacem, M., Berta, M., Abbott, K., Worden, A. Z., Wittmers, F., Kinsella, A., Centurioni, L. R., Hormann, V., Cutolo, E., Tintoré, J., Ruiz, S., Casas, B., Cheslack, H., D’Asaro, E. A., and Mahadevan, A."
     journal: "Science Advances"
     year: 2025
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1126/sciadv.adu3221"
     image: "https://www.science.org/cms/10.1126/sciadv.adu3221/asset/10e07c88-9f2b-499f-94bf-066630c059b4/assets/images/large/sciadv.adu3221-f1.jpg"
     
@@ -14,8 +12,6 @@ all:
     authors: "Matano, R., Combes, V., Palma, E., and Beals, E. "
     journal: "Oxford Research Encyclopedia of Climate Science."
     year: 2025
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1093/acrefore/9780190228620.013.969"
     image: "https://vincentcombes.com/images/Figure_43.png"
 
@@ -23,8 +19,6 @@ all:
     authors: "Meerhoff, E., Combes, V., Matano, R., Barrier, N., Franco, B.C., Piola, A.R., Hernández-Vaca, F., Defeo, O."
     journal: "Estuarine, Coastal and Shelf Science"
     year: 2025
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1016/j.ecss.2025.109346"
     image: "https://vincentcombes.com/images/Figure_40.png"
 
@@ -32,8 +26,6 @@ all:
     authors: "Matano, R. P., Combes, V., Palma, E. D., & Strub, P. T. "
     journal: "Journal of Geophysical Research: Oceans"
     year: 2025
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1029/2023JC020234"
     image: "https://vincentcombes.com/images/Figure_39.png"
  
@@ -90,8 +82,6 @@ all:
     authors: "A.R. Piola, N. Bodnariuk, V. Combes, B.C. Franco, R.P. Matano, E.D. Palma, S.I. Romero, M. Saraceno, and M.M. Urricariet"
     journal: "Acha, E.M., Iribarne, O.O., Piola, A. (eds) The Patagonian Shelfbreak Front. Aquatic Ecology Series, vol 13. Springer, Cham."
     year: 2024
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1007/978-3-031-71190-9_2"
     image: "https://vincentcombes.com/images/Figure_38.png"
 
@@ -99,8 +89,6 @@ all:
     authors: "Ted Strub, P., James, C., Fisher, J.L., Fewings, M.R., Zeman, S.M., Combes, V., Garwood, J.C., Bolm, A., Scherer, A"
     journal: "Progress in Oceanography"
     year: 2024
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1016/j.pocean.2024.103353"
     image: "https://vincentcombes.com/images/Figure_37.png"
 
@@ -151,8 +139,6 @@ all:
     authors: "Delgado, A.L., I. Hernández-Carrasco, V. Combes, J. Font-Muñoz, P. D. Pratolongo, and G. Basterretxea"
     journal: "Journal of Geophysical Research: Oceans"
     year: 2023
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1029/2023JC019865"
     image: "https://vincentcombes.com/images/Figure_36.png"
 
@@ -160,8 +146,6 @@ all:
     authors: "Combes, V., Matano, R. P., & Palma, E."
     journal: "J.G.R.: Oceans"
     year: 2023
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1029/2023JC019887"
     image: "https://vincentcombes.com/images/Figure_35.png"
 
@@ -170,7 +154,6 @@ all:
     journal: "Journal of Geophysical Research: Oceans"
     year: 2023
     volume: "128"
-    pages: ""
     doi: "https://doi.org/10.1029/2022JC019257"
     image: "https://vincentcombes.com/images/Figure_33.png"
 
@@ -228,8 +211,6 @@ all:
     authors: "Meerhoff, E., V. Combes, R.P. Matano, N. Barrier, B. Franco, A. Piola, F. Hernández-Vaca, and O. Defeo"
     journal: "Marine Environmental Research"
     year: 2022
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1016/j.marenvres.2022.105591"
     image: "https://vincentcombes.com/images/Figure_32.png"
  
@@ -295,8 +276,6 @@ all:
     authors: "Palma,E., R.P. Matano, and V. Combes"
     journal: "Progress in Oceanography."
     year: 2021
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1016/j.pocean.2021.102666"
     image: "https://vincentcombes.com/images/Figure_31.png"
 
@@ -305,7 +284,6 @@ all:
     journal: "Geophysical Research: Oceans"
     year: 2021
     volume: "126"
-    pages: ""
     doi: "https://doi.org/10.1029/2020JC016959"
     image: "https://vincentcombes.com/images/Figure_30.png"
   
@@ -363,8 +341,6 @@ all:
     authors: "Hernán G., M.J. Ortega, J. Henderson, J. Alós, K. Boyer, S. Cimon, V. Combes, M. Cusson, C.M. Hereu, M. Hessing-Lewis, K. Hovel, P. Jorgensen, S. Kiriakopolos, N. Kollars, M.I. O ́Connor, J. Olsen, P.L. Reynolds, J. Ruesink, E. Voigt, F. Tomas"
     journal: "Global Ecol Biogeogr"
     year: 2020
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1111/geb.13217"
     image: "https://vincentcombes.com/images/Figure_29.png"
 
@@ -372,8 +348,6 @@ all:
     authors: "Meerhoff E., O. Defeo, V. Combes, B.C. Franco, R.P. Matano, A.R. Piola, F. Hernández Vaca, E. Celentano"
     journal: "Estuarine, Coastal and Shelf Science"
     year: 2020
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1016/j.ecss.2020.107035"
     image: "https://vincentcombes.com/images/Figure_28.png"
 
@@ -381,8 +355,6 @@ all:
     authors: "Franco B.C., V. Combes and V. González Carman"
     journal: "Front. Mar. Sci."
     year: 2020
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.3389/fmars.2020.563394"
     image: "https://vincentcombes.com/images/Figure_27.png"
 
@@ -390,8 +362,6 @@ all:
     authors: "Matano, R.P., V. Combes, E.F. Young and M. Meredith"
     journal: "Journal of Geophysical Research: Oceans"
     year: 2020
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1029/2020JC016391"
     image: "https://vincentcombes.com/images/Figure_26.png"
 
@@ -399,8 +369,6 @@ all:
     authors: "Palma,E. , R.P. Matano, M. Tonini, P. Martos and V. Combes"
     journal: "Journal of Marine Systems"
     year: 2020
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1016/j.jmarsys.2019.103261"
     image: "https://vincentcombes.com/images/Figure_25.png"
  
@@ -451,7 +419,6 @@ all:
     journal: "Ocean Modelling"
     year: 2019
     volume: "142"
-    pages: ""
     doi: "https://doi.org/10.1016/j.ocemod.2019.101454"
     image: "https://vincentcombes.com/images/Figure_24.png"
 
@@ -459,8 +426,6 @@ all:
     authors: "Matano, R.P., E. Palma and V. Combes"
     journal: "Journal of Geophysical Research: Oceans"
     year: 2019
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1029/2019JC015001"
     image: "https://vincentcombes.com/images/Figure_23.png"
   
@@ -585,8 +550,6 @@ all:
     authors: "Franco, B.C., E.D. Palma, V. Combes, E.M. Acha and M. Saraceno"
     journal: "Journal of Geophysical Research: Oceans"
     year: 2018
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1029/2018JC013824"
     image: "https://vincentcombes.com/images/Figure_21.png"
     
@@ -594,8 +557,6 @@ all:
     authors: "Chenillat, F., P.J.S. Franks, X. Capet, P. Rivière, N. Grima, B. Blanke and V. Combes"
     journal: "Ocean Dynamics"
     year: 2018
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1007/s10236-018-1158-4"
     image: "https://vincentcombes.com/images/Figure_20.png"
     
@@ -663,8 +624,6 @@ all:
     authors: "Parada, C., A. Gretchina, S. Vásquez, A. Belmadani, V. Combes, B. Ernst, E. Di Lorenzo, J. Porobic, A. Sepúlveda"
     journal: "ICES Journal of Marine Science"
     year: 2017
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1093/icesjms/fsx065"
     image: "https://vincentcombes.com/images/Figure_19.png"
 
@@ -683,8 +642,6 @@ all:
     authors: "Chenillat, F., P.J.S. Franks, V. Combes"
     journal: "Geophys. Res. Letters"
     year: 2016
-    volume: ""
-    pages: ""
     doi: "https://doi.org/10.1002/2016GL068945"
     image: "https://vincentcombes.com/images/Figure_17.png"
 
@@ -695,7 +652,6 @@ all:
     journal: "J. Geophys. Res. Oceans"
     year: 2015
     volume: "120"
-    pages: ""
     doi: "https://doi.org/10.1002/2015JC010769"
     image: "https://vincentcombes.com/images/Figure_16.png"
 
@@ -704,7 +660,6 @@ all:
     journal: "J. Geophys. Res. Oceans"
     year: 2015
     volume: "120"
-    pages: ""
     doi: "https://doi.org/10.1002/2014JC010265"
     image: "https://vincentcombes.com/images/Figure_15.png"
 
@@ -724,7 +679,6 @@ all:
     journal: "J. Geophys. Res. Oceans"
     year: 2014
     volume: "119"
-    pages: ""
     doi: "https://doi.org/10.1002/2014JC010116"
     image: "https://vincentcombes.com/images/Figure_13.png"
 
@@ -733,7 +687,6 @@ all:
     journal: "Geophys. Res. Lett."
     year: 2014
     volume: "41"
-    pages: ""
     doi: "https://doi.org/10.1002/2014GL062523"
     image: "https://vincentcombes.com/images/Figure_12.png"
 
@@ -742,7 +695,6 @@ all:
     journal: "Journal of Geophysical Research: Oceans"
     year: 2014
     volume: "119"
-    pages: ""
     doi: "https://doi.org/10.1002/2013JC009498"
     image: "https://vincentcombes.com/images/Figure_11.png"
 
@@ -810,7 +762,6 @@ all:
     journal: "Global Change Biology"
     year: 2011
     volume: "17"
-    pages: ""
     doi: "https://doi.org/10.1111/j.1365-2486.2010.02383.x"
     image: "https://vincentcombes.com/images/Figure_04.png"
 
@@ -832,7 +783,6 @@ all:
     journal: "Journal of Geophysical Research‐Oceans"
     year: 2009
     volume: "114"
-    pages: ""
     doi: "https://doi.org/10.1029/2008JC004983"
     image: "https://vincentcombes.com/images/Figure_02.png"
 
