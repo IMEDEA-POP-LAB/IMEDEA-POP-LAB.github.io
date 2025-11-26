@@ -78,7 +78,10 @@
     transition: background 0.15s ease, transform 0.08s ease;
   }
 
-  .carousel-btn:hover { background: darken(var(--color-primary, #0d47a1), 6%); transform: translateY(-2px); }
+    /* SCSS darken() cannot operate on CSS variables; use a fixed darker fallback color.
+      The button uses the CSS variable `--color-primary` when available, otherwise the
+      hex `#0d47a1`. For hover we apply a slightly darker hex that works in CSS/SCSS. */
+    .carousel-btn:hover { background: #0b3f99; transform: translateY(-2px); }
   .carousel-btn:active { transform: translateY(0); }
 
   /* Responsive: on small screens show 3 items and reduce item height */

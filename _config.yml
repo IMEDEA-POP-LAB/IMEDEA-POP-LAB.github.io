@@ -7,7 +7,7 @@ email: ananda.pascual@imedea.uib-csic.es
 description: >- # this means to ignore newlines until "baseurl:"
   Physical oceanography research lab at IMEDEA (CSIC-UIB) led by Dr. Ananda Pascual. We study Mediterranean Sea dynamics, submesoscale processes, satellite altimetry, marine heatwaves, and ocean-climate interactions using advanced remote sensing, in-situ observations, and machine learning techniques.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: physical oceanography, Mediterranean Sea, marine sciences, IMEDEA, satellite altimetry, submesoscale dynamics, ocean modeling, marine heatwaves, SWOT satellite, mesoscale eddies, oceanographic research, climate variability, remote sensing, glider observations, sea surface temperature  # add your own keywords or leave empty
 
@@ -56,7 +56,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: IMEDEA-AP-LAB # your GitHub user name
+github_username: IMEDEA-POP-LAB # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
