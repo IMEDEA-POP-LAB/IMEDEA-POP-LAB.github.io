@@ -446,7 +446,7 @@
 .alumni-section {
   margin: var(--space-12) 0 var(--space-8) 0;
   padding: var(--space-8) 0;
-  border-top: 2px solid var(--gray-200);
+  border-top: none; /* removed horizontal rule under the Alumni heading */
 }
 
 .alumni-grid {
@@ -523,7 +523,7 @@
 .alumni-simple {
   margin: var(--space-8) 0;
   padding: var(--space-6) 0;
-  border-top: 1px solid var(--gray-200);
+  border-top: none; /* remove line for simplified alumni list */
 }
 
 .alumni-list {
