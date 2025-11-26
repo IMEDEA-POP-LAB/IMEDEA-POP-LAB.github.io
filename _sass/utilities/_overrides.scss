@@ -350,9 +350,9 @@ html .site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px; /* allow more horizontal room for title + nav */
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 1.25rem;
   height: auto;
   background: transparent;
 }
@@ -367,6 +367,9 @@ html .site-header {
   z-index: 10000;
   display: block;
   visibility: visible;
+  max-width: 65%; /* match component: give title more room */
+  white-space: normal; /* allow wrapping if needed instead of ellipsis */
+  overflow: visible;
 }
 
 /* Force navigation links visibility */
@@ -390,7 +393,7 @@ html .site-header {
   display: inline-flex;
   align-items: center;
   height: 40px;
-  padding: 0 1rem;
+  padding: 0 var(--space-3); /* reduce horizontal padding so nav uses less width */
   border-radius: 0.75rem;
   transition: all 0.3s ease;
   visibility: visible;

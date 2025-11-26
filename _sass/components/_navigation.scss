@@ -43,10 +43,11 @@
   letter-spacing: -0.02em;
   z-index: 1001;
   display: inline-block;
-  max-width: 45%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /* allow the full lab name to occupy more header space; allow wrapping if needed */
+  max-width: 65%;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 .site-title:hover {
