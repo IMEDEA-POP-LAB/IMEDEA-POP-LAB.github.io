@@ -15,7 +15,9 @@
       try {
         const recent = document.querySelector('.recent-publications');
         const aboutMain = document.querySelector('.about-main');
-        const target = recent || aboutMain;
+        // Prefer the full about main column height so the gallery fills the
+        // visible page area; fall back to recent publications if not present.
+        const target = aboutMain || recent;
         if (!target || !photoGallery) return;
 
         const gapStr = getComputedStyle(photoGallery).getPropertyValue('--gallery-item-gap') || '14';
@@ -41,8 +43,8 @@
       resizeTimer = setTimeout(adjustToPublications, 150);
     }
 
-    // run once now
-    adjustToPublications();
+    // run once now (allow the layout a short moment to settle)
+    setTimeout(adjustToPublications, 60);
     window.addEventListener('resize', onResize);
 
     function getItemFullHeight(el) {

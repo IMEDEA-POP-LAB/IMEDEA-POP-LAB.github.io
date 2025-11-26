@@ -3,6 +3,9 @@
    - Responsive: show 3 items on small screens */
 .photo-gallery {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   /* tweak these variables to change visible item gap and fixed item height
      - If you prefer the previous behavior where the carousel filled the
        sidebar height, remove --gallery-item-fixed-height and the layout
@@ -62,23 +65,26 @@
     align-items: center;
     pointer-events: auto;
   }
-
+  /* Minimalist circular arrow buttons */
   .carousel-btn {
-    background: var(--color-primary, #0d47a1);
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 8px;
+    --btn-size: 36px;
+    width: var(--btn-size);
+    height: var(--btn-size);
+    padding: 0;
+    display: inline-grid;
+    place-items: center;
+    border-radius: 999px;
+    background: rgba(11,37,64,0.06);
+    color: var(--color-primary, #0d47a1);
+    border: 1px solid rgba(11,37,64,0.08);
     cursor: pointer;
-    font-size: 14px;
-    box-shadow: 0 6px 14px rgba(11,37,64,0.12);
-    transition: background 0.15s ease, transform 0.08s ease;
+    font-size: 18px;
+    line-height: 1;
+    box-shadow: none;
+    transition: background 0.12s ease, transform 0.06s ease, opacity 0.12s ease;
   }
 
-    /* SCSS darken() cannot operate on CSS variables; use a fixed darker fallback color.
-      The button uses the CSS variable `--color-primary` when available, otherwise the
-      hex `#0d47a1`. For hover we apply a slightly darker hex that works in CSS/SCSS. */
-    .carousel-btn:hover { background: #0b3f99; transform: translateY(-2px); }
+  .carousel-btn:hover { background: rgba(11,37,64,0.10); transform: translateY(-1px); }
   .carousel-btn:active { transform: translateY(0); }
 
   /* Responsive: on small screens show 3 items and reduce item height */
