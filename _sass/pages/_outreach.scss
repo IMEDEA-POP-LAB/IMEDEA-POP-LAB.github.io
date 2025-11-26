@@ -316,6 +316,20 @@
   color: var(--color-primary) !important;
 }
 
+/* Shared visual rule to unify multimedia and press item titles
+   - preserves markup semantics (media-title keeps an <a>), but makes
+     appearance identical via a single rule applied to both selectors */
+.outreach-item-title,
+.outreach-item-title a,
+.content-title,
+.media-title a {
+  font-size: var(--text-lg) !important;
+  font-weight: 600 !important;
+  color: var(--color-text) !important;
+  line-height: 1.15 !important;
+  margin: 0 0 var(--space-2) 0 !important;
+}
+
 /* Align metadata styles */
 .content-date, .media-date {
   font-size: var(--text-sm);
