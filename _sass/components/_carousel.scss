@@ -53,11 +53,15 @@
   }
 
   .gallery-caption {
-    font-size: 0.95rem;
-    padding: 8px 10px;
-    background: rgba(255,255,255,0.92);
-    color: #0b2540;
-    text-align: left;
+    /* Minimalist caption: smaller, muted, transparent background */
+    font-size: var(--text-sm);
+    padding: 6px 8px;
+    background: transparent;
+    color: var(--color-text-muted);
+    text-align: center;
+    display: block;
+    line-height: 1.2;
+    box-shadow: none;
   }
 
   /* Controls placed below the viewport to avoid overlapping images */

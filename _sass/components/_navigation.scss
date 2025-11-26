@@ -38,12 +38,12 @@
   color: white;
   text-decoration: none;
   /* responsive, smaller minimum so very long titles fit on one line */
-  font-size: clamp(var(--text-sm), 1.6vw, var(--text-xl));
+  font-size: clamp(var(--text-xs), 1.2vw, var(--text-lg));
   font-weight: 700;
   letter-spacing: -0.02em;
   z-index: 1001;
   display: inline-block;
-  max-width: 65%;
+  max-width: 50%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

@@ -33,8 +33,9 @@
         // visual extension (a little bit longer) without changing item size.
         // Choose visible count based on small-screen breakpoint (match SCSS @media).
         const visibleCount = (window.innerWidth <= 640) ? 3 : 4;
-        // add a small extra padding so the gallery looks slightly taller
-        const extra = Math.max(10, Math.round(itemH * 0.08));
+        // add a slightly larger extra padding so the gallery appears taller
+        // (increase from ~8% to ~16% of the item height, minimum 22px)
+        const extra = Math.max(22, Math.round(itemH * 0.16));
         const viewportH = (itemH + gap) * visibleCount - gap + extra;
         viewport.style.height = viewportH + 'px';
       } catch (e) {
