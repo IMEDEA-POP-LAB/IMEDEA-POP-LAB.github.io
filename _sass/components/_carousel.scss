@@ -1,8 +1,12 @@
-/* Carousel for research gallery (vertical, shows 4 items, auto-scroll) */
+/* Carousel for research gallery (vertical, shows 4 items, auto-scroll)
+   - Larger default item size for better visibility
+   - Responsive: show 3 items on small screens */
 .photo-gallery {
+  /* tweak these variables to change visible item size and gap */
+  --gallery-item-height: 120px;
+  --gallery-item-gap: 14px;
+
   .carousel-viewport {
-    --gallery-item-height: 80px;
-    --gallery-item-gap: 12px;
     height: calc((var(--gallery-item-height) + var(--gallery-item-gap)) * 4 - var(--gallery-item-gap));
     overflow: hidden;
   }
@@ -31,10 +35,20 @@
   }
 
   .gallery-caption {
-    font-size: 0.85rem;
-    padding: 6px 8px;
-    background: rgba(255,255,255,0.9);
+    font-size: 0.95rem;
+    padding: 8px 10px;
+    background: rgba(255,255,255,0.92);
     color: #0b2540;
     text-align: left;
+  }
+
+  /* Responsive: on small screens show 3 items and reduce item height */
+  @media (max-width: 640px) {
+    --gallery-item-height: 100px;
+    --gallery-item-gap: 10px;
+    .carousel-viewport {
+      height: calc((var(--gallery-item-height) + var(--gallery-item-gap)) * 3 - var(--gallery-item-gap));
+    }
+    .gallery-caption { font-size: 0.85rem; padding: 6px 8px; }
   }
 }
