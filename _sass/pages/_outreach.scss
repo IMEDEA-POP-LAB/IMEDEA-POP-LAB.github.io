@@ -220,8 +220,22 @@
 /* Media Grid */
 .media-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  /* Use a 4-column layout for press/media items on wide screens */
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--space-6);
+}
+
+/* Responsive fallbacks for media-grid */
+@media (max-width: 1200px) {
+  .media-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 900px) {
+  .media-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+}
+
+@media (max-width: 600px) {
+  .media-grid { grid-template-columns: 1fr; gap: var(--space-4); }
 }
 
 .media-card {

@@ -42,7 +42,7 @@ nav_order: 4
             <div class="content-date">{{ item.date | date: "%B %Y" }}</div>
           </div>
           
-          <h3 class="content-title">{{ item.title }}</h3>
+          <h3 class="media-title">{{ item.title }}</h3>
           <div class="content-venue">{{ item.venue }}</div>
           
           {% if item.description %}

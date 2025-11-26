@@ -1,7 +1,8 @@
 /* Modern Project Cards Layout */
 .project-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  /* Use a 4-column layout on wide screens */
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--space-8);
   margin: var(--space-12) 0;
 }
