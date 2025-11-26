@@ -81,11 +81,8 @@
     const nextButton = document.getElementById('research-carousel-next');
     if (nextButton) {
       nextButton.addEventListener('click', function(e){
-        // manual advance should pause the auto-scroll briefly
-        stop();
+        // manual advance via button only
         slideUp();
-        // restart after a short delay
-        setTimeout(start, 1200);
       });
     }
 
@@ -116,38 +113,22 @@
 
     if (prevButton) {
       prevButton.addEventListener('click', function(e){
-        stop();
+        // manual previous via button only
         slideDown();
-        setTimeout(start, 1200);
       });
     }
 
-    // Keyboard support: ArrowUp => prev, ArrowDown => next
+    // Keyboard support: ArrowUp => prev, ArrowDown => next (manual only)
     document.addEventListener('keydown', function(e){
       if (e.key === 'ArrowUp') {
-        e.preventDefault(); stop(); slideDown(); setTimeout(start, 1200);
+        e.preventDefault(); slideDown();
       } else if (e.key === 'ArrowDown') {
-        e.preventDefault(); stop(); slideUp(); setTimeout(start, 1200);
+        e.preventDefault(); slideUp();
       }
     });
 
-    function start() {
-      if (timer) return;
-      timer = setInterval(slideUp, intervalMs);
-    }
-    function stop() {
-      if (!timer) return;
-      clearInterval(timer);
-      timer = null;
-    }
-
-    // Pause on hover
-    viewport.addEventListener('mouseenter', stop);
-    viewport.addEventListener('focusin', stop);
-    viewport.addEventListener('mouseleave', start);
-    viewport.addEventListener('focusout', start);
-
-    // Start
-    start();
+    // Auto-advance disabled: navigation happens only via buttons/keyboard.
+    function start() { /* intentionally left empty */ }
+    function stop() { /* intentionally left empty */ }
   });
 })();

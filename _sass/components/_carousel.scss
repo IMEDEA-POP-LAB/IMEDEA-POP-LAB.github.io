@@ -6,6 +6,11 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  /* Limit gallery width so it doesn't dominate the sidebar */
+  --gallery-max-width: 320px;
+  max-width: var(--gallery-max-width);
+  margin-left: auto;
+  margin-right: auto;
   /* tweak these variables to change visible item gap and fixed item height
      - If you prefer the previous behavior where the carousel filled the
        sidebar height, remove --gallery-item-fixed-height and the layout
