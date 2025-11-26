@@ -137,7 +137,8 @@
 }
 
 .content-title {
-  font-size: var(--text-xl) !important;
+  /* Match media/news title sizing for visual consistency */
+  font-size: var(--text-lg) !important;
   font-weight: 600 !important;
   color: var(--color-text) !important;
   margin: 0 0 var(--space-2) 0 !important;
