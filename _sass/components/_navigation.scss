@@ -37,10 +37,16 @@
 .site-title {
   color: white;
   text-decoration: none;
-  font-size: var(--text-2xl);
+  /* reduce size so long site titles fit in the header on one line */
+  font-size: var(--text-xl);
   font-weight: 700;
   letter-spacing: -0.025em;
   z-index: 1001;
+  display: inline-block;
+  max-width: 55%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .site-title:hover {
@@ -118,4 +124,6 @@
     height: 32px; /* slightly smaller logo on mobile */
     margin-right: var(--space-1);
   }
+  /* slightly smaller site title on narrow screens to avoid wrapping */
+  .site-title { font-size: var(--text-lg); max-width: 100%; }
 }

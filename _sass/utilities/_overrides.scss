@@ -268,18 +268,10 @@ html {
   }
 }
 
+/* Remove decorative underline for lab title on About page — user requested no horizontal rule */
 .lab-title::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 0.6ch;
-  height: 3px;
-  background: linear-gradient(90deg, var(--color-primary), var(--ocean-teal));
-  transition: width var(--transition-fast) ease, transform var(--transition-fast) ease;
-  transform-origin: left center;
-  border-radius: var(--radius-xs);
+  display: none !important;
+  content: none !important;
 }
 
 /* Restore publications CTA/button used on About previews */

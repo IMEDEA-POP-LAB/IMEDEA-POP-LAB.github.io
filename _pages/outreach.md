@@ -42,7 +42,7 @@ nav_order: 4
             <div class="content-date">{{ item.date | date: "%B %Y" }}</div>
           </div>
           
-          <h3 class="media-title">{{ item.title }}</h3>
+          <h3 class="media-title outreach-item-title">{{ item.title }}</h3>
           <div class="content-venue">{{ item.venue }}</div>
           
           {% if item.description %}
@@ -86,7 +86,7 @@ nav_order: 4
           <div class="media-date">{{ item.date | date: "%b %Y" }}</div>
         </div>
         
-        <h3 class="media-title">
+        <h3 class="media-title outreach-item-title">
           <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
         </h3>
         
