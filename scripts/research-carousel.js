@@ -5,9 +5,45 @@
     if (!track) return;
 
     const viewport = track.parentElement;
+    const photoGallery = viewport.closest('.photo-gallery');
     const intervalMs = 3000;
     let timer = null;
     let isAnimating = false;
+
+    // Adjust carousel item size to match Recent Publications column height
+    function adjustToPublications() {
+      try {
+        const recent = document.querySelector('.recent-publications');
+        const aboutMain = document.querySelector('.about-main');
+        const target = recent || aboutMain;
+        if (!target || !photoGallery) return;
+
+        const gapStr = getComputedStyle(photoGallery).getPropertyValue('--gallery-item-gap') || '14';
+        const gap = parseFloat(gapStr) || 14;
+        const targetH = target.getBoundingClientRect().height;
+        // compute item height so 4 items + gaps fit the target height
+        let itemH = Math.floor((targetH - gap * 3) / 4);
+        // clamp to reasonable bounds
+        itemH = Math.max(80, Math.min(260, itemH));
+        // set CSS variable on the photoGallery so styles react
+        photoGallery.style.setProperty('--gallery-item-fixed-height', itemH + 'px');
+        // ensure viewport uses the computed formula (optional)
+        // viewport.style.height = `calc((var(--gallery-item-fixed-height) + ${gap}px) * 4 - ${gap}px)`;
+      } catch (e) {
+        // silent
+      }
+    }
+
+    // debounce resize
+    let resizeTimer = null;
+    function onResize() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(adjustToPublications, 150);
+    }
+
+    // run once now
+    adjustToPublications();
+    window.addEventListener('resize', onResize);
 
     function getItemFullHeight(el) {
       const rect = el.getBoundingClientRect();
