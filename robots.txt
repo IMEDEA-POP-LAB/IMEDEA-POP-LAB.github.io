@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://imedea-ap-lab.github.io/sitemap.xml
+Sitemap: https://imedea-pop-lab.github.io/sitemap.xml
 
 # Allow all search engines to index the site
 # Crawl-delay: 1
