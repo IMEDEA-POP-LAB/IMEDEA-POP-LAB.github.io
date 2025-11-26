@@ -37,13 +37,13 @@
 .site-title {
   color: white;
   text-decoration: none;
-  /* responsive, smaller minimum so very long titles fit on one line */
-  font-size: clamp(var(--text-xs), 1.2vw, var(--text-lg));
+  /* smaller responsive title to fit on a single header line */
+  font-size: clamp(var(--text-xxs), 1.0vw, var(--text-sm));
   font-weight: 700;
   letter-spacing: -0.02em;
   z-index: 1001;
   display: inline-block;
-  max-width: 50%;
+  max-width: 45%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -125,5 +125,5 @@
     margin-right: var(--space-1);
   }
   /* slightly smaller site title on narrow screens to avoid wrapping */
-  .site-title { font-size: var(--text-lg); max-width: 100%; }
+  .site-title { font-size: var(--text-sm); max-width: 100%; }
 }
