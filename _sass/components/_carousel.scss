@@ -27,24 +27,21 @@
     /* fixed-height variant: use the fixed height so images keep same size */
     height: var(--gallery-item-fixed-height);
     margin-bottom: var(--gallery-item-gap);
-    background: var(--color-bg-secondary, #ffffff);
-    border-radius: var(--radius-lg, 12px);
+    /* Plain image tiles with equal spacing and no borders */
+    background: transparent;
+    border-radius: var(--radius-sm, 6px);
     overflow: hidden;
-    box-shadow: var(--shadow, 0 6px 18px rgba(11,37,64,0.08));
-    border: 1px solid rgba(11,37,64,0.04);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    box-shadow: none;
+    border: none;
+    display: block;
   }
 
   .gallery-item img {
-    /* contain image without cropping; center it inside the card */
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    /* Fill the tile area consistently (equal spacing) */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
-    margin: 0 auto;
-    background: transparent;
   }
 
   .gallery-caption {
