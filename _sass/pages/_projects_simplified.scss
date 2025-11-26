@@ -87,14 +87,29 @@
 }
 
 .project-title a {
-  color: var(--global-theme-color);
+  color: inherit;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .project-title a:hover {
-  color: var(--global-hover-color);
-  text-decoration: underline;
+  /* Do not highlight text on hover; card hover styles handle visual feedback */
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Ensure the whole card (when rendered as an anchor) does not underline text
+   and does not change text color on hover. Keep a visible focus style for
+   keyboard accessibility. */
+.project-card,
+.project-card a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.project-card:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(13,71,161,0.12);
 }
 
 .project-meta {
