@@ -7,7 +7,6 @@ Sitemap: https://imedea-ap-lab.github.io/sitemap.xml
 # Allow all search engines to index the site
 # Crawl-delay: 1
 
-# Disallow crawling of specific directories (optional)
-Disallow: /assets/
+# Disallow crawling of build and vendor directories (keep internal files private)
 Disallow: /_site/
 Disallow: /vendor/
