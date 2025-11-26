@@ -1,8 +1,5 @@
 # Site settings
-title: Physical Ocean Processes Lab
-first_name: Ananda
-middle_name: 
-last_name: Pascual
+title: Physical Ocean Processes
 email: ananda.pascual@imedea.uib-csic.es
 description: >- # this means to ignore newlines until "baseurl:"
   Physical oceanography research lab at IMEDEA (CSIC-UIB) led by Dr. Ananda Pascual. We study Mediterranean Sea dynamics, submesoscale processes, satellite altimetry, marine heatwaves, and ocean-climate interactions using advanced remote sensing, in-situ observations, and machine learning techniques.
@@ -40,7 +37,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
