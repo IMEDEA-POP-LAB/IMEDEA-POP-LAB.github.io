@@ -288,6 +288,37 @@ Extract ID: `WQd9LeIdLSk`
 
 ---
 
+## Research Gallery (About page)
+
+The About page includes a small research gallery implemented as a vertical carousel. This gallery is not data-driven through `_data/` but constructed directly in the page markup.
+
+Where to edit
+- Images: add new images to `assets/img/gallery/`.
+- Markup: edit the gallery tiles in `_pages/about.md`. Each tile follows this structure:
+
+```html
+<div class="gallery-item" tabindex="0">
+  <img src="/assets/img/gallery/your-image.jpg" alt="Descriptive alt text">
+  <div class="gallery-caption">Short caption shown on hover/focus</div>
+</div>
+```
+
+Behavior and styling
+- JavaScript: `scripts/research-carousel.js` controls sizing, slide animations, and keyboard support.
+- Styles: `_sass/components/_carousel.scss` contains variables to tweak visible item count, gaps and overlay captions.
+- Accessibility: captions are revealed on mouse hover and keyboard focus; items are made focusable with `tabindex="0"`.
+
+If you prefer to drive gallery tiles from `_data/` instead of inline markup, I can convert the About page to render items from a new `_data/gallery.yml`.
+
+---
+
+## Styling and small UI notes
+
+- The "View All Publications" CTA has condensed/minimal styles in `_sass/pages/_publications.scss` and may be overridden by `_sass/utilities/_overrides.scss` (final overrides). If you want a different visual for that CTA, edit either file (overrides last).
+- Carousel and outreach title sizing live in component/page SCSS files — prefer editing the page-level SCSS (`_sass/pages/_outreach.scss`) for outreach-specific tweaks to ensure consistency.
+
+---
+
 ## Repository Management (`repositories.yml`)
 
 ### Important Note
