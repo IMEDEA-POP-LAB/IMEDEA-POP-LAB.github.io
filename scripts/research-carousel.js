@@ -29,8 +29,14 @@
         itemH = Math.max(80, Math.min(260, itemH));
         // set CSS variable on the photoGallery so styles react
         photoGallery.style.setProperty('--gallery-item-fixed-height', itemH + 'px');
-        // ensure viewport uses the computed formula (optional)
-        // viewport.style.height = `calc((var(--gallery-item-fixed-height) + ${gap}px) * 4 - ${gap}px)`;
+        // Also explicitly set the viewport height so we can add a small
+        // visual extension (a little bit longer) without changing item size.
+        // Choose visible count based on small-screen breakpoint (match SCSS @media).
+        const visibleCount = (window.innerWidth <= 640) ? 3 : 4;
+        // add a small extra padding so the gallery looks slightly taller
+        const extra = Math.max(10, Math.round(itemH * 0.08));
+        const viewportH = (itemH + gap) * visibleCount - gap + extra;
+        viewport.style.height = viewportH + 'px';
       } catch (e) {
         // silent
       }

@@ -554,3 +554,25 @@
     padding: var(--space-4);
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* FORCE: Exact matching typography for outreach titles (highest impact)
+   This rule uses high-specificity selectors and !important declarations
+   so that visual overrides from other files do not change outreach title
+   appearance. Adjust values here if you want to change both multimedia
+   and press titles together.                                               */
+.section-container .featured-grid .featured-card .outreach-item-title,
+.section-container .media-grid .media-card .outreach-item-title,
+.featured-card .outreach-item-title,
+.media-card .outreach-item-title,
+.content-title,
+.media-title a {
+  font-size: var(--text-lg) !important;
+  font-weight: 600 !important;
+  line-height: 1.15 !important;
+  margin: 0 0 var(--space-2) 0 !important;
+  color: var(--color-text) !important;
+  /* Ensure consistent rendering across browsers */
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}

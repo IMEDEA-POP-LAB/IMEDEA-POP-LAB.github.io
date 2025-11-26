@@ -37,13 +37,13 @@
 .site-title {
   color: white;
   text-decoration: none;
-  /* reduce size so long site titles fit in the header on one line */
-  font-size: var(--text-xl);
+  /* responsive, smaller minimum so very long titles fit on one line */
+  font-size: clamp(var(--text-sm), 1.6vw, var(--text-xl));
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.02em;
   z-index: 1001;
   display: inline-block;
-  max-width: 55%;
+  max-width: 65%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
