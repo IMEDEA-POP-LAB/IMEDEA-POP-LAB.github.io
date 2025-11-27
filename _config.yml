@@ -2,11 +2,11 @@
 title: Physical Ocean Processes
 email: ananda.pascual@imedea.uib-csic.es
 description: >- # this means to ignore newlines until "baseurl:"
-  Physical oceanography research lab at IMEDEA (CSIC-UIB) led by Dr. Ananda Pascual. We study Mediterranean Sea dynamics, submesoscale processes, satellite altimetry, marine heatwaves, and ocean-climate interactions using advanced remote sensing, in-situ observations, and machine learning techniques.
+  Physical oceanography research lab at IMEDEA (CSIC-UIB). We study Mediterranean Sea dynamics, submesoscale processes, satellite altimetry, marine heatwaves, and ocean-climate interactions using advanced remote sensing, in-situ observations, and machine learning techniques.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: physical oceanography, Mediterranean Sea, marine sciences, IMEDEA, satellite altimetry, submesoscale dynamics, ocean modeling, marine heatwaves, SWOT satellite, mesoscale eddies, oceanographic research, climate variability, remote sensing, glider observations, sea surface temperature  # add your own keywords or leave empty
+keywords: IMEDEA physical oceanography group, IMEDEA POP Lab, IMEDEA physical oceanography Mallorca, IMEDEA oceanography research group, IMEDEA physical oceanography publications, IMEDEA oceanographic datasets, IMEDEA sea temperature research Mallorca, IMEDEA ocean currents research, Instituto Mediterráneo de Estudios Avanzados oceanography, IMEDEA physical oceanography team, IMEDEA marine physics lab, IMEDEA oceanography projects 2025, IMEDEA coastal oceanography Mallorca, IMEDEA ocean modelling research, IMEDEA physical oceanography PhD opportunities, IMEDEA physical oceanography datasets PDF, grupo de oceanografía física IMEDEA, IMEDEA oceanografía física publicaciones, IMEDEA laboratorio oceanográfico Mallorca, IMEDEA oceanography contact researchers, Ananda Pascual, Ananda Pascual IMEDEA, Baptiste Mourre, Baptiste Mourre IMEDEA, Vincent Combes, Vincent Combes IMEDEA, Bàrbara Barceló-Llull, Barbara Barcelo IMEDEA, Bàrbara Barceló IMEDEA, Diego Cortés Morales, Diego Cortes IMEDEA, Jen-Ping Peng, Jen Ping Peng IMEDEA, Marta Veny López, Marta Veny IMEDEA, Yan Barabinot, Yan Barabinot IMEDEA, Elisabet Verger-Miralles, Diego Vega-Giménez, Diego Vega IMEDEA, Paul Hargous, Blanca Fernández-Álvarez, Blanca Fernandez IMEDEA, Cristina Martí-Solana, Cristina Marti Solana IMEDEA, Joan Armajach-Riera, Joan Armajach IMEDEA
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🛰️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -97,6 +97,7 @@ contact_note: >
 # -----------------------------------------------------------------------------
 
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+# Example: google_analytics: G-XXXXXXXXXX
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -208,7 +209,7 @@ defaults:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    false  # analytics disabled (set true + add google_analytics ID to enable)
 enable_cronitor_analytics: false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
