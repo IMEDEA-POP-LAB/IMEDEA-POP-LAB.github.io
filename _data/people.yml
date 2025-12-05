@@ -83,6 +83,15 @@ postdocs:
     imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=3178"
     website: "https://www.researchgate.net/profile/Yan-Barabinot-2?ev=hdr_xprf"
     bio: "Yan Barabinot is a Postdoctoral Researcher at IMEDEA (CSIC-UIB). He earned his PhD in Physical Oceanography from the Ecole Normale Supérieure at University Paris Sciences et Lettres in Paris, France. His research focuses on mesoscale and submesoscale ocean dynamics using theoretical aspects and SWOT data."
+    
+  - name: "Dr. Coline Poppeschi"
+    title: "Postdoctoral Researcher"
+    period: "2025 - present"
+    image: "PoppeschiColine.jpg"
+    email: "cpoppeschi@imedea.uib-csic.es"
+    orcid: "https://orcid.org/0000-0002-0386-0378"
+    imedea: "https://imedea.uib-csic.es/en/the-institute/staff/?staff_id=3193"
+    bio: "Coline Poppeschi is a Postdoctoral Researcher at IMEDEA (CSIC-UIB), where she focuses on marine coastal extreme events in the Western Mediterranean Sea. She earned her Ph.D. in Physical Oceanography from the University of Bretagne Occidentale (France), in LOPS at Ifremer, where her research explored the impacts of extreme events in coastal areas around France such as marine heatwaves, low salinity events, algal blooms and hypoxia events. She also got a postdoctoral position at France Energies Marines to study the impact of waves and water levels around France associated to the installation of offshore windfarms until 2100."
 
 phd_students: 
 
