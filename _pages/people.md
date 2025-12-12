@@ -352,76 +352,84 @@ nav_order: 2
     </div>
   {% endfor %}
 {% endif %}
+</div>
 
-<!-- Visiting Researchers -->
-{% if site.data.people.visiting_researchers %}
-  {% for person in site.data.people.visiting_researchers %}
-  <div class="compact-profile-card">
-    <div class="card-body">
-      <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
-      <h5 class="card-title">{{ person.name }}</h5>
-  <h6 class="card-subtitle">{{ person.title }}</h6>
-      <div class="social-links">
-        {% if person.email and person.email != "" %}
-        <a href="mailto:{{ person.email }}" class="social-link email">
-          <span>📧</span>
-          <span>Email</span>
-        </a>
-        {% endif %}
-        {% if person.orcid and person.orcid != "" %}
-        <a href="{{ person.orcid }}" class="social-link orcid" target="_blank">
-          <span>🔗</span>
-          <span>ORCID</span>
-        </a>
-        {% endif %}
-        {% if person.imedea and person.imedea != "" %}
-        <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
-          <span>🏛️</span>
-          <span>IMEDEA</span>
-        </a>
-        {% endif %}
-        {% if person.scholar and person.scholar != "" %}
-        <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
-          <span>🎓</span>
-          <span>Google Scholar</span>
-        </a>
-        {% endif %}
-        {% if person.linkedin and person.linkedin != "" %}
-        <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
-          <span>💼</span>
-          <span>LinkedIn</span>
-        </a>
-        {% endif %}
-        {% if person.website and person.website != "" %}
-        <a href="{{ person.website }}" class="social-link website" target="_blank">
-          <span>🌐</span>
-          <span>Website</span>
-        </a>
-        {% endif %}
-      </div>
-      <p class="card-text">{{ person.bio }}</p>
+<!-- Visiting Researchers and Alumni in same row -->
+<div class="visitors-alumni-container">
+  <!-- Left column: Visiting Researchers -->
+  <div class="visitors-column">
+    <h2>Visiting Researchers</h2>
+    <div class="visitors-list">
+      {% if site.data.people.visiting_researchers %}
+        {% for person in site.data.people.visiting_researchers %}
+        <div class="compact-profile-card">
+          <div class="card-body">
+            <img src="/assets/img/team/{{ person.image }}" alt="{{ person.name }}" class="profile-image">
+            <h5 class="card-title">{{ person.name }}</h5>
+            <h6 class="card-subtitle">{{ person.title }}</h6>
+            <div class="social-links">
+              {% if person.email and person.email != "" %}
+              <a href="mailto:{{ person.email }}" class="social-link email">
+                <span>📧</span>
+                <span>Email</span>
+              </a>
+              {% endif %}
+              {% if person.orcid and person.orcid != "" %}
+              <a href="{{ person.orcid }}" class="social-link orcid" target="_blank">
+                <span>🔗</span>
+                <span>ORCID</span>
+              </a>
+              {% endif %}
+              {% if person.imedea and person.imedea != "" %}
+              <a href="{{ person.imedea }}" class="social-link imedea" target="_blank">
+                <span>🏛️</span>
+                <span>IMEDEA</span>
+              </a>
+              {% endif %}
+              {% if person.scholar and person.scholar != "" %}
+              <a href="{{ person.scholar }}" class="social-link google-scholar" target="_blank">
+                <span>🎓</span>
+                <span>Google Scholar</span>
+              </a>
+              {% endif %}
+              {% if person.linkedin and person.linkedin != "" %}
+              <a href="{{ person.linkedin }}" class="social-link linkedin" target="_blank">
+                <span>💼</span>
+                <span>LinkedIn</span>
+              </a>
+              {% endif %}
+              {% if person.website and person.website != "" %}
+              <a href="{{ person.website }}" class="social-link website" target="_blank">
+                <span>🌐</span>
+                <span>Website</span>
+              </a>
+              {% endif %}
+            </div>
+            <p class="card-text">{{ person.bio }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
-  {% endfor %}
-{% endif %}
 
-</div>
-
-<!-- Alumni Section -->
-{% if site.data.people.alumni %}
-## Alumni
-
-<div class="alumni-section">
-{% for person in site.data.people.alumni %}
-  <div class="alumni-item">
-    <strong>{{ person.name }}</strong> - {{ person.title }} ({{ person.period }})
-    {% if person.current_position %}
-      <br><em>Now:</em> {{ person.current_position }}
-    {% endif %}
-    {% if person.email and person.email != "" %}
-      <br><em>Contact:</em> <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+  <!-- Right columns: Alumni (split into 2 columns) -->
+  <div class="alumni-column">
+    {% if site.data.people.alumni %}
+    <h2>Alumni</h2>
+    <div class="alumni-section">
+      {% for person in site.data.people.alumni %}
+        <div class="alumni-item">
+          <strong>{{ person.name }}</strong> - {{ person.title }} ({{ person.period }})
+          {% if person.current_position %}
+            <br><em>Now:</em> {{ person.current_position }}
+          {% endif %}
+          {% if person.email and person.email != "" %}
+            <br><em>Contact:</em> <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
     {% endif %}
   </div>
-{% endfor %}
 </div>
-{% endif %}

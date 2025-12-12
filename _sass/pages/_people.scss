@@ -449,6 +449,62 @@
   border-top: none; /* removed horizontal rule under the Alumni heading */
 }
 
+/* Visitors and Alumni Container - Side by side layout */
+.visitors-alumni-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Visitors get 1 part, Alumni get 2 parts */
+  gap: var(--space-8);
+  margin: var(--space-8) 0;
+}
+
+.visitors-column,
+.alumni-column {
+  min-width: 0; /* Prevent overflow */
+}
+
+.visitors-column h2,
+.alumni-column h2 {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--gray-900);
+  margin: 0 0 var(--space-6) 0;
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--ocean-blue);
+}
+
+.visitors-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.alumni-column .alumni-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Alumni split into 2 columns */
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  border-top: none;
+}
+
+/* Responsive design for visitors-alumni container */
+@media (max-width: 1200px) {
+  .visitors-alumni-container {
+    grid-template-columns: 1fr; /* Stack on smaller screens */
+  }
+  
+  .alumni-column .alumni-section {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .alumni-column .alumni-section {
+    grid-template-columns: repeat(2, 1fr); /* Keep 2 columns on medium screens */
+  }
+}
+
+
 .alumni-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
