@@ -452,7 +452,7 @@
 /* Visitors and Alumni Container - Side by side layout */
 .visitors-alumni-container {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Visitors get 1 part, Alumni get 2 parts */
+  grid-template-columns: 2fr 3fr; /* Visitors get 2 parts, Alumni get 3 parts */
   gap: var(--space-8);
   margin: var(--space-8) 0;
 }
