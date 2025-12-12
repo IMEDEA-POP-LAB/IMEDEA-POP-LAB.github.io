@@ -590,18 +590,29 @@
 }
 
 .alumni-item {
-  padding: var(--space-3);
-  background: var(--gray-50);
-  border-radius: var(--radius-sm);
+  padding: var(--space-2);
+  background: transparent;
+  border-radius: 0;
   font-size: var(--text-sm);
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--gray-700);
-  border-left: 3px solid var(--ocean-blue);
+  border-left: none;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.alumni-item:last-child {
+  border-bottom: none;
 }
 
 .alumni-item strong {
   color: var(--gray-900);
   font-weight: 600;
+  font-size: var(--text-sm);
+}
+
+.alumni-item em {
+  font-size: var(--text-xs);
+  color: var(--gray-500);
 }
 
 /* Collaborators and Visitors - Clean card layout */
