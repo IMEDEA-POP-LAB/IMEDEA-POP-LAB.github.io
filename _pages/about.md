@@ -60,6 +60,10 @@ social: true
       <div class="carousel-viewport">
         <div class="gallery-grid" id="research-carousel">
           <div class="gallery-item" tabindex="0">
+            <img src="/assets/img/gallery/Christmas_Lunch_2025.jpg" alt="Christmas Lunch 2025">
+            <div class="gallery-caption">Merry Christmas!</div>
+          </div>
+          <div class="gallery-item" tabindex="0">
             <img src="/assets/img/gallery/SWOT-ST-Meeting_2025.jpg" alt="SWOT-ST meeting">
             <div class="gallery-caption">SWOT-ST meeting 2025</div>
           </div>
