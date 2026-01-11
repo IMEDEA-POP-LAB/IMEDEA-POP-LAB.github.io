@@ -1,4 +1,13 @@
 all:
+  # 2026 Publications
+
+  - title: "Vertical Kelvin wave propagation produced by a subsurface ridge."
+    authors: "Dhage, L., Durland, T., Strub, P. T., & Combes, V."
+    journal: "Journal of Geophysical Research: Oceans"
+    year: 2026
+    doi: "https://doi.org/10.1029/2025JC022318"
+    image: "https://vincentcombes.com/images/Figure_44.png"
+
   # 2025 Publications
 
   - title: "Observations of a splitting ocean cyclone resulting in subduction of surface waters."
