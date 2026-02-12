@@ -1,6 +1,13 @@
 all:
   # 2026 Publications
 
+  - title: "Eddy kinetic energy variability from 30 years of altimetry in the Mediterranean Sea."
+    authors: "Hargous, P., Combes, V., Barceló-Llull, B., and Pascual, A."
+    journal: "Ocean Science"
+    year: 2026
+    doi: "https://doi.org/10.5194/os-22-549-2026"
+    image: "https://vincentcombes.com/images/Figure_45.png"
+
   - title: "Vertical Kelvin wave propagation produced by a subsurface ridge."
     authors: "Dhage, L., Durland, T., Strub, P. T., & Combes, V."
     journal: "Journal of Geophysical Research: Oceans"
