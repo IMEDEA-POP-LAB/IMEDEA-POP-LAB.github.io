@@ -1,6 +1,27 @@
 all:
   # 2026 Publications
 
+  - title: "Near-Inertial Wave Trapping Inside a Fine-Scale Anticyclonic Eddy During the BioSWOT-Med 2023 Cruise: Turbulence and Energy Flux."
+    authors: "Rolland, R., Bouruet-Aubertot, P., Cuypers, Y., Bosse, A., Petrenko, A., Maytie, T., Ponte, A. L. S., Barrillon, S., Berta, M., Mourre, B., Pascual, A., Izard, L., Capet, X., Grégori, G. J., d’Ovidio, F., and Doglioli, A."
+    journal: "Journal of Geophysical Research"
+    year: 2026
+    doi: "https://doi.org/10.1029/2025JC022984"
+    image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/ab9f6d85-6fba-4de4-8b3e-8e59f8c4a1ed/jgrc70193-fig-0001-m.jpg"
+    
+  - title: "Eddy kinetic energy contribution to total kinetic energy in the global ocean from 23 years of multi-satellite altimetry."
+    authors: "Cortés-Morales, D., Barceló-Llull, B., Gómez-Navarro, L., and Pascual, A."
+    journal: "Geophysical Research Letters (Under review)"
+    year: 2026
+    doi: "https://doi.org/10.22541/essoar.177006178.80046468/v1"
+    image: ""
+
+  - title: "Spectral Decomposition of Frontal Submesoscale Dynamics and Eddy Splitting."
+    authors: "Martí-Solana, C., Ruiz, S., Johnston, S., Mahadevan, A., and Pascual, A."
+    journal: "Geophysical Research Letters (Under review)"
+    year: 2026
+    doi: "https://doi.org/10.22541/essoar.176030839.92517417/v1"
+    image: ""
+    
   - title: "Eddy kinetic energy variability from 30 years of altimetry in the Mediterranean Sea."
     authors: "Hargous, P., Combes, V., Barceló-Llull, B., and Pascual, A."
     journal: "Ocean Science"
@@ -17,6 +38,13 @@ all:
 
   # 2025 Publications
 
+  - title: "Expanding the coastal observation frontier: SWOT reveals the spatial footprint of storm surges."
+    authors: "Vega‐Gimenez, D., Amores, A., Paris, A., and Pascual, A. "
+    journal: "Geophysical Research Letters"
+    year: 2025
+    doi: "https://doi.org/10.1029/2025GL117299"
+    image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/c5da8218-a33d-43c3-a542-6575d0191fed/grl71713-fig-0003-m.jpg"
+    
   - title: "Observations of a splitting ocean cyclone resulting in subduction of surface waters."
     authors: "Middleton, L., Wu, W., Johnston, T. M. S., Tarry, D. R., Farrar, J. T., Poulain, P.‑M., Özgökmen, T. M., Shcherbina, A. Y., Pascual, A., McNeill, C. L., Belgacem, M., Berta, M., Abbott, K., Worden, A. Z., Wittmers, F., Kinsella, A., Centurioni, L. R., Hormann, V., Cutolo, E., Tintoré, J., Ruiz, S., Casas, B., Cheslack, H., D’Asaro, E. A., and Mahadevan, A."
     journal: "Science Advances"
