@@ -121,7 +121,7 @@ phd_students:
     email: "hargous@imedea.uib-csic.es"
     orcid: "https://orcid.org/0009-0008-0964-6920"
     imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=3065"
-    linkedin: "https://www.linkedin.com/in/paul-hargous-964874195/"
+    website: "https://phargous.github.io/"
     bio: "Paul Hargous is a Ph.D. candidate in Physical Oceanography at IMEDEA (CSIC-UIB) in Mallorca, Spain. He holds an engineering degree in fluid mechanics from ENSEEIHT (Toulouse, France) and a master's degree in ocean and climate science from Toulouse University. His research focuses on mesoscale ocean variability in the Mediterranean Sea, particularly on eddy kinetic energy (EKE) and geostrophic currents derived from satellite altimetry as well as ocean transport using in-situ observations and remote sensing data."
 
   - name: "Blanca Fernández-Álvarez"
