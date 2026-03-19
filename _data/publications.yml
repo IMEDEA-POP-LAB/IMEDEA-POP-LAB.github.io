@@ -1,6 +1,13 @@
 all:
   # 2026 Publications
 
+  - title: "A winter-season meteotsunami in the Balearics: the 22 January 2021 squall-line driven event"
+    authors: "Jansà A., D. S. Carrió, B. Mourre, R. Romero, C. Estarellas, V. Homar, J. Campins, M. A. Picornell, C. Ramis, J. Tintoré"
+    journal: "Natural Hazards"
+    year: 2026
+    doi: "https://doi.org/10.1007/s11069-026-08048-2"
+    image: "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11069-026-08048-2/MediaObjects/11069_2026_8048_Fig8_HTML.png?as=webp"
+
   - title: "Near-Inertial Wave Trapping Inside a Fine-Scale Anticyclonic Eddy During the BioSWOT-Med 2023 Cruise: Turbulence and Energy Flux."
     authors: "Rolland, R., Bouruet-Aubertot, P., Cuypers, Y., Bosse, A., Petrenko, A., Maytie, T., Ponte, A. L. S., Barrillon, S., Berta, M., Mourre, B., Pascual, A., Izard, L., Capet, X., Grégori, G. J., d’Ovidio, F., and Doglioli, A."
     journal: "Journal of Geophysical Research"
