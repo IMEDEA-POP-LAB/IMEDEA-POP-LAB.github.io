@@ -1,6 +1,13 @@
 all:
   # 2026 Publications
 
+  - title: "Marine heatwaves variability and trends in the Patagonian Shelf"
+    authors: "Delgado, A. L., Combes, V., and Basterretxea, G."
+    journal: "Ocean Sci."
+    year: 2026
+    doi: "https://doi.org/10.5194/os-22-961-2026"
+    image: "https://vincentcombes.com/images/Figure_46.png"
+
   - title: "A winter-season meteotsunami in the Balearics: the 22 January 2021 squall-line driven event"
     authors: "Jansà A., D. S. Carrió, B. Mourre, R. Romero, C. Estarellas, V. Homar, J. Campins, M. A. Picornell, C. Ramis, J. Tintoré"
     journal: "Natural Hazards"
