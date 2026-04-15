@@ -29,11 +29,11 @@ all:
     doi: "https://doi.org/10.22541/essoar.177006178.80046468/v1"
     # image: ""
 
-  - title: "Spectral Decomposition of Frontal Submesoscale Dynamics and Eddy Splitting."
+  - title: "Balanced to Unbalanced Motions at a Submesoscale Front and Energy Trnasfer from Eddy Splitting"
     authors: "Martí-Solana, C., Ruiz, S., Johnston, S., Mahadevan, A., and Pascual, A."
-    journal: "Geophysical Research Letters (Under review)"
+    journal: "Geophysical Research Letters (Accepted)"
     year: 2026
-    doi: "https://doi.org/10.22541/essoar.176030839.92517417/v1"
+    doi: "https://essopenarchive.org/doi/full/10.22541/essoar.176030839.92517417/v2"
     # image: ""
     
   - title: "Eddy kinetic energy variability from 30 years of altimetry in the Mediterranean Sea."
