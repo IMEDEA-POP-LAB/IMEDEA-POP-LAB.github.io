@@ -64,7 +64,7 @@ social: true
             <div class="gallery-caption">Científic@s en prácticas program</div>
           </div>
           <div class="gallery-item" tabindex="0">
-            <img src="/assets/img/gallery/OSM_2026.jpeg" alt="Ocean Sciences Meeting 2026"">
+            <img src="/assets/img/gallery/OSM_2026.jpeg" alt="Ocean Sciences Meeting 2026">
             <div class="gallery-caption">Ocean Sciences Meeting 2026</div>
           </div>
           <div class="gallery-item" tabindex="0">
