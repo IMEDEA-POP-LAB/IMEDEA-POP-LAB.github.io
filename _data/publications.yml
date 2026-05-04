@@ -1,6 +1,20 @@
 all:
   # 2026 Publications
 
+  - title: "Balanced to Unbalanced Motions at a Submesoscale Front and Energy Transfer from Eddy Splitting"
+    authors: "Martí-Solana, C., Ruiz, S., Johnston, S., Mahadevan, A., and Pascual, A."
+    journal: "Geophysical Research Letters"
+    year: 2026
+    doi: "https://doi.org/10.1029/2025GL119756"
+    image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/17da2bdc-d994-4060-808d-643d74577c28/grl72500-fig-0002-m.png"
+
+  - title: "Eddy kinetic energy contribution to total kinetic energy in the global ocean from 23 years of multi-satellite altimetry."
+    authors: "Cortés-Morales, D., Barceló-Llull, B., Gómez-Navarro, L., and Pascual, A."
+    journal: "Geophysical Research Letters (Under review)"
+    year: 2026
+    doi: "https://doi.org/10.1029/2026GL123075"
+    image: "https://www.researchgate.net/publication/404191769/figure/fig2/AS:11431282089381868@1777132398050/Global-map-of-eddy-kinetic-energy-contribution-to-KE-computed-over-the-period_W640.jpg"
+    
   - title: "Marine heatwaves variability and trends in the Patagonian Shelf"
     authors: "Delgado, A. L., Combes, V., and Basterretxea, G."
     journal: "Ocean Sci."
@@ -21,21 +35,7 @@ all:
     year: 2026
     doi: "https://doi.org/10.1029/2025JC022984"
     image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/ab9f6d85-6fba-4de4-8b3e-8e59f8c4a1ed/jgrc70193-fig-0001-m.jpg"
-    
-  - title: "Eddy kinetic energy contribution to total kinetic energy in the global ocean from 23 years of multi-satellite altimetry."
-    authors: "Cortés-Morales, D., Barceló-Llull, B., Gómez-Navarro, L., and Pascual, A."
-    journal: "Geophysical Research Letters (Under review)"
-    year: 2026
-    doi: "https://doi.org/10.22541/essoar.177006178.80046468/v1"
-    # image: ""
 
-  - title: "Balanced to Unbalanced Motions at a Submesoscale Front and Energy Transfer from Eddy Splitting"
-    authors: "Martí-Solana, C., Ruiz, S., Johnston, S., Mahadevan, A., and Pascual, A."
-    journal: "Geophysical Research Letters (Accepted)"
-    year: 2026
-    doi: "https://essopenarchive.org/doi/full/10.22541/essoar.176030839.92517417/v2"
-    # image: ""
-    
   - title: "Eddy kinetic energy variability from 30 years of altimetry in the Mediterranean Sea."
     authors: "Hargous, P., Combes, V., Barceló-Llull, B., and Pascual, A."
     journal: "Ocean Science"
