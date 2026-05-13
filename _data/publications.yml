@@ -10,7 +10,7 @@ all:
 
   - title: "Eddy kinetic energy contribution to total kinetic energy in the global ocean from 23 years of multi-satellite altimetry."
     authors: "Cortés-Morales, D., Barceló-Llull, B., Gómez-Navarro, L., and Pascual, A."
-    journal: "Geophysical Research Letters (Under review)"
+    journal: "Geophysical Research Letters"
     year: 2026
     doi: "https://doi.org/10.1029/2026GL123075"
     image: "https://www.researchgate.net/publication/404191769/figure/fig2/AS:11431282089381868@1777132398050/Global-map-of-eddy-kinetic-energy-contribution-to-KE-computed-over-the-period_W640.jpg"
