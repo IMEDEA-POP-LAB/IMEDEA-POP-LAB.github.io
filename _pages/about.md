@@ -60,6 +60,10 @@ social: true
       <div class="carousel-viewport">
         <div class="gallery-grid" id="research-carousel">
           <div class="gallery-item" tabindex="0">
+            <img src="/assets/img/gallery/IWMO-JenPing.jpg" alt="16th IMWO Outstanding Young Scientist Award (1st Prize), won by Jen-Ping Peng">
+            <div class="gallery-caption">16th IMWO Outstanding Young Scientist Award (1st Prize), won by Jen-Ping Peng</div>
+          </div>
+          <div class="gallery-item" tabindex="0">
             <img src="/assets/img/gallery/cientificos-en-practicas.jpg" alt="Científic@s en prácticas program">
             <div class="gallery-caption">Científic@s en prácticas program</div>
           </div>
