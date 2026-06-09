@@ -64,6 +64,10 @@ social: true
             <div class="gallery-caption">16th IMWO Outstanding Young Scientist Award (1st Prize), won by Jen-Ping Peng</div>
           </div>
           <div class="gallery-item" tabindex="0">
+            <img src="/assets/img/gallery/Liege-Cristina.jpg" alt="Cristina Martí-Solana at the 57th International Liège Colloquium on Ocean Dynamics">
+            <div class="gallery-caption">Cristina Martí-Solana at the 57th International Liège Colloquium on Ocean Dynamics</div>
+          </div>
+          <div class="gallery-item" tabindex="0">
             <img src="/assets/img/gallery/cientificos-en-practicas.jpg" alt="Científic@s en prácticas program">
             <div class="gallery-caption">Científic@s en prácticas program</div>
           </div>
