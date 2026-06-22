@@ -1,6 +1,27 @@
 all:
   # 2026 Publications
 
+  - title: "Convective and non-convective nature of Balearic meteotsunamis: a 50-year historical review"
+    authors: "Jansà A., D. S. Carrió, C. Melo, R. Romero, B. Mourre, V. Homar"
+    journal: "Natural Hazards"
+    year: 2026
+    doi: "https://doi.org/10.1007/s11069-026-08048-2"
+    image: "https://link.springer.com/article/10.1007/s11069-026-08288-2/figures/12"
+  
+  - title: "Large Drifter Experiment in the Western Mediterranean Sea Reveals Dynamical Versus Noise Contributions in SWOT‐KaRIn Sea LevelBalanced to Unbalanced Motions at a Submesoscale Front and Energy Transfer from Eddy Splitting"
+    authors: "Demol M., Ponte A. L., Garreau P., Bellacicco M., Berta M., Centurioni L.R., Doglioli A.M., Joël A., Mourre B., and Pascual A."
+    journal: "Geophysical Research Letters"
+    year: 2026
+    doi: "https://doi.org/10.1029/2025GL121425"
+    image: "https://agupubs.onlinelibrary.wiley.com/cms/asset/23966251-a5e5-420c-bf39-7e42afa46040/grl72537-fig-0001-m.jpg"
+
+  - title: "Evidence of increased hydrodynamic retention in the spawning grounds of large pelagic ﬁshes in the western Mediterranean"
+    authors: "Casaucao A., Mourre B., Tugores M.P., Balbı́n R., Dı́az-Barroso L., Hernández-Carrasco I., Reglero P., and Alvarez-Berastegui D."
+    journal: "Frontiers in Marine Science"
+    year: 2026
+    doi: "https://doi.org/10.3389/fmars.2026.1705858"
+    image: "https://www.frontiersin.org/api/ipx/w=330&f=webp/https://www.frontiersin.org/files/Articles/1705858/xml-images/fmars-13-1705858-g001.webp"
+
   - title: "Balanced to Unbalanced Motions at a Submesoscale Front and Energy Transfer from Eddy Splitting"
     authors: "Martí-Solana, C., Ruiz, S., Johnston, S., Mahadevan, A., and Pascual, A."
     journal: "Geophysical Research Letters"
