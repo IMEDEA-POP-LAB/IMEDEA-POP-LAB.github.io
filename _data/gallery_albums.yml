@@ -1,11 +1,25 @@
 albums:
-  - slug: liege-colloquium
-    title: "57th International Liège Colloquium on Ocean Dynamics"
-    description: "57th International Liège Colloquium on Ocean Dynamics"
-    cover_image: "Ananda-Liege.jpeg"
+  - slug: imedea-open-doors-2026
+    title: "IMEDEA Open Doors 2026"
+    description: "IMEDEA Open Doors 2026"
+    cover_image: "open_doors_1.jpeg"
     photos:
-      - image: "Ananda-Liege.jpeg"
-      - image: "Liege-Cristina.jpeg"
+      - image: "open_doors_1.jpeg"
+      - image: "open_doors_2.jpeg"
+      - image: "open_doors_3.jpeg"
+      - image: "open_doors_4.jpeg"
+      - image: "open_doors_5.jpeg"
+      - image: "open_doors_6.jpeg"
+
+  - slug: practicas-program
+    title: "Científic@s en pràctiques Program"
+    description: "Científic@s en pràctiques Program"
+    cover_image: "cientificos-en-practicas.jpg"
+    photos:
+      - image: "cientificos-en-practicas.jpg"
+      - image: "cientific@s_en_practicas_v2.jpeg"
+      - image: "stand_cientificos_en_practicas.jpeg"
+      - image: "diego_charla.jpeg"
 
   - slug: imwo-2026
     title: "16th International Workshop on Modeling the Ocean"
@@ -17,15 +31,13 @@ albums:
       - image: "Vincent_IWMO.jpeg"
       - image: "Diego_IWMO.jpeg"
 
-  - slug: practicas-program
-    title: "Científic@s en pràctiques Program"
-    description: "Científic@s en pràctiques Program"
-    cover_image: "cientificos-en-practicas.jpg"
+  - slug: liege-colloquium
+    title: "57th International Liège Colloquium on Ocean Dynamics"
+    description: "57th International Liège Colloquium on Ocean Dynamics"
+    cover_image: "Ananda-Liege.jpeg"
     photos:
-      - image: "cientificos-en-practicas.jpg"
-      - image: "cientific@s_en_practicas_v2.jpeg"
-      - image: "stand_cientificos_en_practicas.jpeg"
-      - image: "diego_charla.jpeg"
+      - image: "Ananda-Liege.jpeg"
+      - image: "Liege-Cristina.jpeg"
 
   - slug: ocean-sciences-meeting-2026
     title: "Ocean Sciences Meeting 2026"
@@ -63,15 +75,3 @@ albums:
     photos:
       - image: "experiments.jpg"
       - image: "ciencia_per_tothom_2025.jpg"
-
-  - slug: imedea-open-doors-2026
-    title: "IMEDEA Open Doors 2026"
-    description: "IMEDEA Open Doors 2026"
-    cover_image: "open_doors_1.jpeg"
-    photos:
-      - image: "open_doors_1.jpeg"
-      - image: "open_doors_2.jpeg"
-      - image: "open_doors_3.jpeg"
-      - image: "open_doors_4.jpeg"
-      - image: "open_doors_5.jpeg"
-      - image: "open_doors_6.jpeg"
