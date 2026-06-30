@@ -13,9 +13,9 @@ albums:
     cover_image: "IWMO-JenPing.jpg"
     photos:
       - image: "IWMO-JenPing.jpg"
-      - image: "Team_IWMO.jpg"
-      - image: "Vincent_IWMO.jpg"
-      - image: "Diego_IWMO.jpg"
+      - image: "Team_IWMO.jpeg"
+      - image: "Vincent_IWMO.jpeg"
+      - image: "Diego_IWMO.jpeg"
 
   - slug: practicas-program
     title: "Científic@s en pràctiques Program"
@@ -23,9 +23,9 @@ albums:
     cover_image: "cientificos-en-practicas.jpg"
     photos:
       - image: "cientificos-en-practicas.jpg"
-      - image: "cientific@s_en_practicas_v2.jpg"
-      - image: "stand_científicos_en_prácticas.jpg"
-      - image: "diego_charla.jpg"
+      - image: "cientific@s_en_practicas_v2.jpeg"
+      - image: "stand_cientificos_en_practicas.jpeg"
+      - image: "diego_charla.jpeg"
 
   - slug: ocean-sciences-meeting-2026
     title: "Ocean Sciences Meeting 2026"
@@ -33,11 +33,11 @@ albums:
     cover_image: "OSM_2026.jpeg"
     photos:
       - image: "OSM_2026.jpeg"
-      - image: "Yan_OSM.jpg"
-      - image: "Blanca_OSM.jpg"
-      - image: "Team_OSM.jpg"
-      - image: "Jen-Ping_OSM.jpg"
-      - image: "Coline_OSM.jpg"
+      - image: "Yan_OSM.jpeg"
+      - image: "Blanca_OSM.jpeg"
+      - image: "Team_OSM.jpeg"
+      - image: "Jen-Ping_OSM.jpeg"
+      - image: "Coline_OSM.jpeg"
 
   - slug: christmas-lunch
     title: "Christmas lunch"
@@ -45,9 +45,9 @@ albums:
     cover_image: "Christmas_Lunch_2025.jpg"
     photos:
       - image: "Christmas_Lunch_2025.jpg"
-      - image: "team_christmas.jpg"
-      - image: "christmas_lunch_team.jpg"
-      - image: "christmas_lunch.jpg"
+      - image: "team_christmas.jpeg"
+      - image: "christmas_lunch_team.jpeg"
+      - image: "christmas_lunch.jpeg"
 
   - slug: swot-science-team-meeting-2025
     title: "2025 SWOT Science Team Meeting"
@@ -67,11 +67,11 @@ albums:
   - slug: imedea-open-doors-2026
     title: "IMEDEA Open Doors 2026"
     description: "IMEDEA Open Doors 2026"
-    cover_image: "open_doors_1.jpg"
+    cover_image: "open_doors_1.jpeg"
     photos:
-      - image: "open_doors_1.jpg"
-      - image: "open_doors_2.jpg"
-      - image: "open_doors_3.jpg"
-      - image: "open_doors_4.jpg"
-      - image: "open_doors_5.jpg"
-      - image: "open_doors_6.jpg"
+      - image: "open_doors_1.jpeg"
+      - image: "open_doors_2.jpeg"
+      - image: "open_doors_3.jpeg"
+      - image: "open_doors_4.jpeg"
+      - image: "open_doors_5.jpeg"
+      - image: "open_doors_6.jpeg"

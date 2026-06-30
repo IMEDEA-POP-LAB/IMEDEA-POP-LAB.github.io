@@ -124,3 +124,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  color: #4c647e;
+  text-decoration: none;
+  font-size: 0.95rem;
+  &:hover { color: #102a4a; text-decoration: underline; }
+}
