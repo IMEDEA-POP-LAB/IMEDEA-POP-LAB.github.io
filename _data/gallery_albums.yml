@@ -18,7 +18,7 @@ albums:
     photos:
       - image: "cientificos-en-practicas.jpg"
       - image: "cientific@s_en_practicas_v2.jpeg"
-      - image: "stand_cientificos_en_practicas.jpeg"
+      - image: "stand_cientificos_en_prácticas.jpeg"
       - image: "diego_charla.jpeg"
 
   - slug: imwo-2026
