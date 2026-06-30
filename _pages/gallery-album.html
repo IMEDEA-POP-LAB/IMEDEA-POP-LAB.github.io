@@ -1,0 +1,30 @@
+---
+layout: page
+title: Gallery Album
+permalink: /gallery/album/:slug/
+---
+
+<div class="gallery-page gallery-album-page">
+  {% assign album = site.data.gallery_albums.albums | where: "slug", page.slug | first %}
+  {% if album %}
+    <div class="gallery-album-header">
+      <h2>{{ album.title }}</h2>
+      {% if album.description %}
+        <p>{{ album.description }}</p>
+      {% endif %}
+    </div>
+
+    <div class="photo-gallery">
+      <div class="gallery-grid">
+        {% for photo in album.photos %}
+          <div class="gallery-item" tabindex="0">
+            <img src="{{ '/assets/img/gallery/' | append: photo.image | relative_url }}" alt="{{ photo.title }}">
+            <div class="gallery-caption">{{ photo.title }}</div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% else %}
+    <p>No album found.</p>
+  {% endif %}
+</div>
