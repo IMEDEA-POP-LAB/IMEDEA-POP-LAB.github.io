@@ -10,7 +10,7 @@ gallery: true
 
 <div class="gallery-page">
   <div class="photo-gallery">
-    <div class="gallery-grid" id="gallery-carousel">
+    <div class="gallery-grid" >
       {% for album in site.data.gallery_albums.albums %}
       <a href="{{ '/gallery/album/' | append: album.slug | append: '/' | relative_url }}" class="gallery-item gallery-album-card" tabindex="0">
         <img src="{{ '/assets/img/gallery/' | append: album.cover_image | relative_url }}" alt="{{ album.title }}">

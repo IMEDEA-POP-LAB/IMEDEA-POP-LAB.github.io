@@ -1,5 +1,13 @@
 # Media coverage and press releases
 # Add new entries at the top for chronological order
+- date: 2026-06-05
+  title: "Un investigador del Imedea, elegido mejor joven científico en un simposio oceánico"
+  outlet: "Diario de Mallorca"
+  url: "https://www.diariodemallorca.es/mallorca/2026/06/05/investigador-imedea-elegido-mejor-joven-131066215.html"
+  excerpt: "El investigador posdoctoral del Instituto Mediterráneo de Estudios Avanzados, Imedea, (CSIC-UIB) Jen-Ping Peng ha ganado el primer premio a jóvenes científicos del Simposio Internacional de Modelización Oceánica celebrado en Palma con un trabajo que utiliza datos satelitales para estudiar remolinos oceánicos."
+  language: "es"
+  type: "press"
+
 - date: 2025-10-23
   title: "Corrientes marinas: ¿se está acelerando el pulso de los océanos?"
   outlet: "The Conversation"
