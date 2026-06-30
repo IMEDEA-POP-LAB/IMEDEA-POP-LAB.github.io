@@ -1,0 +1,77 @@
+albums:
+  - slug: liege-colloquium
+    title: "57th International Liège Colloquium on Ocean Dynamics"
+    description: "57th International Liège Colloquium on Ocean Dynamics"
+    cover_image: "Ananda-Liege.jpeg"
+    photos:
+      - image: "Ananda-Liege.jpeg"
+      - image: "Liege-Cristina.jpeg"
+
+  - slug: imwo-2026
+    title: "16th International Workshop on Modeling the Ocean"
+    description: "16th International Workshop on Modeling the Ocean"
+    cover_image: "IWMO-JenPing.jpg"
+    photos:
+      - image: "IWMO-JenPing.jpg"
+      - image: "Team_IWMO.jpeg"
+      - image: "Vincent_IWMO.jpeg"
+      - image: "Diego_IWMO.jpeg"
+
+  - slug: practicas-program
+    title: "Científic@s en pràctiques Program"
+    description: "Científic@s en pràctiques Program"
+    cover_image: "cientificos-en-practicas.jpg"
+    photos:
+      - image: "cientificos-en-practicas.jpg"
+      - image: "cientific@s_en_practicas_v2.jpeg"
+      - image: "stand_cientificos_en_practicas.jpeg"
+      - image: "diego_charla.jpeg"
+
+  - slug: ocean-sciences-meeting-2026
+    title: "Ocean Sciences Meeting 2026"
+    description: "Ocean Sciences Meeting 2026"
+    cover_image: "OSM_2026.jpeg"
+    photos:
+      - image: "OSM_2026.jpeg"
+      - image: "Yan_OSM.jpeg"
+      - image: "Blanca_OSM.jpeg"
+      - image: "Team_OSM.jpeg"
+      - image: "Jen-Ping_OSM.jpeg"
+      - image: "Coline_OSM.jpeg"
+
+  - slug: christmas-lunch
+    title: "Christmas lunch"
+    description: "Christmas lunch"
+    cover_image: "Christmas_Lunch_2025.jpg"
+    photos:
+      - image: "Christmas_Lunch_2025.jpg"
+      - image: "team_christmas.jpeg"
+      - image: "christmas_lunch_team.jpeg"
+      - image: "christmas_lunch.jpeg"
+
+  - slug: swot-science-team-meeting-2025
+    title: "2025 SWOT Science Team Meeting"
+    description: "2025 SWOT Science Team Meeting"
+    cover_image: "SWOT-ST-Meeting_2025.jpg"
+    photos:
+      - image: "SWOT-ST-Meeting_2025.jpg"
+
+  - slug: ciencia-per-tothom-2025
+    title: "Ciència per Tothom 2025"
+    description: "Ciència per Tothom 2025"
+    cover_image: "ciencia_per_tothom_2025.jpg"
+    photos:
+      - image: "experiments.jpg"
+      - image: "ciencia_per_tothom_2025.jpg"
+
+  - slug: imedea-open-doors-2026
+    title: "IMEDEA Open Doors 2026"
+    description: "IMEDEA Open Doors 2026"
+    cover_image: "open_doors_1.jpeg"
+    photos:
+      - image: "open_doors_1.jpeg"
+      - image: "open_doors_2.jpeg"
+      - image: "open_doors_3.jpeg"
+      - image: "open_doors_4.jpeg"
+      - image: "open_doors_5.jpeg"
+      - image: "open_doors_6.jpeg"

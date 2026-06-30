@@ -10,23 +10,18 @@ gallery: true
 
 <div class="gallery-page">
   <div class="photo-gallery">
-    <div class="carousel-viewport">
-      <div class="gallery-grid" id="gallery-carousel">
-        {% for item in site.data.gallery %}
-        <div class="gallery-item" tabindex="0">
-          {% if item.url %}
-          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="gallery-link">
-            <img src="{{ '/assets/img/gallery/' | append: item.image | relative_url }}" alt="{{ item.title }}">
-            <div class="gallery-caption">{{ item.title }}</div>
-          </a>
-          {% else %}
-          <img src="{{ '/assets/img/gallery/' | append: item.image | relative_url }}" alt="{{ item.title }}">
-          <div class="gallery-caption">{{ item.title }}</div>
+    <div class="gallery-grid" id="gallery-carousel">
+      {% for album in site.data.gallery_albums.albums %}
+      <a href="{{ '/gallery/album/' | append: album.slug | append: '/' | relative_url }}" class="gallery-item gallery-album-card" tabindex="0">
+        <img src="{{ '/assets/img/gallery/' | append: album.cover_image | relative_url }}" alt="{{ album.title }}">
+        <div class="gallery-caption">
+          <strong>{{ album.title }}</strong>
+          {% if album.description %}
+          <span>{{ album.description }}</span>
           {% endif %}
         </div>
-        {% endfor %}
-      </div>
+      </a>
+      {% endfor %}
     </div>
-
   </div>
 </div>
