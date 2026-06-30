@@ -1,24 +1,17 @@
 /* Carousel for research gallery (vertical, shows 4 items, auto-scroll)
-   - Larger default item size for better visibility
-   - Responsive: show 3 items on small screens */
-.photo-gallery {
+   Scoped to .about-side so it does NOT interfere with the Gallery page */
+.about-side .photo-gallery {
   position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
-  /* Limit gallery width so it doesn't dominate the sidebar */
   --gallery-max-width: 320px;
   max-width: var(--gallery-max-width);
   margin-left: auto;
   margin-right: auto;
-  /* tweak these variables to change visible item gap and fixed item height
-     - If you prefer the previous behavior where the carousel filled the
-       sidebar height, remove --gallery-item-fixed-height and the layout
-       will recompute heights proportionally. */
   --gallery-item-gap: 14px;
-  --gallery-item-fixed-height: 140px; /* default fixed item height; change as needed */
+  --gallery-item-fixed-height: 140px;
 
-  /* make the gallery viewport sized to display exactly 4 fixed-size items */
   .carousel-viewport {
     height: calc((var(--gallery-item-fixed-height) + var(--gallery-item-gap)) * 4 - var(--gallery-item-gap));
     overflow: hidden;
@@ -32,21 +25,18 @@
   }
 
   .gallery-item {
-    /* fixed-height variant: use the fixed height so images keep same size */
     height: var(--gallery-item-fixed-height);
     margin-bottom: var(--gallery-item-gap);
-    /* Plain image tiles with equal spacing and no borders */
     background: transparent;
     border-radius: var(--radius-sm, 6px);
     overflow: hidden;
     box-shadow: none;
     border: none;
     display: block;
-    position: relative; /* enable caption overlay */
+    position: relative;
   }
 
   .gallery-item img {
-    /* Fill the tile area consistently (equal spacing) */
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -54,7 +44,6 @@
   }
 
   .gallery-caption {
-    /* Overlay caption: hidden by default, appears on hover/focus */
     position: absolute;
     left: 8px;
     right: 8px;
@@ -73,7 +62,6 @@
     pointer-events: none;
   }
 
-  /* show overlay on hover/focus/keyboard-visible state */
   .gallery-item:hover .gallery-caption,
   .gallery-item.caption-visible .gallery-caption,
   .gallery-item:focus .gallery-caption,
@@ -83,7 +71,6 @@
     pointer-events: auto;
   }
 
-  /* Controls placed below the viewport to avoid overlapping images */
   .gallery-controls {
     position: static;
     margin-top: 12px;
@@ -93,7 +80,7 @@
     align-items: center;
     pointer-events: auto;
   }
-  /* Minimalist circular arrow buttons */
+
   .carousel-btn {
     --btn-size: 36px;
     width: var(--btn-size);
@@ -115,11 +102,9 @@
   .carousel-btn:hover { background: rgba(11,37,64,0.10); transform: translateY(-1px); }
   .carousel-btn:active { transform: translateY(0); }
 
-  /* Responsive: on small screens show 3 items and reduce item height */
   @media (max-width: 640px) {
     --gallery-item-gap: 10px;
     --gallery-item-fixed-height: 120px;
-    /* viewport tall enough for 3 items at the reduced fixed height */
     .carousel-viewport {
       height: calc((var(--gallery-item-fixed-height) + var(--gallery-item-gap)) * 3 - var(--gallery-item-gap));
     }
