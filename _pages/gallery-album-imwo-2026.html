@@ -5,28 +5,15 @@ slug: imwo-2026
 permalink: /gallery/album/imwo-2026/
 ---
 
-<div class="gallery-page gallery-album-page">
-  {% assign album = site.data.gallery_albums.albums | where: "slug", "imwo-2026" | first %}
-  {% if album %}
-    <div class="gallery-album-header">
-      <a href="{{ '/gallery/' | relative_url }}" class="back-link">← Gallery</a>
-      <h2>{{ album.title }}</h2>
-      {% if album.description %}
-        <p>{{ album.description }}</p>
-      {% endif %}
-    </div>
+<a href="{{ '/gallery/' | relative_url }}" class="album-back-link">← Gallery</a>
 
-    <div class="photo-gallery">
-      <div class="gallery-grid">
-        {% for photo in album.photos %}
-          <div class="gallery-item" tabindex="0">
-            <img src="{{ '/assets/img/gallery/' | append: photo.image | relative_url }}" alt="{{ photo.title }}">
-            {% if photo.title %}<div class="gallery-caption">{{ photo.title }}</div>{% endif %}
-          </div>
-        {% endfor %}
-      </div>
+<h1 class="album-page-title">{{ "16th International Workshop on Modeling the Ocean" }}</h1>
+
+<div class="album-photos-grid">
+  {% assign album = site.data.gallery_albums.albums | where: "slug", "imwo-2026" | first %}
+  {% for photo in album.photos %}
+    <div class="album-photo-item">
+      <img src="{{ '/assets/img/gallery/' | append: photo.image | relative_url }}" alt="{{ photo.title }}">
     </div>
-  {% else %}
-    <p>No album found.</p>
-  {% endif %}
+  {% endfor %}
 </div>

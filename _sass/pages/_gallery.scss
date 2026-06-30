@@ -133,3 +133,100 @@
   font-size: 0.95rem;
   &:hover { color: #102a4a; text-decoration: underline; }
 }
+
+/* ============================================================
+   Gallery page — album grid (isolated classes, no conflicts)
+   ============================================================ */
+.albums-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.album-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.07);
+  box-shadow: 0 4px 16px rgba(20,40,70,0.07);
+  background: #fff;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.album-card:hover {
+  box-shadow: 0 8px 28px rgba(20,40,70,0.13);
+  transform: translateY(-2px);
+}
+
+.album-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.album-card-caption {
+  padding: 0.75rem 1rem 0.85rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+.album-card-caption strong {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #102a4a;
+  line-height: 1.35;
+}
+
+/* Album detail page */
+.album-back-link {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  color: #4c647e;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.album-back-link:hover { color: #102a4a; text-decoration: underline; }
+
+.album-page-title {
+  margin-bottom: 1.5rem;
+}
+
+.album-photos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.album-photo-item {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.album-photo-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .albums-grid, .album-photos-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+  .albums-grid, .album-photos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 479px) {
+  .albums-grid, .album-photos-grid {
+    grid-template-columns: 1fr;
+  }
+}
