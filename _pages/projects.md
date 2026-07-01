@@ -24,6 +24,12 @@ nav_order: 3
     {% endif %}
     <div class="project-title">
       {{ project.title }}
+      {% assign status = project.status | default: "" %}
+      {% if project.completed or status == "completed" %}
+      <span class="project-badge project-badge--completed">Completed</span>
+      {% else %}
+      <span class="project-badge project-badge--ongoing">In progress</span>
+      {% endif %}
     </div>
     <div class="project-meta">{{ project.period }}</div>
     <div class="project-desc">{{ project.description }}</div>
