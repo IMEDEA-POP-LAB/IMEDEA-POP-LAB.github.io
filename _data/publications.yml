@@ -5,7 +5,7 @@ all:
     authors: "Jansà A., D. S. Carrió, C. Melo, R. Romero, B. Mourre, V. Homar"
     journal: "Natural Hazards"
     year: 2026
-    doi: "https://doi.org/10.1007/s11069-026-08048-2"
+    doi: "https://dx.doi.org/10.1007/s11069-026-08288-2"
     image: "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11069-026-08288-2/MediaObjects/11069_2026_8288_Fig12_HTML.png"
   
   - title: "Large Drifter Experiment in the Western Mediterranean Sea Reveals Dynamical Versus Noise Contributions in SWOT‐KaRIn Sea Level"
