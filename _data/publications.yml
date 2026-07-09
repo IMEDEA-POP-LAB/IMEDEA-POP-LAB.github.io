@@ -1,6 +1,13 @@
 all:
   # 2026 Publications
 
+  - title: "On the variability of the Agulhas Bank circulation"
+    authors: "Combes, V., & Matano, R. P."
+    journal: "Journal of Geophysical. Research: Oceans"
+    year: 2026
+    doi: "https://doi.org/10.1029/2026JC024122"
+    image: "https://vincentcombes.com/images/Figure_48.png"
+  
   - title: "Convective and non-convective nature of Balearic meteotsunamis: a 50-year historical review"
     authors: "Jansà A., D. S. Carrió, C. Melo, R. Romero, B. Mourre, V. Homar"
     journal: "Natural Hazards"
