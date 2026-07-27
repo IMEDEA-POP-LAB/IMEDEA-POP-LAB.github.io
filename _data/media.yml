@@ -1,5 +1,13 @@
 # Media coverage and press releases
 # Add new entries at the top for chronological order
+- date: 2026-07-23
+  title: "The new wave of oceanographers: Cristina Martí-Solana"
+  outlet: "SWOT AdAC Consortium"
+  url: "https://www.swot-adac.org/news/the-new-wave-of-oceanographers-cristina-marti-solana/"
+  excerpt: "PhD student studying submesoscale dynamics and kinetic energy transfers in the Mediterranean Sea using SWOT altimetry and in situ observations"
+  language: "en"
+  type: "scientific communication"
+  
 - date: 2026-06-05
   title: "Un investigador del Imedea, elegido mejor joven científico en un simposio oceánico"
   outlet: "Diario de Mallorca"
