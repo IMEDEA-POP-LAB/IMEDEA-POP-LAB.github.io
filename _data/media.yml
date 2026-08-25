@@ -1,5 +1,13 @@
 # Media coverage and press releases
 # Add new entries at the top for chronological order
+- date: 2026-08-24
+  title: "Cuidar nuestros bienes comunes: hacia una nueva cultura medioambiental y científica de la playa"
+  outlet: "The Conversation"
+  url: "https://theconversation.com/cuidar-nuestros-bienes-comunes-hacia-una-nueva-cultura-medioambiental-y-cientifica-de-la-playa-289671"
+  excerpt: "Experiencias recientes en el Mediterráneo han demostrado que la ciencia ciudadana puede aportar datos de gran utilidad para estudiar el transporte y la acumulación de residuos marinos cuando se combina con modelos numéricos y observaciones oceanográficas."
+  language: "es"
+  type: "Science Communication"
+
 - date: 2026-07-23
   title: "The new wave of oceanographers: Cristina Martí-Solana"
   outlet: "SWOT AdAC Consortium"
