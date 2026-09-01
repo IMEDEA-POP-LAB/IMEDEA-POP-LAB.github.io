@@ -1,6 +1,21 @@
 all:
   # 2026 Publications
 
+  - title: "Four-Dimensional Glider Fleet Survey Reveals Small Mesoscale Eddy Merging and Splitting Dynamics"
+    authors: "Zarokanellos N. D., D.L. Rudnick, B. Mourre, M. Garcia-Jove, P.F.J. Lermusiaux, J. Tintoré"
+    journal: "Journal of Physical Oceanography"
+    year: 2026
+    volume: "56"
+    pages: "2159-2178"
+    doi: "https://dx.doi.org/10.1175/JPO-D-25-0158.1"
+    
+  - title: "Evidence of within- and between-stock connectivity in Mediterranean fisheries challenges the stock unit paradigm"
+    authors: "Kerametsidis G., M. Hidalgo, B. Mourre, E. Ser-Giacomi, L. López-López, A. Esteban, E. García, M. Vivas, A. Jadaud, G. Certain, V. Rossi"
+    journal: "Scientific Reports"
+    year: 2026
+    doi: "https://dx.doi.org/10.1038/s41598-026-47826-7"
+    image: "https://www.nature.com/articles/s41598-026-47826-7/figures/1"
+  
   - title: "On the variability of the Agulhas Bank circulation"
     authors: "Combes, V., & Matano, R. P."
     journal: "Journal of Geophysical. Research: Oceans"
