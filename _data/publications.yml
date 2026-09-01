@@ -14,7 +14,7 @@ all:
     journal: "Scientific Reports"
     year: 2026
     doi: "https://dx.doi.org/10.1038/s41598-026-47826-7"
-    image: "https://www.nature.com/articles/s41598-026-47826-7/figures/1"
+    image: "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-026-47826-7/MediaObjects/41598_2026_47826_Fig1_HTML.png?as=webp"
   
   - title: "On the variability of the Agulhas Bank circulation"
     authors: "Combes, V., & Matano, R. P."
