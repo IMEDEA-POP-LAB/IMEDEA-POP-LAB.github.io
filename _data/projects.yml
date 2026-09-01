@@ -40,7 +40,7 @@
   logo: "SWINT_logo.png"
   url: "https://imedea.uib-csic.es/investigacion/proyectos/?project_id=10642"
   description: "SWOT satellite ocean data integration into regional high-resolution data-assimilative numerical models"
-  status: "ongoing"
+  status: "completed"
 
 - title: "Unidad de Excelencia María de Maeztu"
   period: "2023-2026"
@@ -61,7 +61,7 @@
   logo: "fast_swot_logo.jpg"
   url: "https://www.swot-adac.org/campaigns/fast-swot/"
   description: "Fine-Scale ocean currents from integrated multi-platform experiments and numerical simulations: contribution to the new SWOT satellite mission (PID2021-122417NB-I00)"
-  status: "ongoing"
+  status: "completed"
 
 - title: "Framework Agreement C3S2_520_CNR (ECMWF/Copernicus)"
   period: "2022-2026"
