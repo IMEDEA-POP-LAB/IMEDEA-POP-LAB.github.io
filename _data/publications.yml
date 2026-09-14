@@ -1,6 +1,13 @@
 all:
   # 2026 Publications
-
+  
+  - title: "Seasonal Variability of the Surface Circulation in the Tyrrhenian Sea: New Insights from SWOT Altimetry and Tide Gauge Records"
+    authors: "Fortunato L., G. Aulicino, M. Ballarotta, A. Pascual, G. Fusco, B. Buonocore, Y. Cotroneo"
+    journal: "Remote Sensing"
+    year: 2026
+    doi: "https://doi.org/10.3390/rs18142346"
+    image: "https://www.mdpi.com/remotesensing/remotesensing-18-02346/article_deploy/html/images/remotesensing-18-02346-g007-550.jpg"
+    
   - title: "Four-Dimensional Glider Fleet Survey Reveals Small Mesoscale Eddy Merging and Splitting Dynamics"
     authors: "Zarokanellos N. D., D.L. Rudnick, B. Mourre, M. Garcia-Jove, P.F.J. Lermusiaux, J. Tintoré"
     journal: "Journal of Physical Oceanography"
