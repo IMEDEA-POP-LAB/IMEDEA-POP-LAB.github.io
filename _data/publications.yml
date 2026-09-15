@@ -1,5 +1,12 @@
 all:
   # 2026 Publications
+
+  - title: "Origins and impacts of ghost ﬁshing gear entanglement on loggerhead sea turtles in the Western Mediterranean Sea"
+    authors: "Segura-Alemany N., Veny M., Sagarminaga R., Mourre B., Ruiz-Halpern S. and March D."
+    journal: "Frontiers in Marine Science"
+    year: 2026
+    doi: "https://doi.org/10.3389/fmars.2026.1884689"
+    image: "https://www.frontiersin.org/files/Articles/1884689/xml-images/fmars-13-1884689-g008.webp"
   
   - title: "Seasonal Variability of the Surface Circulation in the Tyrrhenian Sea: New Insights from SWOT Altimetry and Tide Gauge Records"
     authors: "Fortunato L., G. Aulicino, M. Ballarotta, A. Pascual, G. Fusco, B. Buonocore, Y. Cotroneo"
