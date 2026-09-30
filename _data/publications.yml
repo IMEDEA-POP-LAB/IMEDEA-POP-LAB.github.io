@@ -1,6 +1,13 @@
 all:
   # 2026 Publications
 
+  - title: "Marine Heat Waves and Cold Spells – Multiple Analysis/Definitions (MHW-MAD): A Multi-Definition Global Marine Heatwave Database from Satellite Sea Surface Temperature Data"
+    authors: "Hayward, A., Dasgupta, N., McAdam, R., Payne, M. R., Raj, R. P., Bonino, G., Chatterjee, S., Combes, V., Denaxa, D., De Rovere, F., Englyst, P., Haapaniemi, V., Hargous, P., Høyer, J., Joseph, K. A., Lopes, B., Oliveira, A., Paixão, J., Silva, F., Surendran, S., Zegna-Rata, A., and Olsen, S. M."
+    journal: "Earth Syst. Sci. Data"
+    year: 2026
+    doi: "https://doi.org/10.5194/essd-18-7181-2026"
+    image: "https://vincentcombes.com/images/Figure_50.png"
+
   - title: "Origins and impacts of ghost ﬁshing gear entanglement on loggerhead sea turtles in the Western Mediterranean Sea"
     authors: "Segura-Alemany N., Veny M., Sagarminaga R., Mourre B., Ruiz-Halpern S. and March D."
     journal: "Frontiers in Marine Science"
