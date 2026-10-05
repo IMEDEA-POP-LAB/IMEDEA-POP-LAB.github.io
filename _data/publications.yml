@@ -1,6 +1,20 @@
 all:
   # 2026 Publications
 
+  - title: "Mediterranean Sea warming and marine heatwaves in 2024"
+    authors: "Fernández-Álvarez, B., Barceló-Llull, B., and Pascual, A."
+    journal: "State Planet"
+    year: 2026
+    doi: "https://doi.org/10.5194/sp-7-osr10-19-2026"
+    image: "https://sp.copernicus.org/articles/7-osr10/19/2026/sp-7-osr10-19-2026-avatar-web.png"
+    
+  - title: "https://doi.org/10.5194/sp-7-osr10-8-2026"
+    authors: "Gómez-Navarro, L., Ballarotta, M., Cortés-Morales, D., Pujol, M.-I., Fortunato, L., Mourre, B., and Pascual, A."
+    journal: "State Planet"
+    year: 2026
+    doi: "https://doi.org/10.5194/sp-7-osr10-8-2026"
+    image: "https://sp.copernicus.org/articles/7-osr10/8/2026/sp-7-osr10-8-2026-avatar-web.png"
+
   - title: "Marine Heat Waves and Cold Spells – Multiple Analysis/Definitions (MHW-MAD): A Multi-Definition Global Marine Heatwave Database from Satellite Sea Surface Temperature Data"
     authors: "Hayward, A., Dasgupta, N., McAdam, R., Payne, M. R., Raj, R. P., Bonino, G., Chatterjee, S., Combes, V., Denaxa, D., De Rovere, F., Englyst, P., Haapaniemi, V., Hargous, P., Høyer, J., Joseph, K. A., Lopes, B., Oliveira, A., Paixão, J., Silva, F., Surendran, S., Zegna-Rata, A., and Olsen, S. M."
     journal: "Earth Syst. Sci. Data"
