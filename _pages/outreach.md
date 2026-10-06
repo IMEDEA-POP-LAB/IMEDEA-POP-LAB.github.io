@@ -81,6 +81,15 @@ nav_order: 4
     <div class="media-grid">
       {% for item in site.data.media %}
       <article class="media-card">
+
+        {% if item.image %}
+        <a href="{{ item.url }}" target="_blank" class="media-image-link">
+          <div class="media-image">
+            <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" loading="lazy">
+          </div>
+        </a>
+        {% endif %}
+
         <div class="media-header">
           <div class="media-type">{{ item.type | capitalize }}</div>
           <div class="media-date">{{ item.date | date: "%b %Y" }}</div>
