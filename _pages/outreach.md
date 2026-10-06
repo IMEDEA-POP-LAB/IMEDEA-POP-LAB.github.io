@@ -1,7 +1,7 @@
 ---
 layout: page
 title: News
-permalink: /outreach/
+permalink: /news/
 description: Science communication and public engagement
 nav: true
 nav_order: 4
