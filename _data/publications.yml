@@ -3,14 +3,14 @@ all:
 
   - title: "Mediterranean Sea warming and marine heatwaves in 2024"
     authors: "Fernández-Álvarez, B., Barceló-Llull, B., and Pascual, A."
-    journal: "State Planet"
+    journal: "State of the Planet (OSR10)"
     year: 2026
     doi: "https://doi.org/10.5194/sp-7-osr10-19-2026"
     image: "https://sp.copernicus.org/articles/7-osr10/19/2026/sp-7-osr10-19-2026-avatar-web.png"
     
   - title: "New insights on mesoscale activity in the western Mediterranean Sea"
     authors: "Gómez-Navarro, L., Ballarotta, M., Cortés-Morales, D., Pujol, M.-I., Fortunato, L., Mourre, B., and Pascual, A."
-    journal: "State Planet"
+    journal: "State of the Planet (OSR10)"
     year: 2026
     doi: "https://doi.org/10.5194/sp-7-osr10-8-2026"
     image: "https://sp.copernicus.org/articles/7-osr10/8/2026/sp-7-osr10-8-2026-avatar-web.png"
