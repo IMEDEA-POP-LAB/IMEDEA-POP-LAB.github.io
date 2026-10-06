@@ -241,12 +241,38 @@
   padding: var(--space-6);
   transition: all var(--transition-base);
   box-shadow: var(--shadow-sm);
+  overflow: hidden;   /* NUEVA: la foto respeta las esquinas redondeadas */
 }
 
 .media-card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
   border-color: var(--color-primary);
+}
+
+/* NUEVO: Media card image */
+.media-image-link {
+  display: block;
+}
+
+.media-image {
+  /* margen negativo = cancela el padding de la tarjeta para que la foto llegue a los bordes */
+  margin: calc(-1 * var(--space-6)) calc(-1 * var(--space-6)) var(--space-4);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--color-bg-secondary);
+}
+
+.media-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.media-card:hover .media-image img {
+  transform: scale(1.03);
 }
 
 .media-header {
@@ -552,6 +578,11 @@
   
   .media-card {
     padding: var(--space-4);
+  }
+
+  /* NUEVO: ajusta la foto al padding reducido en móvil */
+  .media-image {
+    margin: calc(-1 * var(--space-4)) calc(-1 * var(--space-4)) var(--space-3);
   }
 }
 
