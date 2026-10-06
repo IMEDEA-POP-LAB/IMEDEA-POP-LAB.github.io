@@ -1,6 +1,6 @@
 ---
 layout: page
-title: outreach
+title: News
 permalink: /outreach/
 description: Science communication and public engagement
 nav: true
