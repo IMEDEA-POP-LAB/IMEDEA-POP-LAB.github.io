@@ -9,6 +9,56 @@ nav_order: 4
 
 <div class="outreach-page-modern">
 
+<!-- Press Coverage Section -->
+{% if site.data.media and site.data.media.size > 0 %}
+<div class="outreach-section">
+  <div class="section-container">
+    <div class="section-header">
+      <h2 class="section-title">Press Coverage</h2>
+      <p class="section-subtitle">Media articles, interviews, and news coverage of our research</p>
+    </div>
+    
+    <!-- Media Grid -->
+    <div class="media-grid">
+      {% for item in site.data.media %}
+      <article class="media-card">
+
+        {% if item.image %}
+        <a href="{{ item.url }}" target="_blank" class="media-image-link">
+          <div class="media-image">
+            <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" loading="lazy">
+          </div>
+        </a>
+        {% endif %}
+
+        <div class="media-header">
+          <div class="media-type">{{ item.type | capitalize }}</div>
+          <div class="media-date">{{ item.date | date: "%b %Y" }}</div>
+        </div>
+        
+        <h3 class="media-title outreach-item-title">
+          <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+        </h3>
+        
+        <div class="media-outlet">{{ item.outlet }}</div>
+        
+        {% if item.excerpt %}
+        <p class="media-excerpt">{{ item.excerpt }}</p>
+        {% endif %}
+        
+        <div class="media-actions">
+          <a href="{{ item.url }}" target="_blank" class="media-link">
+            Read More
+            <span class="link-arrow">→</span>
+          </a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
 <!-- Multimedia Section -->
 {% if site.data.outreach and site.data.outreach.size > 0 %}
 <div class="outreach-section">
@@ -62,56 +112,6 @@ nav_order: 4
           </div>
         </div>
       </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-{% endif %}
-
-<!-- Press Coverage Section -->
-{% if site.data.media and site.data.media.size > 0 %}
-<div class="outreach-section">
-  <div class="section-container">
-    <div class="section-header">
-      <h2 class="section-title">Press Coverage</h2>
-      <p class="section-subtitle">Media articles, interviews, and news coverage of our research</p>
-    </div>
-    
-    <!-- Media Grid -->
-    <div class="media-grid">
-      {% for item in site.data.media %}
-      <article class="media-card">
-
-        {% if item.image %}
-        <a href="{{ item.url }}" target="_blank" class="media-image-link">
-          <div class="media-image">
-            <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" loading="lazy">
-          </div>
-        </a>
-        {% endif %}
-
-        <div class="media-header">
-          <div class="media-type">{{ item.type | capitalize }}</div>
-          <div class="media-date">{{ item.date | date: "%b %Y" }}</div>
-        </div>
-        
-        <h3 class="media-title outreach-item-title">
-          <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
-        </h3>
-        
-        <div class="media-outlet">{{ item.outlet }}</div>
-        
-        {% if item.excerpt %}
-        <p class="media-excerpt">{{ item.excerpt }}</p>
-        {% endif %}
-        
-        <div class="media-actions">
-          <a href="{{ item.url }}" target="_blank" class="media-link">
-            Read More
-            <span class="link-arrow">→</span>
-          </a>
-        </div>
-      </article>
       {% endfor %}
     </div>
   </div>
