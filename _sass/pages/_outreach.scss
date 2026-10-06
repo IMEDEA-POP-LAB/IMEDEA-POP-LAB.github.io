@@ -11,7 +11,12 @@
 
 /* Section Layout */
 .outreach-section {
-  padding: var(--space-12) 0;
+  padding: var(--space-6) 0;
+}
+
+/* la primera sección no necesita espacio arriba */
+.outreach-page-modern .outreach-section:first-of-type {
+  padding-top: 0;
 }
 
 .section-container {
