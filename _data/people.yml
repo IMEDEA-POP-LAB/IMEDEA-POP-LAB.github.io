@@ -101,8 +101,9 @@ phd_students:
     image: "VergerMirallesElisabet.jpg"
     email: "elisabet.verger@imedea.uib-csic.es"
     orcid: "https://orcid.org/0009-0008-4222-7242"
-    imedea: "https://imedea.uib-csic.es/el-instituto/personal/?staff_id=2981"
-    bio: "Elisabet Verger-Miralles is a Ph.D. candidate in Physical Oceanography at IMEDEA (CSIC-UIB). She earned a Bachelor’s degree in Marine Sciences and Technologies from the Universitat Politècnica de Catalunya (UPC) and a Master’s degree in Advanced Physics and Applied Mathematics from the Universitat de les Illes Balears (UIB). Her research focus on improve the understanding of mesoscale dynamics in the Western Mediterranean Sea combining SWOT observations, in-situ multiplatform observations, and high-resolution numerical simulations."
+    imedea: "https://imedea.uib-csic.es/ca/el-institut/personal/?staff_id=2934"
+    linkedin: "https://www.linkedin.com/in/elisabet-verger-miralles-433578173/"
+    bio: "Elisabet Verger-Miralles is a Ph.D. candidate in Physical Oceanography at IMEDEA (CSIC-UIB). She earned a Bachelor’s degree in Marine Sciences and Technologies from the Universitat Politècnica de Catalunya (UPC) and a Master’s degree in Advanced Physics and Applied Mathematics from the Universitat de les Illes Balears (UIB). Her research focus on improve the understanding of mesoscale and submesoscale 3D dynamics combining SWOT observations, in-situ multiplatform observations, and high-resolution numerical simulations."
 
   - name: "Diego Vega-Giménez"
     title: "PhD Student"
