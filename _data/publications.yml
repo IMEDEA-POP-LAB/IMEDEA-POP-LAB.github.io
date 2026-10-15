@@ -9,7 +9,7 @@ all:
     image: "https://sp.copernicus.org/articles/7-osr10/19/2026/sp-7-osr10-19-2026-avatar-web.png"
     
   - title: "New insights on mesoscale activity in the western Mediterranean Sea"
-    authors: "Gómez-Navarro, L., Ballarotta, M., Cortés-Morales, D., Pujol, M.-I., Fortunato, L., Mourre, B., and Pascual, A."
+    authors: "Gómez-Navarro, L., Ballarotta, M., Cortés-Morales, D., Pujol, M.-I., Fortunato, L., Mourre, B. and Pascual, A."
     journal: "State of the Planet (OSR10)"
     year: 2026
     doi: "https://doi.org/10.5194/sp-7-osr10-8-2026"
@@ -21,6 +21,13 @@ all:
     year: 2026
     doi: "https://doi.org/10.5194/essd-18-7181-2026"
     image: "https://vincentcombes.com/images/Figure_50.png"
+
+  - title: "Seasonality of fine-scale turbulence in the Mediterranean Sea observed from space"
+    authors: "Barabinot, Y., Lopez, G., Mourre, B. and Pascual, A."
+    journal: "Commun Earth Environ"
+    year: 2026
+    doi: "https://doi.org/10.1038/s43247-026-04046-1"
+    image: ""
 
   - title: "Origins and impacts of ghost ﬁshing gear entanglement on loggerhead sea turtles in the Western Mediterranean Sea"
     authors: "Segura-Alemany N., Veny M., Sagarminaga R., Mourre B., Ruiz-Halpern S. and March D."
