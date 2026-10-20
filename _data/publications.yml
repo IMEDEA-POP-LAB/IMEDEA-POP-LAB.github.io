@@ -1,6 +1,20 @@
 all:
   # 2026 Publications
 
+  - title: "Coastal Resilience in a Changing World: Lessons, Gaps, and Pathways Forward"
+    authors: "Hernán G., M. Calleja, B. Mourre, S. Ruiz, G. Tavecchia, M. Agulles, M. A. Coleman, V. Combes, N. Courbin, T. Dabrowski, I. Ferrera, G. Le Cozannet, C. Linares, N. Marbà, N. Pinardi, G. Proccacini, A. Santangeli, J. Z. Shamoun-Baranes, J. Staneva and V. Stelzenmüller "
+    journal: "Bulletin of the American Meteorological Society"
+    year: 2026
+    doi: "https://doi.org/10.1175/BAMS-D-26-0238.1"
+    image: "https://journals.ametsoc.org/view/journals/bams/107/9/full-BAMS-D-26-0238.1-f1.jpg"
+  
+  - title: "Sea Surface Temperature Influences Migratory Patterns of the Atlantic Bluefin Tuna (Thunnus thynnus) Between the Atlantic Ocean and the Mediterranean Sea"
+    authors: "Sánchez-Fabrés E., M. P. Tugores, I. H. Carrasco, A. Ospina-Alvarez, F. J. Abascal Crespo, R. Sanchez-Leal, B. Mourre and D. Alvarez-Berastegui"
+    journal: "Fisheries Oceanography"
+    year: 2026
+    doi: "https://doi.org/10.1111/fog.70077"
+    image: "https://onlinelibrary.wiley.com/cms/asset/f18b2f14-ceb0-4130-b14e-0668287d40f3/fog70077-fig-0001-m.jpg"
+    
   - title: "Mediterranean Sea warming and marine heatwaves in 2024"
     authors: "Fernández-Álvarez, B., Barceló-Llull, B., and Pascual, A."
     journal: "State of the Planet (OSR10)"
