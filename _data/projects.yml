@@ -1,5 +1,11 @@
 # Current Research Projects
 # This file makes it easy to manage current project information
+- title: "DEE-SWOT"
+  period: "2026-2029"
+  logo: "DEE-SWOT_logo.png"
+  description: "Ocean fine-scale Dynamics, Energy and Extreme events from SWOT satellite mission and beyond (PID2025-168119NB-I00)"
+  status: "ongoing"
+
 - title: "HARMONY Validation Concept Consolidation and Verification Methodologies"
   period: "2026-2027"
   logo: "Harmony_patch_pillars.jpeg"
@@ -58,7 +64,7 @@
 
 - title: "FaSt-SWOT"
   period: "2022-2026"
-  logo: "fast_swot_logo.jpg"
+  logo: "FaSt-SWOT-logo.png"
   url: "https://www.swot-adac.org/campaigns/fast-swot/"
   description: "Fine-Scale ocean currents from integrated multi-platform experiments and numerical simulations: contribution to the new SWOT satellite mission (PID2021-122417NB-I00)"
   status: "completed"
