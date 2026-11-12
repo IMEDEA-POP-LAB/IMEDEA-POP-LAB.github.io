@@ -1,5 +1,23 @@
 # Media coverage and press releases
 # Add new entries at the top for chronological order
+- date: 2026-11-05
+  title: "La temperatura del mar ayuda a predecir las rutas migratorias del atún rojo entre el Atlántico y el Mediterráneo"
+  outlet: "IMEDEA Noticias"
+  url: "https://imedea.uib-csic.es/comunicacion-y-cultura-cientifica/noticias/?new_id=2367"
+  image: "https://onlinelibrary.wiley.com/cms/asset/54b380c5-0ecb-4e18-80e0-60384e71a3c7/fog70077-fig-0001-m.png"
+  excerpt: "Un estudio liderado por el IEO con la colaboración del IMEDEA identifica los rangos térmicos asociados a las migraciones del atún rojo y desarrolla una herramienta para analizar la idoneidad térmica de sus corredores migratorios"
+  language: "es"
+  type: "News"
+
+- date: 2026-10-15
+  title: "Un estudio revela que el Mediterráneo es un mar mucho más dinámico de lo que se conocía hasta ahora"
+  outlet: "IMEDEA Noticias"
+  url: "https://imedea.uib-csic.es/comunicacion-y-cultura-cientifica/noticias/?new_id=2358"
+  image: "https://www.aviso.altimetry.fr/fileadmin/_processed_/f/e/csm_202610_med_vorticity_seasons_0d3ce07d0b.png"
+  excerpt: "Investigadores del IMEDEA (CSIC-UIB) y del SOCIB han analizado la variabilidad estacional de las corrientes oceánicas de pequeña escala en el Mediterráneo mediante el satélite SWOT."
+  language: "es"
+  type: "News"
+
 - date: 2026-10-05
   title: "El IMEDEA participa en la elaboración del 10.º Informe Copernicus sobre el Estado del Océano"
   outlet: "IMEDEA Noticias"
@@ -33,6 +51,15 @@
   url: "https://imedea.uib-csic.es/comunicacion-y-cultura-cientifica/noticias/?new_id=2330"
   image: "https://delegacion.illesbalears.csic.es/wp-content/uploads/2026/07/20260713_113129-scaled.jpg"
   excerpt: "Durante cuatro años se han estudiado datos sobre corrientes oceánicas por un equipo liderado desde Baleares. Los estudios demuestran que el uso del satélite SWOT reduce el error en la estimación del nivel del mar en un 24% y mejora el cálculo de la velocidad de las corrientes entre un 30% y 35%."
+  language: "es"
+  type: "News"
+
+- date: 2026-06-30
+  title: "El público descubre la investigación del IMEDEA en su jornada de puertas abiertas"
+  outlet: "IMEDEA Noticias"
+  url: "https://imedea.uib-csic.es/comunicacion-y-cultura-cientifica/noticias/?new_id=2318"
+  image: "https://saco.csic.es/s/mBsELFHTbj63N2L"
+  excerpt: "Más de medio centenar de personas participaron en la jornada de puertas abiertas del Instituto Mediterráneo de Estudios Avanzados (IMEDEA, CSIC-UIB), organizada con motivo de las fiestas de Sant Pere de Esporles."
   language: "es"
   type: "News"
 
