@@ -48,6 +48,7 @@ all:
     journal: "Communications Earth & Environment"
     year: 2026
     doi: "https://doi.org/10.1038/s43247-026-04046-1"
+    image: "https://www.aviso.altimetry.fr/fileadmin/_processed_/f/e/csm_202610_med_vorticity_seasons_0d3ce07d0b.png"
 
   - title: "Origins and impacts of ghost ﬁshing gear entanglement on loggerhead sea turtles in the Western Mediterranean Sea"
     authors: "Segura-Alemany N., Veny M., Sagarminaga R., Mourre B., Ruiz-Halpern S. and March D."
