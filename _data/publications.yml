@@ -1,6 +1,13 @@
 all:
   # 2026 Publications
 
+  - title: "The Mediterranean observation systems: MonGOOS analysis of present capabilities, weaknesses and perspectives"
+    authors: "Vargas-Yáñez M., Pasqueron de Fommervault O., Clementi E., Ferrarin C., Liubartseva S., Álvarez-Berastegui D., Mourre B., Licer M., Alexandrakis G., Aronica S., Balbín R., Ballabrera-Poy J., Ben Ismail S., Bensoussan N., Bessa I., Blanco A., Bosse A., Bourma E., Bourrin F., Brandini C., Capodici F., Casals-Baixas C., Cermelj B., Ciraolo G., Conan P., Coppola L., Corgnati L., del Río J., Diamond Riquier E., Díaz-Barroso L., Doronzo B., Durrieu de Madron X., Fakhri M., Frangoulis C., Fratianni C., García-Ladona E., García-Lafuente J., García-Martínez M. C., Garrabou J., Gasol J., Gauci A., Gazeau F., Gregori G., Hassoun A. E. R., Isern-Fontanet J., Lefevre D., Lo Bue N., López G., Lorente P., Malengros D., Massana R., Mavruk S., Miserocchi S., Mostajir B., Mousseau L., Moya F., Novellino A., Orasi A., Organelli E., Ouisse V., Ozer T., Parasyris A., Pérez-Gómez B., Pérez-Rubio S., Perivoliotis L., Petihakis G., Petrenko A., Pinel S., Pitarch X., Pomaro A., Quirós-Collazos L., Reyes E., Sammartino S., Sánchez-Vidal A., Sanz-Pinilla L., Schroeder K., Taddei S., Tel E., Testor P., Torri M., Turk D., Ursella L., Velaoras D., Vidussi F., Vilibić I., Zambianchi E., Zarokanellos N. D., Zodiatis G., Cardin V."
+    journal: "Ocean Science"
+    year: 2026
+    doi: "https://doi.org/10.5194/os-22-3619-2026"
+    image: "https://os.copernicus.org/articles/22/3619/2026/os-22-3619-2026-f07-thumb.jpg"
+    
   - title: "Coastal Resilience in a Changing World: Lessons, Gaps, and Pathways Forward"
     authors: "Hernán G., M. Calleja, B. Mourre, S. Ruiz, G. Tavecchia, M. Agulles, M. A. Coleman, V. Combes, N. Courbin, T. Dabrowski, I. Ferrera, G. Le Cozannet, C. Linares, N. Marbà, N. Pinardi, G. Proccacini, A. Santangeli, J. Z. Shamoun-Baranes, J. Staneva and V. Stelzenmüller "
     journal: "Bulletin of the American Meteorological Society"
