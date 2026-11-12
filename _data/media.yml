@@ -45,6 +45,24 @@
   language: "en"
   type: "Science Communication"
 
+- date: 2026-07-14
+  title: "Un proyecto liderado desde Baleares confirma que el satélite SWOT de la NASA mejora hasta un 35% el estudio de las corrientes marinas"
+  outlet: "Diario de Mallorca"
+  url: "https://www.diariodemallorca.es/mallorca/2026/07/14/proyecto-liderado-baleares-confirma-satelite-132413243.html"
+  image: "https://estaticos-cdn.prensaiberica.es/clip/12d556f3-5ffe-497a-bf09-8223aaecc8e2_16-9-discover-aspect-ratio_default_1486404.jpg"
+  excerpt: "Investigadores de varios países se reúnen en Mallorca para clausurar el proyecto FaSt-SWOT, que ha validado durante tres años una reducción del 24% en el error al estimar el nivel del mar."
+  language: "es"
+  type: "press"
+
+- date: 2026-07-13
+  title: "Datos de un satélite sobre el Mar Balear"
+  outlet: "Última hora"
+  url: "https://www.ultimahora.es/noticias/local/2026/07/13/2669511/datos-satelite-sobre-mar-balear.html"
+  image: "https://uh.gsstatic.es/sfAttachPlugin/getCachedContent/id/4697953/width/730/height/500/crop/1"
+  excerpt: "Investigadores internacionales, liderados por el Imedea, analizan en Mallorca la información aportada por el dispositivo SWOT"
+  language: "es"
+  type: "press"
+
 - date: 2026-07-13
   title: "Investigadores de diferentes países participan en la jornada de clausura del proyecto FaSt-SWOT que analiza datos satelitales innovadores"
   outlet: "IMEDEA Noticias"
